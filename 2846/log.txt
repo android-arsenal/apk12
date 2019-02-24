@@ -1,0 +1,161 @@
+2019-01-19 23:20:07,634 INFO  DownloadService - Downloading "https://github.com/lopspower/CircularImageView/archive/master.zip", attempt 3
+2019-01-19 23:20:09,875 INFO  DownloadService - Downloaded https://github.com/lopspower/CircularImageView/archive/master.zip, attempt 3
+2019-01-19 23:20:09,875 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/master.zip": 2 MB
+2019-01-19 23:20:09,875 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 23:20:09,876 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/master.zip: true
+2019-01-19 23:20:09,876 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src'.
+2019-01-19 23:20:09,918 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-01-19 23:20:09,918 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src]
+2019-01-19 23:20:09,939 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/.git/
+
+2019-01-19 23:20:09,943 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/gradlew
+2019-01-19 23:20:09,946 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/circularimageview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/circularimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/build.gradle
+2019-01-19 23:20:09,949 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/circularimageview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/circularimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/settings.gradle
+2019-01-19 23:20:09,950 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 23:20:09,950 INFO  ProjectFixService - Fixing project...
+2019-01-19 23:20:09,957 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/circularimageview-example/local.properties
+2019-01-19 23:20:09,959 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/circularimageview-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 23:20:09,959 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/circularimageview-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 23:20:09,961 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/circularimageview/local.properties
+2019-01-19 23:20:09,964 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/circularimageview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 23:20:09,964 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/circularimageview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 23:20:09,965 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/local.properties
+2019-01-19 23:20:09,965 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-19 23:20:09,966 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-19 23:20:09,968 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 23:20:09,968 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 23:20:09,968 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 23:20:09,968 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 23:20:09,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/circularimageview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 23:20:18,821 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-19 23:20:18,821 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 23:20:18,821 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/circularimageview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 23:20:42,683 INFO  SysUtils - Configuration on demand is an incubating feature.
+:circularimageview:preBuild UP-TO-DATE
+:circularimageview:preDebugBuild UP-TO-DATE
+:circularimageview:compileDebugAidl
+:circularimageview:compileDebugRenderscript
+:circularimageview:checkDebugManifest
+:circularimageview:generateDebugBuildConfig
+:circularimageview:generateDebugResValues
+:circularimageview:generateDebugResources
+:circularimageview:packageDebugResources
+:circularimageview:platformAttrExtractor
+:circularimageview:processDebugManifest
+:circularimageview:prepareLintJar
+:circularimageview:javaPreCompileDebug
+:circularimageview:processDebugJavaRes NO-SOURCE
+:circularimageview-example:preBuild UP-TO-DATE
+:circularimageview-example:preDebugBuild
+:circularimageview-example:compileDebugAidl
+:circularimageview:packageDebugRenderscript NO-SOURCE
+:circularimageview-example:compileDebugRenderscript
+:circularimageview-example:checkDebugManifest
+:circularimageview-example:generateDebugBuildConfig
+:circularimageview-example:prepareLintJar
+:circularimageview-example:mainApkListPersistenceDebug
+:circularimageview-example:generateDebugResValues
+:circularimageview-example:generateDebugResources
+:circularimageview-example:mergeDebugResources
+:circularimageview-example:createDebugCompatibleScreenManifests
+:circularimageview-example:processDebugManifest
+:circularimageview-example:splitsDiscoveryTaskDebug
+:circularimageview-example:compileDebugNdk NO-SOURCE
+:circularimageview:mergeDebugShaders
+:circularimageview:compileDebugShaders
+:circularimageview:generateDebugAssets
+:circularimageview:packageDebugAssets
+:circularimageview-example:mergeDebugShaders
+:circularimageview-example:compileDebugShaders
+:circularimageview-example:generateDebugAssets
+:circularimageview-example:mergeDebugAssets
+:circularimageview:compileDebugNdk NO-SOURCE
+:circularimageview:mergeDebugJniLibFolders
+:circularimageview:transformNativeLibsWithMergeJniLibsForDebug
+:circularimageview:transformNativeLibsWithStripDebugSymbolForDebug
+:circularimageview:transformNativeLibsWithIntermediateJniLibsForDebug
+:circularimageview-example:mergeDebugJniLibFolders
+:circularimageview-example:processDebugJavaRes NO-SOURCE
+:circularimageview-example:validateSigningDebug
+:circularimageview:preReleaseBuild UP-TO-DATE
+:circularimageview:compileReleaseAidl
+:circularimageview:compileReleaseRenderscript
+:circularimageview:checkReleaseManifest
+:circularimageview:generateReleaseBuildConfig
+:circularimageview:generateReleaseResValues
+:circularimageview:generateReleaseResources
+:circularimageview:packageReleaseResources
+:circularimageview:processReleaseManifest
+:circularimageview:javaPreCompileRelease
+:circularimageview:processReleaseJavaRes NO-SOURCE
+:circularimageview-example:preReleaseBuild
+:circularimageview-example:compileReleaseAidl
+:circularimageview:packageReleaseRenderscript NO-SOURCE
+:circularimageview-example:compileReleaseRenderscript
+:circularimageview-example:checkReleaseManifest
+:circularimageview-example:generateReleaseBuildConfig
+:circularimageview-example:mainApkListPersistenceRelease
+:circularimageview-example:generateReleaseResValues
+:circularimageview-example:generateReleaseResources
+:circularimageview-example:mergeReleaseResources
+:circularimageview-example:createReleaseCompatibleScreenManifests
+:circularimageview-example:processReleaseManifest
+:circularimageview-example:splitsDiscoveryTaskRelease
+:circularimageview-example:compileReleaseNdk NO-SOURCE
+:circularimageview:mergeReleaseShaders
+:circularimageview:compileReleaseShaders
+:circularimageview:generateReleaseAssets
+:circularimageview:packageReleaseAssets
+:circularimageview-example:mergeReleaseShaders
+:circularimageview-example:compileReleaseShaders
+:circularimageview-example:generateReleaseAssets
+:circularimageview-example:mergeReleaseAssets
+:circularimageview:compileReleaseNdk NO-SOURCE
+:circularimageview:mergeReleaseJniLibFolders
+:circularimageview:transformNativeLibsWithMergeJniLibsForRelease
+:circularimageview:transformNativeLibsWithStripDebugSymbolForRelease
+:circularimageview:transformNativeLibsWithIntermediateJniLibsForRelease
+:circularimageview-example:mergeReleaseJniLibFolders
+:circularimageview-example:processReleaseJavaRes NO-SOURCE
+:circularimageview:generateDebugRFile
+:circularimageview:generateDebugSources
+:circularimageview:compileDebugJavaWithJavac
+:circularimageview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:circularimageview-example:processDebugResources
+:circularimageview-example:generateDebugSources
+:circularimageview-example:javaPreCompileDebug
+:circularimageview-example:compileDebugJavaWithJavac
+:circularimageview-example:compileDebugSources
+:circularimageview-example:transformClassesWithDexBuilderForDebug
+:circularimageview-example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:circularimageview-example:transformDexArchiveWithDexMergerForDebug
+:circularimageview-example:transformNativeLibsWithMergeJniLibsForDebug
+:circularimageview-example:transformNativeLibsWithStripDebugSymbolForDebug
+:circularimageview-example:transformResourcesWithMergeJavaResForDebug
+:circularimageview-example:packageDebug
+:circularimageview-example:assembleDebug
+:circularimageview:generateReleaseRFile
+:circularimageview:generateReleaseSources
+:circularimageview:compileReleaseJavaWithJavac
+:circularimageview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:circularimageview-example:processReleaseResources
+:circularimageview-example:generateReleaseSources
+:circularimageview-example:javaPreCompileRelease
+:circularimageview-example:compileReleaseJavaWithJavac
+:circularimageview-example:compileReleaseSources
+:circularimageview-example:lintVitalRelease
+:circularimageview-example:transformClassesWithDexBuilderForRelease
+:circularimageview-example:transformDexArchiveWithExternalLibsDexMergerForRelease
+:circularimageview-example:transformDexArchiveWithDexMergerForRelease
+:circularimageview-example:transformNativeLibsWithMergeJniLibsForRelease
+:circularimageview-example:transformNativeLibsWithStripDebugSymbolForRelease
+:circularimageview-example:transformResourcesWithMergeJavaResForRelease
+:circularimageview-example:packageRelease
+:circularimageview-example:assembleRelease
+:circularimageview-example:assemble
+:circularimageview-example:build
+
+BUILD SUCCESSFUL in 23s
+91 actionable tasks: 91 executed
+
+2019-01-19 23:20:42,767 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914807632-0/src/CircularImageView-master/circularimageview-example/build/outputs/apk/release/circularimageview-example-release-unsigned.apk

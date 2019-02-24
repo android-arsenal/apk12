@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "me.zhanghai.android.customtabshelper.sample",
+    "label" : "CustomTabsHelper Sample",
+    "icon" : "res/mipmap-mdpi-v4/launcher_icon.png",
+    "versionName" : "1.0.6",
+    "versionCode" : 7,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "7",
+    "platformBuildVersionName" : "1.0.6",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/launcher_icon.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1730,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"7\" android:versionName=\"1.0.6\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"me.zhanghai.android.customtabshelper.sample\" platformBuildVersionCode=\"7\" platformBuildVersionName=\"1.0.6\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"CustomTabsHelper Sample\" android:icon=\"res/mipmap-xxxhdpi-v4/launcher_icon.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:name=\"me.zhanghai.android.customtabshelper.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<service android:name=\"org.chromium.customtabsclient.KeepAliveService\" android:exported=\"true\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1643314,
+  "crc32" : 329366355,
+  "sha256" : "62b3543d92b271eb6d1e770e54796dd9279b7b0d2e282d9b8866d0d14b029fa8",
+  "buildTime" : 1547914524000
+}

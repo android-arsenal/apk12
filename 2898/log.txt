@@ -1,0 +1,359 @@
+2019-01-20 18:15:23,069 INFO  DownloadService - Downloading "https://github.com/lyft/scoop/archive/master.zip", attempt 3
+2019-01-20 18:15:25,704 INFO  DownloadService - Downloaded https://github.com/lyft/scoop/archive/master.zip, attempt 3
+2019-01-20 18:15:25,705 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/master.zip": 1 MB
+2019-01-20 18:15:25,705 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-20 18:15:25,710 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/master.zip: true
+2019-01-20 18:15:25,711 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src'.
+2019-01-20 18:15:25,783 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-20 18:15:25,783 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src]
+2019-01-20 18:15:25,805 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/.git/
+
+2019-01-20 18:15:25,814 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/gradlew
+2019-01-20 18:15:25,822 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-basics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/build.gradle
+2019-01-20 18:15:25,829 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-basics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/settings.gradle
+2019-01-20 18:15:25,830 INFO  ProjectBuildService - Remote scripts: none
+2019-01-20 18:15:25,830 INFO  ProjectFixService - Fixing project...
+2019-01-20 18:15:25,853 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-basics/local.properties
+2019-01-20 18:15:25,856 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-basics/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=21,targetSdkVersion=22]
+2019-01-20 18:15:25,857 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/local.properties
+2019-01-20 18:15:25,859 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2019-01-20 18:15:25,860 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop/local.properties
+2019-01-20 18:15:25,864 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2019-01-20 18:15:25,864 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/local.properties
+2019-01-20 18:15:25,865 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.5-all.zip
+2019-01-20 18:15:25,866 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.5-bin.zip)
+2019-01-20 18:15:25,868 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2019-01-20 18:15:25,868 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 18:15:25,868 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 18:15:25,868 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-basics/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 18:15:39,432 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-20 18:15:39,432 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-20 18:15:39,433 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-basics/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-20 18:16:22,304 INFO  SysUtils - Configuration on demand is an incubating feature.
+:scoop:androidJavadocs
+:scoop:androidJavadocsJar
+:scoop:androidSourcesJar
+:scoop:compileLint
+:scoop:copyDebugLint UP-TO-DATE
+:scoop:mergeDebugProguardFiles
+:scoop:preBuild UP-TO-DATE
+:scoop:preDebugBuild UP-TO-DATE
+:scoop:checkDebugManifest
+:scoop:prepareDebugDependencies
+:scoop:compileDebugAidl
+:scoop:compileDebugRenderscript
+:scoop:generateDebugBuildConfig
+:scoop:generateDebugAssets UP-TO-DATE
+:scoop:mergeDebugAssets
+:scoop:generateDebugResValues
+:scoop:generateDebugResources
+:scoop:packageDebugResources
+:scoop:processDebugManifest
+:scoop:processDebugResources
+:scoop:generateDebugSources
+:scoop:processDebugJavaRes UP-TO-DATE
+:scoop:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop/src/main/java/com/lyft/scoop/Scoop.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:scoop:packageDebugJar
+:scoop:compileDebugNdk UP-TO-DATE
+:scoop:packageDebugJniLibs UP-TO-DATE
+:scoop:packageDebugLocalJar UP-TO-DATE
+:scoop:packageDebugRenderscript UP-TO-DATE
+:scoop:bundleDebug
+:scoop:copyReleaseLint UP-TO-DATE
+:scoop:mergeReleaseProguardFiles
+:scoop:preReleaseBuild UP-TO-DATE
+:scoop:checkReleaseManifest
+:scoop:prepareReleaseDependencies
+:scoop:compileReleaseAidl
+:scoop:compileReleaseRenderscript
+:scoop:generateReleaseBuildConfig
+:scoop:generateReleaseAssets UP-TO-DATE
+:scoop:mergeReleaseAssets
+:scoop:generateReleaseResValues
+:scoop:generateReleaseResources
+:scoop:packageReleaseResources
+:scoop:processReleaseManifest
+:scoop:processReleaseResources
+:scoop:generateReleaseSources
+:scoop:processReleaseJavaRes UP-TO-DATE
+:scoop:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop/src/main/java/com/lyft/scoop/Scoop.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:scoop:packageReleaseJar
+:scoop:compileReleaseNdk UP-TO-DATE
+:scoop:packageReleaseJniLibs UP-TO-DATE
+:scoop:packageReleaseLocalJar UP-TO-DATE
+:scoop:packageReleaseRenderscript UP-TO-DATE
+:scoop:bundleRelease
+:scoop:jarRelease
+:scoop-basics:preBuild UP-TO-DATE
+:scoop-basics:preDebugBuild UP-TO-DATE
+:scoop-basics:checkDebugManifest
+:scoop-basics:preReleaseBuild UP-TO-DATE
+:scoop-dagger:compileLint
+:scoop-dagger:copyReleaseLint UP-TO-DATE
+:scoop-dagger:mergeReleaseProguardFiles
+:scoop-dagger:preBuild UP-TO-DATE
+:scoop-dagger:preReleaseBuild UP-TO-DATE
+:scoop-dagger:checkReleaseManifest
+:scoop-dagger:preDebugAndroidTestBuild UP-TO-DATE
+:scoop-dagger:preDebugBuild UP-TO-DATE
+:scoop-dagger:preDebugUnitTestBuild UP-TO-DATE
+:scoop-dagger:preReleaseUnitTestBuild UP-TO-DATE
+:scoop-dagger:prepareComLyftScoop050SNAPSHOTLibrary
+:scoop-dagger:prepareReleaseDependencies
+:scoop-dagger:compileReleaseAidl
+:scoop-dagger:compileReleaseRenderscript
+:scoop-dagger:generateReleaseBuildConfig
+:scoop-dagger:generateReleaseAssets UP-TO-DATE
+:scoop-dagger:mergeReleaseAssets
+:scoop-dagger:generateReleaseResValues
+:scoop-dagger:generateReleaseResources
+:scoop-dagger:mergeReleaseResources
+:scoop-dagger:processReleaseManifest
+:scoop-dagger:processReleaseResources
+:scoop-dagger:generateReleaseSources
+:scoop-dagger:processReleaseJavaRes UP-TO-DATE
+:scoop-dagger:compileReleaseJavaWithJavac
+:scoop-dagger:packageReleaseJar
+:scoop-dagger:compileReleaseNdk UP-TO-DATE
+:scoop-dagger:packageReleaseJniLibs UP-TO-DATE
+:scoop-dagger:packageReleaseLocalJar UP-TO-DATE
+:scoop-dagger:packageReleaseRenderscript UP-TO-DATE
+:scoop-dagger:packageReleaseResources
+:scoop-dagger:bundleRelease
+:scoop-basics:prepareComAndroidSupportAppcompatV72220Library
+:scoop-basics:prepareComAndroidSupportDesign2220Library
+:scoop-basics:prepareComAndroidSupportMultidex100Library
+:scoop-basics:prepareComAndroidSupportSupportV42220Library
+:scoop-basics:prepareComGoogleAndroidGmsPlayServicesBase810Library
+:scoop-basics:prepareComGoogleAndroidGmsPlayServicesBasement810Library
+:scoop-basics:prepareComGoogleAndroidGmsPlayServicesLocation810Library
+:scoop-basics:prepareComGoogleAndroidGmsPlayServicesMaps810Library
+:scoop-basics:prepareComJakewhartonButterknife821Library
+:scoop-basics:prepareComLyftScoop050SNAPSHOTLibrary
+:scoop-basics:prepareComLyftScoopDagger050SNAPSHOTLibrary
+:scoop-basics:prepareIoReactivexRxandroid101Library
+:scoop-basics:prepareDebugDependencies
+:scoop-basics:compileDebugAidl
+:scoop-basics:compileDebugRenderscript
+:scoop-basics:generateDebugBuildConfig
+:scoop-basics:generateDebugAssets UP-TO-DATE
+:scoop-basics:mergeDebugAssets
+:scoop-basics:generateDebugResValues
+:scoop-basics:generateDebugResources
+:scoop-basics:mergeDebugResources
+:scoop-basics:processDebugManifest
+:scoop-basics:processDebugResources
+:scoop-basics:generateDebugSources
+:scoop-basics:processDebugJavaRes UP-TO-DATE
+:scoop-dagger:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerLayoutInflater.java:5: error: cannot find symbol
+import com.lyft.scoop.LayoutInflater;
+                     ^
+  symbol:   class LayoutInflater
+  location: package com.lyft.scoop
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerLayoutInflater.java:6: error: cannot find symbol
+import com.lyft.scoop.Scoop;
+                     ^
+  symbol:   class Scoop
+  location: package com.lyft.scoop
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerLayoutInflater.java:7: error: cannot find symbol
+import com.lyft.scoop.Screen;
+                     ^
+  symbol:   class Screen
+  location: package com.lyft.scoop
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerLayoutInflater.java:9: error: cannot find symbol
+public class DaggerLayoutInflater extends LayoutInflater {
+                                          ^
+  symbol: class LayoutInflater
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerLayoutInflater.java:13: error: cannot find symbol
+            Scoop scoop,
+            ^
+  symbol:   class Scoop
+  location: class DaggerLayoutInflater
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerLayoutInflater.java:14: error: cannot find symbol
+            Screen screen,
+            ^
+  symbol:   class Screen
+  location: class DaggerLayoutInflater
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerViewControllerInflater.java:3: error: cannot find symbol
+import com.lyft.scoop.Scoop;
+                     ^
+  symbol:   class Scoop
+  location: package com.lyft.scoop
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerViewControllerInflater.java:4: error: cannot find symbol
+import com.lyft.scoop.ViewController;
+                     ^
+  symbol:   class ViewController
+  location: package com.lyft.scoop
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerViewControllerInflater.java:5: error: cannot find symbol
+import com.lyft.scoop.ViewControllerInflater;
+                     ^
+  symbol:   class ViewControllerInflater
+  location: package com.lyft.scoop
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerViewControllerInflater.java:7: error: cannot find symbol
+public class DaggerViewControllerInflater extends ViewControllerInflater {
+                                                  ^
+  symbol: class ViewControllerInflater
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerViewControllerInflater.java:10: error: cannot find symbol
+    protected ViewController createViewController(Scoop scoop, Class<? extends ViewController> clazz) {
+                                                  ^
+  symbol:   class Scoop
+  location: class DaggerViewControllerInflater
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerViewControllerInflater.java:10: error: cannot find symbol
+    protected ViewController createViewController(Scoop scoop, Class<? extends ViewController> clazz) {
+                                                                               ^
+  symbol:   class ViewController
+  location: class DaggerViewControllerInflater
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerViewControllerInflater.java:10: error: cannot find symbol
+    protected ViewController createViewController(Scoop scoop, Class<? extends ViewController> clazz) {
+              ^
+  symbol:   class ViewController
+  location: class DaggerViewControllerInflater
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerScreenScoopFactory.java:3: error: cannot find symbol
+import com.lyft.scoop.Scoop;
+                     ^
+  symbol:   class Scoop
+  location: package com.lyft.scoop
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerScreenScoopFactory.java:4: error: cannot find symbol
+import com.lyft.scoop.Screen;
+                     ^
+  symbol:   class Screen
+  location: package com.lyft.scoop
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerScreenScoopFactory.java:5: error: cannot find symbol
+import com.lyft.scoop.ScreenScoopFactory;
+                     ^
+  symbol:   class ScreenScoopFactory
+  location: package com.lyft.scoop
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerScreenScoopFactory.java:7: error: cannot find symbol
+public class DaggerScreenScoopFactory extends ScreenScoopFactory {
+                                              ^
+  symbol: class ScreenScoopFactory
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerScreenScoopFactory.java:10: error: package Scoop does not exist
+    protected Scoop addServices(Scoop.Builder scoopBuilder, Screen screen, Scoop parentScoop) {
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerScreenScoopFactory.java:10: error: cannot find symbol
+    protected Scoop addServices(Scoop.Builder scoopBuilder, Screen screen, Scoop parentScoop) {
+                                                            ^
+  symbol:   class Screen
+  location: class DaggerScreenScoopFactory
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerScreenScoopFactory.java:10: error: cannot find symbol
+    protected Scoop addServices(Scoop.Builder scoopBuilder, Screen screen, Scoop parentScoop) {
+                                                                           ^
+  symbol:   class Scoop
+  location: class DaggerScreenScoopFactory
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerScreenScoopFactory.java:10: error: cannot find symbol
+    protected Scoop addServices(Scoop.Builder scoopBuilder, Screen screen, Scoop parentScoop) {
+              ^
+  symbol:   class Scoop
+  location: class DaggerScreenScoopFactory
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerInjector.java:5: error: cannot find symbol
+import com.lyft.scoop.Scoop;
+                     ^
+  symbol:   class Scoop
+  location: package com.lyft.scoop
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerInjector.java:6: error: cannot find symbol
+import com.lyft.scoop.Screen;
+                     ^
+  symbol:   class Screen
+  location: package com.lyft.scoop
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerInjector.java:7: error: package dagger does not exist
+import dagger.ObjectGraph;
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerInjector.java:12: error: cannot find symbol
+    private ObjectGraph objectGraph;
+            ^
+  symbol:   class ObjectGraph
+  location: class DaggerInjector
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerInjector.java:14: error: cannot find symbol
+    public DaggerInjector(ObjectGraph objectGraph) {
+                          ^
+  symbol:   class ObjectGraph
+  location: class DaggerInjector
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerInjector.java:31: error: cannot find symbol
+    public static DaggerInjector fromScoop(Scoop scoop) {
+                                           ^
+  symbol:   class Scoop
+  location: class DaggerInjector
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerInjector.java:43: error: cannot find symbol
+    public static Scoop extend(final Scoop parentScoop, final Object... modules) {
+                                     ^
+  symbol:   class Scoop
+  location: class DaggerInjector
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-dagger/src/main/java/com/lyft/scoop/dagger/DaggerInjector.java:43: error: cannot find symbol
+    public static Scoop extend(final Scoop parentScoop, final Object... modules) {
+                  ^
+  symbol:   class Scoop
+  location: class DaggerInjector
+
+29 warnings
+:scoop-dagger:androidJavadocsJar
+:scoop-dagger:androidSourcesJar
+:scoop-dagger:copyDebugLint UP-TO-DATE
+:scoop-dagger:mergeDebugProguardFiles
+:scoop-dagger:checkDebugManifest
+:scoop-dagger:prepareDebugDependencies
+:scoop-dagger:compileDebugAidl
+:scoop-dagger:compileDebugRenderscript
+:scoop-dagger:generateDebugBuildConfig
+:scoop-dagger:generateDebugAssets UP-TO-DATE
+:scoop-dagger:mergeDebugAssets
+:scoop-dagger:generateDebugResValues
+:scoop-dagger:generateDebugResources
+:scoop-dagger:mergeDebugResources
+:scoop-dagger:processDebugManifest
+:scoop-dagger:processDebugResources
+:scoop-dagger:generateDebugSources
+:scoop-dagger:processDebugJavaRes UP-TO-DATE
+:scoop-dagger:compileDebugJavaWithJavac
+:scoop-dagger:packageDebugJar
+:scoop-dagger:compileDebugNdk UP-TO-DATE
+:scoop-dagger:packageDebugJniLibs UP-TO-DATE
+:scoop-dagger:packageDebugLocalJar UP-TO-DATE
+:scoop-dagger:packageDebugRenderscript UP-TO-DATE
+:scoop-dagger:packageDebugResources
+:scoop-dagger:bundleDebug
+:scoop-basics:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-basics/src/main/java/com/example/scoop/basics/common/Objects.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:scoop-basics:compileDebugNdk UP-TO-DATE
+:scoop-basics:compileDebugSources
+:scoop-basics:preDexDebug
+:scoop-basics:dexDebug
+:scoop-basics:validateDebugSigning
+:scoop-basics:packageDebug
+:scoop-basics:zipalignDebug
+:scoop-basics:assembleDebug
+:scoop-basics:checkReleaseManifest
+:scoop-basics:prepareReleaseDependencies
+:scoop-basics:compileReleaseAidl
+:scoop-basics:compileReleaseRenderscript
+:scoop-basics:generateReleaseBuildConfig
+:scoop-basics:generateReleaseAssets UP-TO-DATE
+:scoop-basics:mergeReleaseAssets
+:scoop-basics:generateReleaseResValues
+:scoop-basics:generateReleaseResources
+:scoop-basics:mergeReleaseResources
+:scoop-basics:processReleaseManifest
+:scoop-basics:processReleaseResources
+:scoop-basics:generateReleaseSources
+:scoop-basics:processReleaseJavaRes UP-TO-DATE
+:scoop-basics:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-basics/src/main/java/com/example/scoop/basics/common/Objects.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:scoop-basics:compileReleaseNdk UP-TO-DATE
+:scoop-basics:compileReleaseSources
+:scoop-basics:preDexRelease
+:scoop-basics:dexRelease
+:scoop-basics:packageRelease
+:scoop-basics:assembleRelease
+:scoop-basics:assemble
+:scoop-basics:build
+
+BUILD SUCCESSFUL
+
+Total time: 42.336 secs
+
+2019-01-20 18:16:22,405 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982923061-0/src/scoop-master/scoop-basics/build/outputs/apk/scoop-basics-debug-unaligned.apk

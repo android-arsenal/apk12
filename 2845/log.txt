@@ -1,0 +1,110 @@
+2019-01-19 23:20:49,336 INFO  DownloadService - Downloading "https://github.com/lopspower/CircularProgressBar/archive/master.zip", attempt 3
+2019-01-19 23:20:50,275 INFO  DownloadService - Downloaded https://github.com/lopspower/CircularProgressBar/archive/master.zip, attempt 3
+2019-01-19 23:20:50,275 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/master.zip": 669 KB
+2019-01-19 23:20:50,275 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 23:20:50,280 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/master.zip: true
+2019-01-19 23:20:50,281 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src'.
+2019-01-19 23:20:50,306 INFO  FullProcessService - Size of directory with sources: 698 KB
+2019-01-19 23:20:50,306 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src]
+2019-01-19 23:20:50,327 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/.git/
+
+2019-01-19 23:20:50,331 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/gradlew
+2019-01-19 23:20:50,334 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/circularprogressbar-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/circularprogressbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/build.gradle
+2019-01-19 23:20:50,338 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/circularprogressbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/circularprogressbar-example/build.gradle
+2019-01-19 23:20:50,338 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 23:20:50,338 INFO  ProjectFixService - Fixing project...
+2019-01-19 23:20:50,346 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/circularprogressbar-example/local.properties
+2019-01-19 23:20:50,349 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/circularprogressbar-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 23:20:50,349 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/circularprogressbar-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 23:20:50,350 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/circularprogressbar/local.properties
+2019-01-19 23:20:50,355 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/circularprogressbar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 23:20:50,355 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/circularprogressbar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 23:20:50,357 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/local.properties
+2019-01-19 23:20:50,358 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-19 23:20:50,358 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-19 23:20:50,362 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 23:20:50,362 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 23:20:50,363 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 23:20:50,363 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 23:20:50,363 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/circularprogressbar-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 23:20:57,828 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-19 23:20:57,828 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 23:20:57,828 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/circularprogressbar-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 23:21:21,984 INFO  SysUtils - Configuration on demand is an incubating feature.
+:circularprogressbar-example:preBuild UP-TO-DATE
+:circularprogressbar-example:preDebugBuild
+Download https://jcenter.bintray.com/com/mikhaellopez/circularprogressbar/2.0.0/circularprogressbar-2.0.0.pom
+Download https://jcenter.bintray.com/com/mikhaellopez/circularprogressbar/2.0.0/circularprogressbar-2.0.0.aar
+:circularprogressbar-example:compileDebugAidl
+:circularprogressbar-example:compileDebugRenderscript
+:circularprogressbar-example:checkDebugManifest
+:circularprogressbar-example:generateDebugBuildConfig
+:circularprogressbar-example:prepareLintJar
+:circularprogressbar-example:mainApkListPersistenceDebug
+:circularprogressbar-example:generateDebugResValues
+:circularprogressbar-example:generateDebugResources
+:circularprogressbar-example:mergeDebugResources
+:circularprogressbar-example:createDebugCompatibleScreenManifests
+:circularprogressbar-example:processDebugManifest
+:circularprogressbar-example:splitsDiscoveryTaskDebug
+:circularprogressbar-example:processDebugResources
+:circularprogressbar-example:generateDebugSources
+:circularprogressbar-example:javaPreCompileDebug
+:circularprogressbar-example:compileDebugJavaWithJavac
+:circularprogressbar-example:compileDebugNdk NO-SOURCE
+:circularprogressbar-example:compileDebugSources
+:circularprogressbar-example:mergeDebugShaders
+:circularprogressbar-example:compileDebugShaders
+:circularprogressbar-example:generateDebugAssets
+:circularprogressbar-example:mergeDebugAssets
+:circularprogressbar-example:transformClassesWithDexBuilderForDebug
+:circularprogressbar-example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:circularprogressbar-example:transformDexArchiveWithDexMergerForDebug
+:circularprogressbar-example:mergeDebugJniLibFolders
+:circularprogressbar-example:transformNativeLibsWithMergeJniLibsForDebug
+:circularprogressbar-example:transformNativeLibsWithStripDebugSymbolForDebug
+:circularprogressbar-example:processDebugJavaRes NO-SOURCE
+:circularprogressbar-example:transformResourcesWithMergeJavaResForDebug
+:circularprogressbar-example:validateSigningDebug
+:circularprogressbar-example:packageDebug
+:circularprogressbar-example:assembleDebug
+:circularprogressbar-example:preReleaseBuild
+:circularprogressbar-example:compileReleaseAidl
+:circularprogressbar-example:compileReleaseRenderscript
+:circularprogressbar-example:checkReleaseManifest
+:circularprogressbar-example:generateReleaseBuildConfig
+:circularprogressbar-example:mainApkListPersistenceRelease
+:circularprogressbar-example:generateReleaseResValues
+:circularprogressbar-example:generateReleaseResources
+:circularprogressbar-example:mergeReleaseResources
+:circularprogressbar-example:createReleaseCompatibleScreenManifests
+:circularprogressbar-example:processReleaseManifest
+:circularprogressbar-example:splitsDiscoveryTaskRelease
+:circularprogressbar-example:processReleaseResources
+:circularprogressbar-example:generateReleaseSources
+:circularprogressbar-example:javaPreCompileRelease
+:circularprogressbar-example:compileReleaseJavaWithJavac
+:circularprogressbar-example:compileReleaseNdk NO-SOURCE
+:circularprogressbar-example:compileReleaseSources
+:circularprogressbar-example:lintVitalRelease
+:circularprogressbar-example:mergeReleaseShaders
+:circularprogressbar-example:compileReleaseShaders
+:circularprogressbar-example:generateReleaseAssets
+:circularprogressbar-example:mergeReleaseAssets
+:circularprogressbar-example:transformClassesWithDexBuilderForRelease
+:circularprogressbar-example:transformDexArchiveWithExternalLibsDexMergerForRelease
+:circularprogressbar-example:transformDexArchiveWithDexMergerForRelease
+:circularprogressbar-example:mergeReleaseJniLibFolders
+:circularprogressbar-example:transformNativeLibsWithMergeJniLibsForRelease
+:circularprogressbar-example:transformNativeLibsWithStripDebugSymbolForRelease
+:circularprogressbar-example:processReleaseJavaRes NO-SOURCE
+:circularprogressbar-example:transformResourcesWithMergeJavaResForRelease
+:circularprogressbar-example:packageRelease
+:circularprogressbar-example:assembleRelease
+:circularprogressbar-example:assemble
+:circularprogressbar-example:build
+
+BUILD SUCCESSFUL in 23s
+53 actionable tasks: 53 executed
+
+2019-01-19 23:21:22,051 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914849328-0/src/CircularProgressBar-master/circularprogressbar-example/build/outputs/apk/release/circularprogressbar-example-release-unsigned.apk

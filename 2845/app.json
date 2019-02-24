@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.mikhaellopez.circularprogressbarsample",
+    "label" : "CircularProgressBar",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAIXUlEQVRo3u2YW3CU5RnHf8/3bU5LNgdCIMnmAIEICpqExAmGQExxKq0zRaeW3nSmetFSp3Va7U3rVGfaGbWd1pmO01at0xEuOo4ztlrPWqmETWIKgSTYtSCQAJsjITHHJYf93qcXwdiw2d2EJHrDc7nfu+/z/N/3fQ7/P1y367Yok6XYxO/3x4c+Ta9wHLYjWgJaCLJahBRAVBkCvQjShkqLKvUpwbEjRV8vmvhSATTVBm62xL5PMHcrUjjXmq72USxbcHvi8KTGIdaMy3aQVxTnQNnOvBNfKIDWD3q2OC7n5yj3AvHR1h548iPGgyEAkpJdZHrdeNd5KNiUSmpGAsAkwst2yH6yuCbrP8sKoKmpy20F9WfAw8CKWOuNUfY/cYKpCRP2zbKE3CIPWyoyyStKAQgCTxm3/Lq8PCe45ABaGgJeE7IOALvm+x8nZHjh8RM4IY26Lq8ohYqv5pCRlQRw0HKZ75ZU5nXOx4c1r+DrujebkPXPhQQ/DUAxJva6wOlhXn3+E040XESVXU7IOtha37NlSQC01HVvNsa8Ddx4LRm2dlMKOeuS8aRFTRVCk4YP3+7E91oANbrRcZy3TjT03LyoJ9TSEPA6IeugwMalKLeDlyboODPM6dYBLnZEfuY3lKyk+u58xJZTLkfvKK7J7VgwgKamLrdc5g1RrVlAjCGQ46DHRGlDZBAA1TQVCkHKQLeiuDraRmiu7aGrfXTOjTaVZ7DzG/mIyCHj5q5Iie2KFIk9xiMq8w4+qMp+xDwXq6a31vdsMcb5Qe56z/3eQo/74yN9NL7bRWhqdrKcbOonLSOR4qrVt1tB/QXwyLxv4LivoxiVBsA9j3fuA31w647c1oU3QesPwM7OthHef+ncTL+YOd04iz3fK2JVtvuy2FpZuj23ZX5JrDw6j+BV4XmTJLsXGjxAeXXeR8YtX0PkOW+hR+/49lpc8bPDCU0ZGt/pQpUkNTw6ryrUerhrK8iemAev+vzZnpwHFtJ0wkCU5wTPdGf/EHjWW+jhtju9YWs620Y4f2oIVPYc83WVxQTgoPdFy40rh197OU5/snevOIutTHv3ijPuMj9VkQ9uvHUVues94cNiYx+AbaH3RwXQ0BBIAu6J4XPUdlw/qqzMu7xUI3FlZd5lW+RBEUZLq7PmvIWBi+Oo4e6mpi53RACJIakEcmP4e+Fahq5YVlKV7VfRv+SsSyarYEVYsp0/OQSC1x7V7REBqMqOGH4mjUv+tFzkxCXyDDBZVLxyzlsAUIuqiABEKIlV/corc04uF4DiKu8pgSP5RSnIVQW+ryP42VBYEiWJ5yYlMzckenT5SaI2JafFk5qROOvXiXGH4YEJgPWRAYiujt6zpG3ZOa4lZwE86bOHPxEIjkwBrI4MQPFE3dxI/7Kfv8MAQEKSHZ6AkwYgecF8YIZhfQEqQ/TGojE78Wi0v9u2pi83ANsiDWByPBxKXLwNMBYNQF9U/CZ6ki/JE7pSSEYGJ8MO353sAuiNlgNt0Tc3W5e/CFE2NjzF4KXZklFcgkXKygQUORcZgCUxpkqpaKq/sH65Yj/q6y0E3RY4M4ya2e890+vGFWdhKS0RAVhGfTF8JIpj71u2TqyhfUDimdZPw77lFE4XSGNRF7kTp9n1yOw3NqtCOIog32+uDRQtdfDNtYEiRfb1Xhijs30kjHYVbEwFuJgYckUGUFycNYbKK2F8cXQK3+sB3n+pHdBUFetpv98fv1TB+/3+eBXradDU5sO9YdUyuyCZVdlJiOqrm2tWj0btA0ac/Z+VY+Mo/iOX+NsfT/HxkUuc++8Qp473A+ye7E/9japai85ZVWuiP/1JYPcnLQPT5OUq21yRCWBU2R+T0JRV5R4B3gBoeLuDutcDBEenPucMb3XSe2EMRX7c4uv+3WJuwu/3xzf7un8L+lBvYIz6N8PVk6z8FRTelArKm6XV3saYAERELcwTwMQNJSuxXbPHwskJh3dfbKP3wpgo+tBEf9o/jjUENiw0+GMNgQ0T/emvgD7cGxiT915sD2teti1s2+1FLJkwlnlcRHTeutDxw11PgT58/FAPRw92h32PT7CpvCuXjaUrAQYRnrWN/efi6qz2qMn6YfdaDZl9KPuA9E9aBqh/s2POzlv+lWzKarIQ9PelO3MfWpCwdbKuzxM0k+8ao7cd+vsFTrcOzLmuYGMqpdVrWJO3AmAcaBBoMiJnMTp0pb+kWqrrFcqBSiCxNzBG8+HeaaY1h224JZ2abxZgiTROJiTeuW1bxvCCpcWjvt5CW0MHnZCu/dfL52jzD0bU97zrPBQVp5NXlII7JS587hIIDk8RODPC6dYButpG0Aii9bqb0tj1rQJsl3XOEdeuW3esabsmbRTgmK+rTFRfc0KaU/vqeU7P0WRmJZUlpGUm4ElPICHRniEjI59OMtg3jjHRpfYNt6Rz+z352C6rC0f2bK3JabpmcfcqEC8bo2ubD/fSfKgHx9GlnUJtobR6DaXVWViWnMdx7t1ak9+0KHU67DmZ0F8Rtl0MjPHhO530XBhbkuDX5K/gtt3e6TxSGo3L+U759vyz82JwC3FUV9fnWWEmfqXIA6qa0OYfwv/vPrrPj87FNWJadkEymytWUbg5DbFkUkWfmYpLeixSwi4awIw04QtUWGo/BrobsC51Bzl/cpjOthH6OoNhSvP/i7WZXjc565JZuymVVTnu6flMeM8R/WVZVW7jgjn0IkYAaa7t3KaW3C+w5zOyHZo0DA1MEByZYmqawxIXb+FOjiMlI4G4zwXci8BrAvtLduQ0zNWklhXA1T3jMuM71EgVSomKFAqsRkm84mVCoVdU27CkVcT4kkj0barKHOG6Xbcv1/4HIe2A+ElWTakAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 1316,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.mikhaellopez.circularprogressbarsample\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0d003c\" android:label=\"CircularProgressBar\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"false\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.mikhaellopez.circularprogressbarsample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1224027,
+  "crc32" : 220094173,
+  "sha256" : "36774204335e816b59d385ded5125789f3d9476d68903874e149ca4f3c40d05b",
+  "buildTime" : 1547914881000
+}

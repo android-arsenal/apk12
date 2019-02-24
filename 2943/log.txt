@@ -1,0 +1,562 @@
+2019-01-19 19:20:46,711 INFO  DownloadService - Downloading "https://github.com/hanks-zyh/HTextView/archive/master.zip", attempt 3
+2019-01-19 19:20:57,691 INFO  DownloadService - Downloaded https://github.com/hanks-zyh/HTextView/archive/master.zip, attempt 3
+2019-01-19 19:20:57,691 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/master.zip": 8 MB
+2019-01-19 19:20:57,691 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 19:20:57,697 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/master.zip: true
+2019-01-19 19:20:57,697 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src'.
+2019-01-19 19:20:57,836 INFO  FullProcessService - Size of directory with sources: 9 MB
+2019-01-19 19:20:57,836 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src]
+2019-01-19 19:20:57,856 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/.git/
+
+2019-01-19 19:20:57,866 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/gradlew
+2019-01-19 19:20:57,880 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/demoapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-evaporate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-fade/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-fall/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-line/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-rainbow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-scale/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-typer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/build.gradle
+2019-01-19 19:20:57,890 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-fade/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-rainbow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/demoapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-evaporate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-line/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-scale/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-fall/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-typer/build.gradle
+2019-01-19 19:20:57,891 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 19:20:57,891 INFO  ProjectFixService - Fixing project...
+2019-01-19 19:20:57,915 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/demoapp/local.properties
+2019-01-19 19:20:57,922 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/demoapp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 19:20:57,923 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/demoapp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 19:20:57,924 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-base/local.properties
+2019-01-19 19:20:57,930 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 19:20:57,930 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 19:20:57,931 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-demo/local.properties
+2019-01-19 19:20:57,938 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 19:20:57,938 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 19:20:57,939 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-evaporate/local.properties
+2019-01-19 19:20:57,945 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-evaporate/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 19:20:57,945 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-evaporate/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 19:20:57,946 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-fade/local.properties
+2019-01-19 19:20:57,953 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-fade/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 19:20:57,953 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-fade/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 19:20:57,954 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-fall/local.properties
+2019-01-19 19:20:57,960 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-fall/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 19:20:57,960 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-fall/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 19:20:57,961 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-library/local.properties
+2019-01-19 19:20:57,967 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 19:20:57,967 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 19:20:57,969 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-line/local.properties
+2019-01-19 19:20:57,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-line/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 19:20:57,975 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-line/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 19:20:57,976 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-rainbow/local.properties
+2019-01-19 19:20:57,982 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-rainbow/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 19:20:57,982 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-rainbow/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 19:20:57,983 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-scale/local.properties
+2019-01-19 19:20:57,990 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-scale/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 19:20:57,990 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-scale/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 19:20:57,991 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-typer/local.properties
+2019-01-19 19:20:57,997 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-typer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 19:20:57,997 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-typer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 19:20:57,998 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/local.properties
+2019-01-19 19:20:57,998 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-19 19:20:57,999 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-19 19:20:58,005 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 19:20:58,006 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 19:20:58,006 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 19:20:58,006 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 19:20:58,006 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/demoapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 19:21:06,343 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-19 19:21:06,343 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 19:21:06,344 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/demoapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 19:21:40,333 INFO  SysUtils - Configuration on demand is an incubating feature.
+:demoapp:preBuild UP-TO-DATE
+:htextview-base:preBuild UP-TO-DATE
+:htextview-base:preDebugBuild UP-TO-DATE
+:htextview-base:checkDebugManifest
+:htextview-base:processDebugManifest
+:htextview-evaporate:preBuild UP-TO-DATE
+:htextview-evaporate:preDebugBuild UP-TO-DATE
+:htextview-evaporate:checkDebugManifest
+:htextview-evaporate:processDebugManifest
+:htextview-fade:preBuild UP-TO-DATE
+:htextview-fade:preDebugBuild UP-TO-DATE
+:htextview-fade:checkDebugManifest
+:htextview-fade:processDebugManifest
+:htextview-fall:preBuild UP-TO-DATE
+:htextview-fall:preDebugBuild UP-TO-DATE
+:htextview-fall:checkDebugManifest
+:htextview-fall:processDebugManifest
+:htextview-line:preBuild UP-TO-DATE
+:htextview-line:preDebugBuild UP-TO-DATE
+:htextview-line:checkDebugManifest
+:htextview-line:processDebugManifest
+:htextview-rainbow:preBuild UP-TO-DATE
+:htextview-rainbow:preDebugBuild UP-TO-DATE
+:htextview-rainbow:checkDebugManifest
+:htextview-rainbow:processDebugManifest
+:htextview-scale:preBuild UP-TO-DATE
+:htextview-scale:preDebugBuild UP-TO-DATE
+:htextview-scale:checkDebugManifest
+:htextview-scale:processDebugManifest
+:htextview-typer:preBuild UP-TO-DATE
+:htextview-typer:preDebugBuild UP-TO-DATE
+:htextview-typer:checkDebugManifest
+:htextview-typer:processDebugManifest
+:demoapp:preDebugBuild
+:htextview-base:compileDebugAidl
+:htextview-evaporate:compileDebugAidl
+:htextview-fade:compileDebugAidl
+:htextview-fall:compileDebugAidl
+:htextview-line:compileDebugAidl
+:htextview-rainbow:compileDebugAidl
+:htextview-scale:compileDebugAidl
+:htextview-typer:compileDebugAidl
+:demoapp:compileDebugAidl
+:htextview-base:packageDebugRenderscript NO-SOURCE
+:htextview-evaporate:packageDebugRenderscript NO-SOURCE
+:htextview-fade:packageDebugRenderscript NO-SOURCE
+:htextview-fall:packageDebugRenderscript NO-SOURCE
+:htextview-line:packageDebugRenderscript NO-SOURCE
+:htextview-rainbow:packageDebugRenderscript NO-SOURCE
+:htextview-scale:packageDebugRenderscript NO-SOURCE
+:htextview-typer:packageDebugRenderscript NO-SOURCE
+:demoapp:compileDebugRenderscript
+:demoapp:checkDebugManifest
+:demoapp:generateDebugBuildConfig
+:demoapp:prepareLintJar
+:demoapp:mainApkListPersistenceDebug
+:demoapp:generateDebugResValues
+:demoapp:generateDebugResources
+:htextview-base:compileDebugRenderscript
+:htextview-base:generateDebugResValues
+:htextview-base:generateDebugResources
+:htextview-base:packageDebugResources
+:htextview-evaporate:compileDebugRenderscript
+:htextview-evaporate:generateDebugResValues
+:htextview-evaporate:generateDebugResources
+:htextview-evaporate:packageDebugResources
+:htextview-fade:compileDebugRenderscript
+:htextview-fade:generateDebugResValues
+:htextview-fade:generateDebugResources
+:htextview-fade:packageDebugResources
+:htextview-fall:compileDebugRenderscript
+:htextview-fall:generateDebugResValues
+:htextview-fall:generateDebugResources
+:htextview-fall:packageDebugResources
+:htextview-line:compileDebugRenderscript
+:htextview-line:generateDebugResValues
+:htextview-line:generateDebugResources
+:htextview-line:packageDebugResources
+:htextview-rainbow:compileDebugRenderscript
+:htextview-rainbow:generateDebugResValues
+:htextview-rainbow:generateDebugResources
+:htextview-rainbow:packageDebugResources
+:htextview-scale:compileDebugRenderscript
+:htextview-scale:generateDebugResValues
+:htextview-scale:generateDebugResources
+:htextview-scale:packageDebugResources
+:htextview-typer:compileDebugRenderscript
+:htextview-typer:generateDebugResValues
+:htextview-typer:generateDebugResources
+:htextview-typer:packageDebugResources
+:demoapp:mergeDebugResources
+:demoapp:createDebugCompatibleScreenManifests
+:demoapp:processDebugManifest
+:demoapp:splitsDiscoveryTaskDebug
+:htextview-base:platformAttrExtractor
+:htextview-evaporate:platformAttrExtractor
+:htextview-fade:platformAttrExtractor
+:htextview-fall:platformAttrExtractor
+:htextview-line:platformAttrExtractor
+:htextview-rainbow:platformAttrExtractor
+:htextview-scale:platformAttrExtractor
+:htextview-typer:platformAttrExtractor
+:htextview-base:generateDebugBuildConfig
+:htextview-base:prepareLintJar
+:htextview-base:javaPreCompileDebug
+:htextview-base:processDebugJavaRes NO-SOURCE
+:htextview-evaporate:generateDebugBuildConfig
+:htextview-evaporate:prepareLintJar
+:htextview-evaporate:processDebugJavaRes NO-SOURCE
+:htextview-fade:generateDebugBuildConfig
+:htextview-fade:prepareLintJar
+:htextview-fade:processDebugJavaRes NO-SOURCE
+:htextview-fall:generateDebugBuildConfig
+:htextview-fall:prepareLintJar
+:htextview-fall:processDebugJavaRes NO-SOURCE
+:htextview-line:generateDebugBuildConfig
+:htextview-line:prepareLintJar
+:htextview-line:processDebugJavaRes NO-SOURCE
+:htextview-rainbow:generateDebugBuildConfig
+:htextview-rainbow:prepareLintJar
+:htextview-rainbow:processDebugJavaRes NO-SOURCE
+:htextview-scale:generateDebugBuildConfig
+:htextview-scale:prepareLintJar
+:htextview-scale:processDebugJavaRes NO-SOURCE
+:htextview-typer:generateDebugBuildConfig
+:htextview-typer:prepareLintJar
+:htextview-typer:processDebugJavaRes NO-SOURCE
+:demoapp:compileDebugNdk NO-SOURCE
+:demoapp:mergeDebugShaders
+:demoapp:compileDebugShaders
+:demoapp:generateDebugAssets
+:htextview-base:mergeDebugShaders
+:htextview-base:compileDebugShaders
+:htextview-base:generateDebugAssets
+:htextview-base:packageDebugAssets
+:htextview-evaporate:mergeDebugShaders
+:htextview-evaporate:compileDebugShaders
+:htextview-evaporate:generateDebugAssets
+:htextview-evaporate:packageDebugAssets
+:htextview-fade:mergeDebugShaders
+:htextview-fade:compileDebugShaders
+:htextview-fade:generateDebugAssets
+:htextview-fade:packageDebugAssets
+:htextview-fall:mergeDebugShaders
+:htextview-fall:compileDebugShaders
+:htextview-fall:generateDebugAssets
+:htextview-fall:packageDebugAssets
+:htextview-line:mergeDebugShaders
+:htextview-line:compileDebugShaders
+:htextview-line:generateDebugAssets
+:htextview-line:packageDebugAssets
+:htextview-rainbow:mergeDebugShaders
+:htextview-rainbow:compileDebugShaders
+:htextview-rainbow:generateDebugAssets
+:htextview-rainbow:packageDebugAssets
+:htextview-scale:mergeDebugShaders
+:htextview-scale:compileDebugShaders
+:htextview-scale:generateDebugAssets
+:htextview-scale:packageDebugAssets
+:htextview-typer:mergeDebugShaders
+:htextview-typer:compileDebugShaders
+:htextview-typer:generateDebugAssets
+:htextview-typer:packageDebugAssets
+:demoapp:mergeDebugAssets
+:demoapp:mergeDebugJniLibFolders
+:htextview-base:compileDebugNdk NO-SOURCE
+:htextview-base:mergeDebugJniLibFolders
+:htextview-base:transformNativeLibsWithMergeJniLibsForDebug
+:htextview-base:transformNativeLibsWithStripDebugSymbolForDebug
+:htextview-base:transformNativeLibsWithIntermediateJniLibsForDebug
+:htextview-evaporate:compileDebugNdk NO-SOURCE
+:htextview-evaporate:mergeDebugJniLibFolders
+:htextview-evaporate:transformNativeLibsWithMergeJniLibsForDebug
+:htextview-evaporate:transformNativeLibsWithStripDebugSymbolForDebug
+:htextview-evaporate:transformNativeLibsWithIntermediateJniLibsForDebug
+:htextview-fade:compileDebugNdk NO-SOURCE
+:htextview-fade:mergeDebugJniLibFolders
+:htextview-fade:transformNativeLibsWithMergeJniLibsForDebug
+:htextview-fade:transformNativeLibsWithStripDebugSymbolForDebug
+:htextview-fade:transformNativeLibsWithIntermediateJniLibsForDebug
+:htextview-fall:compileDebugNdk NO-SOURCE
+:htextview-fall:mergeDebugJniLibFolders
+:htextview-fall:transformNativeLibsWithMergeJniLibsForDebug
+:htextview-fall:transformNativeLibsWithStripDebugSymbolForDebug
+:htextview-fall:transformNativeLibsWithIntermediateJniLibsForDebug
+:htextview-line:compileDebugNdk NO-SOURCE
+:htextview-line:mergeDebugJniLibFolders
+:htextview-line:transformNativeLibsWithMergeJniLibsForDebug
+:htextview-line:transformNativeLibsWithStripDebugSymbolForDebug
+:htextview-line:transformNativeLibsWithIntermediateJniLibsForDebug
+:htextview-base:generateDebugRFile
+:htextview-evaporate:generateDebugRFile
+:htextview-fade:generateDebugRFile
+:htextview-fall:generateDebugRFile
+:htextview-base:generateDebugSources
+:htextview-base:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-base/src/main/java/com/hanks/htextview/base/HText.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:htextview-base:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:htextview-evaporate:generateDebugSources
+:htextview-evaporate:javaPreCompileDebug
+:htextview-evaporate:compileDebugJavaWithJavac
+:htextview-evaporate:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:htextview-fade:generateDebugSources
+:htextview-fade:javaPreCompileDebug
+:htextview-fade:compileDebugJavaWithJavac
+:htextview-fade:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:htextview-fall:generateDebugSources
+:htextview-fall:javaPreCompileDebug
+:htextview-fall:compileDebugJavaWithJavac
+:htextview-fall:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:htextview-line:javaPreCompileDebug
+:htextview-rainbow:javaPreCompileDebug
+:htextview-scale:javaPreCompileDebug
+:htextview-typer:javaPreCompileDebug
+:htextview-rainbow:compileDebugNdk NO-SOURCE
+:htextview-rainbow:mergeDebugJniLibFolders
+:htextview-rainbow:transformNativeLibsWithMergeJniLibsForDebug
+:htextview-rainbow:transformNativeLibsWithStripDebugSymbolForDebug
+:htextview-rainbow:transformNativeLibsWithIntermediateJniLibsForDebug
+:htextview-scale:compileDebugNdk NO-SOURCE
+:htextview-scale:mergeDebugJniLibFolders
+:htextview-scale:transformNativeLibsWithMergeJniLibsForDebug
+:htextview-scale:transformNativeLibsWithStripDebugSymbolForDebug
+:htextview-scale:transformNativeLibsWithIntermediateJniLibsForDebug
+:htextview-typer:compileDebugNdk NO-SOURCE
+:htextview-typer:mergeDebugJniLibFolders
+:htextview-typer:transformNativeLibsWithMergeJniLibsForDebug
+:htextview-typer:transformNativeLibsWithStripDebugSymbolForDebug
+:htextview-typer:transformNativeLibsWithIntermediateJniLibsForDebug
+:demoapp:processDebugJavaRes NO-SOURCE
+:demoapp:validateSigningDebug
+:htextview-base:preReleaseBuild UP-TO-DATE
+:htextview-base:checkReleaseManifest
+:htextview-base:processReleaseManifest
+:htextview-evaporate:preReleaseBuild UP-TO-DATE
+:htextview-typer:generateDebugRFile
+:htextview-typer:generateDebugSources
+:htextview-typer:compileDebugJavaWithJavac
+:htextview-typer:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:htextview-evaporate:checkReleaseManifest
+:htextview-evaporate:processReleaseManifest
+:htextview-fade:preReleaseBuild UP-TO-DATE
+:htextview-fade:checkReleaseManifest
+:htextview-fade:processReleaseManifest
+:htextview-fall:preReleaseBuild UP-TO-DATE
+:htextview-fall:checkReleaseManifest
+:htextview-fall:processReleaseManifest
+:htextview-line:preReleaseBuild UP-TO-DATE
+:htextview-line:checkReleaseManifest
+:htextview-line:processReleaseManifest
+:htextview-rainbow:preReleaseBuild UP-TO-DATE
+:htextview-rainbow:checkReleaseManifest
+:htextview-rainbow:processReleaseManifest
+:htextview-scale:preReleaseBuild UP-TO-DATE
+:htextview-scale:checkReleaseManifest
+:htextview-scale:processReleaseManifest
+:htextview-typer:preReleaseBuild UP-TO-DATE
+:htextview-typer:checkReleaseManifest
+:htextview-typer:processReleaseManifest
+:demoapp:preReleaseBuild
+:htextview-base:compileReleaseAidl
+:htextview-evaporate:compileReleaseAidl
+:htextview-fade:compileReleaseAidl
+:htextview-fall:compileReleaseAidl
+:htextview-line:compileReleaseAidl
+:htextview-rainbow:compileReleaseAidl
+:htextview-scale:compileReleaseAidl
+:htextview-typer:compileReleaseAidl
+:demoapp:compileReleaseAidl
+:htextview-base:packageReleaseRenderscript NO-SOURCE
+:htextview-evaporate:packageReleaseRenderscript NO-SOURCE
+:htextview-line:generateDebugRFile
+:htextview-line:generateDebugSources
+:htextview-line:compileDebugJavaWithJavac
+:htextview-line:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:htextview-fade:packageReleaseRenderscript NO-SOURCE
+:htextview-fall:packageReleaseRenderscript NO-SOURCE
+:htextview-line:packageReleaseRenderscript NO-SOURCE
+:htextview-rainbow:packageReleaseRenderscript NO-SOURCE
+:htextview-scale:packageReleaseRenderscript NO-SOURCE
+:htextview-typer:packageReleaseRenderscript NO-SOURCE
+:demoapp:compileReleaseRenderscript
+:demoapp:checkReleaseManifest
+:demoapp:generateReleaseBuildConfig
+:demoapp:mainApkListPersistenceRelease
+:demoapp:generateReleaseResValues
+:demoapp:generateReleaseResources
+:htextview-base:compileReleaseRenderscript
+:htextview-base:generateReleaseResValues
+:htextview-base:generateReleaseResources
+:htextview-base:packageReleaseResources
+:htextview-evaporate:compileReleaseRenderscript
+:htextview-evaporate:generateReleaseResValues
+:htextview-evaporate:generateReleaseResources
+:htextview-evaporate:packageReleaseResources
+:htextview-fade:compileReleaseRenderscript
+:htextview-fade:generateReleaseResValues
+:htextview-fade:generateReleaseResources
+:htextview-fade:packageReleaseResources
+:htextview-fall:compileReleaseRenderscript
+:htextview-fall:generateReleaseResValues
+:htextview-fall:generateReleaseResources
+:htextview-fall:packageReleaseResources
+:htextview-line:compileReleaseRenderscript
+:htextview-line:generateReleaseResValues
+:htextview-line:generateReleaseResources
+:htextview-line:packageReleaseResources
+:htextview-rainbow:compileReleaseRenderscript
+:htextview-rainbow:generateReleaseResValues
+:htextview-rainbow:generateReleaseResources
+:htextview-rainbow:packageReleaseResources
+:htextview-scale:compileReleaseRenderscript
+:htextview-scale:generateReleaseResValues
+:htextview-scale:generateReleaseResources
+:htextview-scale:packageReleaseResources
+:htextview-typer:compileReleaseRenderscript
+:htextview-typer:generateReleaseResValues
+:htextview-typer:generateReleaseResources
+:htextview-typer:packageReleaseResources
+:demoapp:mergeReleaseResources
+:demoapp:createReleaseCompatibleScreenManifests
+:demoapp:processReleaseManifest
+:demoapp:splitsDiscoveryTaskRelease
+:htextview-base:generateReleaseRFile
+:htextview-evaporate:generateReleaseRFile
+:htextview-fade:generateReleaseRFile
+:htextview-fall:generateReleaseRFile
+:htextview-line:generateReleaseRFile
+:htextview-typer:generateReleaseRFile
+:htextview-base:generateReleaseBuildConfig
+:htextview-base:generateReleaseSources
+:htextview-base:javaPreCompileRelease
+:htextview-base:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/htextview-base/src/main/java/com/hanks/htextview/base/HText.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:htextview-base:processReleaseJavaRes NO-SOURCE
+:htextview-base:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:htextview-evaporate:generateReleaseBuildConfig
+:htextview-evaporate:generateReleaseSources
+:htextview-evaporate:javaPreCompileRelease
+:htextview-evaporate:compileReleaseJavaWithJavac
+:htextview-evaporate:processReleaseJavaRes NO-SOURCE
+:htextview-evaporate:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:htextview-fade:generateReleaseBuildConfig
+:htextview-fade:generateReleaseSources
+:htextview-fade:javaPreCompileRelease
+:htextview-fade:compileReleaseJavaWithJavac
+:htextview-fade:processReleaseJavaRes NO-SOURCE
+:htextview-fade:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:htextview-fall:generateReleaseBuildConfig
+:htextview-fall:generateReleaseSources
+:htextview-fall:javaPreCompileRelease
+:htextview-fall:compileReleaseJavaWithJavac
+:htextview-fall:processReleaseJavaRes NO-SOURCE
+:htextview-fall:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:htextview-line:generateReleaseBuildConfig
+:htextview-line:generateReleaseSources
+:htextview-line:javaPreCompileRelease
+:htextview-line:compileReleaseJavaWithJavac
+:htextview-line:processReleaseJavaRes NO-SOURCE
+:htextview-line:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:htextview-rainbow:generateReleaseBuildConfig
+:htextview-rainbow:javaPreCompileRelease
+:htextview-rainbow:processReleaseJavaRes NO-SOURCE
+:htextview-scale:generateReleaseBuildConfig
+:htextview-scale:javaPreCompileRelease
+:htextview-scale:processReleaseJavaRes NO-SOURCE
+:htextview-typer:generateReleaseBuildConfig
+:htextview-typer:generateReleaseSources
+:htextview-typer:javaPreCompileRelease
+:htextview-typer:compileReleaseJavaWithJavac
+:htextview-typer:processReleaseJavaRes NO-SOURCE
+:htextview-typer:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demoapp:compileReleaseNdk NO-SOURCE
+:demoapp:mergeReleaseShaders
+:demoapp:compileReleaseShaders
+:demoapp:generateReleaseAssets
+:htextview-base:mergeReleaseShaders
+:htextview-base:compileReleaseShaders
+:htextview-base:generateReleaseAssets
+:htextview-base:packageReleaseAssets
+:htextview-evaporate:mergeReleaseShaders
+:htextview-evaporate:compileReleaseShaders
+:htextview-evaporate:generateReleaseAssets
+:htextview-evaporate:packageReleaseAssets
+:htextview-fade:mergeReleaseShaders
+:htextview-fade:compileReleaseShaders
+:htextview-fade:generateReleaseAssets
+:htextview-fade:packageReleaseAssets
+:htextview-fall:mergeReleaseShaders
+:htextview-fall:compileReleaseShaders
+:htextview-fall:generateReleaseAssets
+:htextview-fall:packageReleaseAssets
+:htextview-line:mergeReleaseShaders
+:htextview-line:compileReleaseShaders
+:htextview-line:generateReleaseAssets
+:htextview-line:packageReleaseAssets
+:htextview-rainbow:mergeReleaseShaders
+:htextview-rainbow:compileReleaseShaders
+:htextview-rainbow:generateReleaseAssets
+:htextview-rainbow:packageReleaseAssets
+:htextview-scale:mergeReleaseShaders
+:htextview-scale:compileReleaseShaders
+:htextview-scale:generateReleaseAssets
+:htextview-scale:packageReleaseAssets
+:htextview-typer:mergeReleaseShaders
+:htextview-typer:compileReleaseShaders
+:htextview-typer:generateReleaseAssets
+:htextview-typer:packageReleaseAssets
+:demoapp:mergeReleaseAssets
+:demoapp:mergeReleaseJniLibFolders
+:htextview-base:compileReleaseNdk NO-SOURCE
+:htextview-base:mergeReleaseJniLibFolders
+:htextview-base:transformNativeLibsWithMergeJniLibsForRelease
+:htextview-base:transformNativeLibsWithStripDebugSymbolForRelease
+:htextview-base:transformNativeLibsWithIntermediateJniLibsForRelease
+:htextview-evaporate:compileReleaseNdk NO-SOURCE
+:htextview-evaporate:mergeReleaseJniLibFolders
+:htextview-evaporate:transformNativeLibsWithMergeJniLibsForRelease
+:htextview-evaporate:transformNativeLibsWithStripDebugSymbolForRelease
+:htextview-evaporate:transformNativeLibsWithIntermediateJniLibsForRelease
+:htextview-fade:compileReleaseNdk NO-SOURCE
+:htextview-fade:mergeReleaseJniLibFolders
+:htextview-fade:transformNativeLibsWithMergeJniLibsForRelease
+:htextview-fade:transformNativeLibsWithStripDebugSymbolForRelease
+:htextview-fade:transformNativeLibsWithIntermediateJniLibsForRelease
+:htextview-fall:compileReleaseNdk NO-SOURCE
+:htextview-fall:mergeReleaseJniLibFolders
+:htextview-fall:transformNativeLibsWithMergeJniLibsForRelease
+:htextview-fall:transformNativeLibsWithStripDebugSymbolForRelease
+:htextview-fall:transformNativeLibsWithIntermediateJniLibsForRelease
+:htextview-line:compileReleaseNdk NO-SOURCE
+:htextview-line:mergeReleaseJniLibFolders
+:htextview-line:transformNativeLibsWithMergeJniLibsForRelease
+:htextview-line:transformNativeLibsWithStripDebugSymbolForRelease
+:htextview-line:transformNativeLibsWithIntermediateJniLibsForRelease
+:htextview-rainbow:compileReleaseNdk NO-SOURCE
+:htextview-rainbow:mergeReleaseJniLibFolders
+:htextview-rainbow:transformNativeLibsWithMergeJniLibsForRelease
+:htextview-rainbow:transformNativeLibsWithStripDebugSymbolForRelease
+:htextview-rainbow:transformNativeLibsWithIntermediateJniLibsForRelease
+:htextview-scale:compileReleaseNdk NO-SOURCE
+:htextview-scale:mergeReleaseJniLibFolders
+:htextview-scale:transformNativeLibsWithMergeJniLibsForRelease
+:htextview-scale:transformNativeLibsWithStripDebugSymbolForRelease
+:htextview-scale:transformNativeLibsWithIntermediateJniLibsForRelease
+:htextview-typer:compileReleaseNdk NO-SOURCE
+:htextview-typer:mergeReleaseJniLibFolders
+:htextview-typer:transformNativeLibsWithMergeJniLibsForRelease
+:htextview-typer:transformNativeLibsWithStripDebugSymbolForRelease
+:htextview-typer:transformNativeLibsWithIntermediateJniLibsForRelease
+:demoapp:processReleaseJavaRes NO-SOURCE
+:htextview-scale:generateDebugRFile
+:htextview-scale:generateDebugSources
+:htextview-scale:compileDebugJavaWithJavac
+:htextview-scale:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:htextview-scale:generateReleaseRFile
+:htextview-scale:generateReleaseSources
+:htextview-scale:compileReleaseJavaWithJavac
+:htextview-scale:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:htextview-rainbow:generateDebugRFile
+:demoapp:processDebugResources
+:demoapp:generateDebugSources
+:htextview-rainbow:generateDebugSources
+:htextview-rainbow:compileDebugJavaWithJavac
+:htextview-rainbow:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demoapp:javaPreCompileDebug
+:demoapp:compileDebugJavaWithJavac
+:demoapp:compileDebugSources
+:demoapp:transformClassesWithDexBuilderForDebug
+:demoapp:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demoapp:transformDexArchiveWithDexMergerForDebug
+:demoapp:transformNativeLibsWithMergeJniLibsForDebug
+:demoapp:transformNativeLibsWithStripDebugSymbolForDebug
+:demoapp:transformResourcesWithMergeJavaResForDebug
+:demoapp:packageDebug
+:demoapp:assembleDebug
+:htextview-rainbow:generateReleaseRFile
+:demoapp:processReleaseResources
+:demoapp:generateReleaseSources
+:htextview-rainbow:generateReleaseSources
+:htextview-rainbow:compileReleaseJavaWithJavac
+:htextview-rainbow:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demoapp:javaPreCompileRelease
+:demoapp:compileReleaseJavaWithJavac
+:demoapp:compileReleaseSources
+:demoapp:transformClassesWithDexBuilderForRelease
+:demoapp:transformDexArchiveWithExternalLibsDexMergerForRelease
+:demoapp:transformDexArchiveWithDexMergerForRelease
+:demoapp:transformNativeLibsWithMergeJniLibsForRelease
+:demoapp:transformNativeLibsWithStripDebugSymbolForRelease
+:demoapp:transformResourcesWithMergeJavaResForRelease
+:demoapp:packageRelease
+:demoapp:assembleRelease
+:demoapp:assemble
+:demoapp:build
+
+BUILD SUCCESSFUL in 33s
+356 actionable tasks: 356 executed
+
+2019-01-19 19:21:40,504 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900446703-0/src/HTextView-master/demo.apk

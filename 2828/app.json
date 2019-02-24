@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "sample.helloworld",
+    "label" : null,
+    "icon" : null,
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "16",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 8,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"sample.helloworld\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"16\" />\n</manifest>\n",
+  "fileSize" : 5359,
+  "crc32" : 1688365721,
+  "sha256" : "7f273c2828f9ff0d3ebe0acc56b9f37d10dd52b82e310a6100fea06edda7d155",
+  "buildTime" : 1522560118000
+}

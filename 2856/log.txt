@@ -1,0 +1,1142 @@
+2019-01-19 23:13:41,852 INFO  DownloadService - Downloading "https://github.com/DreaminginCodeZH/AndroidUtil/archive/master.zip", attempt 3
+2019-01-19 23:13:42,352 INFO  DownloadService - Downloaded https://github.com/DreaminginCodeZH/AndroidUtil/archive/master.zip, attempt 3
+2019-01-19 23:13:42,352 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/master.zip": 107 KB
+2019-01-19 23:13:42,352 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 23:13:42,352 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/master.zip: true
+2019-01-19 23:13:42,352 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src'.
+2019-01-19 23:13:42,371 INFO  FullProcessService - Size of directory with sources: 226 KB
+2019-01-19 23:13:42,371 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src]
+2019-01-19 23:13:42,392 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/.git/
+
+2019-01-19 23:13:42,395 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/gradlew
+2019-01-19 23:13:42,397 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/build.gradle
+2019-01-19 23:13:42,400 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/settings.gradle
+2019-01-19 23:13:42,400 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 23:13:42,400 INFO  ProjectFixService - Fixing project...
+2019-01-19 23:13:42,407 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/local.properties
+2019-01-19 23:13:42,408 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-19 23:13:42,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/local.properties
+2019-01-19 23:13:42,409 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-01-19 23:13:42,410 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-01-19 23:13:42,411 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-19 23:13:42,411 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 23:13:42,412 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 23:13:42,412 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 23:13:52,528 INFO  ProjectTaskService - Detected possible tasks: 62
+2019-01-19 23:13:52,529 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug connectedAndroidTestDebug
+2019-01-19 23:13:52,529 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, build]
+2019-01-19 23:14:05,237 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-19 23:14:05,237 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAppcompatV72220Library
+:library:prepareComAndroidSupportSupportV42220Library
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:mergeDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:processDebugJavaRes UP-TO-DATE
+:library:compileDebugJava/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/LocaleUtils.java:14: error: package com.myqsc.mobile3.settings.info does not exist
+import com.myqsc.mobile3.settings.info.SharedPrefsContract;
+                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/Showcase.java:11: error: package com.espian.showcaseview does not exist
+import com.espian.showcaseview.ShowcaseView;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/Showcase.java:12: error: package com.espian.showcaseview does not exist
+import com.espian.showcaseview.ShowcaseViewBuilder;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/Showcase.java:13: error: package com.espian.showcaseview does not exist
+import com.espian.showcaseview.ShowcaseViews;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/Showcase.java:31: error: cannot find symbol
+    private ShowcaseViews showcaseViews;
+            ^
+  symbol:   class ShowcaseViews
+  location: class Showcase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/Showcase.java:122: error: package ShowcaseView does not exist
+    private ShowcaseView.ConfigOptions makeConfigOptions(ShowcaseId showcaseId) {
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/BuildUtils.java:10: error: package com.myqsc.mobile3.umeng.util does not exist
+import com.myqsc.mobile3.umeng.util.UmengUtils;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/ThemeUtils.java:16: error: package com.myqsc.mobile3.settings.info does not exist
+import com.myqsc.mobile3.settings.info.SharedPrefsContract;
+                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:13: error: package com.doomonafireball.betterpickers.calendardatepicker does not exist
+import com.doomonafireball.betterpickers.calendardatepicker.CalendarDatePickerDialog;
+                                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:14: error: package com.doomonafireball.betterpickers.radialtimepicker does not exist
+import com.doomonafireball.betterpickers.radialtimepicker.RadialTimePickerDialog;
+                                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:15: error: package com.doomonafireball.betterpickers.recurrencepicker.zh does not exist
+import com.doomonafireball.betterpickers.recurrencepicker.zh.RecurrencePickerDialog;
+                                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:16: error: package com.doomonafireball.betterpickers.timezonepicker does not exist
+import com.doomonafireball.betterpickers.timezonepicker.TimeZoneInfo;
+                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:17: error: package com.doomonafireball.betterpickers.timezonepicker does not exist
+import com.doomonafireball.betterpickers.timezonepicker.TimeZonePickerDialog;
+                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:18: error: package com.myqsc.mobile3.calendar.info does not exist
+import com.myqsc.mobile3.calendar.info.RecurrenceRule;
+                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:19: error: package com.myqsc.mobile3.calendar.ui does not exist
+import com.myqsc.mobile3.calendar.ui.DayFragmentAdapter;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:21: error: package org.threeten.bp does not exist
+import org.threeten.bp.LocalDate;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:22: error: package org.threeten.bp does not exist
+import org.threeten.bp.LocalTime;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:23: error: package org.threeten.bp does not exist
+import org.threeten.bp.ZoneId;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:24: error: package org.threeten.bp does not exist
+import org.threeten.bp.ZonedDateTime;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:32: error: cannot find symbol
+    public static void pickDate(LocalDate presetDate, OnDateSetListener listener,
+                                ^
+  symbol:   class LocalDate
+  location: class PickerUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:49: error: cannot find symbol
+    public static void pickTime(LocalTime presetTime, OnTimeSetListener listener,
+                                ^
+  symbol:   class LocalTime
+  location: class PickerUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:61: error: cannot find symbol
+    public static void pickTimeZone(ZoneId presetTimeZone, OnTimeZoneSetListener listener,
+                                    ^
+  symbol:   class ZoneId
+  location: class PickerUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:79: error: cannot find symbol
+    public static void pickRecurrenceRule(RecurrenceRule presetRecurrenceRule, ZonedDateTime start,
+                                          ^
+  symbol:   class RecurrenceRule
+  location: class PickerUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:79: error: cannot find symbol
+    public static void pickRecurrenceRule(RecurrenceRule presetRecurrenceRule, ZonedDateTime start,
+                                                                               ^
+  symbol:   class ZonedDateTime
+  location: class PickerUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:101: error: cannot find symbol
+        public void onDateSet(LocalDate date);
+                              ^
+  symbol:   class LocalDate
+  location: interface OnDateSetListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:105: error: cannot find symbol
+        public void onTimeSet(LocalTime time);
+                              ^
+  symbol:   class LocalTime
+  location: interface OnTimeSetListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:109: error: cannot find symbol
+        public void onTimeZoneSet(ZoneId timeZone);
+                                  ^
+  symbol:   class ZoneId
+  location: interface OnTimeZoneSetListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:113: error: cannot find symbol
+        public void onRecurrenceRuleSet(RecurrenceRule recurrenceRule);
+                                        ^
+  symbol:   class RecurrenceRule
+  location: interface OnRecurrenceRuleSetListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:117: error: package CalendarDatePickerDialog does not exist
+            CalendarDatePickerDialog.OnDateSetListener {
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:126: error: cannot find symbol
+        public void onDateSet(CalendarDatePickerDialog dialog, int year, int month,
+                              ^
+  symbol:   class CalendarDatePickerDialog
+  location: class OnDateSetListenerWrapper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:133: error: package RadialTimePickerDialog does not exist
+            RadialTimePickerDialog.OnTimeSetListener {
+                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:142: error: cannot find symbol
+        public void onTimeSet(RadialTimePickerDialog radialTimePickerDialog, int hour, int minute) {
+                              ^
+  symbol:   class RadialTimePickerDialog
+  location: class OnTimeSetListenerWrapper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:148: error: package TimeZonePickerDialog does not exist
+            implements TimeZonePickerDialog.OnTimeZoneSetListener {
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:157: error: cannot find symbol
+        public void onTimeZoneSet(TimeZoneInfo timeZoneInfo) {
+                                  ^
+  symbol:   class TimeZoneInfo
+  location: class OnTimeZoneSetListenerWrapper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:163: error: package RecurrencePickerDialog does not exist
+            implements RecurrencePickerDialog.OnRecurrenceSetListener {
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/AppUtils.java:46: error: package com.myqsc.mobile3.main.info does not exist
+import com.myqsc.mobile3.main.info.DrawerManager;
+                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/AppUtils.java:47: error: package com.myqsc.mobile3.main.ui does not exist
+import com.myqsc.mobile3.main.ui.MainActivity;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/AppUtils.java:48: error: package com.myqsc.mobile3.ui does not exist
+import com.myqsc.mobile3.ui.RestartApplicationActivity;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/CroutonUtils.java:12: error: package de.keyboardsurfer.android.widget.crouton does not exist
+import de.keyboardsurfer.android.widget.crouton.Crouton;
+                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/CroutonUtils.java:13: error: package de.keyboardsurfer.android.widget.crouton does not exist
+import de.keyboardsurfer.android.widget.crouton.Style;
+                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/CroutonUtils.java:81: error: cannot find symbol
+    private static Style getStyle(Method method, Context themedContext) {
+                   ^
+  symbol:   class Style
+  location: class CroutonUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/CroutonUtils.java:103: error: cannot find symbol
+    private static Style buildStyle(int textColorResId, int backgroundColorResId) {
+                   ^
+  symbol:   class Style
+  location: class CroutonUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/GsonUtils.java:8: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/GsonUtils.java:9: error: package com.google.gson does not exist
+import com.google.gson.GsonBuilder;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/GsonUtils.java:13: error: cannot find symbol
+    private static final Gson GSON = new GsonBuilder().enableComplexMapKeySerialization().create();
+                         ^
+  symbol:   class Gson
+  location: class GsonUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/GsonUtils.java:15: error: cannot find symbol
+    public static Gson get() {
+                  ^
+  symbol:   class Gson
+  location: class GsonUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/SuperActivityToastUtils.java:13: error: package com.github.johnpersano.supertoasts does not exist
+import com.github.johnpersano.supertoasts.SuperActivityToast;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/SuperActivityToastUtils.java:14: error: package com.github.johnpersano.supertoasts does not exist
+import com.github.johnpersano.supertoasts.SuperToast;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/SuperActivityToastUtils.java:15: error: package com.github.johnpersano.supertoasts.util does not exist
+import com.github.johnpersano.supertoasts.util.OnClickWrapper;
+                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/SuperActivityToastUtils.java:64: error: package SuperToast does not exist
+    private static class OnClickListenerWrapper implements SuperToast.OnClickListener {
+                                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:10: error: package org.threeten.bp does not exist
+import org.threeten.bp.DayOfWeek;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:11: error: package org.threeten.bp does not exist
+import org.threeten.bp.Instant;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:12: error: package org.threeten.bp does not exist
+import org.threeten.bp.LocalDate;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:13: error: package org.threeten.bp does not exist
+import org.threeten.bp.LocalDateTime;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:14: error: package org.threeten.bp does not exist
+import org.threeten.bp.LocalTime;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:15: error: package org.threeten.bp does not exist
+import org.threeten.bp.ZoneId;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:16: error: package org.threeten.bp does not exist
+import org.threeten.bp.ZoneOffset;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:17: error: package org.threeten.bp does not exist
+import org.threeten.bp.ZonedDateTime;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:18: error: package org.threeten.bp.format does not exist
+import org.threeten.bp.format.DateTimeFormatter;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:19: error: package org.threeten.bp.temporal does not exist
+import org.threeten.bp.temporal.ChronoUnit;
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:25: error: cannot find symbol
+    public static final ZoneOffset ZJU_ZONE_OFFSET = ZoneOffset.of("+08:00");
+                        ^
+  symbol:   class ZoneOffset
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:27: error: cannot find symbol
+    public static final ZoneId ZJU_ZONE_ID = ZoneId.ofOffset("GMT", ZJU_ZONE_OFFSET);
+                        ^
+  symbol:   class ZoneId
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:29: error: cannot find symbol
+    public static long toEpochMilli(ZonedDateTime zonedDateTime) {
+                                    ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:33: error: cannot find symbol
+    public static long toEpochSecondInZju(LocalDateTime dateTime) {
+                                          ^
+  symbol:   class LocalDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:37: error: cannot find symbol
+    public static long toEpochSecondInZju(LocalDate date, LocalTime time) {
+                                          ^
+  symbol:   class LocalDate
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:37: error: cannot find symbol
+    public static long toEpochSecondInZju(LocalDate date, LocalTime time) {
+                                                          ^
+  symbol:   class LocalTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:41: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTime(long epochSecond, ZoneId zoneId) {
+                                                                  ^
+  symbol:   class ZoneId
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:41: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTime(long epochSecond, ZoneId zoneId) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:45: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInSystem(long epochSecond) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:49: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInZju(long epochSecond) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:53: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInSystem(LocalDate date, LocalTime time) {
+                                                        ^
+  symbol:   class LocalDate
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:53: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInSystem(LocalDate date, LocalTime time) {
+                                                                        ^
+  symbol:   class LocalTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:53: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInSystem(LocalDate date, LocalTime time) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:57: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInZju(LocalDate date, LocalTime time) {
+                                                     ^
+  symbol:   class LocalDate
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:57: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInZju(LocalDate date, LocalTime time) {
+                                                                     ^
+  symbol:   class LocalTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:57: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInZju(LocalDate date, LocalTime time) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:61: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInSystem(Instant instant) {
+                                                        ^
+  symbol:   class Instant
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:61: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInSystem(Instant instant) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:65: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInZju(Instant instant) {
+                                                     ^
+  symbol:   class Instant
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:65: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInZju(Instant instant) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:69: error: cannot find symbol
+    public static ZonedDateTime withDayOfWeek(ZonedDateTime zonedDateTime, DayOfWeek dayOfWeek) {
+                                              ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:69: error: cannot find symbol
+    public static ZonedDateTime withDayOfWeek(ZonedDateTime zonedDateTime, DayOfWeek dayOfWeek) {
+                                                                           ^
+  symbol:   class DayOfWeek
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:69: error: cannot find symbol
+    public static ZonedDateTime withDayOfWeek(ZonedDateTime zonedDateTime, DayOfWeek dayOfWeek) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:74: error: cannot find symbol
+    public static ZonedDateTime withWeekStart(ZonedDateTime zonedDateTime) {
+                                              ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:74: error: cannot find symbol
+    public static ZonedDateTime withWeekStart(ZonedDateTime zonedDateTime) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:78: error: cannot find symbol
+    public static ZonedDateTime withDayStart(ZonedDateTime zonedDateTime) {
+                                             ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:78: error: cannot find symbol
+    public static ZonedDateTime withDayStart(ZonedDateTime zonedDateTime) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:82: error: cannot find symbol
+    public static ZonedDateTime getTodayStartInSystem() {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:86: error: cannot find symbol
+    public static ZonedDateTime getTomorrowStartInSystem() {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:98: error: cannot find symbol
+    public static ZonedDateTime getNowInZju() {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:110: error: cannot find symbol
+    public static boolean isInSameDate(ZonedDateTime first, ZonedDateTime second) {
+                                       ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:110: error: cannot find symbol
+    public static boolean isInSameDate(ZonedDateTime first, ZonedDateTime second) {
+                                                            ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:114: error: cannot find symbol
+    public static String formatTimestamp(ZonedDateTime zonedDateTime, Context context) {
+                                         ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:120: error: cannot find symbol
+    public static String formatTimestamp(Instant instant, Context context) {
+                                         ^
+  symbol:   class Instant
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:143: error: cannot find symbol
+    private static String getDateTimeFormat(ZonedDateTime dateTime, LocalDate defaultDate,
+                                            ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:143: error: cannot find symbol
+    private static String getDateTimeFormat(ZonedDateTime dateTime, LocalDate defaultDate,
+                                                                    ^
+  symbol:   class LocalDate
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:154: error: cannot find symbol
+    public static String formatPeriod(ZonedDateTime start, ZonedDateTime end, LocalDate defaultDate,
+                                      ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:154: error: cannot find symbol
+    public static String formatPeriod(ZonedDateTime start, ZonedDateTime end, LocalDate defaultDate,
+                                                           ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:154: error: cannot find symbol
+    public static String formatPeriod(ZonedDateTime start, ZonedDateTime end, LocalDate defaultDate,
+                                                                              ^
+  symbol:   class LocalDate
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/ShapeDrawableUtils.java:13: error: package com.myqsc.mobile3.ui does not exist
+import com.myqsc.mobile3.ui.DrawableShapeDrawable;
+                           ^
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/AppUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+100 errors
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':library:compileDebugJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':library:compileDebugJava'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:44)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:35)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:97)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:50)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:36)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:34)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:158)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:138)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:92)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:235)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:222)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+
+
+BUILD FAILED
+
+Total time: 12.178 secs
+
+2019-01-19 23:14:05,272 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 23:14:05,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 23:14:13,678 INFO  ProjectTaskService - Detected possible tasks: 62
+2019-01-19 23:14:13,678 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug connectedAndroidTestDebug
+2019-01-19 23:14:13,678 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, build]
+2019-01-19 23:14:22,415 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-19 23:14:22,416 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAppcompatV72220Library UP-TO-DATE
+:library:prepareComAndroidSupportSupportV42220Library UP-TO-DATE
+:library:prepareDebugDependencies
+:library:compileDebugAidl UP-TO-DATE
+:library:compileDebugRenderscript UP-TO-DATE
+:library:generateDebugBuildConfig UP-TO-DATE
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets UP-TO-DATE
+:library:generateDebugResValues UP-TO-DATE
+:library:generateDebugResources UP-TO-DATE
+:library:mergeDebugResources UP-TO-DATE
+:library:processDebugManifest UP-TO-DATE
+:library:processDebugResources UP-TO-DATE
+:library:generateDebugSources UP-TO-DATE
+:library:processDebugJavaRes UP-TO-DATE
+:library:compileDebugJava/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/LocaleUtils.java:14: error: package com.myqsc.mobile3.settings.info does not exist
+import com.myqsc.mobile3.settings.info.SharedPrefsContract;
+                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/Showcase.java:11: error: package com.espian.showcaseview does not exist
+import com.espian.showcaseview.ShowcaseView;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/Showcase.java:12: error: package com.espian.showcaseview does not exist
+import com.espian.showcaseview.ShowcaseViewBuilder;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/Showcase.java:13: error: package com.espian.showcaseview does not exist
+import com.espian.showcaseview.ShowcaseViews;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/Showcase.java:31: error: cannot find symbol
+    private ShowcaseViews showcaseViews;
+            ^
+  symbol:   class ShowcaseViews
+  location: class Showcase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/Showcase.java:122: error: package ShowcaseView does not exist
+    private ShowcaseView.ConfigOptions makeConfigOptions(ShowcaseId showcaseId) {
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/BuildUtils.java:10: error: package com.myqsc.mobile3.umeng.util does not exist
+import com.myqsc.mobile3.umeng.util.UmengUtils;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/ThemeUtils.java:16: error: package com.myqsc.mobile3.settings.info does not exist
+import com.myqsc.mobile3.settings.info.SharedPrefsContract;
+                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:13: error: package com.doomonafireball.betterpickers.calendardatepicker does not exist
+import com.doomonafireball.betterpickers.calendardatepicker.CalendarDatePickerDialog;
+                                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:14: error: package com.doomonafireball.betterpickers.radialtimepicker does not exist
+import com.doomonafireball.betterpickers.radialtimepicker.RadialTimePickerDialog;
+                                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:15: error: package com.doomonafireball.betterpickers.recurrencepicker.zh does not exist
+import com.doomonafireball.betterpickers.recurrencepicker.zh.RecurrencePickerDialog;
+                                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:16: error: package com.doomonafireball.betterpickers.timezonepicker does not exist
+import com.doomonafireball.betterpickers.timezonepicker.TimeZoneInfo;
+                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:17: error: package com.doomonafireball.betterpickers.timezonepicker does not exist
+import com.doomonafireball.betterpickers.timezonepicker.TimeZonePickerDialog;
+                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:18: error: package com.myqsc.mobile3.calendar.info does not exist
+import com.myqsc.mobile3.calendar.info.RecurrenceRule;
+                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:19: error: package com.myqsc.mobile3.calendar.ui does not exist
+import com.myqsc.mobile3.calendar.ui.DayFragmentAdapter;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:21: error: package org.threeten.bp does not exist
+import org.threeten.bp.LocalDate;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:22: error: package org.threeten.bp does not exist
+import org.threeten.bp.LocalTime;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:23: error: package org.threeten.bp does not exist
+import org.threeten.bp.ZoneId;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:24: error: package org.threeten.bp does not exist
+import org.threeten.bp.ZonedDateTime;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:32: error: cannot find symbol
+    public static void pickDate(LocalDate presetDate, OnDateSetListener listener,
+                                ^
+  symbol:   class LocalDate
+  location: class PickerUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:49: error: cannot find symbol
+    public static void pickTime(LocalTime presetTime, OnTimeSetListener listener,
+                                ^
+  symbol:   class LocalTime
+  location: class PickerUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:61: error: cannot find symbol
+    public static void pickTimeZone(ZoneId presetTimeZone, OnTimeZoneSetListener listener,
+                                    ^
+  symbol:   class ZoneId
+  location: class PickerUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:79: error: cannot find symbol
+    public static void pickRecurrenceRule(RecurrenceRule presetRecurrenceRule, ZonedDateTime start,
+                                          ^
+  symbol:   class RecurrenceRule
+  location: class PickerUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:79: error: cannot find symbol
+    public static void pickRecurrenceRule(RecurrenceRule presetRecurrenceRule, ZonedDateTime start,
+                                                                               ^
+  symbol:   class ZonedDateTime
+  location: class PickerUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:101: error: cannot find symbol
+        public void onDateSet(LocalDate date);
+                              ^
+  symbol:   class LocalDate
+  location: interface OnDateSetListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:105: error: cannot find symbol
+        public void onTimeSet(LocalTime time);
+                              ^
+  symbol:   class LocalTime
+  location: interface OnTimeSetListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:109: error: cannot find symbol
+        public void onTimeZoneSet(ZoneId timeZone);
+                                  ^
+  symbol:   class ZoneId
+  location: interface OnTimeZoneSetListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:113: error: cannot find symbol
+        public void onRecurrenceRuleSet(RecurrenceRule recurrenceRule);
+                                        ^
+  symbol:   class RecurrenceRule
+  location: interface OnRecurrenceRuleSetListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:117: error: package CalendarDatePickerDialog does not exist
+            CalendarDatePickerDialog.OnDateSetListener {
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:126: error: cannot find symbol
+        public void onDateSet(CalendarDatePickerDialog dialog, int year, int month,
+                              ^
+  symbol:   class CalendarDatePickerDialog
+  location: class OnDateSetListenerWrapper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:133: error: package RadialTimePickerDialog does not exist
+            RadialTimePickerDialog.OnTimeSetListener {
+                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:142: error: cannot find symbol
+        public void onTimeSet(RadialTimePickerDialog radialTimePickerDialog, int hour, int minute) {
+                              ^
+  symbol:   class RadialTimePickerDialog
+  location: class OnTimeSetListenerWrapper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:148: error: package TimeZonePickerDialog does not exist
+            implements TimeZonePickerDialog.OnTimeZoneSetListener {
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:157: error: cannot find symbol
+        public void onTimeZoneSet(TimeZoneInfo timeZoneInfo) {
+                                  ^
+  symbol:   class TimeZoneInfo
+  location: class OnTimeZoneSetListenerWrapper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/PickerUtils.java:163: error: package RecurrencePickerDialog does not exist
+            implements RecurrencePickerDialog.OnRecurrenceSetListener {
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/AppUtils.java:46: error: package com.myqsc.mobile3.main.info does not exist
+import com.myqsc.mobile3.main.info.DrawerManager;
+                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/AppUtils.java:47: error: package com.myqsc.mobile3.main.ui does not exist
+import com.myqsc.mobile3.main.ui.MainActivity;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/AppUtils.java:48: error: package com.myqsc.mobile3.ui does not exist
+import com.myqsc.mobile3.ui.RestartApplicationActivity;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/CroutonUtils.java:12: error: package de.keyboardsurfer.android.widget.crouton does not exist
+import de.keyboardsurfer.android.widget.crouton.Crouton;
+                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/CroutonUtils.java:13: error: package de.keyboardsurfer.android.widget.crouton does not exist
+import de.keyboardsurfer.android.widget.crouton.Style;
+                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/CroutonUtils.java:81: error: cannot find symbol
+    private static Style getStyle(Method method, Context themedContext) {
+                   ^
+  symbol:   class Style
+  location: class CroutonUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/CroutonUtils.java:103: error: cannot find symbol
+    private static Style buildStyle(int textColorResId, int backgroundColorResId) {
+                   ^
+  symbol:   class Style
+  location: class CroutonUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/GsonUtils.java:8: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/GsonUtils.java:9: error: package com.google.gson does not exist
+import com.google.gson.GsonBuilder;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/GsonUtils.java:13: error: cannot find symbol
+    private static final Gson GSON = new GsonBuilder().enableComplexMapKeySerialization().create();
+                         ^
+  symbol:   class Gson
+  location: class GsonUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/GsonUtils.java:15: error: cannot find symbol
+    public static Gson get() {
+                  ^
+  symbol:   class Gson
+  location: class GsonUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/SuperActivityToastUtils.java:13: error: package com.github.johnpersano.supertoasts does not exist
+import com.github.johnpersano.supertoasts.SuperActivityToast;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/SuperActivityToastUtils.java:14: error: package com.github.johnpersano.supertoasts does not exist
+import com.github.johnpersano.supertoasts.SuperToast;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/SuperActivityToastUtils.java:15: error: package com.github.johnpersano.supertoasts.util does not exist
+import com.github.johnpersano.supertoasts.util.OnClickWrapper;
+                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/SuperActivityToastUtils.java:64: error: package SuperToast does not exist
+    private static class OnClickListenerWrapper implements SuperToast.OnClickListener {
+                                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:10: error: package org.threeten.bp does not exist
+import org.threeten.bp.DayOfWeek;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:11: error: package org.threeten.bp does not exist
+import org.threeten.bp.Instant;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:12: error: package org.threeten.bp does not exist
+import org.threeten.bp.LocalDate;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:13: error: package org.threeten.bp does not exist
+import org.threeten.bp.LocalDateTime;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:14: error: package org.threeten.bp does not exist
+import org.threeten.bp.LocalTime;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:15: error: package org.threeten.bp does not exist
+import org.threeten.bp.ZoneId;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:16: error: package org.threeten.bp does not exist
+import org.threeten.bp.ZoneOffset;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:17: error: package org.threeten.bp does not exist
+import org.threeten.bp.ZonedDateTime;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:18: error: package org.threeten.bp.format does not exist
+import org.threeten.bp.format.DateTimeFormatter;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:19: error: package org.threeten.bp.temporal does not exist
+import org.threeten.bp.temporal.ChronoUnit;
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:25: error: cannot find symbol
+    public static final ZoneOffset ZJU_ZONE_OFFSET = ZoneOffset.of("+08:00");
+                        ^
+  symbol:   class ZoneOffset
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:27: error: cannot find symbol
+    public static final ZoneId ZJU_ZONE_ID = ZoneId.ofOffset("GMT", ZJU_ZONE_OFFSET);
+                        ^
+  symbol:   class ZoneId
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:29: error: cannot find symbol
+    public static long toEpochMilli(ZonedDateTime zonedDateTime) {
+                                    ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:33: error: cannot find symbol
+    public static long toEpochSecondInZju(LocalDateTime dateTime) {
+                                          ^
+  symbol:   class LocalDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:37: error: cannot find symbol
+    public static long toEpochSecondInZju(LocalDate date, LocalTime time) {
+                                          ^
+  symbol:   class LocalDate
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:37: error: cannot find symbol
+    public static long toEpochSecondInZju(LocalDate date, LocalTime time) {
+                                                          ^
+  symbol:   class LocalTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:41: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTime(long epochSecond, ZoneId zoneId) {
+                                                                  ^
+  symbol:   class ZoneId
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:41: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTime(long epochSecond, ZoneId zoneId) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:45: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInSystem(long epochSecond) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:49: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInZju(long epochSecond) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:53: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInSystem(LocalDate date, LocalTime time) {
+                                                        ^
+  symbol:   class LocalDate
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:53: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInSystem(LocalDate date, LocalTime time) {
+                                                                        ^
+  symbol:   class LocalTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:53: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInSystem(LocalDate date, LocalTime time) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:57: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInZju(LocalDate date, LocalTime time) {
+                                                     ^
+  symbol:   class LocalDate
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:57: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInZju(LocalDate date, LocalTime time) {
+                                                                     ^
+  symbol:   class LocalTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:57: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInZju(LocalDate date, LocalTime time) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:61: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInSystem(Instant instant) {
+                                                        ^
+  symbol:   class Instant
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:61: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInSystem(Instant instant) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:65: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInZju(Instant instant) {
+                                                     ^
+  symbol:   class Instant
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:65: error: cannot find symbol
+    public static ZonedDateTime toZonedDateTimeInZju(Instant instant) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:69: error: cannot find symbol
+    public static ZonedDateTime withDayOfWeek(ZonedDateTime zonedDateTime, DayOfWeek dayOfWeek) {
+                                              ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:69: error: cannot find symbol
+    public static ZonedDateTime withDayOfWeek(ZonedDateTime zonedDateTime, DayOfWeek dayOfWeek) {
+                                                                           ^
+  symbol:   class DayOfWeek
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:69: error: cannot find symbol
+    public static ZonedDateTime withDayOfWeek(ZonedDateTime zonedDateTime, DayOfWeek dayOfWeek) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:74: error: cannot find symbol
+    public static ZonedDateTime withWeekStart(ZonedDateTime zonedDateTime) {
+                                              ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:74: error: cannot find symbol
+    public static ZonedDateTime withWeekStart(ZonedDateTime zonedDateTime) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:78: error: cannot find symbol
+    public static ZonedDateTime withDayStart(ZonedDateTime zonedDateTime) {
+                                             ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:78: error: cannot find symbol
+    public static ZonedDateTime withDayStart(ZonedDateTime zonedDateTime) {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:82: error: cannot find symbol
+    public static ZonedDateTime getTodayStartInSystem() {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:86: error: cannot find symbol
+    public static ZonedDateTime getTomorrowStartInSystem() {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:98: error: cannot find symbol
+    public static ZonedDateTime getNowInZju() {
+                  ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:110: error: cannot find symbol
+    public static boolean isInSameDate(ZonedDateTime first, ZonedDateTime second) {
+                                       ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:110: error: cannot find symbol
+    public static boolean isInSameDate(ZonedDateTime first, ZonedDateTime second) {
+                                                            ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:114: error: cannot find symbol
+    public static String formatTimestamp(ZonedDateTime zonedDateTime, Context context) {
+                                         ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:120: error: cannot find symbol
+    public static String formatTimestamp(Instant instant, Context context) {
+                                         ^
+  symbol:   class Instant
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:143: error: cannot find symbol
+    private static String getDateTimeFormat(ZonedDateTime dateTime, LocalDate defaultDate,
+                                            ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:143: error: cannot find symbol
+    private static String getDateTimeFormat(ZonedDateTime dateTime, LocalDate defaultDate,
+                                                                    ^
+  symbol:   class LocalDate
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:154: error: cannot find symbol
+    public static String formatPeriod(ZonedDateTime start, ZonedDateTime end, LocalDate defaultDate,
+                                      ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:154: error: cannot find symbol
+    public static String formatPeriod(ZonedDateTime start, ZonedDateTime end, LocalDate defaultDate,
+                                                           ^
+  symbol:   class ZonedDateTime
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/TimeUtils.java:154: error: cannot find symbol
+    public static String formatPeriod(ZonedDateTime start, ZonedDateTime end, LocalDate defaultDate,
+                                                                              ^
+  symbol:   class LocalDate
+  location: class TimeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/ShapeDrawableUtils.java:13: error: package com.myqsc.mobile3.ui does not exist
+import com.myqsc.mobile3.ui.DrawableShapeDrawable;
+                           ^
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914421849-0/src/AndroidUtil-master/library/src/main/java/me/zhanghai/android/androidutil/util/AppUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+100 errors
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':library:compileDebugJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':library:compileDebugJava'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:44)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:35)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:97)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:50)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:36)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:34)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:158)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:138)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:92)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:235)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:222)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+
+
+BUILD FAILED
+
+Total time: 8.221 secs
+
+2019-01-19 23:14:22,483 ERROR FullProcessService - Project build has not produced APK file
+2019-01-19 23:14:22,564 ERROR FullProcessService - Could not find generated or existed APK file

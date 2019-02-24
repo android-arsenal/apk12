@@ -1,0 +1,168 @@
+2019-01-19 22:46:22,716 INFO  DownloadService - Downloading "https://github.com/power7714/Socialoid-Preference-Library/archive/master.zip", attempt 3
+2019-01-19 22:46:44,348 INFO  DownloadService - Downloaded https://github.com/power7714/Socialoid-Preference-Library/archive/master.zip, attempt 3
+2019-01-19 22:46:44,348 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/master.zip": 15 MB
+2019-01-19 22:46:44,348 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 22:46:44,350 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/master.zip: true
+2019-01-19 22:46:44,350 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src'.
+2019-01-19 22:46:44,567 INFO  FullProcessService - Size of directory with sources: 32 MB
+2019-01-19 22:46:44,567 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src]
+2019-01-19 22:46:44,586 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/.git/
+
+2019-01-19 22:46:44,590 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/gradlew
+2019-01-19 22:46:44,593 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/socialoidlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/build.gradle
+2019-01-19 22:46:44,596 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/socialoidlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/settings.gradle
+2019-01-19 22:46:44,596 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 22:46:44,597 INFO  ProjectFixService - Fixing project...
+2019-01-19 22:46:44,604 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/socialoidlibrary/local.properties
+2019-01-19 22:46:44,604 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/socialoidlibrary/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=22,targetSdkVersion=23]
+2019-01-19 22:46:44,605 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/local.properties
+2019-01-19 22:46:44,605 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-01-19 22:46:44,605 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-01-19 22:46:44,606 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=22,targetSdkVersion=23]
+2019-01-19 22:46:44,606 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 22:46:44,606 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 22:46:44,606 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/socialoidlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 22:46:52,353 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-01-19 22:46:52,353 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-19 22:46:52,354 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/socialoidlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-19 22:46:58,213 INFO  SysUtils - Configuration on demand is an incubating feature.
+:socialoidlibrary:preBuild UP-TO-DATE
+:socialoidlibrary:preDebugBuild UP-TO-DATE
+:socialoidlibrary:compileDebugNdk UP-TO-DATE
+:socialoidlibrary:compileLint
+:socialoidlibrary:copyDebugLint UP-TO-DATE
+:socialoidlibrary:mergeDebugProguardFiles
+:socialoidlibrary:packageDebugRenderscript UP-TO-DATE
+:socialoidlibrary:checkDebugManifest
+:socialoidlibrary:prepareDebugDependencies
+:socialoidlibrary:compileDebugRenderscript
+:socialoidlibrary:generateDebugResValues
+:socialoidlibrary:generateDebugResources
+:socialoidlibrary:packageDebugResources
+:socialoidlibrary:compileDebugAidl
+:socialoidlibrary:generateDebugBuildConfig
+:socialoidlibrary:generateDebugAssets UP-TO-DATE
+:socialoidlibrary:mergeDebugAssets
+:socialoidlibrary:processDebugManifest
+:socialoidlibrary:processDebugResources
+:socialoidlibrary:generateDebugSources
+:socialoidlibrary:compileDebugJavaWithJavac
+:socialoidlibrary:processDebugJavaRes UP-TO-DATE
+:socialoidlibrary:transformResourcesWithMergeJavaResForDebug
+:socialoidlibrary:transformClassesAndResourcesWithSyncLibJarsForDebug
+:socialoidlibrary:mergeDebugJniLibFolders
+:socialoidlibrary:transformNative_libsWithMergeJniLibsForDebug
+:socialoidlibrary:transformNative_libsWithSyncJniLibsForDebug
+:socialoidlibrary:bundleDebug
+:socialoidlibrary:compileDebugSources
+:socialoidlibrary:assembleDebug
+:socialoidlibrary:preReleaseBuild UP-TO-DATE
+:socialoidlibrary:compileReleaseNdk UP-TO-DATE
+:socialoidlibrary:copyReleaseLint UP-TO-DATE
+:socialoidlibrary:mergeReleaseProguardFiles
+:socialoidlibrary:packageReleaseRenderscript UP-TO-DATE
+:socialoidlibrary:checkReleaseManifest
+:socialoidlibrary:prepareReleaseDependencies
+:socialoidlibrary:compileReleaseRenderscript
+:socialoidlibrary:generateReleaseResValues
+:socialoidlibrary:generateReleaseResources
+:socialoidlibrary:packageReleaseResources
+:socialoidlibrary:compileReleaseAidl
+:socialoidlibrary:generateReleaseBuildConfig
+:socialoidlibrary:generateReleaseAssets UP-TO-DATE
+:socialoidlibrary:mergeReleaseAssets
+:socialoidlibrary:processReleaseManifest
+:socialoidlibrary:processReleaseResources
+:socialoidlibrary:generateReleaseSources
+:socialoidlibrary:compileReleaseJavaWithJavac
+:socialoidlibrary:processReleaseJavaRes UP-TO-DATE
+:socialoidlibrary:transformResourcesWithMergeJavaResForRelease
+:socialoidlibrary:transformClassesAndResourcesWithSyncLibJarsForRelease
+:socialoidlibrary:mergeReleaseJniLibFolders
+:socialoidlibrary:transformNative_libsWithMergeJniLibsForRelease
+:socialoidlibrary:transformNative_libsWithSyncJniLibsForRelease
+:socialoidlibrary:bundleRelease
+:socialoidlibrary:compileReleaseSources
+:socialoidlibrary:assembleRelease
+:socialoidlibrary:sourcesJar
+:socialoidlibrary:assemble
+:socialoidlibrary:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.348 secs
+
+2019-01-19 22:46:58,226 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 22:46:58,226 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 22:47:02,654 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-19 22:47:02,654 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-19 22:47:02,654 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912782713-0/src/Socialoid-Preference-Library-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-19 22:47:07,180 INFO  SysUtils - Configuration on demand is an incubating feature.
+:socialoidlibrary:preBuild UP-TO-DATE
+:socialoidlibrary:preDebugBuild UP-TO-DATE
+:socialoidlibrary:compileDebugNdk UP-TO-DATE
+:socialoidlibrary:compileLint
+:socialoidlibrary:copyDebugLint UP-TO-DATE
+:socialoidlibrary:mergeDebugProguardFiles UP-TO-DATE
+:socialoidlibrary:packageDebugRenderscript UP-TO-DATE
+:socialoidlibrary:checkDebugManifest
+:socialoidlibrary:prepareDebugDependencies
+:socialoidlibrary:compileDebugRenderscript UP-TO-DATE
+:socialoidlibrary:generateDebugResValues UP-TO-DATE
+:socialoidlibrary:generateDebugResources UP-TO-DATE
+:socialoidlibrary:packageDebugResources UP-TO-DATE
+:socialoidlibrary:compileDebugAidl UP-TO-DATE
+:socialoidlibrary:generateDebugBuildConfig UP-TO-DATE
+:socialoidlibrary:generateDebugAssets UP-TO-DATE
+:socialoidlibrary:mergeDebugAssets UP-TO-DATE
+:socialoidlibrary:processDebugManifest UP-TO-DATE
+:socialoidlibrary:processDebugResources UP-TO-DATE
+:socialoidlibrary:generateDebugSources UP-TO-DATE
+:socialoidlibrary:compileDebugJavaWithJavac UP-TO-DATE
+:socialoidlibrary:processDebugJavaRes UP-TO-DATE
+:socialoidlibrary:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:socialoidlibrary:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:socialoidlibrary:mergeDebugJniLibFolders UP-TO-DATE
+:socialoidlibrary:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:socialoidlibrary:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:socialoidlibrary:bundleDebug UP-TO-DATE
+:socialoidlibrary:compileDebugSources UP-TO-DATE
+:socialoidlibrary:assembleDebug UP-TO-DATE
+:socialoidlibrary:preReleaseBuild UP-TO-DATE
+:socialoidlibrary:compileReleaseNdk UP-TO-DATE
+:socialoidlibrary:copyReleaseLint UP-TO-DATE
+:socialoidlibrary:mergeReleaseProguardFiles UP-TO-DATE
+:socialoidlibrary:packageReleaseRenderscript UP-TO-DATE
+:socialoidlibrary:checkReleaseManifest
+:socialoidlibrary:prepareReleaseDependencies
+:socialoidlibrary:compileReleaseRenderscript UP-TO-DATE
+:socialoidlibrary:generateReleaseResValues UP-TO-DATE
+:socialoidlibrary:generateReleaseResources UP-TO-DATE
+:socialoidlibrary:packageReleaseResources UP-TO-DATE
+:socialoidlibrary:compileReleaseAidl UP-TO-DATE
+:socialoidlibrary:generateReleaseBuildConfig UP-TO-DATE
+:socialoidlibrary:generateReleaseAssets UP-TO-DATE
+:socialoidlibrary:mergeReleaseAssets UP-TO-DATE
+:socialoidlibrary:processReleaseManifest UP-TO-DATE
+:socialoidlibrary:processReleaseResources UP-TO-DATE
+:socialoidlibrary:generateReleaseSources UP-TO-DATE
+:socialoidlibrary:compileReleaseJavaWithJavac UP-TO-DATE
+:socialoidlibrary:processReleaseJavaRes UP-TO-DATE
+:socialoidlibrary:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:socialoidlibrary:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:socialoidlibrary:mergeReleaseJniLibFolders UP-TO-DATE
+:socialoidlibrary:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:socialoidlibrary:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:socialoidlibrary:bundleRelease UP-TO-DATE
+:socialoidlibrary:compileReleaseSources UP-TO-DATE
+:socialoidlibrary:assembleRelease UP-TO-DATE
+:socialoidlibrary:sourcesJar UP-TO-DATE
+:socialoidlibrary:assemble UP-TO-DATE
+:socialoidlibrary:build
+
+BUILD SUCCESSFUL
+
+Total time: 4.034 secs
+
+2019-01-19 22:47:07,192 ERROR FullProcessService - Project build has not produced APK file
+2019-01-19 22:47:07,204 ERROR FullProcessService - Could not find generated or existed APK file

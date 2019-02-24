@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.leocardz.link.preview",
+    "label" : "LeoCardz Link Preview",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1",
+    "versionCode" : 1,
+    "installLocation" : "preferExternal",
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1762,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.1\" android:installLocation=\"preferExternal\" package=\"com.leocardz.link.preview\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0b0004\" android:label=\"LeoCardz Link Preview\" android:icon=\"res/drawable-xxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:screenOrientation=\"portrait\" android:allowBackup=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0b0004\" android:label=\"LeoCardz Link Preview\" android:name=\"com.leocardz.link.preview.Main\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.SEND\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<data android:mimeType=\"text/plain\" />\n\t\t\t</intent-filter>\n\t\t\t<intent-filter>\n\t\t\t\t<data android:scheme=\"http\" android:host=\"*\" />\n\t\t\t\t<data android:scheme=\"https\" android:host=\"*\" />\n\t\t\t\t<action android:name=\"android.intent.action.VIEW\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"android.intent.category.BROWSABLE\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1421769,
+  "crc32" : 3234865947,
+  "sha256" : "db6453cf629690757865e2f3baae5457d66f6aa1189df607c202e13e58f4fa8f",
+  "buildTime" : 1548512580000
+}

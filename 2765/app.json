@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.asha.nightowl",
+    "label" : "NightOwl",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "7",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1881,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.asha.nightowl\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"7\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f090086\" android:label=\"NightOwl\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.asha.nightowl.MainApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f090030\" android:name=\"com.asha.nightowl.DemoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f090031\" android:label=\"DetailActivity\" android:name=\"com.asha.nightowl.DetailActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f090030\" android:label=\"SettingActivity\" android:name=\"com.asha.nightowl.SettingActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3416604,
+  "crc32" : 3196226788,
+  "sha256" : "8a1c8b3ed2943c063ad5309f2c5ff298efdd338fd4ef40a0eb85ccf72491f3e9",
+  "buildTime" : 1548161097000
+}

@@ -1,0 +1,67 @@
+2019-01-19 18:42:55,293 INFO  DownloadService - Downloading "https://github.com/mannodermaus/retrofit-logansquare/archive/master.zip", attempt 3
+2019-01-19 18:42:55,787 INFO  DownloadService - Downloaded https://github.com/mannodermaus/retrofit-logansquare/archive/master.zip, attempt 3
+2019-01-19 18:42:55,787 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/master.zip": 75 KB
+2019-01-19 18:42:55,787 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 18:42:55,787 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/master.zip: true
+2019-01-19 18:42:55,787 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src'.
+2019-01-19 18:42:55,799 INFO  FullProcessService - Size of directory with sources: 105 KB
+2019-01-19 18:42:55,799 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src]
+2019-01-19 18:42:55,820 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/.git/
+
+2019-01-19 18:42:55,823 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/gradlew
+2019-01-19 18:42:55,826 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/converter-logansquare/build.gradle
+2019-01-19 18:42:55,828 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/converter-logansquare/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/settings.gradle
+2019-01-19 18:42:55,828 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 18:42:55,828 INFO  ProjectFixService - Fixing project...
+2019-01-19 18:42:55,834 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/local.properties
+2019-01-19 18:42:55,834 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.2-bin.zip
+2019-01-19 18:42:55,839 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 18:42:55,840 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 18:42:55,842 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/converter-logansquare/local.properties
+2019-01-19 18:42:55,845 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/converter-logansquare/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 18:42:55,845 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/converter-logansquare/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 18:42:55,846 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 18:42:55,847 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 18:42:55,847 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 18:43:22,329 INFO  ProjectTaskService - Detected possible tasks: 52
+2019-01-19 18:43:22,329 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-19 18:43:22,329 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-19 18:43:30,668 INFO  SysUtils - Configuration on demand is an incubating feature.
+:converter-logansquare:compileJava
+Download https://jcenter.bintray.com/com/bluelinelabs/logansquare/1.3.7/logansquare-1.3.7.pom
+Download https://jcenter.bintray.com/com/bluelinelabs/logansquare/1.3.7/logansquare-1.3.7.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+:converter-logansquare:processResources NO-SOURCE
+:converter-logansquare:classes
+:converter-logansquare:jar
+:converter-logansquare:javadocJar
+:converter-logansquare:sourcesJar
+:converter-logansquare:assemble
+:converter-logansquare:build
+
+BUILD SUCCESSFUL in 8s
+4 actionable tasks: 4 executed
+
+2019-01-19 18:43:30,673 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 18:43:30,673 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/converter-logansquare/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 18:43:34,358 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-01-19 18:43:34,358 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-19 18:43:34,358 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898175285-0/src/retrofit-logansquare-master/converter-logansquare/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-19 18:43:38,138 INFO  SysUtils - Configuration on demand is an incubating feature.
+:converter-logansquare:compileJava UP-TO-DATE
+:converter-logansquare:processResources NO-SOURCE
+:converter-logansquare:classes UP-TO-DATE
+:converter-logansquare:jar UP-TO-DATE
+:converter-logansquare:javadocJar UP-TO-DATE
+:converter-logansquare:sourcesJar UP-TO-DATE
+:converter-logansquare:assemble UP-TO-DATE
+:converter-logansquare:build
+
+BUILD SUCCESSFUL in 3s
+4 actionable tasks: 4 up-to-date
+
+2019-01-19 18:43:38,142 ERROR FullProcessService - Project build has not produced APK file
+2019-01-19 18:43:38,146 ERROR FullProcessService - Could not find generated or existed APK file

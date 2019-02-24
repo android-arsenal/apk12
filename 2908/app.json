@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "me.itangqi.waveloadingview",
+    "label" : "WaveLoadingView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "3.0",
+    "versionCode" : 7,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1715,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"7\" android:versionName=\"3.0\" package=\"me.itangqi.waveloadingview\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f08008e\" android:label=\"WaveLoadingView\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"me.itangqi.waveloadingview.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1429451,
+  "crc32" : 2532049202,
+  "sha256" : "3213aa9c0a979b6406f85723252177f93496747a882f92bf9b2be98147c93eed",
+  "buildTime" : 1510952481000
+}

@@ -1,0 +1,174 @@
+2019-01-19 23:07:43,210 INFO  DownloadService - Downloading "https://github.com/team-supercharge/rxsnappy/archive/master.zip", attempt 3
+2019-01-19 23:07:43,691 INFO  DownloadService - Downloaded https://github.com/team-supercharge/rxsnappy/archive/master.zip, attempt 3
+2019-01-19 23:07:43,691 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/master.zip": 79 KB
+2019-01-19 23:07:43,691 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 23:07:43,696 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/master.zip: true
+2019-01-19 23:07:43,697 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src'.
+2019-01-19 23:07:43,712 INFO  FullProcessService - Size of directory with sources: 134 KB
+2019-01-19 23:07:43,712 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src]
+2019-01-19 23:07:43,731 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/.git/
+
+2019-01-19 23:07:43,733 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/gradlew
+2019-01-19 23:07:43,736 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/rxsnappy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/build.gradle
+2019-01-19 23:07:43,738 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/rxsnappy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/settings.gradle
+2019-01-19 23:07:43,738 INFO  DownloadService - Downloading "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2019-01-19 23:07:44,528 INFO  DownloadService - Downloaded https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2019-01-19 23:07:44,528 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle
+2019-01-19 23:07:44,528 INFO  ProjectFixService - Fixing project...
+2019-01-19 23:07:44,541 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/rxsnappy/local.properties
+2019-01-19 23:07:44,541 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/rxsnappy/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-19 23:07:44,542 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/local.properties
+2019-01-19 23:07:44,543 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-01-19 23:07:44,543 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-01-19 23:07:44,544 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-19 23:07:44,545 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 23:07:44,545 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 23:07:44,545 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/rxsnappy/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 23:08:06,915 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-19 23:08:06,915 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-19 23:08:06,916 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/rxsnappy/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-19 23:08:14,170 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxsnappy:compileLint
+:rxsnappy:copyDebugLint UP-TO-DATE
+:rxsnappy:mergeDebugProguardFiles
+:rxsnappy:preBuild UP-TO-DATE
+:rxsnappy:preDebugBuild UP-TO-DATE
+:rxsnappy:checkDebugManifest
+:rxsnappy:preDebugAndroidTestBuild UP-TO-DATE
+:rxsnappy:preDebugUnitTestBuild UP-TO-DATE
+:rxsnappy:preReleaseBuild UP-TO-DATE
+:rxsnappy:preReleaseUnitTestBuild UP-TO-DATE
+:rxsnappy:prepareComSnappydbSnappydbLib052Library
+:rxsnappy:prepareDebugDependencies
+:rxsnappy:compileDebugAidl
+:rxsnappy:compileDebugRenderscript
+:rxsnappy:generateDebugBuildConfig
+:rxsnappy:generateDebugAssets UP-TO-DATE
+:rxsnappy:mergeDebugAssets
+:rxsnappy:generateDebugResValues
+:rxsnappy:generateDebugResources
+:rxsnappy:mergeDebugResources
+:rxsnappy:processDebugManifest
+:rxsnappy:processDebugResources
+:rxsnappy:generateDebugSources
+:rxsnappy:processDebugJavaRes UP-TO-DATE
+:rxsnappy:compileDebugJavaWithJavac
+:rxsnappy:packageDebugJar
+:rxsnappy:compileDebugNdk UP-TO-DATE
+:rxsnappy:packageDebugJniLibs UP-TO-DATE
+:rxsnappy:packageDebugLocalJar UP-TO-DATE
+:rxsnappy:packageDebugRenderscript UP-TO-DATE
+:rxsnappy:packageDebugResources
+:rxsnappy:bundleDebug
+:rxsnappy:compileDebugSources
+:rxsnappy:assembleDebug
+:rxsnappy:copyReleaseLint UP-TO-DATE
+:rxsnappy:mergeReleaseProguardFiles
+:rxsnappy:checkReleaseManifest
+:rxsnappy:prepareReleaseDependencies
+:rxsnappy:compileReleaseAidl
+:rxsnappy:compileReleaseRenderscript
+:rxsnappy:generateReleaseBuildConfig
+:rxsnappy:generateReleaseAssets UP-TO-DATE
+:rxsnappy:mergeReleaseAssets
+:rxsnappy:generateReleaseResValues
+:rxsnappy:generateReleaseResources
+:rxsnappy:mergeReleaseResources
+:rxsnappy:processReleaseManifest
+:rxsnappy:processReleaseResources
+:rxsnappy:generateReleaseSources
+:rxsnappy:processReleaseJavaRes UP-TO-DATE
+:rxsnappy:compileReleaseJavaWithJavac
+:rxsnappy:packageReleaseJar
+:rxsnappy:compileReleaseNdk UP-TO-DATE
+:rxsnappy:packageReleaseJniLibs UP-TO-DATE
+:rxsnappy:packageReleaseLocalJar UP-TO-DATE
+:rxsnappy:packageReleaseRenderscript UP-TO-DATE
+:rxsnappy:packageReleaseResources
+:rxsnappy:bundleRelease
+:rxsnappy:compileReleaseSources
+:rxsnappy:assembleRelease
+:rxsnappy:signArchives SKIPPED
+:rxsnappy:assemble
+:rxsnappy:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.749 secs
+
+2019-01-19 23:08:14,180 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 23:08:14,180 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 23:08:20,177 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-01-19 23:08:20,178 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-19 23:08:20,178 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914063200-0/src/rxsnappy-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-19 23:08:26,443 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxsnappy:compileLint
+:rxsnappy:copyDebugLint UP-TO-DATE
+:rxsnappy:mergeDebugProguardFiles UP-TO-DATE
+:rxsnappy:preBuild UP-TO-DATE
+:rxsnappy:preDebugBuild UP-TO-DATE
+:rxsnappy:checkDebugManifest
+:rxsnappy:preDebugAndroidTestBuild UP-TO-DATE
+:rxsnappy:preDebugUnitTestBuild UP-TO-DATE
+:rxsnappy:preReleaseBuild UP-TO-DATE
+:rxsnappy:preReleaseUnitTestBuild UP-TO-DATE
+:rxsnappy:prepareComSnappydbSnappydbLib052Library UP-TO-DATE
+:rxsnappy:prepareDebugDependencies
+:rxsnappy:compileDebugAidl UP-TO-DATE
+:rxsnappy:compileDebugRenderscript UP-TO-DATE
+:rxsnappy:generateDebugBuildConfig UP-TO-DATE
+:rxsnappy:generateDebugAssets UP-TO-DATE
+:rxsnappy:mergeDebugAssets UP-TO-DATE
+:rxsnappy:generateDebugResValues UP-TO-DATE
+:rxsnappy:generateDebugResources UP-TO-DATE
+:rxsnappy:mergeDebugResources UP-TO-DATE
+:rxsnappy:processDebugManifest UP-TO-DATE
+:rxsnappy:processDebugResources UP-TO-DATE
+:rxsnappy:generateDebugSources UP-TO-DATE
+:rxsnappy:processDebugJavaRes UP-TO-DATE
+:rxsnappy:compileDebugJavaWithJavac UP-TO-DATE
+:rxsnappy:packageDebugJar UP-TO-DATE
+:rxsnappy:compileDebugNdk UP-TO-DATE
+:rxsnappy:packageDebugJniLibs UP-TO-DATE
+:rxsnappy:packageDebugLocalJar UP-TO-DATE
+:rxsnappy:packageDebugRenderscript UP-TO-DATE
+:rxsnappy:packageDebugResources UP-TO-DATE
+:rxsnappy:bundleDebug UP-TO-DATE
+:rxsnappy:compileDebugSources UP-TO-DATE
+:rxsnappy:assembleDebug UP-TO-DATE
+:rxsnappy:copyReleaseLint UP-TO-DATE
+:rxsnappy:mergeReleaseProguardFiles UP-TO-DATE
+:rxsnappy:checkReleaseManifest
+:rxsnappy:prepareReleaseDependencies
+:rxsnappy:compileReleaseAidl UP-TO-DATE
+:rxsnappy:compileReleaseRenderscript UP-TO-DATE
+:rxsnappy:generateReleaseBuildConfig UP-TO-DATE
+:rxsnappy:generateReleaseAssets UP-TO-DATE
+:rxsnappy:mergeReleaseAssets UP-TO-DATE
+:rxsnappy:generateReleaseResValues UP-TO-DATE
+:rxsnappy:generateReleaseResources UP-TO-DATE
+:rxsnappy:mergeReleaseResources UP-TO-DATE
+:rxsnappy:processReleaseManifest UP-TO-DATE
+:rxsnappy:processReleaseResources UP-TO-DATE
+:rxsnappy:generateReleaseSources UP-TO-DATE
+:rxsnappy:processReleaseJavaRes UP-TO-DATE
+:rxsnappy:compileReleaseJavaWithJavac UP-TO-DATE
+:rxsnappy:packageReleaseJar UP-TO-DATE
+:rxsnappy:compileReleaseNdk UP-TO-DATE
+:rxsnappy:packageReleaseJniLibs UP-TO-DATE
+:rxsnappy:packageReleaseLocalJar UP-TO-DATE
+:rxsnappy:packageReleaseRenderscript UP-TO-DATE
+:rxsnappy:packageReleaseResources UP-TO-DATE
+:rxsnappy:bundleRelease UP-TO-DATE
+:rxsnappy:compileReleaseSources UP-TO-DATE
+:rxsnappy:assembleRelease UP-TO-DATE
+:rxsnappy:signArchives SKIPPED
+:rxsnappy:assemble
+:rxsnappy:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.734 secs
+
+2019-01-19 23:08:26,454 ERROR FullProcessService - Project build has not produced APK file
+2019-01-19 23:08:26,463 ERROR FullProcessService - Could not find generated or existed APK file

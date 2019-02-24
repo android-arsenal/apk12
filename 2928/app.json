@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "open.currency.debug",
+    "label" : "Monety",
+    "icon" : "res/mipmap-anydpi-v26/ic_launcher.xml",
+    "versionName" : "2.0.1 debug",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "17",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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"
+  },
+  "dexClasses" : 1097,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"2.0.1 debug\" package=\"open.currency.debug\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0900a6\" android:label=\"Monety\" android:icon=\"res/mipmap-anydpi-v26/ic_launcher.xml\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:name=\"open.currency.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.4.0\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1031223,
+  "crc32" : 2941781803,
+  "sha256" : "a15c05dc9ec79060adc7f52aa2bfd6edf3174b879f977267e0901d1e5c178397",
+  "buildTime" : 1522355026000
+}

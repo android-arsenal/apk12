@@ -1,0 +1,4 @@
+{
+  "io.github.mthli.knife" : [ "BuildConfig", "KnifeBulletSpan", "KnifeParser", "KnifePart", "KnifeQuoteSpan", "KnifeTagHandler", "KnifeTagHandler$1", "KnifeTagHandler$Li", "KnifeTagHandler$Strike", "KnifeText", "KnifeURLSpan", "R", "R$attr", "R$string", "R$styleable" ],
+  "io.github.mthli.knifedemo" : [ "BuildConfig", "MainActivity", "MainActivity$1", "MainActivity$10", "MainActivity$11", "MainActivity$12", "MainActivity$13", "MainActivity$14", "MainActivity$15", "MainActivity$16", "MainActivity$17", "MainActivity$18", "MainActivity$2", "MainActivity$3", "MainActivity$4", "MainActivity$5", "MainActivity$6", "MainActivity$7", "MainActivity$8", "MainActivity$9", "R", "R$attr", "R$color", "R$dimen", "R$drawable", "R$id", "R$layout", "R$menu", "R$mipmap", "R$string", "R$style", "R$styleable" ]
+}

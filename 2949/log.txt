@@ -1,0 +1,396 @@
+2019-01-26 21:18:55,939 INFO  DownloadService - Downloading "https://github.com/theScrabi/NewPipe/archive/master.zip", attempt 3
+2019-01-26 21:18:59,786 INFO  DownloadService - Downloaded https://github.com/theScrabi/NewPipe/archive/master.zip, attempt 3
+2019-01-26 21:18:59,786 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/master.zip": 3 MB
+2019-01-26 21:18:59,786 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-26 21:18:59,795 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/master.zip: true
+2019-01-26 21:18:59,795 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src'.
+2019-01-26 21:19:00,078 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-01-26 21:19:00,078 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src]
+2019-01-26 21:19:00,097 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/.git/
+
+2019-01-26 21:19:00,119 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/gradlew
+2019-01-26 21:19:00,141 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/build.gradle
+2019-01-26 21:19:00,164 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/settings.gradle
+2019-01-26 21:19:00,164 INFO  ProjectBuildService - Remote scripts: none
+2019-01-26 21:19:00,164 INFO  ProjectFixService - Fixing project...
+2019-01-26 21:19:00,208 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/local.properties
+2019-01-26 21:19:00,208 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-26 21:19:00,208 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/local.properties
+2019-01-26 21:19:00,209 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-26 21:19:00,209 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-26 21:19:00,210 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-26 21:19:00,210 INFO  ProjectFixService - Project was maybe fixed
+2019-01-26 21:19:00,210 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-26 21:19:00,210 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-26 21:19:07,317 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-01-26 21:19:07,317 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-26 21:19:07,317 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-26 21:20:22,526 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/rxjava2/1.1.1/rxjava2-1.1.1.aar
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+warn: removing resource org.schabi.newpipe.debug:string/always_ask_player without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/caption_font_size_settings_title without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/disable_leak_canary_notice without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/enable_leak_canary_notice without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/larger_caption_font_size without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/live without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/live_sync without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/m4a_description without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/normal_caption_font_size without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/playback_default without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/playback_nightcore without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/player_gesture_controls_summary without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/player_gesture_controls_title without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/search_language_title without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/smaller_caption_font_size without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/toggle_leak_canary without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/use_old_player_summary without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/use_old_player_title without required default value.
+warn: removing resource org.schabi.newpipe.debug:string/webm_description without required default value.
+
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformClassesWithMultidexlistForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:app:extractProguardFiles
+:app:preReleaseBuild
+:app:compileReleaseAidl NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+warn: removing resource org.schabi.newpipe:string/always_ask_player without required default value.
+warn: removing resource org.schabi.newpipe:string/caption_font_size_settings_title without required default value.
+warn: removing resource org.schabi.newpipe:string/disable_leak_canary_notice without required default value.
+warn: removing resource org.schabi.newpipe:string/enable_leak_canary_notice without required default value.
+warn: removing resource org.schabi.newpipe:string/larger_caption_font_size without required default value.
+warn: removing resource org.schabi.newpipe:string/live without required default value.
+warn: removing resource org.schabi.newpipe:string/live_sync without required default value.
+warn: removing resource org.schabi.newpipe:string/m4a_description without required default value.
+warn: removing resource org.schabi.newpipe:string/normal_caption_font_size without required default value.
+warn: removing resource org.schabi.newpipe:string/playback_default without required default value.
+warn: removing resource org.schabi.newpipe:string/playback_nightcore without required default value.
+warn: removing resource org.schabi.newpipe:string/player_gesture_controls_summary without required default value.
+warn: removing resource org.schabi.newpipe:string/player_gesture_controls_title without required default value.
+warn: removing resource org.schabi.newpipe:string/search_language_title without required default value.
+warn: removing resource org.schabi.newpipe:string/smaller_caption_font_size without required default value.
+warn: removing resource org.schabi.newpipe:string/toggle_leak_canary without required default value.
+warn: removing resource org.schabi.newpipe:string/use_old_player_summary without required default value.
+warn: removing resource org.schabi.newpipe:string/use_old_player_title without required default value.
+warn: removing resource org.schabi.newpipe:string/webm_description without required default value.
+
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.TeamNewPipe/NewPipeExtractor/99915e4527c0/1901407b3479a143ace5653b6aeee1319d493e80/NewPipeExtractor-99915e4527c0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/f49a5698f051e0404a1a441979f72cdb/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/filepicker-4.2.1.aar/eee0029d3002cac115e8e30968cabbce/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v14-28.0.0.aar/d1df2db238aa7779040ac7ad93122a4e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v7-28.0.0.aar/fe2a9c4beb622d37d78bec64c7402d91/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ff328b0b9518bad5ac93414ebf9f0215/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/0a654e1e7a04d431466dc7603a3dda7d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/118ce1a075c86cf8b1aec17bac495eec/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/01f33127fb2f4db325a6e22b67c8afda/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/31b62a7fd13a2f575fee29dde1003331/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6f6e9349719d1af62aa849acf5e00df1/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.5/442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375/universal-image-loader-1.9.5.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/88124e3c1e74608aec4fe5a5b3d1acda/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/ParallaxScroll-dd53d1f9d1.aar/8ddffca35d2b59cb61316dcd1324d562/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/exoplayer-2.8.4.aar/c7600d5fd185cb220c347c10cbe62942/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/extension-mediasession-2.8.4.aar/f9b2c05b3681d696e911897160d448eb/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxbinding-2.1.1.aar/de5ee379fc1f155965d186334dac6cc0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxjava2-1.1.1.aar/08bf8bfac48947a0217a546330d0c35c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/463751e2f8ed2f7f77de066d6c3878bb/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.2/db2277cb0641bd8bd2f491fab555d37345351d6/rxjava-2.2.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3b4186fef7ec920a74b9aa65c7f1e78c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/frankiesardo/icepick/3.2.0/5ab94f3bba3f9315532eb1ca5547d120c4f71dae/icepick-3.2.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/leakcanary-android-no-op-1.5.4.aar/1e616708623cdb82db2cdca7423f524c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.TeamNewPipe.NewPipeExtractor/extractor/99915e4527c0/a6db3c529a70d6a5e2add7a843fbbc6d306b3c00/extractor-99915e4527c0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.TeamNewPipe.NewPipeExtractor/NewPipeExtractor/99915e4527c0/e4c4ed10dbcb015e3825193f8d91922fbd8e5bf2/NewPipeExtractor-99915e4527c0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.TeamNewPipe.NewPipeExtractor/timeago-parser/99915e4527c0/cc1937beb30453d3da81a883e4bf7dfed5ba8401/timeago-parser-99915e4527c0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a812f45f94445c6f0f273ce4f8a658dd/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/f451e4cb50bfa2ad5158cfbd98c5e747/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7ea6978e686773cf1f8980c957d630a4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/e63943be94919ac6823edda7bdd6fdc2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f749194de4dbed4f9d1554b5873ad07f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/94feff748b42e514a2e944dc3f3daa7e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/58a524e5094277af7005140f7cf94232/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/199fc6a2440414ab18dfac1cf8c31496/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ff53afccebb67e334c9f4ca1d71a3e55/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/e4b7a052d32ea432bd007cfcdae228ea/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/41d686fc2911923500e4be8694262263/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e6e755fb85aa9f6282fd373be1d7054c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/fdb80a860580acde1d79ec0a92be56de/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/dbe7341593d11495e47da2aba13948d8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.8.4.aar/5312122cb0c88ce577c91d01ca5deb5d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/85fc84e80792c67c279f8829fafc81e2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/230a1a110f29733db2f3bd726890ccc8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1f7c97906718bd1304800b3a5c5c2457/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-2.8.4.aar/212027d2aaf208602e63054e8c29a278/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-2.8.4.aar/95ea34a49899518210df5f0b349b0a6b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-2.8.4.aar/3c67d2a9113eef16a89a085ae1ab32d7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/exoplayer-core-2.8.4.aar/73602e06404fe81404a4608c15b48335/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/common/1.1.1/8094cc50760b9ac665a8ea76b51888f70042e2b5/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/00c5f8b44cd98976e4af82bfd5ee1409/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/dfac214b26bda3c7fc06187701b849e9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/90455eb899b8911c362223f1aa6ac719/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/d6816d594197c0058830bbd84368cbdf/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ea2aabf5e54cc919eb79e39222546ff8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/93d9d73d9ce9b1e09c0bb843bb06d4be/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/eb0f4fe2a3d8ac4ddacd2d9f001092bc/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/5f3568cf36ac9bbf2ad6c47f1395751e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/05d453d047984312df28d6a2ccdd1cae/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a1c8a0c5a22cbba93a0a4a729634a233/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/157e9c01f98f6a44e58fe0b65fe8511c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/efcea9852dbcf7442e46a8d29ffa3b25/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.grack/nanojson/1.1/b1868e80c472d8c61b86c244a14ac5c18c946cb5/nanojson-1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.9.2/5e3bda828a80c7a21dfbe2308d1755759c2fd7b4/jsoup-1.9.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mozilla/rhino/1.7.7.1/2e8f8ebc42e5df8bcef5c78dd44387176c9aa98e/rhino-1.7.7.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.spotbugs/spotbugs-annotations/3.1.0/920bf3ce75a8c76488db07c3827b1cfd0c30b89/spotbugs-annotations-3.1.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.nibor.autolink/autolink/0.8.0/9e848ef7e71d2744f0da2ef2d712ad37925f00b6/autolink-0.8.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
+Initializing...
+Note: the configuration refers to the unknown class 'org.schabi.newpipe.player.old.PlayVideoActivity'
+Note: com.google.android.exoplayer2.util.Util: can't find dynamically referenced class android.os.SystemProperties
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class com.android.org.conscrypt.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform$CloseGuard: can't find dynamically referenced class dalvik.system.CloseGuard
+Note: okhttp3.internal.platform.ConscryptPlatform: can't find dynamically referenced class org.conscrypt.ConscryptEngineSocket
+Note: okhttp3.internal.platform.Platform: can't find dynamically referenced class sun.security.ssl.SSLContextImpl
+Note: there were 1 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 6 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4803
+  Final number of library classes:    1740
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 7575
+  Final number of program classes:    4833
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.TeamNewPipe/NewPipeExtractor/99915e4527c0/1901407b3479a143ace5653b6aeee1319d493e80/NewPipeExtractor-99915e4527c0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/f49a5698f051e0404a1a441979f72cdb/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/filepicker-4.2.1.aar/eee0029d3002cac115e8e30968cabbce/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v14-28.0.0.aar/d1df2db238aa7779040ac7ad93122a4e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v7-28.0.0.aar/fe2a9c4beb622d37d78bec64c7402d91/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ff328b0b9518bad5ac93414ebf9f0215/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/0a654e1e7a04d431466dc7603a3dda7d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/118ce1a075c86cf8b1aec17bac495eec/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/01f33127fb2f4db325a6e22b67c8afda/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/31b62a7fd13a2f575fee29dde1003331/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6f6e9349719d1af62aa849acf5e00df1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.5/442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375/universal-image-loader-1.9.5.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/88124e3c1e74608aec4fe5a5b3d1acda/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/ParallaxScroll-dd53d1f9d1.aar/8ddffca35d2b59cb61316dcd1324d562/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/exoplayer-2.8.4.aar/c7600d5fd185cb220c347c10cbe62942/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/extension-mediasession-2.8.4.aar/f9b2c05b3681d696e911897160d448eb/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxbinding-2.1.1.aar/de5ee379fc1f155965d186334dac6cc0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxjava2-1.1.1.aar/08bf8bfac48947a0217a546330d0c35c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/463751e2f8ed2f7f77de066d6c3878bb/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.2/db2277cb0641bd8bd2f491fab555d37345351d6/rxjava-2.2.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3b4186fef7ec920a74b9aa65c7f1e78c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/frankiesardo/icepick/3.2.0/5ab94f3bba3f9315532eb1ca5547d120c4f71dae/icepick-3.2.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/leakcanary-android-no-op-1.5.4.aar/1e616708623cdb82db2cdca7423f524c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.TeamNewPipe.NewPipeExtractor/extractor/99915e4527c0/a6db3c529a70d6a5e2add7a843fbbc6d306b3c00/extractor-99915e4527c0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.TeamNewPipe.NewPipeExtractor/NewPipeExtractor/99915e4527c0/e4c4ed10dbcb015e3825193f8d91922fbd8e5bf2/NewPipeExtractor-99915e4527c0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.TeamNewPipe.NewPipeExtractor/timeago-parser/99915e4527c0/cc1937beb30453d3da81a883e4bf7dfed5ba8401/timeago-parser-99915e4527c0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a812f45f94445c6f0f273ce4f8a658dd/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/f451e4cb50bfa2ad5158cfbd98c5e747/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7ea6978e686773cf1f8980c957d630a4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/e63943be94919ac6823edda7bdd6fdc2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f749194de4dbed4f9d1554b5873ad07f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/94feff748b42e514a2e944dc3f3daa7e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/58a524e5094277af7005140f7cf94232/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/199fc6a2440414ab18dfac1cf8c31496/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ff53afccebb67e334c9f4ca1d71a3e55/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/e4b7a052d32ea432bd007cfcdae228ea/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/41d686fc2911923500e4be8694262263/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e6e755fb85aa9f6282fd373be1d7054c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/fdb80a860580acde1d79ec0a92be56de/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/dbe7341593d11495e47da2aba13948d8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.8.4.aar/5312122cb0c88ce577c91d01ca5deb5d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/85fc84e80792c67c279f8829fafc81e2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/230a1a110f29733db2f3bd726890ccc8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1f7c97906718bd1304800b3a5c5c2457/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-2.8.4.aar/212027d2aaf208602e63054e8c29a278/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-2.8.4.aar/95ea34a49899518210df5f0b349b0a6b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-2.8.4.aar/3c67d2a9113eef16a89a085ae1ab32d7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/exoplayer-core-2.8.4.aar/73602e06404fe81404a4608c15b48335/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/common/1.1.1/8094cc50760b9ac665a8ea76b51888f70042e2b5/common-1.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/00c5f8b44cd98976e4af82bfd5ee1409/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/dfac214b26bda3c7fc06187701b849e9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/90455eb899b8911c362223f1aa6ac719/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/d6816d594197c0058830bbd84368cbdf/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ea2aabf5e54cc919eb79e39222546ff8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/93d9d73d9ce9b1e09c0bb843bb06d4be/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/eb0f4fe2a3d8ac4ddacd2d9f001092bc/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/5f3568cf36ac9bbf2ad6c47f1395751e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/05d453d047984312df28d6a2ccdd1cae/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a1c8a0c5a22cbba93a0a4a729634a233/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/157e9c01f98f6a44e58fe0b65fe8511c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/efcea9852dbcf7442e46a8d29ffa3b25/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.grack/nanojson/1.1/b1868e80c472d8c61b86c244a14ac5c18c946cb5/nanojson-1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.9.2/5e3bda828a80c7a21dfbe2308d1755759c2fd7b4/jsoup-1.9.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.mozilla/rhino/1.7.7.1/2e8f8ebc42e5df8bcef5c78dd44387176c9aa98e/rhino-1.7.7.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.spotbugs/spotbugs-annotations/3.1.0/920bf3ce75a8c76488db07c3827b1cfd0c30b89/spotbugs-annotations-3.1.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.nibor.autolink/autolink/0.8.0/9e848ef7e71d2744f0da2ef2d712ad37925f00b6/autolink-0.8.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+:app:transformClassesWithDexBuilderForRelease
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.JPanel` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.FileHeader.paint(java.awt.Graphics)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.SwingUtilities` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.shell.ConsoleWriter.flushBuffer()`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.JPopupMenu` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.FilePopupMenu.show(javax.swing.JComponent, int, int)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.Box` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.MoreWindows.<init>(org.mozilla.javascript.tools.debugger.SwingGui, java.util.Map, java.lang.String, java.lang.String)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.BorderFactory` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.MoreWindows.<init>(org.mozilla.javascript.tools.debugger.SwingGui, java.util.Map, java.lang.String, java.lang.String)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.JInternalFrame` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.EvalWindow.setEnabled(boolean)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.UIManager` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.shell.JSConsole.actionPerformed(java.awt.event.ActionEvent)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.JOptionPane` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.shell.JSConsole.actionPerformed(java.awt.event.ActionEvent)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.JTextArea` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.EvalTextArea.select(int, int)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.KeyStroke` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.Menubar.<init>(org.mozilla.javascript.tools.debugger.SwingGui)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.UIManager` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.Menubar.actionPerformed(java.awt.event.ActionEvent)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.SwingUtilities` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.Menubar.actionPerformed(java.awt.event.ActionEvent)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.JTree` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellRenderer.updateUI()`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.UIManager` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellRenderer.updateUI()`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.SwingUtilities` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter.delayedFireTableDataChanged()`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.JFrame` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.SwingGui.setVisible(boolean)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `java.awt.Toolkit` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.SwingGui.dispatchNextGuiEvent()`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.JTextArea` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.shell.ConsoleTextArea.select(int, int)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.Box` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.FindFunction.<init>(org.mozilla.javascript.tools.debugger.SwingGui, java.lang.String, java.lang.String)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.BorderFactory` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.FindFunction.<init>(org.mozilla.javascript.tools.debugger.SwingGui, java.lang.String, java.lang.String)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.JTable` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.treetable.JTreeTable.<init>(org.mozilla.javascript.tools.debugger.treetable.TreeTableModel)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.LookAndFeel` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.treetable.JTreeTable.updateUI()`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `java.awt.event.ActionListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.FileTextArea` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `java.awt.event.KeyListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.FileTextArea` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `java.awt.event.MouseListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.FileTextArea` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `javax.swing.event.PopupMenuListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.FileTextArea` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `javax.swing.event.DocumentListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.EvalTextArea` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `javax.swing.table.TableCellRenderer` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellRenderer` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `java.awt.event.MouseListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.FileHeader` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `java.awt.event.ActionListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.ContextWindow` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `java.awt.event.ContainerListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.ContextWindow$2` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `javax.swing.tree.TreeModel` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.VariableModel` is correct. Desugaring will assume that this interface has no default method. This missing interface is declared in the direct hierarchy of `org.mozilla.javascript.tools.debugger.treetable.TreeTableModel(classpath class)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `java.awt.event.ActionListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.JSInternalConsole` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `com.android.internal.util.Predicate` not found. It's needed to make sure desugaring of `org.acra.collector.LogCatCollector$1` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `javax.swing.event.TreeModelListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter$2` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.tree.DefaultTreeSelectionModel` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.treetable.JTreeTable$ListToTreeSelectionModelWrapper.resetRowSelection()`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `javax.swing.JOptionPane` was not found, it is required for default or static interface methods desugaring of `void org.mozilla.javascript.tools.debugger.MessageDialogWrapper.showMessageDialog(java.awt.Component, java.lang.String, java.lang.String, int)`
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `java.awt.event.ActionListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.EvalWindow` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `javax.swing.event.ListSelectionListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.treetable.JTreeTable$ListToTreeSelectionModelWrapper$ListSelectionHandler` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `javax.swing.CellEditor` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.treetable.AbstractCellEditor` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `java.awt.event.ComponentListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.ContextWindow$1` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `javax.swing.event.TreeExpansionListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter$1` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `java.awt.event.KeyListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.shell.ConsoleTextArea` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `javax.swing.event.DocumentListener` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.shell.ConsoleTextArea` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `javax.swing.table.TableCellEditor` not found. It's needed to make sure desugaring of `org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellEditor` is correct. Desugaring will assume that this interface has no default method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Interface `com.android.internal.util.Predicate` not found. It's needed to make sure desugaring of `org.acra.util.IOUtils$1` is correct. Desugaring will assume that this interface has no default method.
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformClassesAndDexWithShrinkResForRelease
+Removed unused resources: Binary resource data reduced from 2736KB to 2700KB: Removed 1%
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 14s
+56 actionable tasks: 56 executed
+
+2019-01-26 21:20:22,728 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512335936-0/src/NewPipe-master/app/build/outputs/apk/debug/app-debug.apk

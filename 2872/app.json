@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "me.everything.overscrolldemo",
+    "label" : "OverscrollDemo",
+    "icon" : "res/drawable-ldpi-v4/app_icon.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi-v4/app_icon.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2211,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"me.everything.overscrolldemo\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0800a7\" android:label=\"OverscrollDemo\" android:icon=\"res/drawable-ldpi-v4/app_icon.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f080040\" android:label=\"OverscrollDemo\" android:name=\"me.everything.overscrolldemo.OverScrollDemoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1935390,
+  "crc32" : 925325843,
+  "sha256" : "2c7da3e554ff2e3ee2e96906319bda9e01efa4f7dc18055b5628672d41cedc2d",
+  "buildTime" : 1524205660000
+}

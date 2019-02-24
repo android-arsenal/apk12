@@ -1,0 +1,131 @@
+2019-01-20 19:19:28,149 INFO  DownloadService - Downloading "https://github.com/shaunkawano/AspectLogger/archive/master.zip", attempt 3
+2019-01-20 19:20:28,768 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-20 19:20:29,886 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-20 19:20:29,887 INFO  DownloadService - Downloading "https://github.com/shaunkawano/AspectLogger/archive/master.zip", attempt 3
+2019-01-20 19:21:31,268 DEBUG FullProcessService - Repository https://github.com/shaunkawano/AspectLogger available: true
+2019-01-20 19:21:31,269 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-20 19:21:31,269 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/shaunkawano/AspectLogger, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src]
+2019-01-20 19:21:33,234 INFO  SysUtils - 
+2019-01-20 19:21:33,268 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/.git": true
+2019-01-20 19:21:33,271 INFO  FullProcessService - Size of directory with sources: 148 KB
+2019-01-20 19:21:33,271 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src]
+2019-01-20 19:21:33,290 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/.git/
+
+2019-01-20 19:21:33,292 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/gradlew
+2019-01-20 19:21:33,295 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/aspect-logger-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/reveal/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/build.gradle
+2019-01-20 19:21:33,298 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/reveal/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/aspect-logger-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/settings.gradle
+2019-01-20 19:21:33,298 INFO  ProjectBuildService - Remote scripts: none
+2019-01-20 19:21:33,298 INFO  ProjectFixService - Fixing project...
+2019-01-20 19:21:33,307 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/aspect-logger-sample/local.properties
+2019-01-20 19:21:33,308 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/aspect-logger-sample/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-20 19:21:33,308 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/aspect-logger-sample/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=28,targetSdkVersion=28]
+2019-01-20 19:21:33,309 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/reveal/local.properties
+2019-01-20 19:21:33,310 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/reveal/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-20 19:21:33,310 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/reveal/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=28,targetSdkVersion=28]
+2019-01-20 19:21:33,312 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/local.properties
+2019-01-20 19:21:33,312 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-01-20 19:21:33,313 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-01-20 19:21:33,314 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-20 19:21:33,315 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=28,targetSdkVersion=28]
+2019-01-20 19:21:33,315 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 19:21:33,315 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 19:21:33,315 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/aspect-logger-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 19:22:11,067 INFO  ProjectTaskService - Detected possible tasks: 55
+2019-01-20 19:22:11,067 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-20 19:22:11,067 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/aspect-logger-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-20 19:22:38,212 INFO  SysUtils - Configuration on demand is an incubating feature.
+:aspect-logger-sample:preBuild
+:aspect-logger-sample:compileDebugNdk
+:aspect-logger-sample:preDebugBuild
+:aspect-logger-sample:checkDebugManifest
+:aspect-logger-sample:preReleaseBuild
+:reveal:compileLint
+:reveal:copyReleaseLint UP-TO-DATE
+:reveal:mergeReleaseProguardFiles
+:reveal:preBuild
+:reveal:preReleaseBuild
+:reveal:checkReleaseManifest
+:reveal:prepareReleaseDependencies
+:reveal:compileReleaseAidl
+:reveal:compileReleaseRenderscript
+:reveal:generateReleaseBuildConfig
+:reveal:generateReleaseAssets UP-TO-DATE
+:reveal:mergeReleaseAssets
+:reveal:generateReleaseResValues
+:reveal:generateReleaseResources
+:reveal:packageReleaseResources
+:reveal:processReleaseManifest
+:reveal:processReleaseResources
+:reveal:generateReleaseSources
+:reveal:compileReleaseJava
+:reveal:processReleaseJavaRes UP-TO-DATE
+:reveal:packageReleaseJar
+:reveal:compileReleaseNdk
+:reveal:packageReleaseJniLibs UP-TO-DATE
+:reveal:packageReleaseLocalJar UP-TO-DATE
+:reveal:packageReleaseRenderscript UP-TO-DATE
+:reveal:bundleRelease
+:aspect-logger-sample:prepareComAndroidSupportAppcompatV72200Library
+:aspect-logger-sample:prepareComAndroidSupportSupportV42200Library
+:aspect-logger-sample:prepareComS_heiAspectloggerReveal011Library
+:aspect-logger-sample:prepareDebugDependencies
+:aspect-logger-sample:compileDebugAidl
+:aspect-logger-sample:compileDebugRenderscript
+:aspect-logger-sample:generateDebugBuildConfig
+:aspect-logger-sample:generateDebugAssets UP-TO-DATE
+:aspect-logger-sample:mergeDebugAssets
+:aspect-logger-sample:generateDebugResValues
+:aspect-logger-sample:generateDebugResources
+:aspect-logger-sample:mergeDebugResources/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/aspect-logger-sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:aspect-logger-sample:processDebugManifest
+:aspect-logger-sample:processDebugResources
+:aspect-logger-sample:generateDebugSources
+:aspect-logger-sample:compileDebugAspectj
+:aspect-logger-sample:compileDebugJava
+:aspect-logger-sample:preDexDebugwarning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.aspectj.runtime.internal.cflowstack.ThreadStackFactoryImpl$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+:aspect-logger-sample:dexDebug
+:aspect-logger-sample:processDebugJavaRes UP-TO-DATE
+:aspect-logger-sample:validateDebugSigning
+:aspect-logger-sample:packageDebug
+:aspect-logger-sample:zipalignDebug
+:aspect-logger-sample:assembleDebug
+:aspect-logger-sample:checkReleaseManifest
+:aspect-logger-sample:prepareReleaseDependencies
+:aspect-logger-sample:compileReleaseAidl
+:aspect-logger-sample:compileReleaseRenderscript
+:aspect-logger-sample:generateReleaseBuildConfig
+:aspect-logger-sample:generateReleaseAssets UP-TO-DATE
+:aspect-logger-sample:mergeReleaseAssets
+:aspect-logger-sample:generateReleaseResValues
+:aspect-logger-sample:generateReleaseResources
+:aspect-logger-sample:mergeReleaseResources/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/aspect-logger-sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:aspect-logger-sample:processReleaseManifest
+:aspect-logger-sample:processReleaseResources
+:aspect-logger-sample:generateReleaseSources
+:aspect-logger-sample:compileReleaseAspectj
+:aspect-logger-sample:compileReleaseJava
+:aspect-logger-sample:lintVitalRelease
+:aspect-logger-sample:compileReleaseNdk
+:aspect-logger-sample:preDexRelease
+:aspect-logger-sample:dexRelease
+:aspect-logger-sample:processReleaseJavaRes UP-TO-DATE
+:aspect-logger-sample:packageRelease
+:aspect-logger-sample:assembleRelease
+:aspect-logger-sample:assemble
+:aspect-logger-sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 26.58 secs
+
+2019-01-20 19:22:38,259 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986768146-0/src/aspect-logger-sample/build/outputs/apk/aspect-logger-sample-debug-unaligned.apk

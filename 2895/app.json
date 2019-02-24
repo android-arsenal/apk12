@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.jaredrummler.android.processes.sample",
+    "label" : "Android Processes",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 174,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.jaredrummler.android.processes.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"25\" />\n\t<application android:label=\"Android Processes\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.jaredrummler.android.processes.sample.App\" android:allowBackup=\"true\">\n\t\t<activity android:name=\"com.jaredrummler.android.processes.sample.activities.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 122112,
+  "crc32" : 2007399428,
+  "sha256" : "a7a31de4fa7d939a743c0ac87f0e5ed4a178500c1a2d05e967f25804c62fd49f",
+  "buildTime" : 1522546538000
+}

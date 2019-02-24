@@ -1,0 +1,734 @@
+2019-01-19 23:24:51,554 INFO  DownloadService - Downloading "https://github.com/hongyangAndroid/AndroidAutoLayout/archive/master.zip", attempt 3
+2019-01-19 23:24:56,132 INFO  DownloadService - Downloaded https://github.com/hongyangAndroid/AndroidAutoLayout/archive/master.zip, attempt 3
+2019-01-19 23:24:56,133 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/master.zip": 2 MB
+2019-01-19 23:24:56,133 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 23:24:56,139 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/master.zip: true
+2019-01-19 23:24:56,140 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src'.
+2019-01-19 23:24:56,233 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-01-19 23:24:56,234 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src]
+2019-01-19 23:24:56,253 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/.git/
+
+2019-01-19 23:24:56,261 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/gradlew
+2019-01-19 23:24:56,270 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout-widget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/widgetsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/build.gradle
+2019-01-19 23:24:56,278 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/widgetsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout-widget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/settings.gradle
+2019-01-19 23:24:56,278 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 23:24:56,278 INFO  ProjectFixService - Fixing project...
+2019-01-19 23:24:56,297 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/app/local.properties
+2019-01-19 23:24:56,297 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-19 23:24:56,298 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout-widget/local.properties
+2019-01-19 23:24:56,298 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout-widget/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-19 23:24:56,299 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/local.properties
+2019-01-19 23:24:56,300 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2019-01-19 23:24:56,301 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/sample/local.properties
+2019-01-19 23:24:56,301 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/sample/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-19 23:24:56,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/widgetsample/local.properties
+2019-01-19 23:24:56,302 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/widgetsample/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-19 23:24:56,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/local.properties
+2019-01-19 23:24:56,303 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-01-19 23:24:56,303 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-01-19 23:24:56,304 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-19 23:24:56,304 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 23:24:56,304 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 23:24:56,304 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 23:24:59,530 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-19 23:24:59,531 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-19 23:24:59,531 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-19 23:24:59,531 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-19 23:25:01,536 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-19 23:25:01,536 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/app/build.gradle' line: 1
+
+* What went wrong:
+A problem occurred evaluating root project 'app'.
+> Failed to apply plugin [id 'com.android.application']
+   > Plugin with id 'com.android.application' not found.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'app'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:54)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:148)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:59)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:504)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:83)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:129)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to apply plugin [id 'com.android.application']
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyPlugin(DefaultObjectConfigurationAction.java:117)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:36)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:80)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:131)
+	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:37)
+	at org.gradle.api.Project$apply.call(Unknown Source)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.groovy:34)
+	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
+	at build_e6ceck5p4c5lokl8zr06zvxr0.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/app/build.gradle:1)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:52)
+	... 35 more
+Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.android.application' not found.
+	at org.gradle.api.internal.plugins.DefaultPluginRegistry.getTypeForId(DefaultPluginRegistry.java:94)
+	at org.gradle.api.internal.plugins.DefaultPluginContainer.getTypeForId(DefaultPluginContainer.java:183)
+	at org.gradle.api.internal.plugins.DefaultPluginContainer.apply(DefaultPluginContainer.java:103)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyPlugin(DefaultObjectConfigurationAction.java:115)
+	... 44 more
+
+
+BUILD FAILED
+
+Total time: 1.821 secs
+
+2019-01-19 23:25:01,546 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 23:25:01,546 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout-widget/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 23:25:24,628 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-19 23:25:24,629 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-19 23:25:24,629 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-19 23:25:24,629 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout-widget/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-19 23:25:52,936 INFO  SysUtils - Configuration on demand is an incubating feature.
+:autolayout-widget:compileLint
+:autolayout-widget:copyDebugLint UP-TO-DATE
+:autolayout:compileLint
+:autolayout:copyReleaseLint UP-TO-DATE
+:autolayout:preBuild UP-TO-DATE
+:autolayout:preReleaseBuild UP-TO-DATE
+:autolayout:checkReleaseManifest
+:autolayout:preDebugAndroidTestBuild UP-TO-DATE
+:autolayout:preDebugBuild UP-TO-DATE
+:autolayout:preDebugUnitTestBuild UP-TO-DATE
+:autolayout:preReleaseUnitTestBuild UP-TO-DATE
+:autolayout:prepareComAndroidSupportAppcompatV72301Library
+:autolayout:prepareComAndroidSupportSupportV42301Library
+:autolayout:prepareReleaseDependencies
+:autolayout:compileReleaseAidl
+:autolayout:compileReleaseRenderscript
+:autolayout:generateReleaseBuildConfig
+:autolayout:generateReleaseAssets UP-TO-DATE
+:autolayout:mergeReleaseAssets
+:autolayout:generateReleaseResValues
+:autolayout:generateReleaseResources
+:autolayout:mergeReleaseResources
+:autolayout:processReleaseManifest
+:autolayout:processReleaseResources
+:autolayout:generateReleaseSources
+:autolayout:processReleaseJavaRes UP-TO-DATE
+:autolayout:compileReleaseJava
+:autolayout:extractReleaseAnnotations
+:autolayout:mergeReleaseProguardFiles
+:autolayout:packageReleaseJar
+:autolayout:compileReleaseNdk UP-TO-DATE
+:autolayout:packageReleaseJniLibs UP-TO-DATE
+:autolayout:packageReleaseLocalJar UP-TO-DATE
+:autolayout:packageReleaseRenderscript UP-TO-DATE
+:autolayout:packageReleaseResources
+:autolayout:bundleRelease
+:autolayout-widget:preBuild UP-TO-DATE
+:autolayout-widget:preDebugBuild UP-TO-DATE
+:autolayout-widget:checkDebugManifest
+:autolayout-widget:preDebugAndroidTestBuild UP-TO-DATE
+:autolayout-widget:preDebugUnitTestBuild UP-TO-DATE
+:autolayout-widget:preReleaseBuild UP-TO-DATE
+:autolayout-widget:preReleaseUnitTestBuild UP-TO-DATE
+:autolayout-widget:prepareComAndroidSupportAppcompatV72311Library
+:autolayout-widget:prepareComAndroidSupportCardviewV72310Library
+:autolayout-widget:prepareComAndroidSupportDesign2311Library
+:autolayout-widget:prepareComAndroidSupportGridlayoutV72310Library
+:autolayout-widget:prepareComAndroidSupportRecyclerviewV72311Library
+:autolayout-widget:prepareComAndroidSupportSupportV42311Library
+:autolayout-widget:prepareComZhyAutolayout145Library
+:autolayout-widget:prepareDebugDependencies
+:autolayout-widget:compileDebugAidl
+:autolayout-widget:compileDebugRenderscript
+:autolayout-widget:generateDebugBuildConfig
+:autolayout-widget:generateDebugAssets UP-TO-DATE
+:autolayout-widget:mergeDebugAssets
+:autolayout-widget:generateDebugResValues
+:autolayout-widget:generateDebugResources
+:autolayout-widget:mergeDebugResources
+:autolayout-widget:processDebugManifest
+:autolayout-widget:processDebugResources
+:autolayout-widget:generateDebugSources
+:autolayout-widget:processDebugJavaRes UP-TO-DATE
+:autolayout-widget:compileDebugJava
+:autolayout-widget:extractDebugAnnotations
+:autolayout-widget:mergeDebugProguardFiles
+:autolayout-widget:packageDebugJar
+:autolayout-widget:compileDebugNdk UP-TO-DATE
+:autolayout-widget:packageDebugJniLibs UP-TO-DATE
+:autolayout-widget:packageDebugLocalJar UP-TO-DATE
+:autolayout-widget:packageDebugRenderscript UP-TO-DATE
+:autolayout-widget:packageDebugResources
+:autolayout-widget:bundleDebug
+:autolayout-widget:compileDebugSources
+:autolayout-widget:assembleDebug
+:autolayout-widget:copyReleaseLint UP-TO-DATE
+:autolayout-widget:checkReleaseManifest
+:autolayout-widget:prepareReleaseDependencies
+:autolayout-widget:compileReleaseAidl
+:autolayout-widget:compileReleaseRenderscript
+:autolayout-widget:generateReleaseBuildConfig
+:autolayout-widget:generateReleaseAssets UP-TO-DATE
+:autolayout-widget:mergeReleaseAssets
+:autolayout-widget:generateReleaseResValues
+:autolayout-widget:generateReleaseResources
+:autolayout-widget:mergeReleaseResources
+:autolayout-widget:processReleaseManifest
+:autolayout-widget:processReleaseResources
+:autolayout-widget:generateReleaseSources
+:autolayout-widget:processReleaseJavaRes UP-TO-DATE
+:autolayout-widget:compileReleaseJava
+:autolayout-widget:extractReleaseAnnotations
+:autolayout-widget:mergeReleaseProguardFiles
+:autolayout-widget:packageReleaseJar
+:autolayout-widget:compileReleaseNdk UP-TO-DATE
+:autolayout-widget:packageReleaseJniLibs UP-TO-DATE
+:autolayout-widget:packageReleaseLocalJar UP-TO-DATE
+:autolayout-widget:packageReleaseRenderscript UP-TO-DATE
+:autolayout-widget:packageReleaseResources
+:autolayout-widget:bundleRelease
+:autolayout-widget:compileReleaseSources
+:autolayout-widget:assembleRelease
+:autolayout-widget:assemble
+:autolayout-widget:lint
+Ran lint on variant debug: 4 issues found
+Ran lint on variant release: 4 issues found
+Wrote HTML report to file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout-widget/build/outputs/lint-results.html
+Wrote XML report to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout-widget/build/outputs/lint-results.xml
+:autolayout-widget:preCompileDebugUnitTestJava
+:autolayout-widget:prepareDebugUnitTestDependencies
+:autolayout-widget:processDebugUnitTestJavaRes UP-TO-DATE
+:autolayout-widget:compileDebugUnitTestJava UP-TO-DATE
+:autolayout-widget:compileDebugUnitTestSources UP-TO-DATE
+:autolayout-widget:mockableAndroidJar
+:autolayout-widget:assembleDebugUnitTest
+:autolayout-widget:testDebug
+:autolayout-widget:preCompileReleaseUnitTestJava
+:autolayout-widget:prepareReleaseUnitTestDependencies
+:autolayout-widget:processReleaseUnitTestJavaRes UP-TO-DATE
+:autolayout-widget:compileReleaseUnitTestJava UP-TO-DATE
+:autolayout-widget:compileReleaseUnitTestSources UP-TO-DATE
+:autolayout-widget:assembleReleaseUnitTest
+:autolayout-widget:testRelease
+:autolayout-widget:test
+:autolayout-widget:check
+:autolayout-widget:build
+
+BUILD SUCCESSFUL
+
+Total time: 27.753 secs
+
+2019-01-19 23:25:53,040 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 23:25:53,040 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 23:26:00,862 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-19 23:26:00,862 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-19 23:26:00,862 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-19 23:26:00,862 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-19 23:26:12,663 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-19 23:26:12,663 INFO  SysUtils - Configuration on demand is an incubating feature.
+:autolayout:compileLint
+:autolayout:copyDebugLint UP-TO-DATE
+:autolayout:preBuild UP-TO-DATE
+:autolayout:preDebugBuild UP-TO-DATE
+:autolayout:checkDebugManifest
+:autolayout:preDebugAndroidTestBuild UP-TO-DATE
+:autolayout:preDebugUnitTestBuild UP-TO-DATE
+:autolayout:preReleaseBuild UP-TO-DATE
+:autolayout:preReleaseUnitTestBuild UP-TO-DATE
+:autolayout:prepareComAndroidSupportAppcompatV72301Library UP-TO-DATE
+:autolayout:prepareComAndroidSupportSupportV42301Library UP-TO-DATE
+:autolayout:prepareDebugDependencies
+:autolayout:compileDebugAidl
+:autolayout:compileDebugRenderscript
+:autolayout:generateDebugBuildConfig
+:autolayout:generateDebugAssets UP-TO-DATE
+:autolayout:mergeDebugAssets
+:autolayout:generateDebugResValues
+:autolayout:generateDebugResources
+:autolayout:mergeDebugResources
+:autolayout:processDebugManifest
+:autolayout:processDebugResources
+:autolayout:generateDebugSources
+:autolayout:processDebugJavaRes UP-TO-DATE
+:autolayout:compileDebugJava
+:autolayout:extractDebugAnnotations
+:autolayout:mergeDebugProguardFiles
+:autolayout:packageDebugJar
+:autolayout:compileDebugNdk UP-TO-DATE
+:autolayout:packageDebugJniLibs UP-TO-DATE
+:autolayout:packageDebugLocalJar UP-TO-DATE
+:autolayout:packageDebugRenderscript UP-TO-DATE
+:autolayout:packageDebugResources
+:autolayout:bundleDebug
+:autolayout:compileDebugSources
+:autolayout:assembleDebug
+:autolayout:copyReleaseLint UP-TO-DATE
+:autolayout:checkReleaseManifest
+:autolayout:prepareReleaseDependencies
+:autolayout:compileReleaseAidl UP-TO-DATE
+:autolayout:compileReleaseRenderscript UP-TO-DATE
+:autolayout:generateReleaseBuildConfig UP-TO-DATE
+:autolayout:generateReleaseAssets UP-TO-DATE
+:autolayout:mergeReleaseAssets UP-TO-DATE
+:autolayout:generateReleaseResValues UP-TO-DATE
+:autolayout:generateReleaseResources UP-TO-DATE
+:autolayout:mergeReleaseResources UP-TO-DATE
+:autolayout:processReleaseManifest UP-TO-DATE
+:autolayout:processReleaseResources UP-TO-DATE
+:autolayout:generateReleaseSources UP-TO-DATE
+:autolayout:processReleaseJavaRes UP-TO-DATE
+:autolayout:compileReleaseJava UP-TO-DATE
+:autolayout:extractReleaseAnnotations UP-TO-DATE
+:autolayout:mergeReleaseProguardFiles UP-TO-DATE
+:autolayout:packageReleaseJar UP-TO-DATE
+:autolayout:compileReleaseNdk UP-TO-DATE
+:autolayout:packageReleaseJniLibs UP-TO-DATE
+:autolayout:packageReleaseLocalJar UP-TO-DATE
+:autolayout:packageReleaseRenderscript UP-TO-DATE
+:autolayout:packageReleaseResources UP-TO-DATE
+:autolayout:bundleRelease UP-TO-DATE
+:autolayout:compileReleaseSources UP-TO-DATE
+:autolayout:assembleRelease UP-TO-DATE
+:autolayout:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/src/main/java/com/zhy/autolayout/utils/AutoLayoutHelper.java:26: error: cannot find symbol
+import com.zhy.autolayout.R;
+                         ^
+  symbol:   class R
+  location: package com.zhy.autolayout
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/src/main/java/com/zhy/autolayout/AutoLayoutActivity.java:4: error: package android.support.v7.app does not exist
+import android.support.v7.app.AppCompatActivity;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/src/main/java/com/zhy/autolayout/AutoLayoutActivity.java:13: error: cannot find symbol
+public class AutoLayoutActivity extends AppCompatActivity
+                                        ^
+  symbol: class AppCompatActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/src/main/java/com/zhy/autolayout/widget/MetroLayout.java:11: error: cannot find symbol
+import com.zhy.autolayout.R;
+                         ^
+  symbol:   class R
+  location: package com.zhy.autolayout
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/src/main/java/com/zhy/autolayout/utils/AutoUtils.java:6: error: cannot find symbol
+import com.zhy.autolayout.R;
+                         ^
+  symbol:   class R
+  location: package com.zhy.autolayout
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/src/main/java/com/zhy/autolayout/attr/Attrs.java:5: error: self-closing element not allowed
+ * <p/>
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/src/main/java/com/zhy/autolayout/utils/AutoUtils.java:20: warning: no description for @param
+     * @param view
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/src/main/java/com/zhy/autolayout/utils/AutoUtils.java:31: warning: no description for @param
+     * @param view
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/src/main/java/com/zhy/autolayout/utils/ScreenUtils.java:12: error: self-closing element not allowed
+ * Created by zhy on 15/12/4.<br/>
+                             ^
+
+2 errors
+7 warnings
+:autolayout:javadoc FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':autolayout:javadoc'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/build/tmp/javadoc/javadoc.options'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':autolayout:javadoc'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/autolayout/build/tmp/javadoc/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:55)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:140)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:128)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:218)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:579)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:562)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/bin/javadoc'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:365)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:31)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:52)
+	... 58 more
+
+
+BUILD FAILED
+
+Total time: 11.294 secs
+
+2019-01-19 23:26:12,770 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 23:26:12,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 23:26:20,506 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-19 23:26:20,506 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-19 23:26:20,506 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-19 23:26:20,507 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-19 23:26:50,617 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-19 23:26:50,619 INFO  SysUtils - Configuration on demand is an incubating feature.
+:autolayout:compileLint
+:autolayout:copyReleaseLint UP-TO-DATE
+:autolayout:preBuild UP-TO-DATE
+:autolayout:preReleaseBuild UP-TO-DATE
+:autolayout:checkReleaseManifest
+:autolayout:preDebugAndroidTestBuild UP-TO-DATE
+:autolayout:preDebugBuild UP-TO-DATE
+:autolayout:preDebugUnitTestBuild UP-TO-DATE
+:autolayout:preReleaseUnitTestBuild UP-TO-DATE
+:autolayout:prepareComAndroidSupportAppcompatV72301Library UP-TO-DATE
+:autolayout:prepareComAndroidSupportSupportV42301Library UP-TO-DATE
+:autolayout:prepareReleaseDependencies
+:autolayout:compileReleaseAidl UP-TO-DATE
+:autolayout:compileReleaseRenderscript UP-TO-DATE
+:autolayout:generateReleaseBuildConfig UP-TO-DATE
+:autolayout:generateReleaseAssets UP-TO-DATE
+:autolayout:mergeReleaseAssets UP-TO-DATE
+:autolayout:generateReleaseResValues UP-TO-DATE
+:autolayout:generateReleaseResources UP-TO-DATE
+:autolayout:mergeReleaseResources UP-TO-DATE
+:autolayout:processReleaseManifest UP-TO-DATE
+:autolayout:processReleaseResources UP-TO-DATE
+:autolayout:generateReleaseSources UP-TO-DATE
+:autolayout:processReleaseJavaRes UP-TO-DATE
+:autolayout:compileReleaseJava UP-TO-DATE
+:autolayout:extractReleaseAnnotations UP-TO-DATE
+:autolayout:mergeReleaseProguardFiles UP-TO-DATE
+:autolayout:packageReleaseJar UP-TO-DATE
+:autolayout:compileReleaseNdk UP-TO-DATE
+:autolayout:packageReleaseJniLibs UP-TO-DATE
+:autolayout:packageReleaseLocalJar UP-TO-DATE
+:autolayout:packageReleaseRenderscript UP-TO-DATE
+:autolayout:packageReleaseResources UP-TO-DATE
+:autolayout:bundleRelease UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAppcompatV72310Library
+:sample:prepareComAndroidSupportCardviewV72310Library
+:sample:prepareComAndroidSupportDesign2310Library
+:sample:prepareComAndroidSupportRecyclerviewV72320Library
+:sample:prepareComAndroidSupportSupportV42320Library
+:sample:prepareComZhyAutolayout145Library
+:sample:prepareComZhyBaseAdapter202Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/sample/build/intermediates/exploded-aar/com.zhy/base-adapter/2.0.2/res/mipmap-hdpi/icon_photo.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:compileDebugJavaNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/sample/src/main/java/com/zhy/sample/view/DividerItemDecoration.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:preDexDebug
+:sample:dexDebug
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResourcesAAPT err(482025728) : No Delegate set : lost message:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/sample/build/intermediates/exploded-aar/com.zhy/base-adapter/2.0.2/res/mipmap-hdpi/icon_photo.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:compileReleaseJavaNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/sample/src/main/java/com/zhy/sample/view/DividerItemDecoration.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:lintVitalRelease SKIPPED
+:sample:preDexRelease
+:sample:dexRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:compileLint
+:sample:lint
+Ran lint on variant debug: 233 issues found
+Ran lint on variant release: 233 issues found
+Wrote HTML report to file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/sample/build/outputs/lint-results.html
+Wrote XML report to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/sample/build/outputs/lint-results.xml
+:sample:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':sample:lint'.
+> Lint found errors in the project; aborting build.
+  
+  Fix the issues identified by lint, or add the following to your build script to proceed with errors:
+  ...
+  android {
+      lintOptions {
+          abortOnError false
+      }
+  }
+  ...
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.GradleException: Lint found errors in the project; aborting build.
+
+Fix the issues identified by lint, or add the following to your build script to proceed with errors:
+...
+android {
+    lintOptions {
+        abortOnError false
+    }
+}
+...
+	at com.android.build.gradle.tasks.Lint.abort(Lint.groovy:166)
+	at com.android.build.gradle.tasks.Lint.lintAllVariants(Lint.groovy:131)
+	at com.android.build.gradle.tasks.Lint$lintAllVariants$0.callCurrent(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:77)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:218)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:579)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:562)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+
+
+BUILD FAILED
+
+Total time: 29.51 secs
+
+2019-01-19 23:26:50,808 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547915091550-0/src/AndroidAutoLayout-master/sample/build/outputs/apk/sample-debug-unaligned.apk

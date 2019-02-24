@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.mikhaellopez.androidwebserver",
+    "label" : "AndroidWebServer",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_WIFI_STATE", "android.permission.ACCESS_NETWORK_STATE", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.CAMERA" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACJVBMVEUAAACZmcystsupt8youMuot8ypt8uptsuvt8+otsyptsupt8uqu8ypt8upt8rMzMyqt8qpuMumsciptsuttsiqt8ususiquMuxvNOquMumsdOZzMyquMynsMpmfY9KZXapt8tSbH1CXm8sRFclO08aLkMpQFMXKj+qsc2quMsqQlUjOE0XKkAnPVETJjunt8tAaHQ4lomYS01tVV6GiGSalWGpt8s/bHY1pJA/bXawRkR7UlmzpF0uRlknPlIdMkcrQlWquspziJtac4REXW9HYHKqtcqotstKW3BWZnupt8qbqr+JnK9IXHBQZHeWprqpt8pcdIY6VWc0TmAzTF43UWMuR1kwSFs2UGJMZ3ipt8sfNEgbL0QPITept8tBYXBGXW1DXm5DX29HYW5Aa3UzsZY+dnu6RECUTE+fmGDYvFhbdIVBYnE6iINAZ3NmVmFrd2mKi2QvR1otRVgzTF8xSlxLZneRorV5jqFGXG9NYnZ6jqFieYtFXW9IYXMyS10kOk4hN0uotcw9e3xrVV9TWmhgcWpreGk+c3kyt5nQPzeQTVC3p13UuViss89fd4hAZnNOW2pFXW5KY25OZW0+Wms9WGo7Vmg+WWo7VWenucqntsqhscRKW3BVZnmqt82CkqdufZIzRVo7TGGIlauouMyquMxJWW4nOE4WKD4YK0BTYnhbbH8+T2UfMEYiNEpjc4ijscWdqsCjssaotcqqs8yntsvJvk4IAAAAt3RSTlMABTFfhJ+xuiBttcwegMcFYMEXlxywJbYXrxcFlh3t+3/3////////JMj//////3H///////+0/////////////zDn8/r6MF7r54PT3PHv1aDy//////////qy////u/////////////////P/////////////+tjk9PLj7/n4////cv//////////////JfH/////////////Hc3Q7elg2eDz8deWr+z3/fzp5u/6+ePO0M5hHjH4O2eAAAACT0lEQVRIx2NgGAKAkYmZhZWNnZ2NlYWZiZGgcg5OLm4kwMXJgVc5Dy8fNxrg4+XBqZxfQJAbCxAU4MeuXkiYGwcQFsKmXkSUGycQFcFULybOjQeIi6Grl5DkxgskpVDVS8twEwAy0igamLkJAmZk9bKQ8JSTxwrkIKEri6RBAWKIohIcKKuoqqmrAQlVFTVFiKwCQr2GJoYGLW0dXT1dIKGjrQvVoKkB16APdaaigaGBkbGJKXYN3PrwIDKDaTC3sLSyNrUBarC1s3dQdQAS9nYOMA1msIByhAWEkzMcuLgi2E4weTeoBncsgejhiUXQHarBCybg7QMHvn4Itj9M3guqIQAmEIgIpaDgkNCwUCARHhoRCZMPgGqIggk4IzSERcfoxuoCCWBQycPko6Aa4hAa4pUSEpOScWmIw9CQkpqWnpGZRUgD3EnZObl51vkFhUANoUXFJbolQEKtpLQM3UlwT5dXwEFlFYLtg+5pL2LjwQs94qpr4KC2DsGuRo84N5gAUmqtV24oaiwCEg3KRYroSQOR+PAmb0TiY2iCaYhvjm9pbWvHoaEJMwN1dHZ0dff04shAfRhZtF9pgtLESZOnADVMnTZ9xswZQGL6tBn9GFmUYRakEJg9Bw7mzkOwZ0MKgVnIxcZ8wvEwH19BtmDhosULl6AILUUtyBiklkEllq8AgpWxQLAKxFoNFV4mhaswXrMWCNaBNKwHsTbgKoxRi/uNm4BgM/7invQKBVhlbcFeZW3hx1nLbcVWKW6lZrULrti3ISr2bYxDoSkCANvZ4Gp9RyvoAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 1806,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.mikhaellopez.androidwebserver\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<application android:theme=\"resourceId:0x7f090030\" android:label=\"AndroidWebServer\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.mikhaellopez.androidwebserver.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t\t<action android:name=\"android.net.wifi.WIFI_STATE_CHANGED\" />\n\t\t\t\t<action android:name=\"android.net.wifi.STATE_CHANGE\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1473917,
+  "crc32" : 2385007168,
+  "sha256" : "c6775ed6e4db40a02b6ba99868302afcb4efdb4326cd62ff6bc9e7a2b1027122",
+  "buildTime" : 1496784511000
+}

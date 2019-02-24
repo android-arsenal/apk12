@@ -1,0 +1,172 @@
+2019-01-19 19:22:07,619 INFO  DownloadService - Downloading "https://github.com/florent37/ViewAnimator/archive/master.zip", attempt 3
+2019-01-19 19:22:10,808 INFO  DownloadService - Downloaded https://github.com/florent37/ViewAnimator/archive/master.zip, attempt 3
+2019-01-19 19:22:10,808 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/master.zip": 1 MB
+2019-01-19 19:22:10,808 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 19:22:10,814 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/master.zip: true
+2019-01-19 19:22:10,815 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src'.
+2019-01-19 19:22:10,847 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-19 19:22:10,847 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src]
+2019-01-19 19:22:10,866 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/.git/
+
+2019-01-19 19:22:10,869 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/gradlew
+2019-01-19 19:22:10,873 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/sample2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/viewanimator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/build.gradle
+2019-01-19 19:22:10,880 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/sample2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/viewanimator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/settings.gradle
+2019-01-19 19:22:10,881 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 19:22:10,881 INFO  ProjectFixService - Fixing project...
+2019-01-19 19:22:10,890 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/sample/local.properties
+2019-01-19 19:22:10,894 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 19:22:10,894 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 19:22:10,895 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/sample2/local.properties
+2019-01-19 19:22:10,898 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/sample2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 19:22:10,898 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/sample2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 19:22:10,899 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/viewanimator/local.properties
+2019-01-19 19:22:10,902 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/viewanimator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 19:22:10,903 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/viewanimator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 19:22:10,903 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/local.properties
+2019-01-19 19:22:10,904 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-19 19:22:10,904 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-19 19:22:10,907 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 19:22:10,907 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 19:22:10,908 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 19:22:10,908 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 19:22:10,908 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 19:22:21,178 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-01-19 19:22:21,178 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 19:22:21,178 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 19:22:51,959 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:viewanimator:preBuild UP-TO-DATE
+:viewanimator:preDebugBuild UP-TO-DATE
+:viewanimator:checkDebugManifest
+:viewanimator:processDebugManifest
+:sample:preDebugBuild
+:viewanimator:compileDebugAidl NO-SOURCE
+:sample:compileDebugAidl NO-SOURCE
+:viewanimator:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:viewanimator:compileDebugRenderscript
+:viewanimator:generateDebugResValues
+:viewanimator:generateDebugResources
+:viewanimator:packageDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:viewanimator:generateDebugRFile
+:sample:processDebugResources
+:sample:generateDebugSources
+:viewanimator:generateDebugBuildConfig
+:viewanimator:prepareLintJar
+:viewanimator:generateDebugSources
+:viewanimator:javaPreCompileDebug
+:viewanimator:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/viewanimator/src/main/java/com/github/florent37/viewanimator/AnimationBuilder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:viewanimator:processDebugJavaRes NO-SOURCE
+:viewanimator:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:viewanimator:mergeDebugShaders
+:viewanimator:compileDebugShaders
+:viewanimator:generateDebugAssets
+:viewanimator:packageDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:sample:mergeDebugJniLibFolders
+:viewanimator:compileDebugNdk NO-SOURCE
+:viewanimator:mergeDebugJniLibFolders
+:viewanimator:transformNativeLibsWithMergeJniLibsForDebug
+:viewanimator:transformNativeLibsWithStripDebugSymbolForDebug
+:viewanimator:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:checkReleaseClasspath
+:viewanimator:preReleaseBuild UP-TO-DATE
+:viewanimator:checkReleaseManifest
+:viewanimator:processReleaseManifest
+:sample:preReleaseBuild
+:viewanimator:compileReleaseAidl NO-SOURCE
+:sample:compileReleaseAidl NO-SOURCE
+:viewanimator:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:viewanimator:compileReleaseRenderscript
+:viewanimator:generateReleaseResValues
+:viewanimator:generateReleaseResources
+:viewanimator:packageReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:viewanimator:generateReleaseRFile
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:viewanimator:generateReleaseBuildConfig
+:viewanimator:generateReleaseSources
+:viewanimator:javaPreCompileRelease
+:viewanimator:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/viewanimator/src/main/java/com/github/florent37/viewanimator/AnimationBuilder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:viewanimator:processReleaseJavaRes NO-SOURCE
+:viewanimator:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/f43c6b015a4997e5a8b8d0775603bd74/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:viewanimator:mergeReleaseShaders
+:viewanimator:compileReleaseShaders
+:viewanimator:generateReleaseAssets
+:viewanimator:packageReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:sample:mergeReleaseJniLibFolders
+:viewanimator:compileReleaseNdk NO-SOURCE
+:viewanimator:mergeReleaseJniLibFolders
+:viewanimator:transformNativeLibsWithMergeJniLibsForRelease
+:viewanimator:transformNativeLibsWithStripDebugSymbolForRelease
+:viewanimator:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 30s
+90 actionable tasks: 90 executed
+
+2019-01-19 19:22:52,040 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547900527611-0/src/ViewAnimator-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

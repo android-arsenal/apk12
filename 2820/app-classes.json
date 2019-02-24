@@ -1,0 +1,4 @@
+{
+  "codemonkeylabs.androidzipcodelib.library" : [ "AppPreferences", "BuildConfig", "R", "R$drawable", "R$raw", "R$string", "ZipResult", "ZipcodeDataSource", "ZipcodeDatabase", "ZipcodeLib", "ZipcodeLib$1", "ZipcodeLib$2", "ZipcodeLib$3", "ZipcodeLib$4", "ZipcodeLib$STATES", "ZipcodeListener", "ZipcodeUtility" ],
+  "codemonkeylabs.androidzipcodelib.sample" : [ "BuildConfig", "R", "R$attr", "R$drawable", "R$id", "R$layout", "R$raw", "R$string", "ZipcodeSample", "ZipcodeSample$1", "ZipcodeSample$2", "ZipcodeSample$Zipcodelistener", "ZipcodeSampleApplication" ]
+}

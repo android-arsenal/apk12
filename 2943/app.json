@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.hanks.htextview.example",
+    "label" : "HTextView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2438415",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABUFBMVEUAAAD////////////////////////////////+/v7+/v79/f38/Pz+/v79/f3w8PAAAAD8/Pz8/Pz9/f39/f3y8vLIyMjW1tb7+/vy8vKwsLDIyMj7+/uqqqry8vLb29v09PR2dnYAAACnp6ft7e2oqKi1tbV6enp7e3ssLCw3Nzd8fHzNzc3u7u7p6enq6upUVFRra2vs7Ozv7+/r6+vw8PDx8fEgICBsbGzz8/Pz8/P19fXq6ur09PSkpKTr6+v29vbX19fS0tLg4OD19fXs7Oz39/f29vb4+Pj39/ft7e3Ly8v5+fmmpqatra36+vr39/f39/f6+vrp6emHh4eqqqoAAADb29v////KysoAAAA3NzfLy8vr6+vv7+/u7u7q6urr6+vm5ubExMQ0NDQAAAAAAABGRkZgYGBcXFxbW1tdXV1mZmYAAAAAAAC/v7/1fSk/AAAAcHRSTlMAAwQCEx4dCpbo7JaY//+aAer5/fzqFyXv7yol7ir////////////////////////////////////8///v/Crv//////zv//z//O8n/ysc7P35/+wiAwip/60DKrDt8O/w8O2xLAkgQk1LTE0FCw4EJmDbVwAAAahJREFUSMfllllXgkAYQDFtsWIqtbLNJqI9ozQtRYuMWMo2y/a9tGz9/2+Rosx0gs9eeuk+cQ73zmHgnPlgmL/C1QDgonS3G16SdIxLT2OTI42eslb1m1u8rQDetuZa4WbaWQTT0WkGLsbThXz+gCN+H9vdw1R23sD0BlEAWj/A9vUbaiUYGKwrGLKC4H8PQsMEuI5ghCMY5X8ZjPE8GIxPTExOTnHc9IzBLB8Og5ueEwRhnuMWIhGeN/xwFHxLgrBYDkw/GgVf62I5qPmxGPgdzKDqx+LghysHlh+PQ8GSEZB+KAQHy5QfStQRkH4ygcGA8pMJMQUHhJ9Mi6kVKCB9nBZXoYDycVpyDNYymXXKx7JzgOjnwViUpQ3HAH3zRVkBAkT7ogoGiPKlOgJE+pKqwQEifEmnArvD2PIVXdu0gi3bg6zmK3p2c9sMXMzOLms3UGRZVlVV1/f2cweHTN4cWUfHuRP25GcUTdOyBjl8elSbcWfnF5dX11c/c/NF6vbu/uHMGqOF4uNTqVR6tsG49fJYLJCD+vXtHeDtlR7++Q+A/J/9xXwCDvXgJwfDKnQAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 1530,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.hanks.htextview.example\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2438415\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f090081\" android:label=\"HTextView\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.android.tools.fd.runtime.BootstrapApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.hanks.htextview.example.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 3885177,
+  "crc32" : 3721125086,
+  "sha256" : "27ed04bc966708d6d91b3defd34c3eadd9c82bfb467e3b1489b17a9fa713f116",
+  "buildTime" : 1547900457000
+}

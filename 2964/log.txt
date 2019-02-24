@@ -1,0 +1,159 @@
+2019-01-19 18:43:38,170 INFO  DownloadService - Downloading "https://github.com/JakeWharton/dex-method-list/archive/master.zip", attempt 3
+2019-01-19 18:43:38,917 INFO  DownloadService - Downloaded https://github.com/JakeWharton/dex-method-list/archive/master.zip, attempt 3
+2019-01-19 18:43:38,917 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/master.zip": 94 KB
+2019-01-19 18:43:38,917 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 18:43:38,923 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/master.zip: true
+2019-01-19 18:43:38,924 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/src'.
+2019-01-19 18:43:38,939 INFO  FullProcessService - Size of directory with sources: 148 KB
+2019-01-19 18:43:38,939 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/src]
+2019-01-19 18:43:38,957 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/src/.git/
+
+2019-01-19 18:43:38,959 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/src/dex-member-list-master/gradlew
+2019-01-19 18:43:38,962 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/src/dex-member-list-master/build.gradle
+2019-01-19 18:43:38,964 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/src/dex-member-list-master/build.gradle
+2019-01-19 18:43:38,964 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 18:43:38,964 INFO  ProjectFixService - Fixing project...
+2019-01-19 18:43:38,969 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/src/dex-member-list-master/local.properties
+2019-01-19 18:43:38,969 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-bin.zip
+2019-01-19 18:43:38,970 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/src/dex-member-list-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 18:43:38,970 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/src/dex-member-list-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 18:43:38,972 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 18:43:38,972 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 18:43:38,972 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/src/dex-member-list-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/src/dex-member-list-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 18:43:54,077 INFO  ProjectTaskService - Detected possible tasks: 56
+2019-01-19 18:43:54,078 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-19 18:43:54,078 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/src/dex-member-list-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/src/dex-member-list-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-19 18:44:45,186 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :compileKotlin
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :fatFieldsJar
+> Task :binaryFieldsJar
+> Task :fatMembersJar
+> Task :binaryMembersJar
+> Task :fatMethodsJar
+> Task :binaryMethodsJar
+> Task :copyBinaryMembers
+> Task :copyBinaryMethods
+> Task :copyFieldsMethods
+> Task :inspectClassesForKotlinIC
+> Task :jar
+
+> Task :dokka
+No documentation for com.jakewharton.dex$main(kotlin.Array((kotlin.String))) (DexMethods.kt:7)
+No documentation for com.jakewharton.dex$main(kotlin.Array((kotlin.String))) (DexFields.kt:7)
+No documentation for com.jakewharton.dex$main(kotlin.Array((kotlin.String))) (DexMembers.kt:5)
+No documentation for com.jakewharton.dex.DexMember (DexMember.kt:3)
+No documentation for com.jakewharton.dex.DexMember$declaringType (DexMember.kt:4)
+No documentation for com.jakewharton.dex.DexMember$name (DexMember.kt:5)
+No documentation for com.jakewharton.dex.DexMember$render(kotlin.Boolean) (DexMember.kt:7)
+No documentation for com.jakewharton.dex.DexMember$compareTo(com.jakewharton.dex.DexMember) (DexMember.kt:9)
+No documentation for com.jakewharton.dex.DexField$toString() (DexMember.kt:27)
+No documentation for com.jakewharton.dex.DexField$compareTo(com.jakewharton.dex.DexMember) (DexMember.kt:32)
+No documentation for com.jakewharton.dex.DexField$declaringType (DexMember.kt:23)
+No documentation for com.jakewharton.dex.DexField$name (DexMember.kt:24)
+No documentation for com.jakewharton.dex.DexField$type (DexMember.kt:25)
+No documentation for com.jakewharton.dex.DexField$declaringType (DexMember.kt:23)
+No documentation for com.jakewharton.dex.DexField$name (DexMember.kt:24)
+No documentation for com.jakewharton.dex.DexField$type (DexMember.kt:25)
+No documentation for com.jakewharton.dex.DexField$declaringType (DexMember.kt:23)
+No documentation for com.jakewharton.dex.DexField$name (DexMember.kt:24)
+No documentation for com.jakewharton.dex.DexField$type (DexMember.kt:25)
+No documentation for com.jakewharton.dex.DexField.Companion (DexMember.kt:40)
+No documentation for com.jakewharton.dex.DexMethod$render(kotlin.Boolean) (DexMember.kt:52)
+No documentation for com.jakewharton.dex.DexMethod$toString() (DexMember.kt:65)
+No documentation for com.jakewharton.dex.DexMethod$compareTo(com.jakewharton.dex.DexMember) (DexMember.kt:67)
+No documentation for com.jakewharton.dex.DexMethod$declaringType (DexMember.kt:47)
+No documentation for com.jakewharton.dex.DexMethod$name (DexMember.kt:48)
+No documentation for com.jakewharton.dex.DexMethod$parameterTypes (DexMember.kt:49)
+No documentation for com.jakewharton.dex.DexMethod$returnType (DexMember.kt:50)
+No documentation for com.jakewharton.dex.DexMethod$declaringType (DexMember.kt:47)
+No documentation for com.jakewharton.dex.DexMethod$name (DexMember.kt:48)
+No documentation for com.jakewharton.dex.DexMethod$parameterTypes (DexMember.kt:49)
+No documentation for com.jakewharton.dex.DexMethod$returnType (DexMember.kt:50)
+No documentation for com.jakewharton.dex.DexMethod$declaringType (DexMember.kt:47)
+No documentation for com.jakewharton.dex.DexMethod$name (DexMember.kt:48)
+No documentation for com.jakewharton.dex.DexMethod$parameterTypes (DexMember.kt:49)
+No documentation for com.jakewharton.dex.DexMethod$returnType (DexMember.kt:50)
+No documentation for com.jakewharton.dex.DexMethod.Companion (DexMember.kt:75)
+No documentation for com.jakewharton.dex.DexParser$list() (DexParser.kt:17)
+No documentation for com.jakewharton.dex.DexParser$listMethods() (DexParser.kt:21)
+No documentation for com.jakewharton.dex.DexParser$listFields() (DexParser.kt:22)
+No documentation for com.jakewharton.dex.DexParser.Companion (DexParser.kt:24)
+No documentation for com.jakewharton.dex.DexParser.Companion (DexParser.kt:24)
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+null:-1:-1: Tag @see cannot be used in inline documentation.  It can only be used in the following types of documentation: overview, package, class/interface, constructor, field, method.
+
+> Task :javadocJar
+> Task :sourcesJar
+> Task :signArchives SKIPPED
+> Task :assemble
+> Task :build
+
+BUILD SUCCESSFUL in 50s
+15 actionable tasks: 15 executed
+
+2019-01-19 18:44:45,195 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898218168-0/src/dex-member-list-master/src/test/resources/three.apk

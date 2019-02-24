@@ -1,0 +1,1957 @@
+2019-01-20 18:29:47,211 INFO  DownloadService - Downloading "https://github.com/seventhmoon/IpApi-retrofit/archive/master.zip", attempt 3
+2019-01-20 18:29:47,852 INFO  DownloadService - Downloaded https://github.com/seventhmoon/IpApi-retrofit/archive/master.zip, attempt 3
+2019-01-20 18:29:47,852 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/master.zip": 160 KB
+2019-01-20 18:29:47,852 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-20 18:29:47,857 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/master.zip: true
+2019-01-20 18:29:47,858 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src'.
+2019-01-20 18:29:47,886 INFO  FullProcessService - Size of directory with sources: 208 KB
+2019-01-20 18:29:47,887 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src]
+2019-01-20 18:29:47,911 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/.git/
+
+2019-01-20 18:29:47,917 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/gradlew
+2019-01-20 18:29:47,922 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/build.gradle
+2019-01-20 18:29:47,927 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/settings.gradle
+2019-01-20 18:29:47,928 INFO  ProjectBuildService - Remote scripts: none
+2019-01-20 18:29:47,928 INFO  ProjectFixService - Fixing project...
+2019-01-20 18:29:47,937 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/app/local.properties
+2019-01-20 18:29:47,937 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-01-20 18:29:47,938 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/library/local.properties
+2019-01-20 18:29:47,939 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-20 18:29:47,939 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/local.properties
+2019-01-20 18:29:47,939 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
+2019-01-20 18:29:47,940 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
+2019-01-20 18:29:47,941 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-01-20 18:29:47,941 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 18:29:47,941 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 18:29:47,941 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 18:29:59,115 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-20 18:29:59,115 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-20 18:29:59,115 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-20 18:30:54,499 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-adapters/3.2.1/databinding-adapters-3.2.1.pom
+Download https://dl.google.com/dl/android/maven2/androidx/gridlayout/gridlayout/1.0.0/gridlayout-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-runtime/3.2.1/databinding-runtime-3.2.1.pom
+Download https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.0.0-alpha1/collection-1.0.0-alpha1.pom
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.0.0-alpha1/lifecycle-runtime-2.0.0-alpha1.pom
+Download https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.0.0-alpha1/core-common-2.0.0-alpha1.pom
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.0.0-alpha1/lifecycle-common-2.0.0-alpha1.pom
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler/3.2.1/databinding-compiler-3.2.1.pom
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with JetifyTransform
+> Transform annotation-1.0.0.jar with IdentityTransform
+> Transform core-common-2.0.0.jar with IdentityTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-common-2.0.0.jar with IdentityTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform 2e839a0daf7ea6ead0f09f4890f3696b with AarTransform
+> Transform 1049c267a95f30c01aa8d95373bfc5c0 with AarTransform
+> Transform 55454c51b02736f7c8724644909268ed with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform 3e65ecc727a9d35c21a38d11dffe294c with AarTransform
+> Transform f3c89cb765f1d50e162d64fdf4d2f6ab with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform 28af6634011518bf9cbedb6dd4e92677 with AarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform 08eb57ba03cfa481d12279bbafb6ac75 with AarTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform e51df0df96df41a42653a129d742b2ad with AarTransform
+> Transform 7cacc27eace1efa978af8aec1cc7f2d3 with AarTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform collection-1.0.0.jar with IdentityTransform
+> Transform fd8870a7bcdb7916e195095866f61157 with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 42f781e8447ff9c16979f5241622305c with AarTransform
+> Transform b74ae59b9c4cfab6482744ba03c93f82 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 1c745fb30c901a2370fd35cbb6eea9b7 with AarTransform
+> Transform eb51e47f91a808998897dbacad42bfc2 with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform 37b7af5d389624f4dea68cc1b1ef809f with AarTransform
+> Transform d0e94ef6d5668b67ffe47214df3ee1b4 with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 14a345be040662e8bfacfeac4243769c with AarTransform
+> Transform b09c6a571977bd14b9e6a19f76a747cc with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform f24ad6f75829f1e514ae2bad48f75f36 with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform transition-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform ce584507eba5579ee5cc59906d91ffd8 with AarTransform
+
+> Transform converter-gson.jar (com.squareup.retrofit2:converter-gson:2.4.0) with JetifyTransform
+ERROR: [TAG] Failed to resolve variable '${project.groupId}'
+ERROR: [TAG] Failed to resolve variable '${project.version}'
+
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform c6c4b9f5b81966e740c699f54df39023 with AarTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform jetified-converter-gson-2.4.0.jar with IdentityTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform 5188d168b7ba11fe47d89cbbb554ab45 with AarTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform c11d79afb153a6ea5d872a84b69fda14 with AarTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform recyclerview-1.0.0.aar with ExtractAarTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform 1b8a4c4c4c6435fd66ce6ec414c8db3f with AarTransform
+> Transform 42a3a1bd0b6951935464bb55ca3bc527 with AarTransform
+> Transform 7016e75c358df6bb2f32b61d2ad89747 with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cardview-1.0.0.aar with ExtractAarTransform
+> Transform 37c31c04926a78bc7bc9605878bdd9d8 with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform okio.jar (com.squareup.okio:okio:1.14.0) with JetifyTransform
+> Transform jetified-okio-1.14.0.jar with IdentityTransform
+> Transform databinding-common.jar (androidx.databinding:databinding-common:3.2.1) with JetifyTransform
+> Transform databinding-common-3.2.1.jar with IdentityTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform retrofit.jar (com.squareup.retrofit2:retrofit:2.4.0) with JetifyTransform
+> Transform jetified-retrofit-2.4.0.jar with IdentityTransform
+> Transform material-1.0.0.aar with ExtractAarTransform
+> Transform core-1.0.1.aar with ExtractAarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with JetifyTransform
+> Transform gridlayout-1.0.0.aar with ExtractAarTransform
+> Transform 8fb7710e6691c8dcda6d2c576a155014 with AarTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with JetifyTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71) with JetifyTransform
+> Transform animal-sniffer-annotations.jar (org.codehaus.mojo:animal-sniffer-annotations:1.14) with JetifyTransform
+> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.2.1) with JetifyTransform
+> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.2.1) with JetifyTransform
+> Transform j2objc-annotations.jar (com.google.j2objc:j2objc-annotations:1.1) with JetifyTransform
+> Transform databinding-runtime-3.2.1.aar with ExtractAarTransform
+> Transform ee68e39caae12663af9bb1aeb249f58a with AarTransform
+> Transform databinding-adapters-3.2.1.aar with ExtractAarTransform
+> Transform error_prone_annotations.jar (com.google.errorprone:error_prone_annotations:2.0.18) with JetifyTransform
+> Transform jsr305.jar (com.google.code.findbugs:jsr305:1.3.9) with JetifyTransform
+> Transform beba09388fb2f1a4dc594c55473e4c0d with AarTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71) with JetifyTransform
+> Transform e771d94a32701beb8dd933aaabe658a7 with AarTransform
+> Transform annotations.jar (com.android.tools:annotations:26.2.1) with JetifyTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.5) with JetifyTransform
+> Transform jetified-gson-2.8.5.jar with IdentityTransform
+> Transform 909df053ae47b6b444a55f9171858ea3 with AarTransform
+> Transform baseLibrary.jar (com.android.databinding:baseLibrary:3.2.1) with JetifyTransform
+> Transform javapoet.jar (com.squareup:javapoet:1.8.0) with JetifyTransform
+> Transform juniversalchardet.jar (com.googlecode.juniversalchardet:juniversalchardet:1.0.3) with JetifyTransform
+> Transform jetifier-core.jar (com.android.tools.build.jetifier:jetifier-core:1.0.0-alpha10) with JetifyTransform
+> Transform okhttp.jar (com.squareup.okhttp3:okhttp:3.10.0) with JetifyTransform
+> Transform jetified-okhttp-3.10.0.jar with IdentityTransform
+> Transform kotlin-stdlib-jdk8.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.71) with JetifyTransform
+> Transform databinding-common.jar (androidx.databinding:databinding-common:3.2.1) with JetifyTransform
+> Transform databinding-compiler-common.jar (androidx.databinding:databinding-compiler-common:3.2.1) with JetifyTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 2e839a0daf7ea6ead0f09f4890f3696b with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform 1049c267a95f30c01aa8d95373bfc5c0 with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform 55454c51b02736f7c8724644909268ed with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform 3e65ecc727a9d35c21a38d11dffe294c with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform f3c89cb765f1d50e162d64fdf4d2f6ab with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform 28af6634011518bf9cbedb6dd4e92677 with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform 08eb57ba03cfa481d12279bbafb6ac75 with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform 7cacc27eace1efa978af8aec1cc7f2d3 with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform e51df0df96df41a42653a129d742b2ad with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform fd8870a7bcdb7916e195095866f61157 with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform b74ae59b9c4cfab6482744ba03c93f82 with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform core-1.0.1.aar with ExtractAarTransform
+> Transform 909df053ae47b6b444a55f9171858ea3 with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 42f781e8447ff9c16979f5241622305c with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform eb51e47f91a808998897dbacad42bfc2 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 1c745fb30c901a2370fd35cbb6eea9b7 with AarTransform
+> Transform appcompat-1.0.2.aar with ExtractAarTransform
+> Transform commons-io.jar (commons-io:commons-io:2.4) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform 37b7af5d389624f4dea68cc1b1ef809f with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform b09c6a571977bd14b9e6a19f76a747cc with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 14a345be040662e8bfacfeac4243769c with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform f24ad6f75829f1e514ae2bad48f75f36 with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform transition-1.0.0.aar with ExtractAarTransform
+> Transform commons-codec.jar (commons-codec:commons-codec:1.9) with JetifyTransform
+> Transform ce584507eba5579ee5cc59906d91ffd8 with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform c6c4b9f5b81966e740c699f54df39023 with AarTransform
+> Transform 5188d168b7ba11fe47d89cbbb554ab45 with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform recyclerview-1.0.0.aar with ExtractAarTransform
+> Transform c11d79afb153a6ea5d872a84b69fda14 with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform 7016e75c358df6bb2f32b61d2ad89747 with AarTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform 1b8a4c4c4c6435fd66ce6ec414c8db3f with AarTransform
+> Transform 42a3a1bd0b6951935464bb55ca3bc527 with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with JetifyTransform
+> Transform gridlayout-1.0.0.aar with ExtractAarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cardview-1.0.0.aar with ExtractAarTransform
+> Transform 8fb7710e6691c8dcda6d2c576a155014 with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform appcompat-1.0.2.aar with ExtractAarTransform
+> Transform 37c31c04926a78bc7bc9605878bdd9d8 with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform material-1.0.0.aar with ExtractAarTransform
+> Transform e771d94a32701beb8dd933aaabe658a7 with AarTransform
+> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.2.1) with JetifyTransform
+> Transform databinding-runtime-3.2.1.aar with ExtractAarTransform
+> Transform ee68e39caae12663af9bb1aeb249f58a with AarTransform
+> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.2.1) with JetifyTransform
+> Transform databinding-adapters-3.2.1.aar with ExtractAarTransform
+> Transform databinding-compiler.jar (androidx.databinding:databinding-compiler:3.2.1) with JetifyTransform
+> Transform beba09388fb2f1a4dc594c55473e4c0d with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform 1049c267a95f30c01aa8d95373bfc5c0 with AarTransform
+> Transform 2e839a0daf7ea6ead0f09f4890f3696b with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform 55454c51b02736f7c8724644909268ed with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform 3e65ecc727a9d35c21a38d11dffe294c with AarTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform f3c89cb765f1d50e162d64fdf4d2f6ab with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform 28af6634011518bf9cbedb6dd4e92677 with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform 08eb57ba03cfa481d12279bbafb6ac75 with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 7cacc27eace1efa978af8aec1cc7f2d3 with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform e51df0df96df41a42653a129d742b2ad with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform fd8870a7bcdb7916e195095866f61157 with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform core-1.0.1.aar with ExtractAarTransform
+> Transform b74ae59b9c4cfab6482744ba03c93f82 with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 909df053ae47b6b444a55f9171858ea3 with AarTransform
+> Transform 42f781e8447ff9c16979f5241622305c with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 1c745fb30c901a2370fd35cbb6eea9b7 with AarTransform
+> Transform eb51e47f91a808998897dbacad42bfc2 with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform 37b7af5d389624f4dea68cc1b1ef809f with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform b09c6a571977bd14b9e6a19f76a747cc with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 14a345be040662e8bfacfeac4243769c with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform f24ad6f75829f1e514ae2bad48f75f36 with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform transition-1.0.0.aar with ExtractAarTransform
+> Transform ce584507eba5579ee5cc59906d91ffd8 with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform c6c4b9f5b81966e740c699f54df39023 with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 5188d168b7ba11fe47d89cbbb554ab45 with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform c11d79afb153a6ea5d872a84b69fda14 with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform recyclerview-1.0.0.aar with ExtractAarTransform
+> Transform 7016e75c358df6bb2f32b61d2ad89747 with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 1b8a4c4c4c6435fd66ce6ec414c8db3f with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform 42a3a1bd0b6951935464bb55ca3bc527 with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with JetifyTransform
+> Transform gridlayout-1.0.0.aar with ExtractAarTransform
+> Transform 8fb7710e6691c8dcda6d2c576a155014 with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cardview-1.0.0.aar with ExtractAarTransform
+> Transform 37c31c04926a78bc7bc9605878bdd9d8 with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform appcompat-1.0.2.aar with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform 740efa10b25f47b19905e55035353606 with AarTransform
+> Transform 740efa10b25f47b19905e55035353606 with AarTransform
+> Transform 740efa10b25f47b19905e55035353606 with AarTransform
+> Transform d0e94ef6d5668b67ffe47214df3ee1b4 with AarTransform
+> Transform d0e94ef6d5668b67ffe47214df3ee1b4 with AarTransform
+> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.2.1) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform databinding-adapters-3.2.1.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform material-1.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.2.1) with JetifyTransform
+> Transform databinding-runtime-3.2.1.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform beba09388fb2f1a4dc594c55473e4c0d with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform e771d94a32701beb8dd933aaabe658a7 with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform 2e839a0daf7ea6ead0f09f4890f3696b with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform ee68e39caae12663af9bb1aeb249f58a with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform 1049c267a95f30c01aa8d95373bfc5c0 with AarTransform
+> Transform 55454c51b02736f7c8724644909268ed with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform 3e65ecc727a9d35c21a38d11dffe294c with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform f3c89cb765f1d50e162d64fdf4d2f6ab with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 28af6634011518bf9cbedb6dd4e92677 with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform 08eb57ba03cfa481d12279bbafb6ac75 with AarTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform core-1.0.1.aar with ExtractAarTransform
+> Transform 7cacc27eace1efa978af8aec1cc7f2d3 with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform e51df0df96df41a42653a129d742b2ad with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform fd8870a7bcdb7916e195095866f61157 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 909df053ae47b6b444a55f9171858ea3 with AarTransform
+> Transform 42f781e8447ff9c16979f5241622305c with AarTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.2.71) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform 1c745fb30c901a2370fd35cbb6eea9b7 with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform eb51e47f91a808998897dbacad42bfc2 with AarTransform
+> Transform b74ae59b9c4cfab6482744ba03c93f82 with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform transition-1.0.0.aar with ExtractAarTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform d0e94ef6d5668b67ffe47214df3ee1b4 with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform b09c6a571977bd14b9e6a19f76a747cc with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 14a345be040662e8bfacfeac4243769c with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform f24ad6f75829f1e514ae2bad48f75f36 with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform recyclerview-1.0.0.aar with ExtractAarTransform
+> Transform 37b7af5d389624f4dea68cc1b1ef809f with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform ce584507eba5579ee5cc59906d91ffd8 with AarTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform c6c4b9f5b81966e740c699f54df39023 with AarTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with JetifyTransform
+> Transform gridlayout-1.0.0.aar with ExtractAarTransform
+> Transform 5188d168b7ba11fe47d89cbbb554ab45 with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cardview-1.0.0.aar with ExtractAarTransform
+> Transform c11d79afb153a6ea5d872a84b69fda14 with AarTransform
+> Transform 1b8a4c4c4c6435fd66ce6ec414c8db3f with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform material-1.0.0.aar with ExtractAarTransform
+> Transform appcompat-1.0.2.aar with ExtractAarTransform
+> Transform 42a3a1bd0b6951935464bb55ca3bc527 with AarTransform
+> Transform 8fb7710e6691c8dcda6d2c576a155014 with AarTransform
+> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.2.1) with JetifyTransform
+> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.2.1) with JetifyTransform
+> Transform 7016e75c358df6bb2f32b61d2ad89747 with AarTransform
+> Transform databinding-runtime-3.2.1.aar with ExtractAarTransform
+> Transform databinding-adapters-3.2.1.aar with ExtractAarTransform
+> Transform 37c31c04926a78bc7bc9605878bdd9d8 with AarTransform
+> Transform e771d94a32701beb8dd933aaabe658a7 with AarTransform
+> Transform 740efa10b25f47b19905e55035353606 with AarTransform
+> Transform ee68e39caae12663af9bb1aeb249f58a with AarTransform
+> Transform beba09388fb2f1a4dc594c55473e4c0d with AarTransform
+
+> Transform antlr4.jar (org.antlr:antlr4:4.5.3) with JetifyTransform
+ERROR: [TAG] Failed to resolve variable '${project.version}'
+
+> Task :app:checkDebugClasspath
+> Task :app:preBuild UP-TO-DATE
+> Task :library:preBuild UP-TO-DATE
+> Task :library:preDebugBuild UP-TO-DATE
+> Task :library:checkDebugManifest
+> Task :library:processDebugManifest
+> Task :app:preDebugBuild
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform 1049c267a95f30c01aa8d95373bfc5c0 with AarTransform
+> Transform 55454c51b02736f7c8724644909268ed with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform 28af6634011518bf9cbedb6dd4e92677 with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 3e65ecc727a9d35c21a38d11dffe294c with AarTransform
+> Transform 2e839a0daf7ea6ead0f09f4890f3696b with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform 08eb57ba03cfa481d12279bbafb6ac75 with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform core-1.0.1.aar with ExtractAarTransform
+> Transform f3c89cb765f1d50e162d64fdf4d2f6ab with AarTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform e51df0df96df41a42653a129d742b2ad with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 7cacc27eace1efa978af8aec1cc7f2d3 with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform fd8870a7bcdb7916e195095866f61157 with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform b74ae59b9c4cfab6482744ba03c93f82 with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform 909df053ae47b6b444a55f9171858ea3 with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform 42f781e8447ff9c16979f5241622305c with AarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform eb51e47f91a808998897dbacad42bfc2 with AarTransform
+> Transform 1c745fb30c901a2370fd35cbb6eea9b7 with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform transition-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform d0e94ef6d5668b67ffe47214df3ee1b4 with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 37b7af5d389624f4dea68cc1b1ef809f with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform b09c6a571977bd14b9e6a19f76a747cc with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform recyclerview-1.0.0.aar with ExtractAarTransform
+> Transform 14a345be040662e8bfacfeac4243769c with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform f24ad6f75829f1e514ae2bad48f75f36 with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform ce584507eba5579ee5cc59906d91ffd8 with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with JetifyTransform
+> Transform gridlayout-1.0.0.aar with ExtractAarTransform
+> Transform c6c4b9f5b81966e740c699f54df39023 with AarTransform
+> Transform 5188d168b7ba11fe47d89cbbb554ab45 with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cardview-1.0.0.aar with ExtractAarTransform
+> Transform c11d79afb153a6ea5d872a84b69fda14 with AarTransform
+> Transform 7016e75c358df6bb2f32b61d2ad89747 with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform appcompat-1.0.2.aar with ExtractAarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.2.1) with JetifyTransform
+> Transform material-1.0.0.aar with ExtractAarTransform
+> Transform databinding-runtime-3.2.1.aar with ExtractAarTransform
+> Transform 1b8a4c4c4c6435fd66ce6ec414c8db3f with AarTransform
+> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.2.1) with JetifyTransform
+> Transform databinding-adapters-3.2.1.aar with ExtractAarTransform
+> Transform 42a3a1bd0b6951935464bb55ca3bc527 with AarTransform
+> Transform 8fb7710e6691c8dcda6d2c576a155014 with AarTransform
+> Transform 37c31c04926a78bc7bc9605878bdd9d8 with AarTransform
+> Transform 740efa10b25f47b19905e55035353606 with AarTransform
+> Transform ee68e39caae12663af9bb1aeb249f58a with AarTransform
+> Transform e771d94a32701beb8dd933aaabe658a7 with AarTransform
+> Transform beba09388fb2f1a4dc594c55473e4c0d with AarTransform
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+
+> Transform guava.jar (com.google.guava:guava:23.0) with JetifyTransform
+ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
+
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform 08eb57ba03cfa481d12279bbafb6ac75 with LibrarySymbolTableTransform
+> Transform 55454c51b02736f7c8724644909268ed with LibrarySymbolTableTransform
+> Transform 3e65ecc727a9d35c21a38d11dffe294c with LibrarySymbolTableTransform
+> Transform 28af6634011518bf9cbedb6dd4e92677 with LibrarySymbolTableTransform
+> Transform f3c89cb765f1d50e162d64fdf4d2f6ab with LibrarySymbolTableTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform 2e839a0daf7ea6ead0f09f4890f3696b with LibrarySymbolTableTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform core-1.0.1.aar with ExtractAarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 1049c267a95f30c01aa8d95373bfc5c0 with LibrarySymbolTableTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 7cacc27eace1efa978af8aec1cc7f2d3 with LibrarySymbolTableTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform fd8870a7bcdb7916e195095866f61157 with LibrarySymbolTableTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform e51df0df96df41a42653a129d742b2ad with LibrarySymbolTableTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform 909df053ae47b6b444a55f9171858ea3 with LibrarySymbolTableTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform b74ae59b9c4cfab6482744ba03c93f82 with LibrarySymbolTableTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform 42f781e8447ff9c16979f5241622305c with LibrarySymbolTableTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform 1c745fb30c901a2370fd35cbb6eea9b7 with LibrarySymbolTableTransform
+> Transform transition-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform eb51e47f91a808998897dbacad42bfc2 with LibrarySymbolTableTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 37b7af5d389624f4dea68cc1b1ef809f with LibrarySymbolTableTransform
+> Transform b09c6a571977bd14b9e6a19f76a747cc with LibrarySymbolTableTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform recyclerview-1.0.0.aar with ExtractAarTransform
+> Transform 14a345be040662e8bfacfeac4243769c with LibrarySymbolTableTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform f24ad6f75829f1e514ae2bad48f75f36 with LibrarySymbolTableTransform
+> Transform c6c4b9f5b81966e740c699f54df39023 with LibrarySymbolTableTransform
+> Transform ce584507eba5579ee5cc59906d91ffd8 with LibrarySymbolTableTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with JetifyTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform gridlayout-1.0.0.aar with ExtractAarTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform cardview-1.0.0.aar with ExtractAarTransform
+> Transform d0e94ef6d5668b67ffe47214df3ee1b4 with LibrarySymbolTableTransform
+> Transform 5188d168b7ba11fe47d89cbbb554ab45 with LibrarySymbolTableTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform appcompat-1.0.2.aar with ExtractAarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform material-1.0.0.aar with ExtractAarTransform
+> Transform c11d79afb153a6ea5d872a84b69fda14 with LibrarySymbolTableTransform
+> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.2.1) with JetifyTransform
+> Transform databinding-runtime-3.2.1.aar with ExtractAarTransform
+> Transform 7016e75c358df6bb2f32b61d2ad89747 with LibrarySymbolTableTransform
+> Transform 1b8a4c4c4c6435fd66ce6ec414c8db3f with LibrarySymbolTableTransform
+> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.2.1) with JetifyTransform
+> Transform databinding-adapters-3.2.1.aar with ExtractAarTransform
+> Transform 37c31c04926a78bc7bc9605878bdd9d8 with LibrarySymbolTableTransform
+> Transform 42a3a1bd0b6951935464bb55ca3bc527 with LibrarySymbolTableTransform
+> Transform 8fb7710e6691c8dcda6d2c576a155014 with LibrarySymbolTableTransform
+> Transform ee68e39caae12663af9bb1aeb249f58a with LibrarySymbolTableTransform
+> Transform beba09388fb2f1a4dc594c55473e4c0d with LibrarySymbolTableTransform
+> Transform 740efa10b25f47b19905e55035353606 with LibrarySymbolTableTransform
+> Transform e771d94a32701beb8dd933aaabe658a7 with LibrarySymbolTableTransform
+> Task :app:mainApkListPersistenceDebug
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform 2e839a0daf7ea6ead0f09f4890f3696b with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform 3e65ecc727a9d35c21a38d11dffe294c with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform f3c89cb765f1d50e162d64fdf4d2f6ab with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 55454c51b02736f7c8724644909268ed with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform 28af6634011518bf9cbedb6dd4e92677 with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform core-1.0.1.aar with ExtractAarTransform
+> Transform 1049c267a95f30c01aa8d95373bfc5c0 with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 08eb57ba03cfa481d12279bbafb6ac75 with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 7cacc27eace1efa978af8aec1cc7f2d3 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform e51df0df96df41a42653a129d742b2ad with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform fd8870a7bcdb7916e195095866f61157 with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform b74ae59b9c4cfab6482744ba03c93f82 with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform 909df053ae47b6b444a55f9171858ea3 with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 42f781e8447ff9c16979f5241622305c with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform eb51e47f91a808998897dbacad42bfc2 with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform transition-1.0.0.aar with ExtractAarTransform
+> Transform 1c745fb30c901a2370fd35cbb6eea9b7 with AarTransform
+> Transform d0e94ef6d5668b67ffe47214df3ee1b4 with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 37b7af5d389624f4dea68cc1b1ef809f with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform b09c6a571977bd14b9e6a19f76a747cc with AarTransform
+> Transform 14a345be040662e8bfacfeac4243769c with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform recyclerview-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform f24ad6f75829f1e514ae2bad48f75f36 with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform ce584507eba5579ee5cc59906d91ffd8 with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with JetifyTransform
+> Transform gridlayout-1.0.0.aar with ExtractAarTransform
+> Transform c6c4b9f5b81966e740c699f54df39023 with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cardview-1.0.0.aar with ExtractAarTransform
+> Transform 5188d168b7ba11fe47d89cbbb554ab45 with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform appcompat-1.0.2.aar with ExtractAarTransform
+> Transform c11d79afb153a6ea5d872a84b69fda14 with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform material-1.0.0.aar with ExtractAarTransform
+> Transform 1b8a4c4c4c6435fd66ce6ec414c8db3f with AarTransform
+> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.2.1) with JetifyTransform
+> Transform 7016e75c358df6bb2f32b61d2ad89747 with AarTransform
+> Transform databinding-runtime-3.2.1.aar with ExtractAarTransform
+> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.2.1) with JetifyTransform
+> Transform databinding-adapters-3.2.1.aar with ExtractAarTransform
+> Transform 42a3a1bd0b6951935464bb55ca3bc527 with AarTransform
+> Transform 8fb7710e6691c8dcda6d2c576a155014 with AarTransform
+> Transform 37c31c04926a78bc7bc9605878bdd9d8 with AarTransform
+> Transform 740efa10b25f47b19905e55035353606 with AarTransform
+> Transform e771d94a32701beb8dd933aaabe658a7 with AarTransform
+> Transform ee68e39caae12663af9bb1aeb249f58a with AarTransform
+> Transform beba09388fb2f1a4dc594c55473e4c0d with AarTransform
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :library:compileDebugRenderscript
+> Task :library:generateDebugResValues
+> Task :library:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.2.1-4818971) with Aapt2Extractor
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.2.1-4818971) with Aapt2Extractor
+> Task :app:processDebugManifest
+> Task :library:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:splitsDiscoveryTaskDebug
+> Task :library:generateDebugRFile
+> Task :app:processDebugResources
+> Task :app:generateDebugSources
+> Task :app:dataBindingExportBuildInfoDebug
+> Task :app:dataBindingExportFeaturePackageIdsDebug
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform 2e839a0daf7ea6ead0f09f4890f3696b with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 55454c51b02736f7c8724644909268ed with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 3e65ecc727a9d35c21a38d11dffe294c with AarTransform
+> Transform 1049c267a95f30c01aa8d95373bfc5c0 with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform f3c89cb765f1d50e162d64fdf4d2f6ab with AarTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform core-1.0.1.aar with ExtractAarTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 28af6634011518bf9cbedb6dd4e92677 with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 08eb57ba03cfa481d12279bbafb6ac75 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 7cacc27eace1efa978af8aec1cc7f2d3 with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform e51df0df96df41a42653a129d742b2ad with AarTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform fd8870a7bcdb7916e195095866f61157 with AarTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform b74ae59b9c4cfab6482744ba03c93f82 with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 909df053ae47b6b444a55f9171858ea3 with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform 42f781e8447ff9c16979f5241622305c with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform transition-1.0.0.aar with ExtractAarTransform
+> Transform eb51e47f91a808998897dbacad42bfc2 with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform 1c745fb30c901a2370fd35cbb6eea9b7 with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform d0e94ef6d5668b67ffe47214df3ee1b4 with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform 37b7af5d389624f4dea68cc1b1ef809f with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform recyclerview-1.0.0.aar with ExtractAarTransform
+> Transform b09c6a571977bd14b9e6a19f76a747cc with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 14a345be040662e8bfacfeac4243769c with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform f24ad6f75829f1e514ae2bad48f75f36 with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with JetifyTransform
+> Transform gridlayout-1.0.0.aar with ExtractAarTransform
+> Transform ce584507eba5579ee5cc59906d91ffd8 with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cardview-1.0.0.aar with ExtractAarTransform
+> Transform c6c4b9f5b81966e740c699f54df39023 with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform appcompat-1.0.2.aar with ExtractAarTransform
+> Transform 5188d168b7ba11fe47d89cbbb554ab45 with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform material-1.0.0.aar with ExtractAarTransform
+> Transform c11d79afb153a6ea5d872a84b69fda14 with AarTransform
+> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.2.1) with JetifyTransform
+> Transform 7016e75c358df6bb2f32b61d2ad89747 with AarTransform
+> Transform databinding-runtime-3.2.1.aar with ExtractAarTransform
+> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.2.1) with JetifyTransform
+> Transform 1b8a4c4c4c6435fd66ce6ec414c8db3f with AarTransform
+> Transform databinding-adapters-3.2.1.aar with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 42a3a1bd0b6951935464bb55ca3bc527 with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform 8fb7710e6691c8dcda6d2c576a155014 with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform 37c31c04926a78bc7bc9605878bdd9d8 with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform 740efa10b25f47b19905e55035353606 with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform e771d94a32701beb8dd933aaabe658a7 with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform ee68e39caae12663af9bb1aeb249f58a with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform beba09388fb2f1a4dc594c55473e4c0d with AarTransform
+> Transform 2e839a0daf7ea6ead0f09f4890f3696b with AarTransform
+> Transform 1049c267a95f30c01aa8d95373bfc5c0 with AarTransform
+> Transform 55454c51b02736f7c8724644909268ed with AarTransform
+> Transform 3e65ecc727a9d35c21a38d11dffe294c with AarTransform
+> Transform f3c89cb765f1d50e162d64fdf4d2f6ab with AarTransform
+> Transform 28af6634011518bf9cbedb6dd4e92677 with AarTransform
+> Transform 08eb57ba03cfa481d12279bbafb6ac75 with AarTransform
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform core-1.0.1.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform fd8870a7bcdb7916e195095866f61157 with AarTransform
+> Transform eb51e47f91a808998897dbacad42bfc2 with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform b74ae59b9c4cfab6482744ba03c93f82 with AarTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform 42f781e8447ff9c16979f5241622305c with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform e51df0df96df41a42653a129d742b2ad with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform 909df053ae47b6b444a55f9171858ea3 with AarTransform
+> Transform 7cacc27eace1efa978af8aec1cc7f2d3 with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform transition-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform 1c745fb30c901a2370fd35cbb6eea9b7 with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform b09c6a571977bd14b9e6a19f76a747cc with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform 37b7af5d389624f4dea68cc1b1ef809f with AarTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform recyclerview-1.0.0.aar with ExtractAarTransform
+> Transform d0e94ef6d5668b67ffe47214df3ee1b4 with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 14a345be040662e8bfacfeac4243769c with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform f24ad6f75829f1e514ae2bad48f75f36 with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with JetifyTransform
+> Transform ce584507eba5579ee5cc59906d91ffd8 with AarTransform
+> Transform gridlayout-1.0.0.aar with ExtractAarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cardview-1.0.0.aar with ExtractAarTransform
+> Transform c6c4b9f5b81966e740c699f54df39023 with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform appcompat-1.0.2.aar with ExtractAarTransform
+> Transform 5188d168b7ba11fe47d89cbbb554ab45 with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform material-1.0.0.aar with ExtractAarTransform
+> Transform c11d79afb153a6ea5d872a84b69fda14 with AarTransform
+> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.2.1) with JetifyTransform
+> Transform databinding-runtime-3.2.1.aar with ExtractAarTransform
+> Transform 7016e75c358df6bb2f32b61d2ad89747 with AarTransform
+> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.2.1) with JetifyTransform
+> Transform databinding-adapters-3.2.1.aar with ExtractAarTransform
+> Transform 1b8a4c4c4c6435fd66ce6ec414c8db3f with AarTransform
+> Transform okio.jar (com.squareup.okio:okio:1.14.0) with JetifyTransform
+> Transform jetified-okio-1.14.0.jar with IdentityTransform
+> Transform 42a3a1bd0b6951935464bb55ca3bc527 with AarTransform
+> Transform okhttp.jar (com.squareup.okhttp3:okhttp:3.10.0) with JetifyTransform
+> Transform jetified-okhttp-3.10.0.jar with IdentityTransform
+> Transform retrofit.jar (com.squareup.retrofit2:retrofit:2.4.0) with JetifyTransform
+> Transform jetified-retrofit-2.4.0.jar with IdentityTransform
+> Transform converter-gson.jar (com.squareup.retrofit2:converter-gson:2.4.0) with JetifyTransform
+> Transform jetified-converter-gson-2.4.0.jar with IdentityTransform
+> Transform 8fb7710e6691c8dcda6d2c576a155014 with AarTransform
+> Transform 37c31c04926a78bc7bc9605878bdd9d8 with AarTransform
+> Transform 740efa10b25f47b19905e55035353606 with AarTransform
+> Transform e771d94a32701beb8dd933aaabe658a7 with AarTransform
+> Transform ee68e39caae12663af9bb1aeb249f58a with AarTransform
+> Transform beba09388fb2f1a4dc594c55473e4c0d with AarTransform
+> Task :library:generateDebugBuildConfig
+> Task :app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with JetifyTransform
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :library:prepareLintJar
+> Task :library:generateDebugSources
+> Transform jetified-gson-2.8.2.jar with IdentityTransform
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:javaPreCompileDebug
+> Task :library:compileDebugJavaWithJavac
+> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform 28af6634011518bf9cbedb6dd4e92677 with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform f3c89cb765f1d50e162d64fdf4d2f6ab with AarTransform
+> Transform 55454c51b02736f7c8724644909268ed with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 2e839a0daf7ea6ead0f09f4890f3696b with AarTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform 08eb57ba03cfa481d12279bbafb6ac75 with AarTransform
+> Transform core-1.0.1.aar with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 1049c267a95f30c01aa8d95373bfc5c0 with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 3e65ecc727a9d35c21a38d11dffe294c with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 7cacc27eace1efa978af8aec1cc7f2d3 with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform e51df0df96df41a42653a129d742b2ad with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform fd8870a7bcdb7916e195095866f61157 with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform b74ae59b9c4cfab6482744ba03c93f82 with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 42f781e8447ff9c16979f5241622305c with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform 909df053ae47b6b444a55f9171858ea3 with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform transition-1.0.0.aar with ExtractAarTransform
+> Transform eb51e47f91a808998897dbacad42bfc2 with AarTransform
+> Transform 1c745fb30c901a2370fd35cbb6eea9b7 with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform d0e94ef6d5668b67ffe47214df3ee1b4 with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform 37b7af5d389624f4dea68cc1b1ef809f with AarTransform
+> Transform b09c6a571977bd14b9e6a19f76a747cc with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform recyclerview-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 14a345be040662e8bfacfeac4243769c with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform f24ad6f75829f1e514ae2bad48f75f36 with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with JetifyTransform
+> Transform gridlayout-1.0.0.aar with ExtractAarTransform
+> Transform ce584507eba5579ee5cc59906d91ffd8 with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cardview-1.0.0.aar with ExtractAarTransform
+> Transform c6c4b9f5b81966e740c699f54df39023 with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform appcompat-1.0.2.aar with ExtractAarTransform
+> Transform 5188d168b7ba11fe47d89cbbb554ab45 with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform material-1.0.0.aar with ExtractAarTransform
+> Transform c11d79afb153a6ea5d872a84b69fda14 with AarTransform
+> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.2.1) with JetifyTransform
+> Transform databinding-runtime-3.2.1.aar with ExtractAarTransform
+> Transform 7016e75c358df6bb2f32b61d2ad89747 with AarTransform
+> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.2.1) with JetifyTransform
+> Transform databinding-adapters-3.2.1.aar with ExtractAarTransform
+> Transform 1b8a4c4c4c6435fd66ce6ec414c8db3f with AarTransform
+> Transform 42a3a1bd0b6951935464bb55ca3bc527 with AarTransform
+> Transform 8fb7710e6691c8dcda6d2c576a155014 with AarTransform
+> Transform 37c31c04926a78bc7bc9605878bdd9d8 with AarTransform
+> Transform 740efa10b25f47b19905e55035353606 with AarTransform
+> Transform e771d94a32701beb8dd933aaabe658a7 with AarTransform
+> Transform ee68e39caae12663af9bb1aeb249f58a with AarTransform
+> Transform beba09388fb2f1a4dc594c55473e4c0d with AarTransform
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :library:mergeDebugShaders
+> Task :library:compileDebugShaders
+> Task :library:generateDebugAssets
+> Task :library:packageDebugAssets
+> Task :app:mergeDebugAssets
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/okhttp-3.10.0.jar/d79b7103ab286d4b692bc81f076f559e/jetified-okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform 2e839a0daf7ea6ead0f09f4890f3696b with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 1049c267a95f30c01aa8d95373bfc5c0 with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 28af6634011518bf9cbedb6dd4e92677 with AarTransform
+> Transform 55454c51b02736f7c8724644909268ed with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform core-1.0.1.aar with ExtractAarTransform
+> Transform 08eb57ba03cfa481d12279bbafb6ac75 with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 3e65ecc727a9d35c21a38d11dffe294c with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform f3c89cb765f1d50e162d64fdf4d2f6ab with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 7cacc27eace1efa978af8aec1cc7f2d3 with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform e51df0df96df41a42653a129d742b2ad with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform fd8870a7bcdb7916e195095866f61157 with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform b74ae59b9c4cfab6482744ba03c93f82 with AarTransform
+> Transform 909df053ae47b6b444a55f9171858ea3 with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform 42f781e8447ff9c16979f5241622305c with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform transition-1.0.0.aar with ExtractAarTransform
+> Transform eb51e47f91a808998897dbacad42bfc2 with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform 1c745fb30c901a2370fd35cbb6eea9b7 with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform d0e94ef6d5668b67ffe47214df3ee1b4 with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform 37b7af5d389624f4dea68cc1b1ef809f with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform recyclerview-1.0.0.aar with ExtractAarTransform
+> Transform b09c6a571977bd14b9e6a19f76a747cc with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 14a345be040662e8bfacfeac4243769c with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform f24ad6f75829f1e514ae2bad48f75f36 with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with JetifyTransform
+> Transform gridlayout-1.0.0.aar with ExtractAarTransform
+> Transform ce584507eba5579ee5cc59906d91ffd8 with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cardview-1.0.0.aar with ExtractAarTransform
+> Transform c6c4b9f5b81966e740c699f54df39023 with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform appcompat-1.0.2.aar with ExtractAarTransform
+> Transform 5188d168b7ba11fe47d89cbbb554ab45 with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform material-1.0.0.aar with ExtractAarTransform
+> Transform c11d79afb153a6ea5d872a84b69fda14 with AarTransform
+> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.2.1) with JetifyTransform
+> Transform databinding-runtime-3.2.1.aar with ExtractAarTransform
+> Transform 7016e75c358df6bb2f32b61d2ad89747 with AarTransform
+> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.2.1) with JetifyTransform
+> Transform databinding-adapters-3.2.1.aar with ExtractAarTransform
+> Transform 1b8a4c4c4c6435fd66ce6ec414c8db3f with AarTransform
+> Transform okio.jar (com.squareup.okio:okio:1.14.0) with JetifyTransform
+> Transform jetified-okio-1.14.0.jar with IdentityTransform
+> Transform okhttp.jar (com.squareup.okhttp3:okhttp:3.10.0) with JetifyTransform
+> Transform jetified-okhttp-3.10.0.jar with IdentityTransform
+> Transform retrofit.jar (com.squareup.retrofit2:retrofit:2.4.0) with JetifyTransform
+> Transform jetified-retrofit-2.4.0.jar with IdentityTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.5) with JetifyTransform
+> Transform jetified-gson-2.8.5.jar with IdentityTransform
+> Transform converter-gson.jar (com.squareup.retrofit2:converter-gson:2.4.0) with JetifyTransform
+> Transform jetified-converter-gson-2.4.0.jar with IdentityTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with JetifyTransform
+> Transform annotation-1.0.0.jar with IdentityTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
+> Transform core-common-2.0.0.jar with IdentityTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 42a3a1bd0b6951935464bb55ca3bc527 with AarTransform
+> Transform 8fb7710e6691c8dcda6d2c576a155014 with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
+> Transform lifecycle-common-2.0.0.jar with IdentityTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform 37c31c04926a78bc7bc9605878bdd9d8 with AarTransform
+> Transform 740efa10b25f47b19905e55035353606 with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform e771d94a32701beb8dd933aaabe658a7 with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform ee68e39caae12663af9bb1aeb249f58a with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform beba09388fb2f1a4dc594c55473e4c0d with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform 2e839a0daf7ea6ead0f09f4890f3696b with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 1049c267a95f30c01aa8d95373bfc5c0 with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 55454c51b02736f7c8724644909268ed with AarTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with JetifyTransform
+> Transform collection-1.0.0.jar with IdentityTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform f3c89cb765f1d50e162d64fdf4d2f6ab with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform core-1.0.1.aar with ExtractAarTransform
+> Transform 3e65ecc727a9d35c21a38d11dffe294c with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 28af6634011518bf9cbedb6dd4e92677 with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 08eb57ba03cfa481d12279bbafb6ac75 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 7cacc27eace1efa978af8aec1cc7f2d3 with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform e51df0df96df41a42653a129d742b2ad with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform fd8870a7bcdb7916e195095866f61157 with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform b74ae59b9c4cfab6482744ba03c93f82 with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 909df053ae47b6b444a55f9171858ea3 with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform 42f781e8447ff9c16979f5241622305c with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform transition-1.0.0.aar with ExtractAarTransform
+> Transform eb51e47f91a808998897dbacad42bfc2 with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform 1c745fb30c901a2370fd35cbb6eea9b7 with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform d0e94ef6d5668b67ffe47214df3ee1b4 with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform 37b7af5d389624f4dea68cc1b1ef809f with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform recyclerview-1.0.0.aar with ExtractAarTransform
+> Transform b09c6a571977bd14b9e6a19f76a747cc with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 14a345be040662e8bfacfeac4243769c with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform f24ad6f75829f1e514ae2bad48f75f36 with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with JetifyTransform
+> Transform gridlayout-1.0.0.aar with ExtractAarTransform
+> Transform ce584507eba5579ee5cc59906d91ffd8 with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cardview-1.0.0.aar with ExtractAarTransform
+> Transform c6c4b9f5b81966e740c699f54df39023 with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform appcompat-1.0.2.aar with ExtractAarTransform
+> Transform 5188d168b7ba11fe47d89cbbb554ab45 with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform material-1.0.0.aar with ExtractAarTransform
+> Transform c11d79afb153a6ea5d872a84b69fda14 with AarTransform
+> Transform databinding-common.jar (androidx.databinding:databinding-common:3.2.1) with JetifyTransform
+> Transform databinding-common-3.2.1.jar with IdentityTransform
+> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.2.1) with JetifyTransform
+> Transform 7016e75c358df6bb2f32b61d2ad89747 with AarTransform
+> Transform databinding-runtime-3.2.1.aar with ExtractAarTransform
+> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.2.1) with JetifyTransform
+> Transform databinding-adapters-3.2.1.aar with ExtractAarTransform
+> Transform 1b8a4c4c4c6435fd66ce6ec414c8db3f with AarTransform
+> Transform 42a3a1bd0b6951935464bb55ca3bc527 with AarTransform
+> Transform 37c31c04926a78bc7bc9605878bdd9d8 with AarTransform
+> Transform 8fb7710e6691c8dcda6d2c576a155014 with AarTransform
+> Transform e771d94a32701beb8dd933aaabe658a7 with AarTransform
+> Transform 740efa10b25f47b19905e55035353606 with AarTransform
+> Transform ee68e39caae12663af9bb1aeb249f58a with AarTransform
+> Transform beba09388fb2f1a4dc594c55473e4c0d with AarTransform
+> Task :app:mergeDebugJniLibFolders
+> Task :library:compileDebugNdk NO-SOURCE
+> Task :library:mergeDebugJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForDebug
+> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:checkDebugLibraries
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:validateSigningDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:checkReleaseClasspath
+> Task :app:extractProguardFiles
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:checkReleaseManifest
+> Task :library:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :library:compileReleaseRenderscript
+> Task :library:generateReleaseResValues
+> Task :library:generateReleaseResources
+> Task :library:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:splitsDiscoveryTaskRelease
+> Task :library:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :app:generateReleaseSources
+> Task :app:dataBindingExportBuildInfoRelease
+> Task :app:dataBindingExportFeaturePackageIdsRelease
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :library:generateReleaseBuildConfig
+> Task :library:generateReleaseSources
+> Task :library:javaPreCompileRelease
+> Task :library:compileReleaseJavaWithJavac
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform 55454c51b02736f7c8724644909268ed with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform 2e839a0daf7ea6ead0f09f4890f3696b with AarTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 3e65ecc727a9d35c21a38d11dffe294c with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform f3c89cb765f1d50e162d64fdf4d2f6ab with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform core-1.0.1.aar with ExtractAarTransform
+> Transform 28af6634011518bf9cbedb6dd4e92677 with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 7cacc27eace1efa978af8aec1cc7f2d3 with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 08eb57ba03cfa481d12279bbafb6ac75 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 1049c267a95f30c01aa8d95373bfc5c0 with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform e51df0df96df41a42653a129d742b2ad with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform fd8870a7bcdb7916e195095866f61157 with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform b74ae59b9c4cfab6482744ba03c93f82 with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 909df053ae47b6b444a55f9171858ea3 with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform 42f781e8447ff9c16979f5241622305c with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform transition-1.0.0.aar with ExtractAarTransform
+> Transform eb51e47f91a808998897dbacad42bfc2 with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform 1c745fb30c901a2370fd35cbb6eea9b7 with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform d0e94ef6d5668b67ffe47214df3ee1b4 with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform 37b7af5d389624f4dea68cc1b1ef809f with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform recyclerview-1.0.0.aar with ExtractAarTransform
+> Transform b09c6a571977bd14b9e6a19f76a747cc with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 14a345be040662e8bfacfeac4243769c with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform f24ad6f75829f1e514ae2bad48f75f36 with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with JetifyTransform
+> Transform gridlayout-1.0.0.aar with ExtractAarTransform
+> Transform ce584507eba5579ee5cc59906d91ffd8 with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cardview-1.0.0.aar with ExtractAarTransform
+> Transform c6c4b9f5b81966e740c699f54df39023 with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform appcompat-1.0.2.aar with ExtractAarTransform
+> Transform 5188d168b7ba11fe47d89cbbb554ab45 with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform material-1.0.0.aar with ExtractAarTransform
+> Transform c11d79afb153a6ea5d872a84b69fda14 with AarTransform
+> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.2.1) with JetifyTransform
+> Transform databinding-runtime-3.2.1.aar with ExtractAarTransform
+> Transform 7016e75c358df6bb2f32b61d2ad89747 with AarTransform
+> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.2.1) with JetifyTransform
+> Transform databinding-adapters-3.2.1.aar with ExtractAarTransform
+> Transform 1b8a4c4c4c6435fd66ce6ec414c8db3f with AarTransform
+> Transform 42a3a1bd0b6951935464bb55ca3bc527 with AarTransform
+> Transform 8fb7710e6691c8dcda6d2c576a155014 with AarTransform
+> Transform 37c31c04926a78bc7bc9605878bdd9d8 with AarTransform
+> Transform 740efa10b25f47b19905e55035353606 with AarTransform
+> Transform e771d94a32701beb8dd933aaabe658a7 with AarTransform
+> Transform ee68e39caae12663af9bb1aeb249f58a with AarTransform
+> Transform beba09388fb2f1a4dc594c55473e4c0d with AarTransform
+> Task :app:mergeReleaseShaders
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/b2d0966fbda79d1bd6cfc16224fe1261/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :library:mergeReleaseShaders
+> Task :library:compileReleaseShaders
+> Task :library:generateReleaseAssets
+> Task :library:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform 55454c51b02736f7c8724644909268ed with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 1049c267a95f30c01aa8d95373bfc5c0 with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform f3c89cb765f1d50e162d64fdf4d2f6ab with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform 28af6634011518bf9cbedb6dd4e92677 with AarTransform
+> Transform 08eb57ba03cfa481d12279bbafb6ac75 with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform core-1.0.1.aar with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 7cacc27eace1efa978af8aec1cc7f2d3 with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 3e65ecc727a9d35c21a38d11dffe294c with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 2e839a0daf7ea6ead0f09f4890f3696b with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform e51df0df96df41a42653a129d742b2ad with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform fd8870a7bcdb7916e195095866f61157 with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform b74ae59b9c4cfab6482744ba03c93f82 with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 909df053ae47b6b444a55f9171858ea3 with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform 42f781e8447ff9c16979f5241622305c with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform transition-1.0.0.aar with ExtractAarTransform
+> Transform eb51e47f91a808998897dbacad42bfc2 with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform 1c745fb30c901a2370fd35cbb6eea9b7 with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform d0e94ef6d5668b67ffe47214df3ee1b4 with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform 37b7af5d389624f4dea68cc1b1ef809f with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform recyclerview-1.0.0.aar with ExtractAarTransform
+> Transform b09c6a571977bd14b9e6a19f76a747cc with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 14a345be040662e8bfacfeac4243769c with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform f24ad6f75829f1e514ae2bad48f75f36 with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with JetifyTransform
+> Transform gridlayout-1.0.0.aar with ExtractAarTransform
+> Transform ce584507eba5579ee5cc59906d91ffd8 with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform cardview-1.0.0.aar with ExtractAarTransform
+> Transform c6c4b9f5b81966e740c699f54df39023 with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform appcompat-1.0.2.aar with ExtractAarTransform
+> Transform 5188d168b7ba11fe47d89cbbb554ab45 with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform material-1.0.0.aar with ExtractAarTransform
+> Transform c11d79afb153a6ea5d872a84b69fda14 with AarTransform
+> Transform databinding-runtime.aar (androidx.databinding:databinding-runtime:3.2.1) with JetifyTransform
+> Transform databinding-runtime-3.2.1.aar with ExtractAarTransform
+> Transform 7016e75c358df6bb2f32b61d2ad89747 with AarTransform
+> Transform databinding-adapters.aar (androidx.databinding:databinding-adapters:3.2.1) with JetifyTransform
+> Transform databinding-adapters-3.2.1.aar with ExtractAarTransform
+> Transform 1b8a4c4c4c6435fd66ce6ec414c8db3f with AarTransform
+> Transform 42a3a1bd0b6951935464bb55ca3bc527 with AarTransform
+> Transform 8fb7710e6691c8dcda6d2c576a155014 with AarTransform
+> Transform 37c31c04926a78bc7bc9605878bdd9d8 with AarTransform
+> Task :app:checkReleaseLibraries
+> Transform 740efa10b25f47b19905e55035353606 with AarTransform
+> Transform e771d94a32701beb8dd933aaabe658a7 with AarTransform
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Transform ee68e39caae12663af9bb1aeb249f58a with AarTransform
+> Transform beba09388fb2f1a4dc594c55473e4c0d with AarTransform
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :library:mergeReleaseConsumerProguardFiles
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/databinding-adapters-3.2.1.aar/beba09388fb2f1a4dc594c55473e4c0d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/databinding-runtime-3.2.1.aar/ee68e39caae12663af9bb1aeb249f58a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/3.2.1/91c10c7ce255ab29ec4aea8a469d6c8ffa60bd53/databinding-common-3.2.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/e771d94a32701beb8dd933aaabe658a7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/740efa10b25f47b19905e55035353606/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/37c31c04926a78bc7bc9605878bdd9d8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/gridlayout-1.0.0.aar/8fb7710e6691c8dcda6d2c576a155014/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/42a3a1bd0b6951935464bb55ca3bc527/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/1b8a4c4c4c6435fd66ce6ec414c8db3f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/7016e75c358df6bb2f32b61d2ad89747/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/c11d79afb153a6ea5d872a84b69fda14/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/5188d168b7ba11fe47d89cbbb554ab45/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/c6c4b9f5b81966e740c699f54df39023/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/ce584507eba5579ee5cc59906d91ffd8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/f24ad6f75829f1e514ae2bad48f75f36/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/14a345be040662e8bfacfeac4243769c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/b09c6a571977bd14b9e6a19f76a747cc/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/37b7af5d389624f4dea68cc1b1ef809f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/d0e94ef6d5668b67ffe47214df3ee1b4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/1c745fb30c901a2370fd35cbb6eea9b7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/eb51e47f91a808998897dbacad42bfc2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/42f781e8447ff9c16979f5241622305c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/909df053ae47b6b444a55f9171858ea3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/b74ae59b9c4cfab6482744ba03c93f82/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/fd8870a7bcdb7916e195095866f61157/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/e51df0df96df41a42653a129d742b2ad/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/7cacc27eace1efa978af8aec1cc7f2d3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/08eb57ba03cfa481d12279bbafb6ac75/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/28af6634011518bf9cbedb6dd4e92677/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/f3c89cb765f1d50e162d64fdf4d2f6ab/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/3e65ecc727a9d35c21a38d11dffe294c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/55454c51b02736f7c8724644909268ed/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/1049c267a95f30c01aa8d95373bfc5c0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/2e839a0daf7ea6ead0f09f4890f3696b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/converter-gson-2.4.0.jar/d71c6e617f3c62a25258cbae105fb9a5/jetified-converter-gson-2.4.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/gson-2.8.5.jar/1b7dc87c3936db589782a9701e439fd1/jetified-gson-2.8.5.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/retrofit-2.4.0.jar/10c1fcdbf8e65176c8f6133d739340e0/jetified-retrofit-2.4.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/okhttp-3.10.0.jar/d79b7103ab286d4b692bc81f076f559e/jetified-okhttp-3.10.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/okio-1.14.0.jar/1447b12334a287b4e7e933c39e453642/jetified-okio-1.14.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
+Initializing...
+Note: the configuration refers to the unknown class 'android.databinding.DataBinderMapper'
+      Maybe you meant the fully qualified name 'androidx.databinding.DataBinderMapper'?
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class com.android.org.conscrypt.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform$CloseGuard: can't find dynamically referenced class dalvik.system.CloseGuard
+Note: okhttp3.internal.platform.ConscryptPlatform: can't find dynamically referenced class org.conscrypt.ConscryptEngineSocket
+Note: okhttp3.internal.platform.Platform: can't find dynamically referenced class sun.security.ssl.SSLContextImpl
+Note: com.google.gson.internal.UnsafeAllocator accesses a declared field 'theUnsafe' dynamically
+      Maybe this is program field 'com.google.gson.internal.reflect.UnsafeReflectionAccessor { java.lang.Object theUnsafe; }'
+Note: com.google.gson.internal.reflect.UnsafeReflectionAccessor accesses a declared field 'theUnsafe' dynamically
+      Maybe this is program field 'com.google.gson.internal.reflect.UnsafeReflectionAccessor { java.lang.Object theUnsafe; }'
+Note: the configuration keeps the entry point 'com.google.android.material.bottomnavigation.BottomNavigationMenuView { void setPresenter(com.google.android.material.bottomnavigation.BottomNavigationPresenter); }', but not the descriptor class 'com.google.android.material.bottomnavigation.BottomNavigationPresenter'
+Note: the configuration keeps the entry point 'com.google.android.material.bottomnavigation.BottomNavigationView { void setOnNavigationItemSelectedListener(com.google.android.material.bottomnavigation.BottomNavigationView$OnNavigationItemSelectedListener); }', but not the descriptor class 'com.google.android.material.bottomnavigation.BottomNavigationView$OnNavigationItemSelectedListener'
+Note: the configuration keeps the entry point 'com.google.android.material.bottomnavigation.BottomNavigationView { void setOnNavigationItemReselectedListener(com.google.android.material.bottomnavigation.BottomNavigationView$OnNavigationItemReselectedListener); }', but not the descriptor class 'com.google.android.material.bottomnavigation.BottomNavigationView$OnNavigationItemReselectedListener'
+Note: the configuration keeps the entry point 'com.google.android.material.chip.Chip { void setChipDrawable(com.google.android.material.chip.ChipDrawable); }', but not the descriptor class 'com.google.android.material.chip.ChipDrawable'
+Note: the configuration keeps the entry point 'com.google.android.material.chip.Chip { void setTextAppearance(com.google.android.material.resources.TextAppearance); }', but not the descriptor class 'com.google.android.material.resources.TextAppearance'
+Note: the configuration keeps the entry point 'com.google.android.material.chip.Chip { void setShowMotionSpec(com.google.android.material.animation.MotionSpec); }', but not the descriptor class 'com.google.android.material.animation.MotionSpec'
+Note: the configuration keeps the entry point 'com.google.android.material.chip.Chip { void setHideMotionSpec(com.google.android.material.animation.MotionSpec); }', but not the descriptor class 'com.google.android.material.animation.MotionSpec'
+Note: the configuration keeps the entry point 'com.google.android.material.chip.ChipGroup { void setOnCheckedChangeListener(com.google.android.material.chip.ChipGroup$OnCheckedChangeListener); }', but not the descriptor class 'com.google.android.material.chip.ChipGroup$OnCheckedChangeListener'
+Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.CircularRevealFrameLayout { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
+Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.CircularRevealGridLayout { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
+Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.CircularRevealLinearLayout { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
+Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.CircularRevealRelativeLayout { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
+Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.cardview.CircularRevealCardView { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
+Note: the configuration keeps the entry point 'com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout { void setRevealInfo(com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo); }', but not the descriptor class 'com.google.android.material.circularreveal.CircularRevealWidget$RevealInfo'
+Note: the configuration keeps the entry point 'com.google.android.material.floatingactionbutton.FloatingActionButton { void setShowMotionSpec(com.google.android.material.animation.MotionSpec); }', but not the descriptor class 'com.google.android.material.animation.MotionSpec'
+Note: the configuration keeps the entry point 'com.google.android.material.floatingactionbutton.FloatingActionButton { void setHideMotionSpec(com.google.android.material.animation.MotionSpec); }', but not the descriptor class 'com.google.android.material.animation.MotionSpec'
+Note: the configuration keeps the entry point 'com.google.android.material.navigation.NavigationView { void setNavigationItemSelectedListener(com.google.android.material.navigation.NavigationView$OnNavigationItemSelectedListener); }', but not the descriptor class 'com.google.android.material.navigation.NavigationView$OnNavigationItemSelectedListener'
+Note: the configuration keeps the entry point 'com.google.android.material.snackbar.BaseTransientBottomBar$SnackbarBaseLayout { void setOnLayoutChangeListener(com.google.android.material.snackbar.BaseTransientBottomBar$OnLayoutChangeListener); }', but not the descriptor class 'com.google.android.material.snackbar.BaseTransientBottomBar$OnLayoutChangeListener'
+Note: the configuration keeps the entry point 'com.google.android.material.snackbar.BaseTransientBottomBar$SnackbarBaseLayout { void setOnAttachStateChangeListener(com.google.android.material.snackbar.BaseTransientBottomBar$OnAttachStateChangeListener); }', but not the descriptor class 'com.google.android.material.snackbar.BaseTransientBottomBar$OnAttachStateChangeListener'
+Note: the configuration keeps the entry point 'com.google.android.material.tabs.TabLayout { void setOnTabSelectedListener(com.google.android.material.tabs.TabLayout$BaseOnTabSelectedListener); }', but not the descriptor class 'com.google.android.material.tabs.TabLayout$BaseOnTabSelectedListener'
+Note: the configuration keeps the entry point 'com.google.android.material.textfield.TextInputLayout { void setTextInputAccessibilityDelegate(com.google.android.material.textfield.TextInputLayout$AccessibilityDelegate); }', but not the descriptor class 'com.google.android.material.textfield.TextInputLayout$AccessibilityDelegate'
+Note: the configuration keeps the entry point 'okhttp3.Cache { int readInt(okio.BufferedSource); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.Cache$CacheRequestImpl$1 { Cache$CacheRequestImpl$1(okhttp3.Cache$CacheRequestImpl,okio.Sink,okhttp3.Cache,okhttp3.internal.cache.DiskLruCache$Editor); }', but not the descriptor class 'okio.Sink'
+Note: the configuration keeps the entry point 'okhttp3.Cache$CacheResponseBody$1 { Cache$CacheResponseBody$1(okhttp3.Cache$CacheResponseBody,okio.Source,okhttp3.internal.cache.DiskLruCache$Snapshot); }', but not the descriptor class 'okio.Source'
+Note: the configuration keeps the entry point 'okhttp3.Cache$Entry { Cache$Entry(okio.Source); }', but not the descriptor class 'okio.Source'
+Note: the configuration keeps the entry point 'okhttp3.Cache$Entry { java.util.List readCertificateList(okio.BufferedSource); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.Cache$Entry { void writeCertList(okio.BufferedSink,java.util.List); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.FormBody { void writeTo(okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.FormBody { long writeOrCountBytes(okio.BufferedSink,boolean); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.HttpUrl { void percentDecode(okio.Buffer,java.lang.String,int,int,boolean); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.HttpUrl { void canonicalize(okio.Buffer,java.lang.String,int,int,java.lang.String,boolean,boolean,boolean,boolean,java.nio.charset.Charset); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.MultipartBody { MultipartBody(okio.ByteString,okhttp3.MediaType,java.util.List); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.MultipartBody { void writeTo(okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.MultipartBody { long writeOrCountBytes(okio.BufferedSink,boolean); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.RequestBody { void writeTo(okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.RequestBody { okhttp3.RequestBody create(okhttp3.MediaType,okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.RequestBody$1 { RequestBody$1(okhttp3.MediaType,okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.RequestBody$1 { void writeTo(okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.RequestBody$2 { void writeTo(okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.RequestBody$3 { void writeTo(okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.ResponseBody { okhttp3.ResponseBody create(okhttp3.MediaType,long,okio.BufferedSource); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.ResponseBody$1 { ResponseBody$1(okhttp3.MediaType,long,okio.BufferedSource); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.ResponseBody$BomAwareReader { ResponseBody$BomAwareReader(okio.BufferedSource,java.nio.charset.Charset); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.WebSocket { boolean send(okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.WebSocketListener { void onMessage(okhttp3.WebSocket,okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.Util { boolean discard(okio.Source,int,java.util.concurrent.TimeUnit); }', but not the descriptor class 'okio.Source'
+Note: the configuration keeps the entry point 'okhttp3.internal.Util { boolean skipAll(okio.Source,int,java.util.concurrent.TimeUnit); }', but not the descriptor class 'okio.Source'
+Note: the configuration keeps the entry point 'okhttp3.internal.Util { java.nio.charset.Charset bomAwareCharset(okio.BufferedSource,java.nio.charset.Charset); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache.CacheInterceptor$1 { CacheInterceptor$1(okhttp3.internal.cache.CacheInterceptor,okio.BufferedSource,okhttp3.internal.cache.CacheRequest,okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache.CacheInterceptor$1 { CacheInterceptor$1(okhttp3.internal.cache.CacheInterceptor,okio.BufferedSource,okhttp3.internal.cache.CacheRequest,okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache.CacheInterceptor$1 { long read(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache.DiskLruCache$2 { DiskLruCache$2(okhttp3.internal.cache.DiskLruCache,okio.Sink); }', but not the descriptor class 'okio.Sink'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache.DiskLruCache$Editor$1 { DiskLruCache$Editor$1(okhttp3.internal.cache.DiskLruCache$Editor,okio.Sink); }', but not the descriptor class 'okio.Sink'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache.DiskLruCache$Entry { void writeLengths(okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache.DiskLruCache$Snapshot { DiskLruCache$Snapshot(okhttp3.internal.cache.DiskLruCache,java.lang.String,long,okio.Source[],long[]); }', but not the descriptor class 'okio.Source'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache.FaultHidingSink { FaultHidingSink(okio.Sink); }', but not the descriptor class 'okio.Sink'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache.FaultHidingSink { void write(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache2.FileOperator { void write(long,okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache2.FileOperator { void read(long,okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache2.Relay { Relay(java.io.RandomAccessFile,okio.Source,long,okio.ByteString,long); }', but not the descriptor class 'okio.Source'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache2.Relay { Relay(java.io.RandomAccessFile,okio.Source,long,okio.ByteString,long); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache2.Relay { okhttp3.internal.cache2.Relay edit(java.io.File,okio.Source,okio.ByteString,long); }', but not the descriptor class 'okio.Source'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache2.Relay { okhttp3.internal.cache2.Relay edit(java.io.File,okio.Source,okio.ByteString,long); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache2.Relay { void writeHeader(okio.ByteString,long,long); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.cache2.Relay$RelaySource { long read(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.connection.RealConnection$1 { RealConnection$1(okhttp3.internal.connection.RealConnection,boolean,okio.BufferedSource,okio.BufferedSink,okhttp3.internal.connection.StreamAllocation); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.connection.RealConnection$1 { RealConnection$1(okhttp3.internal.connection.RealConnection,boolean,okio.BufferedSource,okio.BufferedSink,okhttp3.internal.connection.StreamAllocation); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.internal.http.CallServerInterceptor$CountingSink { CallServerInterceptor$CountingSink(okio.Sink); }', but not the descriptor class 'okio.Sink'
+Note: the configuration keeps the entry point 'okhttp3.internal.http.CallServerInterceptor$CountingSink { void write(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http.RealResponseBody { RealResponseBody(java.lang.String,long,okio.BufferedSource); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.http1.Http1Codec { Http1Codec(okhttp3.OkHttpClient,okhttp3.internal.connection.StreamAllocation,okio.BufferedSource,okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.http1.Http1Codec { Http1Codec(okhttp3.OkHttpClient,okhttp3.internal.connection.StreamAllocation,okio.BufferedSource,okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.internal.http1.Http1Codec { void detachTimeout(okio.ForwardingTimeout); }', but not the descriptor class 'okio.ForwardingTimeout'
+Note: the configuration keeps the entry point 'okhttp3.internal.http1.Http1Codec$AbstractSource { long read(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http1.Http1Codec$ChunkedSink { void write(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http1.Http1Codec$ChunkedSource { long read(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http1.Http1Codec$FixedLengthSink { void write(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http1.Http1Codec$FixedLengthSource { long read(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http1.Http1Codec$UnknownLengthSource { long read(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Header { Header(okio.ByteString,java.lang.String); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Header { Header(okio.ByteString,okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Header { Header(okio.ByteString,okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Hpack { okio.ByteString checkLowercase(okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Hpack$Reader { Hpack$Reader(int,okio.Source); }', but not the descriptor class 'okio.Source'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Hpack$Reader { Hpack$Reader(int,int,okio.Source); }', but not the descriptor class 'okio.Source'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Hpack$Writer { Hpack$Writer(okio.Buffer); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Hpack$Writer { Hpack$Writer(int,boolean,okio.Buffer); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Hpack$Writer { void writeByteString(okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Codec$StreamFinishingSource { Http2Codec$StreamFinishingSource(okhttp3.internal.http2.Http2Codec,okio.Source); }', but not the descriptor class 'okio.Source'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Codec$StreamFinishingSource { long read(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Connection { void writeData(int,boolean,okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Connection { void pushDataLater(int,okio.BufferedSource,int,boolean); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Connection$5 { Http2Connection$5(okhttp3.internal.http2.Http2Connection,java.lang.String,java.lang.Object[],int,okio.Buffer,int,boolean); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Connection$Builder { okhttp3.internal.http2.Http2Connection$Builder socket(java.net.Socket,java.lang.String,okio.BufferedSource,okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Connection$Builder { okhttp3.internal.http2.Http2Connection$Builder socket(java.net.Socket,java.lang.String,okio.BufferedSource,okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Connection$ReaderRunnable { void data(boolean,int,okio.BufferedSource,int); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Connection$ReaderRunnable { void goAway(int,okhttp3.internal.http2.ErrorCode,okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Connection$ReaderRunnable { void alternateService(int,java.lang.String,okio.ByteString,java.lang.String,int,long); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Reader { Http2Reader(okio.BufferedSource,boolean); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Reader { int readMedium(okio.BufferedSource); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Reader$ContinuationSource { Http2Reader$ContinuationSource(okio.BufferedSource); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Reader$ContinuationSource { long read(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Reader$Handler { void data(boolean,int,okio.BufferedSource,int); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Reader$Handler { void goAway(int,okhttp3.internal.http2.ErrorCode,okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Reader$Handler { void alternateService(int,java.lang.String,okio.ByteString,java.lang.String,int,long); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Stream { void receiveData(okio.BufferedSource,int); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Stream$FramingSink { void write(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Stream$FramingSource { long read(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Stream$FramingSource { void receive(okio.BufferedSource,long); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Writer { Http2Writer(okio.BufferedSink,boolean); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Writer { void data(boolean,int,okio.Buffer,int); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Writer { void dataFrame(int,byte,okio.Buffer,int); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Http2Writer { void writeMedium(okio.BufferedSink,int); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Huffman { void encode(okio.ByteString,okio.BufferedSink); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Huffman { void encode(okio.ByteString,okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.Huffman { int encodedLength(okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.PushObserver { boolean onData(int,okio.BufferedSource,int,boolean); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.http2.PushObserver$1 { boolean onData(int,okio.BufferedSource,int,boolean); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.RealWebSocket { void onReadMessage(okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.RealWebSocket { void onReadPing(okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.RealWebSocket { void onReadPong(okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.RealWebSocket { boolean send(okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.RealWebSocket { boolean send(okio.ByteString,int); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.RealWebSocket { boolean pong(okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.RealWebSocket$Close { RealWebSocket$Close(int,okio.ByteString,long); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.RealWebSocket$Message { RealWebSocket$Message(int,okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.RealWebSocket$Streams { RealWebSocket$Streams(boolean,okio.BufferedSource,okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.RealWebSocket$Streams { RealWebSocket$Streams(boolean,okio.BufferedSource,okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.WebSocketProtocol { void toggleMask(okio.Buffer$UnsafeCursor,byte[]); }', but not the descriptor class 'okio.Buffer$UnsafeCursor'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.WebSocketReader { WebSocketReader(boolean,okio.BufferedSource,okhttp3.internal.ws.WebSocketReader$FrameCallback); }', but not the descriptor class 'okio.BufferedSource'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.WebSocketReader$FrameCallback { void onReadMessage(okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.WebSocketReader$FrameCallback { void onReadPing(okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.WebSocketReader$FrameCallback { void onReadPong(okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.WebSocketWriter { WebSocketWriter(boolean,okio.BufferedSink,java.util.Random); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.WebSocketWriter { void writePing(okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.WebSocketWriter { void writePong(okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.WebSocketWriter { void writeClose(int,okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.WebSocketWriter { void writeControlFrame(int,okio.ByteString); }', but not the descriptor class 'okio.ByteString'
+Note: the configuration keeps the entry point 'okhttp3.internal.ws.WebSocketWriter$FrameSink { void write(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okio.AsyncTimeout { void scheduleTimeout(okio.AsyncTimeout,long,boolean); }', but not the descriptor class 'okio.AsyncTimeout'
+Note: the configuration keeps the entry point 'okio.AsyncTimeout { boolean cancelScheduledTimeout(okio.AsyncTimeout); }', but not the descriptor class 'okio.AsyncTimeout'
+Note: the configuration keeps the entry point 'okio.AsyncTimeout { okio.Sink sink(okio.Sink); }', but not the descriptor class 'okio.Sink'
+Note: the configuration keeps the entry point 'okio.AsyncTimeout { okio.Source source(okio.Source); }', but not the descriptor class 'okio.Source'
+Note: the configuration keeps the entry point 'okio.ForwardingSink { ForwardingSink(okio.Sink); }', but not the descriptor class 'okio.Sink'
+Note: the configuration keeps the entry point 'okio.ForwardingSink { void write(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'okio.ForwardingSource { ForwardingSource(okio.Source); }', but not the descriptor class 'okio.Source'
+Note: the configuration keeps the entry point 'okio.ForwardingSource { long read(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'retrofit2.OkHttpCall$ExceptionCatchingRequestBody$1 { OkHttpCall$ExceptionCatchingRequestBody$1(retrofit2.OkHttpCall$ExceptionCatchingRequestBody,okio.Source); }', but not the descriptor class 'okio.Source'
+Note: the configuration keeps the entry point 'retrofit2.OkHttpCall$ExceptionCatchingRequestBody$1 { long read(okio.Buffer,long); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'retrofit2.RequestBuilder { void canonicalizeForPath(okio.Buffer,java.lang.String,int,int,boolean); }', but not the descriptor class 'okio.Buffer'
+Note: the configuration keeps the entry point 'retrofit2.RequestBuilder$ContentTypeOverridingRequestBody { void writeTo(okio.BufferedSink); }', but not the descriptor class 'okio.BufferedSink'
+Note: the configuration explicitly specifies 'android.widget.Space' to keep library class 'android.widget.Space'
+Note: there were 1 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 151 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 1 library classes explicitly being kept.
+      You don't need to keep library classes; they are already left unchanged.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#libraryclass)
+Note: there were 5 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 2 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Ignoring unused library classes...
+  Original number of library classes: 4803
+  Final number of library classes:    1474
+
+> Task :app:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 2721
+  Final number of program classes:    1590
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/app/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/databinding-adapters-3.2.1.aar/beba09388fb2f1a4dc594c55473e4c0d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/databinding-runtime-3.2.1.aar/ee68e39caae12663af9bb1aeb249f58a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/3.2.1/91c10c7ce255ab29ec4aea8a469d6c8ffa60bd53/databinding-common-3.2.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/e771d94a32701beb8dd933aaabe658a7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/740efa10b25f47b19905e55035353606/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/37c31c04926a78bc7bc9605878bdd9d8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/gridlayout-1.0.0.aar/8fb7710e6691c8dcda6d2c576a155014/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/42a3a1bd0b6951935464bb55ca3bc527/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/1b8a4c4c4c6435fd66ce6ec414c8db3f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/7016e75c358df6bb2f32b61d2ad89747/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/c11d79afb153a6ea5d872a84b69fda14/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/5188d168b7ba11fe47d89cbbb554ab45/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/c6c4b9f5b81966e740c699f54df39023/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/ce584507eba5579ee5cc59906d91ffd8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/f24ad6f75829f1e514ae2bad48f75f36/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/14a345be040662e8bfacfeac4243769c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/b09c6a571977bd14b9e6a19f76a747cc/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/37b7af5d389624f4dea68cc1b1ef809f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/d0e94ef6d5668b67ffe47214df3ee1b4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/1c745fb30c901a2370fd35cbb6eea9b7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/eb51e47f91a808998897dbacad42bfc2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/42f781e8447ff9c16979f5241622305c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/909df053ae47b6b444a55f9171858ea3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/b74ae59b9c4cfab6482744ba03c93f82/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/fd8870a7bcdb7916e195095866f61157/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/e51df0df96df41a42653a129d742b2ad/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/7cacc27eace1efa978af8aec1cc7f2d3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/08eb57ba03cfa481d12279bbafb6ac75/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/28af6634011518bf9cbedb6dd4e92677/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/f3c89cb765f1d50e162d64fdf4d2f6ab/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/3e65ecc727a9d35c21a38d11dffe294c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/55454c51b02736f7c8724644909268ed/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/1049c267a95f30c01aa8d95373bfc5c0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/2e839a0daf7ea6ead0f09f4890f3696b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/converter-gson-2.4.0.jar/d71c6e617f3c62a25258cbae105fb9a5/jetified-converter-gson-2.4.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/gson-2.8.5.jar/1b7dc87c3936db589782a9701e439fd1/jetified-gson-2.8.5.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/retrofit-2.4.0.jar/10c1fcdbf8e65176c8f6133d739340e0/jetified-retrofit-2.4.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/okhttp-3.10.0.jar/d79b7103ab286d4b692bc81f076f559e/jetified-okhttp-3.10.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/okio-1.14.0.jar/1447b12334a287b4e7e933c39e453642/jetified-okio-1.14.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
+
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :library:compileReleaseNdk NO-SOURCE
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForRelease
+> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 54s
+102 actionable tasks: 102 executed
+
+2019-01-20 18:30:54,604 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983787207-0/src/ipapi-retrofit-master/app/build/outputs/apk/debug/app-debug.apk

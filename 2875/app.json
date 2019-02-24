@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.github.gfx.android.orma.example",
+    "label" : "Orma 6.0.2 (release)",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "6.0.2",
+    "versionCode" : 6000002,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "6000002",
+    "platformBuildVersionName" : "6.0.2",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 3542,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"6000002\" android:versionName=\"6.0.2\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.github.gfx.android.orma.example\" platformBuildVersionCode=\"6000002\" platformBuildVersionName=\"6.0.2\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"Orma 6.0.2 (release)\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.github.gfx.android.orma.example.App\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f0f0008\" android:label=\"Orma 6.0.2 (release)\" android:name=\"com.github.gfx.android.orma.example.activity.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 8659472,
+  "crc32" : 1763509676,
+  "sha256" : "e30b10d7e2aaf03a2d23caff33f654f249abd75e13ae7645d44cc413b074823b",
+  "buildTime" : 1547913409000
+}

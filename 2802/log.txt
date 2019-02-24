@@ -1,0 +1,869 @@
+2019-01-20 19:07:12,215 INFO  DownloadService - Downloading "https://github.com/StanKocken/Presentation/archive/master.zip", attempt 3
+2019-01-20 19:07:12,945 INFO  DownloadService - Downloaded https://github.com/StanKocken/Presentation/archive/master.zip, attempt 3
+2019-01-20 19:07:12,945 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/master.zip": 167 KB
+2019-01-20 19:07:12,945 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-20 19:07:12,951 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/master.zip: true
+2019-01-20 19:07:12,951 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src'.
+2019-01-20 19:07:12,983 INFO  FullProcessService - Size of directory with sources: 204 KB
+2019-01-20 19:07:12,983 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src]
+2019-01-20 19:07:13,006 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/.git/
+
+2019-01-20 19:07:13,013 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/gradlew
+2019-01-20 19:07:13,018 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/build.gradle
+2019-01-20 19:07:13,024 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/gradle_script/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/gradle_script/installv1.gradle
+2019-01-20 19:07:13,025 INFO  ProjectBuildService - Remote scripts: none
+2019-01-20 19:07:13,025 INFO  ProjectFixService - Fixing project...
+2019-01-20 19:07:13,041 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/local.properties
+2019-01-20 19:07:13,045 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-20 19:07:13,045 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-20 19:07:13,047 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/sample/local.properties
+2019-01-20 19:07:13,050 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-20 19:07:13,050 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-20 19:07:13,052 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/local.properties
+2019-01-20 19:07:13,052 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
+2019-01-20 19:07:13,052 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
+2019-01-20 19:07:13,055 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-20 19:07:13,055 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-20 19:07:13,056 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 19:07:13,056 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 19:07:13,056 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 19:07:42,832 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-01-20 19:07:42,832 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-20 19:07:42,833 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-20 19:08:10,766 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :presentation
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Task :presentation:preBuild UP-TO-DATE
+> Task :presentation:preDebugBuild UP-TO-DATE
+> Task :presentation:compileDebugAidl NO-SOURCE
+> Task :presentation:compileDebugRenderscript
+> Task :presentation:checkDebugManifest
+> Task :presentation:generateDebugBuildConfig
+> Task :presentation:generateDebugResValues
+> Task :presentation:generateDebugResources
+> Task :presentation:packageDebugResources
+> Task :presentation:processDebugManifest
+> Task :presentation:generateDebugRFile
+> Task :presentation:prepareLintJar
+> Task :presentation:generateDebugSources
+> Task :presentation:javaPreCompileDebug
+
+> Task :presentation:compileDebugJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :presentation:extractDebugAnnotations
+> Task :presentation:mergeDebugConsumerProguardFiles
+> Task :presentation:mergeDebugShaders
+> Task :presentation:compileDebugShaders
+> Task :presentation:generateDebugAssets
+> Task :presentation:packageDebugAssets
+> Task :presentation:packageDebugRenderscript NO-SOURCE
+> Task :presentation:transformClassesWithJacocoForDebug
+> Task :presentation:processDebugJavaRes NO-SOURCE
+> Task :presentation:transformResourcesWithMergeJavaResForDebug
+> Task :presentation:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :presentation:compileDebugNdk NO-SOURCE
+> Task :presentation:mergeDebugJniLibFolders
+> Task :presentation:transformNativeLibsWithMergeJniLibsForDebug
+> Task :presentation:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :presentation:transformNativeLibsWithSyncJniLibsForDebug
+> Task :presentation:bundleDebugAar
+> Task :presentation:compileDebugSources
+> Task :presentation:assembleDebug
+> Task :presentation:preReleaseBuild UP-TO-DATE
+> Task :presentation:compileReleaseAidl NO-SOURCE
+> Task :presentation:compileReleaseRenderscript
+> Task :presentation:checkReleaseManifest
+> Task :presentation:generateReleaseBuildConfig
+> Task :presentation:generateReleaseResValues
+> Task :presentation:generateReleaseResources
+> Task :presentation:packageReleaseResources
+> Task :presentation:processReleaseManifest
+> Task :presentation:generateReleaseRFile
+> Task :presentation:generateReleaseSources
+> Task :presentation:javaPreCompileRelease
+
+> Task :presentation:compileReleaseJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :presentation:extractReleaseAnnotations
+> Task :presentation:mergeReleaseConsumerProguardFiles
+> Task :presentation:mergeReleaseShaders
+> Task :presentation:compileReleaseShaders
+> Task :presentation:generateReleaseAssets
+> Task :presentation:packageReleaseAssets
+> Task :presentation:packageReleaseRenderscript NO-SOURCE
+> Task :presentation:processReleaseJavaRes NO-SOURCE
+> Task :presentation:transformResourcesWithMergeJavaResForRelease
+> Task :presentation:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :presentation:compileReleaseNdk NO-SOURCE
+> Task :presentation:mergeReleaseJniLibFolders
+> Task :presentation:transformNativeLibsWithMergeJniLibsForRelease
+> Task :presentation:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :presentation:transformNativeLibsWithSyncJniLibsForRelease
+> Task :presentation:bundleReleaseAar
+> Task :presentation:compileReleaseSources
+> Task :presentation:mergeReleaseResources
+> Task :presentation:verifyReleaseResources
+> Task :presentation:assembleRelease
+
+> Task :presentation:javadoc
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:3: error: package android.arch.lifecycle does not exist
+import android.arch.lifecycle.ViewModelProvider;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:4: error: package android.arch.lifecycle does not exist
+import android.arch.lifecycle.ViewModelProviders;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:6: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:8: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:9: error: package android.support.v7.app does not exist
+import android.support.v7.app.AppCompatActivity;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/presenter/BasePresenter.java:4: error: package android.arch.lifecycle does not exist
+import android.arch.lifecycle.ViewModel;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/presenter/BasePresenter.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/presenter/BasePresenter.java:9: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/presenter/BasePresenter.java:23: error: cannot find symbol
+        extends ViewModel
+                ^
+  symbol: class ViewModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/definition/Base.java:4: error: package android.arch.lifecycle does not exist
+import android.arch.lifecycle.Lifecycle;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/definition/Base.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/definition/Base.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:22: error: cannot find symbol
+    private final ViewModelProvider mViewModelProvider;
+                  ^
+  symbol:   class ViewModelProvider
+  location: class PresenterOwner<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class PresenterOwner
+    V extends IView declared in class PresenterOwner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:27: error: cannot find symbol
+    public <A extends AppCompatActivity & Provider<P, V>> PresenterOwner(@NonNull A provider) {
+                      ^
+  symbol:   class AppCompatActivity
+  location: class PresenterOwner<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class PresenterOwner
+    V extends IView declared in class PresenterOwner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:31: error: cannot find symbol
+    public <F extends Fragment & Provider<P, V>> PresenterOwner(@NonNull F provider) {
+                      ^
+  symbol:   class Fragment
+  location: class PresenterOwner<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class PresenterOwner
+    V extends IView declared in class PresenterOwner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:31: error: constructor <A>PresenterOwner(A) is already defined in class PresenterOwner
+    public <F extends Fragment & Provider<P, V>> PresenterOwner(@NonNull F provider) {
+                                                 ^
+  where A,P,V are type-variables:
+    A declared in constructor <A>PresenterOwner(A)
+    P extends BasePresenter declared in class PresenterOwner
+    V extends IView declared in class PresenterOwner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:35: error: cannot find symbol
+    public PresenterOwner(@NonNull ViewModelProvider viewModelProvider,
+                                   ^
+  symbol:   class ViewModelProvider
+  location: class PresenterOwner<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class PresenterOwner
+    V extends IView declared in class PresenterOwner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/activity/BaseActivity.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/activity/BaseActivity.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/activity/BaseActivity.java:6: error: package android.support.v7.app does not exist
+import android.support.v7.app.AppCompatActivity;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/activity/BaseActivity.java:20: error: cannot find symbol
+        extends AppCompatActivity
+                ^
+  symbol: class AppCompatActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/provider/BaseDataProvider.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/provider/BaseDataProvider.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:6: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:8: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:11: error: package com.skocken.efficientadapter.lib.util does not exist
+import com.skocken.efficientadapter.lib.util.EfficientCacheView;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:12: error: cannot find symbol
+import com.skocken.presentation.R;
+                               ^
+  symbol:   class R
+  location: package com.skocken.presentation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:26: error: cannot find symbol
+    private final EfficientCacheView mCacheView;
+                  ^
+  symbol:   class EfficientCacheView
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:35: error: cannot find symbol
+    public BaseViewProxy(@NonNull Fragment fragment) {
+                                  ^
+  symbol:   class Fragment
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:49: error: cannot find symbol
+    EfficientCacheView createCacheView(View rootView) {
+    ^
+  symbol:   class EfficientCacheView
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseFragment.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseFragment.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseFragment.java:6: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseFragment.java:23: error: cannot find symbol
+        extends Fragment
+                ^
+  symbol: class Fragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseDialogFragment.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseDialogFragment.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseDialogFragment.java:6: error: package android.support.v4.app does not exist
+import android.support.v4.app.DialogFragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseDialogFragment.java:19: error: cannot find symbol
+        extends DialogFragment
+                ^
+  symbol: class DialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewholder/PresenterViewHolder.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewholder/PresenterViewHolder.java:5: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewholder/PresenterViewHolder.java:8: error: package com.skocken.efficientadapter.lib.viewholder does not exist
+import com.skocken.efficientadapter.lib.viewholder.EfficientViewHolder;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewholder/PresenterViewHolder.java:18: error: cannot find symbol
+        extends EfficientViewHolder<T> implements Base.IItemView<T> {
+                ^
+  symbol: class EfficientViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:27: error: cannot find symbol
+    public <A extends AppCompatActivity & Provider<P, V>> PresenterOwner(@NonNull A provider) {
+                                                                          ^
+  symbol:   class NonNull
+  location: class PresenterOwner<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class PresenterOwner
+    V extends IView declared in class PresenterOwner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:31: error: cannot find symbol
+    public <F extends Fragment & Provider<P, V>> PresenterOwner(@NonNull F provider) {
+                                                                 ^
+  symbol:   class NonNull
+  location: class PresenterOwner<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class PresenterOwner
+    V extends IView declared in class PresenterOwner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:35: error: cannot find symbol
+    public PresenterOwner(@NonNull ViewModelProvider viewModelProvider,
+                           ^
+  symbol:   class NonNull
+  location: class PresenterOwner<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class PresenterOwner
+    V extends IView declared in class PresenterOwner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:36: error: cannot find symbol
+                          @NonNull Provider<P, V> provider) {
+                           ^
+  symbol:   class NonNull
+  location: class PresenterOwner<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class PresenterOwner
+    V extends IView declared in class PresenterOwner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/presenter/BasePresenter.java:32: error: cannot find symbol
+    public void setProvider(@Nullable Base.IDataProvider provider) {
+                             ^
+  symbol:   class Nullable
+  location: class BasePresenter<D,V>
+  where D,V are type-variables:
+    D extends IDataProvider declared in class BasePresenter
+    V extends IView declared in class BasePresenter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/presenter/BasePresenter.java:46: error: cannot find symbol
+    public void setView(@Nullable Base.IView view) {
+                         ^
+  symbol:   class Nullable
+  location: class BasePresenter<D,V>
+  where D,V are type-variables:
+    D extends IDataProvider declared in class BasePresenter
+    V extends IView declared in class BasePresenter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/presenter/BasePresenter.java:59: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BasePresenter<D,V>
+  where D,V are type-variables:
+    D extends IDataProvider declared in class BasePresenter
+    V extends IView declared in class BasePresenter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/presenter/BasePresenter.java:78: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BasePresenter<D,V>
+  where D,V are type-variables:
+    D extends IDataProvider declared in class BasePresenter
+    V extends IView declared in class BasePresenter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/presenter/BasePresenter.java:88: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BasePresenter<D,V>
+  where D,V are type-variables:
+    D extends IDataProvider declared in class BasePresenter
+    V extends IView declared in class BasePresenter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/presenter/BasePresenter.java:108: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class BasePresenter<D,V>
+  where D,V are type-variables:
+    D extends IDataProvider declared in class BasePresenter
+    V extends IView declared in class BasePresenter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/presenter/BasePresenter.java:118: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BasePresenter<D,V>
+  where D,V are type-variables:
+    D extends IDataProvider declared in class BasePresenter
+    V extends IView declared in class BasePresenter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/presenter/BasePresenter.java:140: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class BasePresenter<D,V>
+  where D,V are type-variables:
+    D extends IDataProvider declared in class BasePresenter
+    V extends IView declared in class BasePresenter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/presenter/BasePresenter.java:150: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BasePresenter<D,V>
+  where D,V are type-variables:
+    D extends IDataProvider declared in class BasePresenter
+    V extends IView declared in class BasePresenter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/definition/Base.java:14: error: cannot find symbol
+        void setView(@Nullable Base.IView view);
+                      ^
+  symbol:   class Nullable
+  location: interface IPresenter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/definition/Base.java:16: error: cannot find symbol
+        @Nullable
+         ^
+  symbol:   class Nullable
+  location: interface IPresenter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/definition/Base.java:19: error: cannot find symbol
+        @Nullable
+         ^
+  symbol:   class Nullable
+  location: interface IPresenter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/definition/Base.java:22: error: cannot find symbol
+        @Nullable
+         ^
+  symbol:   class Nullable
+  location: interface IPresenter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/definition/Base.java:33: error: cannot find symbol
+        void setPresenter(@Nullable Base.IPresenter presenter);
+                           ^
+  symbol:   class Nullable
+  location: interface IDataProvider
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/definition/Base.java:38: error: cannot find symbol
+        @NonNull
+         ^
+  symbol:   class NonNull
+  location: interface IView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/definition/Base.java:41: error: cannot find symbol
+        @NonNull
+         ^
+  symbol:   class NonNull
+  location: interface IView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/definition/Base.java:44: error: cannot find symbol
+        void setPresenter(@Nullable Base.IPresenter presenter);
+                           ^
+  symbol:   class Nullable
+  location: interface IView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:57: error: cannot find symbol
+        @NonNull
+         ^
+  symbol:   class NonNull
+  location: interface Provider<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in interface Provider
+    V extends IView declared in interface Provider
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:61: error: cannot find symbol
+        V newViewProxy(@NonNull P presenter, @Nullable Bundle savedInstanceState);
+                        ^
+  symbol:   class NonNull
+  location: interface Provider<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in interface Provider
+    V extends IView declared in interface Provider
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:61: error: cannot find symbol
+        V newViewProxy(@NonNull P presenter, @Nullable Bundle savedInstanceState);
+                                              ^
+  symbol:   class Nullable
+  location: interface Provider<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in interface Provider
+    V extends IView declared in interface Provider
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/util/PresenterOwner.java:60: error: cannot find symbol
+        @NonNull
+         ^
+  symbol:   class NonNull
+  location: interface Provider<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in interface Provider
+    V extends IView declared in interface Provider
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/activity/BaseActivity.java:34: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BaseActivity<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class BaseActivity
+    V extends IView declared in class BaseActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/activity/BaseActivity.java:39: error: cannot find symbol
+    protected void onPresenterSetup(@NonNull P presenter) {
+                                     ^
+  symbol:   class NonNull
+  location: class BaseActivity<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class BaseActivity
+    V extends IView declared in class BaseActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/definition/Base.java:49: error: cannot find symbol
+        @Nullable
+         ^
+  symbol:   class Nullable
+  location: interface IItemView<T>
+  where T is a type-variable:
+    T extends Object declared in interface IItemView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/provider/BaseDataProvider.java:18: error: cannot find symbol
+    public void setPresenter(@Nullable Base.IPresenter presenter) {
+                              ^
+  symbol:   class Nullable
+  location: class BaseDataProvider<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseDataProvider
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/provider/BaseDataProvider.java:37: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class BaseDataProvider<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseDataProvider
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/provider/BaseDataProvider.java:47: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BaseDataProvider<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseDataProvider
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:25: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:28: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:31: error: cannot find symbol
+    public BaseViewProxy(@NonNull Activity activity) {
+                          ^
+  symbol:   class NonNull
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:35: error: cannot find symbol
+    public BaseViewProxy(@NonNull Fragment fragment) {
+                          ^
+  symbol:   class NonNull
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:39: error: cannot find symbol
+    public BaseViewProxy(@NonNull View rootView) {
+                          ^
+  symbol:   class NonNull
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:48: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:58: error: cannot find symbol
+    public void setPresenter(@Nullable Base.IPresenter presenter) {
+                              ^
+  symbol:   class Nullable
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:77: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:87: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:99: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:105: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:111: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:141: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/viewproxy/BaseViewProxy.java:149: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BaseViewProxy<P>
+  where P is a type-variable:
+    P extends IPresenter declared in class BaseViewProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseFragment.java:29: error: cannot find symbol
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+                          ^
+  symbol:   class Nullable
+  location: class BaseFragment<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class BaseFragment
+    V extends IView declared in class BaseFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseFragment.java:39: error: cannot find symbol
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
+                              ^
+  symbol:   class NonNull
+  location: class BaseFragment<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class BaseFragment
+    V extends IView declared in class BaseFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseFragment.java:39: error: cannot find symbol
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
+                                                                ^
+  symbol:   class Nullable
+  location: class BaseFragment<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class BaseFragment
+    V extends IView declared in class BaseFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseFragment.java:40: error: cannot find symbol
+                             @Nullable Bundle savedInstanceState) {
+                              ^
+  symbol:   class Nullable
+  location: class BaseFragment<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class BaseFragment
+    V extends IView declared in class BaseFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseFragment.java:37: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BaseFragment<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class BaseFragment
+    V extends IView declared in class BaseFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseFragment.java:45: error: cannot find symbol
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+                               ^
+  symbol:   class NonNull
+  location: class BaseFragment<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class BaseFragment
+    V extends IView declared in class BaseFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseFragment.java:45: error: cannot find symbol
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+                                                   ^
+  symbol:   class Nullable
+  location: class BaseFragment<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class BaseFragment
+    V extends IView declared in class BaseFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseFragment.java:50: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BaseFragment<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class BaseFragment
+    V extends IView declared in class BaseFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseFragment.java:55: error: cannot find symbol
+    protected void onPresenterSetup(@NonNull P presenter) {
+                                     ^
+  symbol:   class NonNull
+  location: class BaseFragment<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class BaseFragment
+    V extends IView declared in class BaseFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseFragment.java:63: error: cannot find symbol
+    void onViewCreatedDelegate(@Nullable Bundle savedInstanceState) {
+                                ^
+  symbol:   class Nullable
+  location: class BaseFragment<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class BaseFragment
+    V extends IView declared in class BaseFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/presentation/src/main/java/com/skocken/presentation/fragment/BaseDialogFragment.java:25: error: cannot find symbol
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+                          ^
+  symbol:   class Nullable
+  location: class BaseDialogFragment<P,V>
+  where P,V are type-variables:
+    P extends BasePresenter declared in class BaseDialogFragment
+    V extends IView declared in class BaseDialogFragment
+100 warnings
+
+> Task :presentation:javadocJar
+> Task :presentation:sourcesJar
+> Task :presentation:assemble
+> Task :presentation:build
+
+BUILD SUCCESSFUL in 27s
+49 actionable tasks: 49 executed
+
+2019-01-20 19:08:10,833 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 19:08:10,833 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 19:08:18,256 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-01-20 19:08:18,256 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-20 19:08:18,256 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-20 19:08:57,926 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :sample
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :presentation
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Task :presentation:preBuild UP-TO-DATE
+> Task :presentation:preDebugBuild UP-TO-DATE
+> Task :presentation:compileDebugAidl NO-SOURCE
+> Task :presentation:compileDebugRenderscript UP-TO-DATE
+> Task :presentation:checkDebugManifest UP-TO-DATE
+> Task :presentation:generateDebugBuildConfig UP-TO-DATE
+> Task :presentation:generateDebugResValues UP-TO-DATE
+> Task :presentation:generateDebugResources UP-TO-DATE
+> Task :presentation:packageDebugResources UP-TO-DATE
+> Task :presentation:processDebugManifest UP-TO-DATE
+> Task :presentation:generateDebugRFile UP-TO-DATE
+> Task :presentation:prepareLintJar UP-TO-DATE
+> Task :presentation:generateDebugSources UP-TO-DATE
+> Task :presentation:javaPreCompileDebug UP-TO-DATE
+> Task :presentation:compileDebugJavaWithJavac UP-TO-DATE
+> Task :presentation:processDebugJavaRes NO-SOURCE
+> Task :presentation:transformClassesWithJacocoForDebug UP-TO-DATE
+> Task :presentation:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :sample:checkDebugClasspath
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :presentation:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:splitsDiscoveryTaskDebug
+> Task :sample:processDebugResources
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :presentation:mergeDebugShaders UP-TO-DATE
+> Task :presentation:compileDebugShaders UP-TO-DATE
+> Task :presentation:generateDebugAssets UP-TO-DATE
+> Task :presentation:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Task :presentation:compileDebugNdk NO-SOURCE
+> Task :presentation:mergeDebugJniLibFolders UP-TO-DATE
+> Task :presentation:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :presentation:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :presentation:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:checkDebugLibraries
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :presentation:preReleaseBuild UP-TO-DATE
+> Task :presentation:compileReleaseAidl NO-SOURCE
+> Task :presentation:compileReleaseRenderscript UP-TO-DATE
+> Task :presentation:checkReleaseManifest UP-TO-DATE
+> Task :presentation:generateReleaseBuildConfig UP-TO-DATE
+> Task :presentation:generateReleaseResValues UP-TO-DATE
+> Task :presentation:generateReleaseResources UP-TO-DATE
+> Task :presentation:packageReleaseResources UP-TO-DATE
+> Task :presentation:processReleaseManifest UP-TO-DATE
+> Task :presentation:generateReleaseRFile UP-TO-DATE
+> Task :presentation:generateReleaseSources UP-TO-DATE
+> Task :presentation:javaPreCompileRelease UP-TO-DATE
+> Task :presentation:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :presentation:processReleaseJavaRes NO-SOURCE
+> Task :presentation:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :sample:checkReleaseClasspath
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :presentation:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:splitsDiscoveryTaskRelease
+> Task :sample:processReleaseResources
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4ced6b44d02e0af3e5ed052578f1e80f/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/772634ab47eba9f0bb7a1c1a82b4eea6/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :presentation:mergeReleaseShaders UP-TO-DATE
+> Task :presentation:compileReleaseShaders UP-TO-DATE
+> Task :presentation:generateReleaseAssets UP-TO-DATE
+> Task :presentation:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :presentation:compileReleaseNdk NO-SOURCE
+> Task :presentation:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :presentation:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :presentation:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :presentation:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:checkReleaseLibraries
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+BUILD SUCCESSFUL in 39s
+91 actionable tasks: 59 executed, 32 up-to-date
+
+2019-01-20 19:08:58,070 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986032210-0/src/Presentation-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

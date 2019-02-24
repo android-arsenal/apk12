@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "jp.joao.preferenceseditor.sample",
+    "label" : "Preferences Editor",
+    "icon" : null,
+    "versionName" : "1.0.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "4",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 501,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0.0\" package=\"jp.joao.preferenceseditor.sample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"4\" android:targetSdkVersion=\"23\" />\n\t<application android:label=\"Preferences Editor\" android:name=\"jp.joao.preferenceseditor.sample.DebugApplication\" android:debuggable=\"true\">\n\t\t<activity android:name=\"jp.joao.preferenceseditor.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<receiver android:name=\"jp.joao.preferenceseditor.PreferencesEditorReceiver\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"jp.joao.preferenceseditor.sample.sp.PUT\" />\n\t\t\t\t<action android:name=\"jp.joao.preferenceseditor.sample.sp.REMOVE\" />\n\t\t\t\t<action android:name=\"jp.joao.preferenceseditor.sample.sp.CLEAR\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.jakewharton.processphoenix.ProcessPhoenix\" android:process=\":phoenix\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 211237,
+  "crc32" : 95366001,
+  "sha256" : "59b6a3b875f264749bfc2ac6fa5f9dd62796dc84ea29f84b1a5a7065f63ab089",
+  "buildTime" : 1547898118000
+}

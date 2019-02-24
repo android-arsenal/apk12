@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.sangcomz.fishbundemo",
+    "label" : "FishBunDemo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.8.7",
+    "versionCode" : 21,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "21",
+    "platformBuildVersionName" : "0.8.7",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1770,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"21\" android:versionName=\"0.8.7\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.sangcomz.fishbundemo\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"0.8.7\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"FishBunDemo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.sangcomz.fishbundemo.CommonApplication\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.sangcomz.fishbundemo.WithActivityActivity\" />\n\t\t<activity android:name=\"com.sangcomz.fishbundemo.ActivityWithBaseActivity\" />\n\t\t<activity android:name=\"com.sangcomz.fishbundemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.sangcomz.fishbundemo.WithFragmentActivity\" />\n\t\t<provider android:name=\"android.support.v4.content.FileProvider\" android:exported=\"false\" android:authorities=\"com.sangcomz.fishbundemo.provider\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/provider_paths.xml\" />\n\t\t</provider>\n\t\t<activity android:theme=\"resourceId:0x7f0f00c9\" android:label=\"Album\" android:name=\"com.sangcomz.fishbun.ui.album.AlbumActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00c9\" android:name=\"com.sangcomz.fishbun.ui.picker.PickerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00c8\" android:name=\"com.sangcomz.fishbun.ui.detail.DetailActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1547676,
+  "crc32" : 3109089348,
+  "sha256" : "b31c5ce2acfafa6edf22f117ef90eaefa5db9edaf5e7ac616b2c03587f2c1197",
+  "buildTime" : 1547989430000
+}

@@ -1,0 +1,48 @@
+2016-07-16 05:10:12,443 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/vanniktech/gradle-android-junit-jacoco-plugin/archive/master.zip", attempt 3
+2016-07-16 05:10:14,563 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/vanniktech/gradle-android-junit-jacoco-plugin/archive/master.zip, attempt 3
+2016-07-16 05:10:14,942 DEBUG o.z.z.ZipUtil - Extracting '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468624211872-0/master.zip' into '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468624211872-0/src'.
+2016-07-16 05:10:14,977 INFO  c.g.v.a.s.FullProcessService - Size of directory with sources: 102 KB
+2016-07-16 05:10:15,007 INFO  c.g.v.a.s.a.ProjectBuildService - Gradle wrapper(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468624211872-0/src/gradle-android-junit-jacoco-plugin-master/gradlew
+2016-07-16 05:10:15,013 INFO  c.g.v.a.s.a.ProjectBuildService - Build script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468624211872-0/src/gradle-android-junit-jacoco-plugin-master/build.gradle
+2016-07-16 05:10:15,019 INFO  c.g.v.a.s.a.ProjectBuildService - All script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468624211872-0/src/gradle-android-junit-jacoco-plugin-master/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468624211872-0/src/gradle-android-junit-jacoco-plugin-master/gradle/gradle-mvn-push.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468624211872-0/src/gradle-android-junit-jacoco-plugin-master/settings.gradle
+2016-07-16 05:10:15,027 INFO  c.g.v.a.s.a.ProjectBuildService - Remote scripts: none
+2016-07-16 05:10:15,028 INFO  c.g.v.a.s.a.ProjectFixService - Fixing project...
+2016-07-16 05:10:15,123 INFO  c.g.v.a.s.AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2016-07-16 05:10:15,123 INFO  c.g.v.a.s.AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/ndk
+2016-07-16 05:10:15,126 INFO  c.g.v.a.s.AndroidToolsService - Available build tools: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0
+2016-07-16 05:10:15,128 INFO  c.g.v.a.s.AndroidToolsService - Available build tools after clean up: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0
+2016-07-16 05:10:15,132 INFO  c.g.v.a.s.AndroidToolsService - Available platforms: 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 7 8 9 24
+2016-07-16 05:10:15,134 INFO  c.g.v.a.s.AndroidToolsService - Available platforms after clean up: 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+2016-07-16 05:10:15,135 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468624211872-0/src/gradle-android-junit-jacoco-plugin-master/local.properties
+2016-07-16 05:10:15,137 INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Project uses full gradle wrapper: true (https://services.gradle.org/distributions/gradle-2.14-all.zip)
+2016-07-16 05:10:15,138 INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14-bin.zip)
+2016-07-16 05:10:15,167 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468624211872-0/src/gradle-android-junit-jacoco-plugin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-07-16 05:10:15,189 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468624211872-0/src/gradle-android-junit-jacoco-plugin-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-07-16 05:10:15,193 INFO  c.g.v.a.s.a.ProjectFixService - Project was maybe fixed
+2016-07-16 05:10:15,199 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-07-16 05:10:15,202 INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468624211872-0/src/gradle-android-junit-jacoco-plugin-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468624211872-0/src/gradle-android-junit-jacoco-plugin-master/build.gradle, tasks]
+2016-07-16 05:10:25,354 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 55
+2016-07-16 05:10:25,354 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: test check javadoc
+2016-07-16 05:10:25,355 INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468624211872-0/src/gradle-android-junit-jacoco-plugin-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468624211872-0/src/gradle-android-junit-jacoco-plugin-master/build.gradle, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2016-07-16 05:10:42,606 INFO  c.g.v.a.s.a.ProjectBuildService - :compileJava UP-TO-DATE
+:compileGroovy
+:processResources
+:classes
+:groovydoc
+Trying to override old definition of task fileScanner
+:groovydocJar
+:jar
+:javadocJar
+:sourcesJar
+:signArchives SKIPPED
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.675 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.14/userguide/gradle_daemon.html
+
+2016-07-16 05:10:42,624 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-07-16 05:10:42,635 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

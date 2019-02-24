@@ -1,0 +1,195 @@
+2019-01-19 18:48:08,817 INFO  DownloadService - Downloading "https://github.com/lingochamp/MagicProgressWidget/archive/master.zip", attempt 3
+2019-01-19 18:48:09,890 INFO  DownloadService - Downloaded https://github.com/lingochamp/MagicProgressWidget/archive/master.zip, attempt 3
+2019-01-19 18:48:09,890 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/master.zip": 492 KB
+2019-01-19 18:48:09,890 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 18:48:09,896 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/master.zip: true
+2019-01-19 18:48:09,896 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src'.
+2019-01-19 18:48:09,918 INFO  FullProcessService - Size of directory with sources: 573 KB
+2019-01-19 18:48:09,918 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src]
+2019-01-19 18:48:09,938 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/.git/
+
+2019-01-19 18:48:09,941 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/gradlew
+2019-01-19 18:48:09,944 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/build.gradle
+2019-01-19 18:48:09,947 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/gradle/mavenlocal.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/gradle/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/gradle/mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/settings.gradle
+2019-01-19 18:48:09,947 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 18:48:09,947 INFO  ProjectFixService - Fixing project...
+2019-01-19 18:48:09,957 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/demo/local.properties
+2019-01-19 18:48:09,960 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:48:09,960 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:48:09,961 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/library/local.properties
+2019-01-19 18:48:09,964 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=3,targetSdkVersion=<null>]
+2019-01-19 18:48:09,964 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=3,targetSdkVersion=28]
+2019-01-19 18:48:09,965 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/local.properties
+2019-01-19 18:48:09,965 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
+2019-01-19 18:48:09,966 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
+2019-01-19 18:48:09,969 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:48:09,969 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:48:09,969 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 18:48:09,969 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 18:48:09,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 18:48:28,971 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-01-19 18:48:28,971 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 18:48:28,972 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 18:49:16,154 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://jcenter.bintray.com/cn/dreamtobe/percentsmoothhandler/library/0.1.1/library-0.1.1.pom
+Download https://jcenter.bintray.com/cn/dreamtobe/percentsmoothhandler/library/0.1.1/library-0.1.1.aar
+> Task :demo:checkDebugClasspath
+> Task :demo:preBuild UP-TO-DATE
+> Task :library:preBuild UP-TO-DATE
+> Task :library:preDebugBuild UP-TO-DATE
+> Task :library:checkDebugManifest
+> Task :library:processDebugManifest
+> Task :demo:preDebugBuild
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :demo:compileDebugAidl NO-SOURCE
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :demo:compileDebugRenderscript
+> Task :demo:checkDebugManifest
+> Task :demo:generateDebugBuildConfig
+> Task :demo:prepareLintJar
+> Task :demo:mainApkListPersistenceDebug
+> Task :demo:generateDebugResValues
+> Task :demo:generateDebugResources
+> Task :library:compileDebugRenderscript
+> Task :library:generateDebugResValues
+> Task :library:generateDebugResources
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3.3.0-alpha04-4818971/aapt2-3.3.0-alpha04-4818971.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3.3.0-alpha04-4818971/aapt2-3.3.0-alpha04-4818971-osx.jar
+> Task :library:packageDebugResources
+> Task :demo:mergeDebugResources
+> Task :demo:createDebugCompatibleScreenManifests
+> Task :demo:processDebugManifest
+> Task :library:generateDebugRFile
+> Task :demo:processDebugResources
+> Task :demo:generateDebugSources
+> Task :library:generateDebugBuildConfig
+> Task :library:prepareLintJar
+> Task :library:generateDebugSources
+> Task :library:javaPreCompileDebug
+
+> Task :library:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/library/src/main/java/com/liulishuo/magicprogresswidget/MagicProgressCircle.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :demo:javaPreCompileDebug
+> Task :demo:compileDebugJavaWithJavac
+> Task :demo:compileDebugNdk NO-SOURCE
+> Task :demo:compileDebugSources
+> Task :demo:mergeDebugShaders
+> Task :demo:compileDebugShaders
+> Task :demo:generateDebugAssets
+> Task :library:mergeDebugShaders
+> Task :library:compileDebugShaders
+> Task :library:generateDebugAssets
+> Task :library:packageDebugAssets
+> Task :demo:mergeDebugAssets
+> Task :demo:transformClassesWithDexBuilderForDebug
+> Task :demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :demo:transformDexArchiveWithDexMergerForDebug
+> Task :demo:mergeDebugJniLibFolders
+> Task :library:compileDebugNdk NO-SOURCE
+> Task :library:mergeDebugJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForDebug
+> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :demo:transformNativeLibsWithMergeJniLibsForDebug
+> Task :demo:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :demo:processDebugJavaRes NO-SOURCE
+> Task :demo:transformResourcesWithMergeJavaResForDebug
+> Task :demo:validateSigningDebug
+> Task :demo:packageDebug
+> Task :demo:assembleDebug
+> Task :demo:checkReleaseClasspath
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:checkReleaseManifest
+> Task :library:processReleaseManifest
+> Task :demo:preReleaseBuild
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :demo:compileReleaseAidl NO-SOURCE
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :demo:compileReleaseRenderscript
+> Task :demo:checkReleaseManifest
+> Task :demo:generateReleaseBuildConfig
+> Task :demo:mainApkListPersistenceRelease
+> Task :demo:generateReleaseResValues
+> Task :demo:generateReleaseResources
+> Task :library:compileReleaseRenderscript
+> Task :library:generateReleaseResValues
+> Task :library:generateReleaseResources
+> Task :library:packageReleaseResources
+> Task :demo:mergeReleaseResources
+> Task :demo:createReleaseCompatibleScreenManifests
+> Task :demo:processReleaseManifest
+> Task :library:generateReleaseRFile
+> Task :demo:processReleaseResources
+> Task :demo:generateReleaseSources
+> Task :library:generateReleaseBuildConfig
+> Task :library:generateReleaseSources
+> Task :library:javaPreCompileRelease
+
+> Task :library:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/library/src/main/java/com/liulishuo/magicprogresswidget/MagicProgressCircle.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :demo:javaPreCompileRelease
+> Task :demo:compileReleaseJavaWithJavac
+> Task :demo:compileReleaseNdk NO-SOURCE
+> Task :demo:compileReleaseSources
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.3.0-alpha04/lint-gradle-26.3.0-alpha04.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.3.0-alpha04/uast-26.3.0-alpha04.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.3.0-alpha04/lint-26.3.0-alpha04.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.3.0-alpha04/intellij-core-26.3.0-alpha04.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.3.0-alpha04/kotlin-compiler-26.3.0-alpha04.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.3.0-alpha04/lint-kotlin-26.3.0-alpha04.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.3.0-alpha04/lint-checks-26.3.0-alpha04.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.3.0-alpha04/lint-api-26.3.0-alpha04.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.3.0-alpha04/lint-kotlin-26.3.0-alpha04.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.3.0-alpha04/lint-gradle-26.3.0-alpha04.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.3.0-alpha04/lint-checks-26.3.0-alpha04.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.3.0-alpha04/lint-26.3.0-alpha04.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.3.0-alpha04/uast-26.3.0-alpha04.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.3.0-alpha04/lint-api-26.3.0-alpha04.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.3.0-alpha04/intellij-core-26.3.0-alpha04.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.3.0-alpha04/kotlin-compiler-26.3.0-alpha04.jar
+
+> Task :demo:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4241bb3c79092545310cec7d4deeb13f/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+
+> Task :demo:mergeReleaseShaders
+> Task :demo:compileReleaseShaders
+> Task :demo:generateReleaseAssets
+> Task :library:mergeReleaseShaders
+> Task :library:compileReleaseShaders
+> Task :library:generateReleaseAssets
+> Task :library:packageReleaseAssets
+> Task :demo:mergeReleaseAssets
+> Task :demo:transformClassesWithDexBuilderForRelease
+> Task :demo:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :demo:transformDexArchiveWithDexMergerForRelease
+> Task :demo:mergeReleaseJniLibFolders
+> Task :library:compileReleaseNdk NO-SOURCE
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForRelease
+> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :demo:transformNativeLibsWithMergeJniLibsForRelease
+> Task :demo:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :demo:processReleaseJavaRes NO-SOURCE
+> Task :demo:transformResourcesWithMergeJavaResForRelease
+> Task :demo:packageRelease
+> Task :demo:assembleRelease
+> Task :demo:assemble
+> Task :demo:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.9/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 46s
+86 actionable tasks: 86 executed
+
+2019-01-19 18:49:16,223 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898488809-0/src/MagicProgressWidget-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

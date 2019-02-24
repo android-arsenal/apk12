@@ -1,0 +1,1185 @@
+2019-01-20 18:23:21,762 INFO  DownloadService - Downloading "https://github.com/thyrlian/ScreenshotsNanny/archive/master.zip", attempt 3
+2019-01-20 18:23:28,468 INFO  DownloadService - Downloaded https://github.com/thyrlian/ScreenshotsNanny/archive/master.zip, attempt 3
+2019-01-20 18:23:28,469 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/master.zip": 8 MB
+2019-01-20 18:23:28,469 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-20 18:23:28,469 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/master.zip: true
+2019-01-20 18:23:28,469 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src'.
+2019-01-20 18:23:28,580 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-01-20 18:23:28,580 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src]
+2019-01-20 18:23:28,603 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/.git/
+
+2019-01-20 18:23:28,609 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/gradlew
+2019-01-20 18:23:28,616 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/build.gradle
+2019-01-20 18:23:28,622 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/settings.gradle
+2019-01-20 18:23:28,623 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/thyrlian/ScreenshotsNanny/master/publish.gradle", attempt 3
+2019-01-20 18:23:28,858 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/thyrlian/ScreenshotsNanny/master/publish.gradle, attempt 3
+2019-01-20 18:23:28,858 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/thyrlian/ScreenshotsNanny/master/publish.gradle
+2019-01-20 18:23:28,858 INFO  ProjectFixService - Fixing project...
+2019-01-20 18:23:28,875 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/demo/local.properties
+2019-01-20 18:23:28,879 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/demo/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-20 18:23:28,880 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/library/local.properties
+2019-01-20 18:23:28,883 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-20 18:23:28,883 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/local.properties
+2019-01-20 18:23:28,884 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.11-all.zip
+2019-01-20 18:23:28,884 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.11-bin.zip)
+2019-01-20 18:23:28,885 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-20 18:23:28,885 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 18:23:28,885 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 18:23:28,885 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 18:23:43,823 INFO  ProjectTaskService - Detected possible tasks: 93
+2019-01-20 18:23:43,823 INFO  ProjectTaskService - Excluded tasks (12): mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar deviceAndroidTest connectedCheck uninstallAll androidJavadocsJar test check connectedAndroidTest
+2019-01-20 18:23:43,823 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, connectedAndroidTest, build]
+2019-01-20 18:23:51,632 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-20 18:23:51,632 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'androidJavadocs' not found in project ':demo'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in project ':demo'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:63)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:143)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+
+
+BUILD FAILED
+
+Total time: 7.3 secs
+
+2019-01-20 18:23:51,632 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-01-20 18:23:51,633 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-20 18:25:12,646 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:69)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-20 18:25:12,648 INFO  SysUtils - Configuration on demand is an incubating feature.
+:demo:preBuild UP-TO-DATE
+:demo:preProdDebugBuild UP-TO-DATE
+:demo:checkProdDebugManifest
+:demo:preProdReleaseBuild UP-TO-DATE
+:demo:preScreenshotsDebugBuild UP-TO-DATE
+:demo:preScreenshotsReleaseBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAnimatedVectorDrawable2400Alpha1Library
+:library:prepareComAndroidSupportAppcompatV72400Alpha1Library
+:library:prepareComAndroidSupportMultidex101Library
+:library:prepareComAndroidSupportSupportV42400Alpha1Library
+:library:prepareComAndroidSupportSupportVectorDrawable2400Alpha1Library
+:library:prepareComGoogleAndroidGmsPlayServicesBase840Library
+:library:prepareComGoogleAndroidGmsPlayServicesBasement840Library
+:library:prepareComGoogleAndroidGmsPlayServicesGcm840Library
+:library:prepareComGoogleAndroidGmsPlayServicesMaps840Library
+:library:prepareComGoogleAndroidGmsPlayServicesMeasurement840Library
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/library/src/main/java/com/basgeekball/screenshotsnanny/activityassistant/ActivityHelper.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:extractReleaseAnnotations
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForRelease
+:library:transformNative_libsWithSyncJniLibsForRelease
+:library:bundleRelease
+:demo:prepareComAndroidSupportAnimatedVectorDrawable2400Alpha1Library
+:demo:prepareComAndroidSupportAppcompatV72400Alpha1Library
+:demo:prepareComAndroidSupportDesign2400Alpha1Library
+:demo:preProdDebugAndroidTestBuild UP-TO-DATE
+:demo:preScreenshotsDebugAndroidTestBuild UP-TO-DATE
+:demo:prepareComAndroidSupportMultidex101Library
+:demo:prepareComAndroidSupportRecyclerviewV72400Alpha1Library
+:demo:prepareComAndroidSupportSupportV42400Alpha1Library
+:demo:prepareComAndroidSupportSupportVectorDrawable2400Alpha1Library
+:demo:prepareComGoogleAndroidGmsPlayServicesBase840Library
+:demo:prepareComGoogleAndroidGmsPlayServicesBasement840Library
+:demo:prepareComGoogleAndroidGmsPlayServicesGcm840Library
+:demo:prepareComGoogleAndroidGmsPlayServicesLocation840Library
+:demo:prepareComGoogleAndroidGmsPlayServicesMaps840Library
+:demo:prepareComGoogleAndroidGmsPlayServicesMeasurement840Library
+:demo:prepareScreenshotsNannyMasterLibraryUnspecifiedLibrary
+:demo:prepareProdDebugDependencies
+:demo:compileProdDebugAidl
+:demo:compileProdDebugRenderscript
+:demo:generateProdDebugBuildConfig
+:demo:generateProdDebugAssets UP-TO-DATE
+:demo:mergeProdDebugAssets
+:demo:generateProdDebugResValues
+:demo:generateProdDebugResources
+:demo:mergeProdDebugResources
+:demo:processProdDebugManifest
+:demo:processProdDebugResources
+:demo:generateProdDebugSources
+:demo:compileProdDebugJavaWithJavac
+:demo:compileProdDebugNdk UP-TO-DATE
+:demo:compileProdDebugSources
+:demo:transformClassesWithJarMergingForProdDebug
+:demo:collectProdDebugMultiDexComponents
+:demo:transformClassesWithMultidexlistForProdDebug
+ProGuard, version 5.2.1
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/demo/build/intermediates/transforms/jarMerging/prod/debug/jars/1/1f/combined.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/lib/shrinkedAndroid.jar]
+Note: android.support.design.widget.CoordinatorLayout calls 'Class.getAnnotation'
+Note: com.google.gson.FieldAttributes calls 'Field.getAnnotation'
+Note: com.google.gson.FieldAttributes calls 'Field.getAnnotations'
+Note: com.google.gson.internal.Excluder calls 'Field.getAnnotation'
+Note: com.google.gson.internal.Excluder calls 'Class.getAnnotation'
+Note: com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory calls 'Class.getAnnotation'
+Note: com.google.gson.internal.bind.ReflectiveTypeAdapterFactory calls 'Field.getAnnotation'
+Note: com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter calls 'Field.getAnnotation'
+Note: org.junit.experimental.categories.Categories calls 'Class.getAnnotation'
+Note: org.junit.experimental.theories.ParameterSignature calls 'Method.getParameterAnnotations'
+Note: org.junit.experimental.theories.ParameterSignature calls 'Class.getAnnotations'
+Note: org.junit.experimental.theories.Theories calls 'Field.getAnnotation'
+Note: org.junit.experimental.theories.Theories$TheoryAnchor calls 'Method.getAnnotation'
+Note: org.junit.experimental.theories.internal.AllMembersSupplier calls 'Field.getAnnotation'
+Note: org.junit.internal.MethodSorter calls 'Class.getAnnotation'
+Note: org.junit.internal.builders.AnnotatedBuilder calls 'Class.getAnnotation'
+Note: org.junit.internal.builders.IgnoredBuilder calls 'Class.getAnnotation'
+Note: org.junit.internal.runners.JUnit4ClassRunner calls 'Class.getAnnotations'
+Note: org.junit.internal.runners.JUnit4ClassRunner calls 'Method.getAnnotations'
+Note: org.junit.internal.runners.TestClass calls 'Method.getAnnotation'
+Note: org.junit.internal.runners.TestMethod calls 'Method.getAnnotation'
+Note: org.junit.runner.Description calls 'Class.getAnnotations'
+Note: org.junit.runners.Parameterized$TestClassRunnerForParameters calls 'Field.getAnnotation'
+Note: org.junit.runners.Suite calls 'Class.getAnnotation'
+Note: org.junit.runners.model.FrameworkField calls 'Field.getAnnotations'
+Note: org.junit.runners.model.FrameworkMethod calls 'Method.getAnnotations'
+Note: org.junit.runners.model.FrameworkMethod calls 'Method.getAnnotation'
+Note: org.junit.runners.model.TestClass calls 'Class.getAnnotations'
+Note: retrofit2.MethodHandler calls 'Method.getAnnotations'
+Note: retrofit2.RequestFactoryParser calls 'Method.getAnnotations'
+Note: retrofit2.RequestFactoryParser calls 'Method.getParameterAnnotations'
+Note: android.support.v4.app.NotificationCompatJellybean calls 'Field.getType'
+Note: com.google.android.gms.internal.zzsv calls 'Field.getType'
+Note: com.google.gson.FieldAttributes calls 'Field.getGenericType'
+Note: com.google.gson.FieldAttributes calls 'Field.getType'
+Note: com.google.gson.internal.$Gson$Types calls 'Class.getGenericInterfaces'
+Note: com.google.gson.internal.$Gson$Types calls 'Class.getGenericSuperclass'
+Note: com.google.gson.internal.$Gson$Types calls 'Class.getTypeParameters'
+Note: com.google.gson.internal.Excluder calls 'Field.getType'
+Note: com.google.gson.internal.bind.ReflectiveTypeAdapterFactory calls 'Field.getType'
+Note: com.google.gson.internal.bind.ReflectiveTypeAdapterFactory calls 'Field.getGenericType'
+Note: com.google.gson.internal.bind.ReflectiveTypeAdapterFactory calls 'Class.getGenericSuperclass'
+Note: com.google.gson.reflect.TypeToken calls 'Class.getGenericSuperclass'
+Note: com.google.gson.reflect.TypeToken calls 'Class.getTypeParameters'
+Note: com.google.gson.reflect.TypeToken calls 'Class.getGenericInterfaces'
+Note: org.junit.experimental.theories.internal.AllMembersSupplier calls 'Field.getType'
+Note: org.junit.runners.Parameterized$TestClassRunnerForParameters calls 'Field.getType'
+Note: org.junit.runners.model.FrameworkField calls 'Field.getType'
+Note: org.junit.runners.model.NoGenericTypeParametersValidator calls 'Method.getGenericParameterTypes'
+Note: retrofit2.MethodHandler calls 'Method.getGenericReturnType'
+Note: retrofit2.RequestFactoryParser calls 'Method.getGenericParameterTypes'
+Note: retrofit2.Types calls 'Class.getGenericInterfaces'
+Note: retrofit2.Types calls 'Class.getGenericSuperclass'
+Note: retrofit2.Types calls 'Class.getTypeParameters'
+Note: com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl calls 'Class.getEnclosingClass'
+Note: retrofit2.Types$ParameterizedTypeImpl calls 'Class.getEnclosingClass'
+Note: android.support.v4.app.NotificationCompatJellybean: can't find dynamically referenced class android.app.Notification$Action
+Note: android.support.v4.media.ParceledListSliceAdapterApi21: can't find dynamically referenced class android.content.pm.ParceledListSlice
+Note: android.support.v4.media.ServiceCallbacksAdapterApi21: can't find dynamically referenced class android.service.media.IMediaBrowserServiceCallbacks
+Note: android.support.v4.media.ServiceCallbacksAdapterApi21: can't find dynamically referenced class android.content.pm.ParceledListSlice
+Note: android.support.v4.media.ServiceCallbacksAdapterApi21$Stub: can't find dynamically referenced class android.service.media.IMediaBrowserServiceCallbacks$Stub
+Note: android.support.v4.media.ServiceCallbacksAdapterApi24: can't find dynamically referenced class android.service.media.IMediaBrowserServiceCallbacks
+Note: android.support.v4.media.ServiceCallbacksAdapterApi24: can't find dynamically referenced class android.content.pm.ParceledListSlice
+Note: android.support.v4.text.ICUCompatApi23: can't find dynamically referenced class libcore.icu.ICU
+Note: android.support.v4.text.ICUCompatIcs: can't find dynamically referenced class libcore.icu.ICU
+Note: android.support.v7.widget.DrawableUtils: can't find dynamically referenced class android.graphics.Insets
+Note: com.basgeekball.screenshotsnanny.activityassistant.ActivityHelper: can't find dynamically referenced class android.app.ActivityThread
+Note: com.basgeekball.screenshotsnanny.activityassistant.ActivityHelper: can't find dynamically referenced class android.app.ActivityThread$ActivityClientRecord
+Note: com.google.android.gms.maps.internal.zzad: can't find dynamically referenced class com.google.android.gms.maps.internal.CreatorImpl
+Note: com.google.gson.internal.UnsafeAllocator: can't find dynamically referenced class sun.misc.Unsafe
+Note: com.squareup.okhttp.internal.Platform: can't find dynamically referenced class com.android.org.conscrypt.SSLParametersImpl
+Note: com.squareup.okhttp.internal.Platform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl
+Note: com.squareup.okhttp.internal.Platform: can't find dynamically referenced class android.net.TrafficStats
+Note: com.squareup.okhttp.internal.Platform: can't find dynamically referenced class android.net.Network
+Note: com.squareup.okhttp.internal.Platform: can't find dynamically referenced class sun.security.ssl.SSLContextImpl
+Note: okhttp3.internal.Platform: can't find dynamically referenced class com.android.org.conscrypt.OpenSSLSocketImpl
+Note: okhttp3.internal.Platform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.OpenSSLSocketImpl
+Note: okhttp3.internal.Platform: can't find dynamically referenced class android.net.TrafficStats
+Note: okhttp3.internal.Platform: can't find dynamically referenced class android.net.Network
+Note: retrofit2.Platform: can't find dynamically referenced class android.os.Build
+Note: retrofit2.Platform: can't find dynamically referenced class java.util.Optional
+Note: retrofit2.Platform: can't find dynamically referenced class org.robovm.apple.foundation.NSObject
+Note: retrofit2.Platform$IOS$MainThreadExecutor: can't find dynamically referenced class org.robovm.apple.foundation.NSOperationQueue
+Note: android.support.multidex.MultiDexExtractor accesses a method 'apply()' dynamically
+Note: android.support.v4.app.NotificationCompatJellybean accesses a declared field 'icon' dynamically
+      Maybe this is program field 'android.support.design.R$attr { int icon; }'
+      Maybe this is program field 'android.support.design.R$id { int icon; }'
+      Maybe this is program field 'android.support.v4.app.NotificationCompat$Action { int icon; }'
+      Maybe this is program field 'android.support.v7.appcompat.R$attr { int icon; }'
+      Maybe this is program field 'android.support.v7.appcompat.R$id { int icon; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.R$attr { int icon; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.R$id { int icon; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.demo.R$attr { int icon; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.demo.R$id { int icon; }'
+Note: android.support.v4.app.NotificationCompatJellybean accesses a declared field 'title' dynamically
+      Maybe this is program field 'android.support.design.R$attr { int title; }'
+      Maybe this is program field 'android.support.design.R$id { int title; }'
+      Maybe this is program field 'android.support.v4.app.NotificationCompat$Action { java.lang.CharSequence title; }'
+      Maybe this is program field 'android.support.v7.appcompat.R$attr { int title; }'
+      Maybe this is program field 'android.support.v7.appcompat.R$id { int title; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.R$attr { int title; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.R$id { int title; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.demo.R$attr { int title; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.demo.R$id { int title; }'
+      Maybe this is program field 'org.bouncycastle.asn1.x500.style.RFC4519Style { org.bouncycastle.asn1.ASN1ObjectIdentifier title; }'
+Note: android.support.v4.app.NotificationCompatJellybean accesses a declared field 'actionIntent' dynamically
+      Maybe this is program field 'android.support.v4.app.NotificationCompat$Action { android.app.PendingIntent actionIntent; }'
+Note: android.support.v4.media.ServiceCallbacksAdapterApi21 accesses a method 'asBinder()' dynamically
+      Maybe this is program method 'android.support.v4.app.INotificationSideChannel$Stub { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.app.INotificationSideChannel$Stub$Proxy { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompat$ServiceCallbacks { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompat$ServiceCallbacksApi21 { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompat$ServiceCallbacksCompat { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompatApi21$ServiceCallbacksApi21 { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompatApi21$ServiceCallbacksImplApi21 { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.ServiceBinderAdapterApi21 { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.ServiceBinderAdapterApi23 { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.ServiceBinderAdapterApi24 { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.ServiceCallbacksAdapterApi21 { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.session.IMediaControllerCallback$Stub { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.session.IMediaControllerCallback$Stub$Proxy { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.session.IMediaSession$Stub { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.session.IMediaSession$Stub$Proxy { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.os.IResultReceiver$Stub { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.os.IResultReceiver$Stub$Proxy { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.api.internal.zzo$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.api.internal.zzo$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzp$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzp$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzq$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzr$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzr$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzs$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzt$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzu$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.dynamic.zzc$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.dynamic.zzc$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.dynamic.zzd$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.dynamic.zzd$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.gcm.zzc$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.iid.zzb$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.iid.zzb$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzas$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzat$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzlx$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzlx$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzly$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzmk$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzmk$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzml$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzpk$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzpk$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.internal.zzg$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.internal.zzg$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.internal.zzh$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.internal.zzh$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.internal.zzi$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.internal.zzj$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.internal.zzj$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.internal.zzf$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.internal.zzg$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.internal.zzh$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.internal.zzh$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.internal.zzi$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.internal.zzi$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.personalized.zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.personalized.zza$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.zzc$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.zzc$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.zzd$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.zzd$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.ICameraUpdateFactoryDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IGoogleMapDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.ILocationSourceDelegate$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.ILocationSourceDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IMapFragmentDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IMapViewDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IProjectionDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IStreetViewPanoramaDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IStreetViewPanoramaFragmentDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IStreetViewPanoramaViewDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IUiSettingsDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzaa$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzaa$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzab$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzab$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzb$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzb$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzc$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzd$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzd$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zze$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zze$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzf$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzf$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzg$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzg$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzh$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzh$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzi$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzi$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzj$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzj$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzk$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzl$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzl$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzm$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzm$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzn$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzn$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzo$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzo$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzp$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzp$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzq$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzq$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzr$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzr$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzs$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzs$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzt$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzt$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzu$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzu$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzv$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzv$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzw$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzw$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzx$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzx$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzy$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzy$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzz$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzz$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.IPolylineDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zza$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzb$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzc$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzd$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zze$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzf$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzg$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzh$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzi$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzi$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.measurement.internal.zzm$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.measurement.internal.zzm$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.playlog.internal.zza$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.signin.internal.zzd$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.signin.internal.zzd$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.signin.internal.zze$zza$zza { android.os.IBinder asBinder(); }'
+Note: android.support.v4.media.ServiceCallbacksAdapterApi21 accesses a method 'onConnectFailed()' dynamically
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompat$ServiceCallbacks { void onConnectFailed(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompat$ServiceCallbacksApi21 { void onConnectFailed(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompat$ServiceCallbacksCompat { void onConnectFailed(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompatApi21$ServiceCallbacksApi21 { void onConnectFailed(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompatApi21$ServiceCallbacksImplApi21 { void onConnectFailed(); }'
+      Maybe this is program method 'android.support.v4.media.ServiceCallbacksAdapterApi21 { void onConnectFailed(); }'
+Note: android.support.v4.media.ServiceCallbacksAdapterApi21$Stub accesses a method 'asInterface(android.os.IBinder)' dynamically
+      Maybe this is program method 'android.support.v4.app.INotificationSideChannel$Stub { android.support.v4.app.INotificationSideChannel asInterface(android.os.IBinder); }'
+      Maybe this is program method 'android.support.v4.media.ServiceCallbacksAdapterApi21$Stub { java.lang.Object asInterface(android.os.IBinder); }'
+      Maybe this is program method 'android.support.v4.media.session.IMediaControllerCallback$Stub { android.support.v4.media.session.IMediaControllerCallback asInterface(android.os.IBinder); }'
+      Maybe this is program method 'android.support.v4.media.session.IMediaSession$Stub { android.support.v4.media.session.IMediaSession asInterface(android.os.IBinder); }'
+      Maybe this is program method 'android.support.v4.os.IResultReceiver$Stub { android.support.v4.os.IResultReceiver asInterface(android.os.IBinder); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzpk$zza { com.google.android.gms.internal.zzpk asInterface(android.os.IBinder); }'
+Note: android.support.v4.text.ICUCompatApi23 accesses a method 'addLikelySubtags(java.util.Locale)' dynamically
+      Maybe this is program method 'android.support.v4.text.ICUCompatIcs { java.lang.String addLikelySubtags(java.util.Locale); }'
+Note: android.support.v4.text.ICUCompatIcs accesses a method 'getScript(java.lang.String)' dynamically
+      Maybe this is program method 'android.support.v4.text.ICUCompatIcs { java.lang.String getScript(java.lang.String); }'
+Note: android.support.v4.text.ICUCompatIcs accesses a method 'addLikelySubtags(java.lang.String)' dynamically
+Note: android.support.v7.widget.DrawableUtils accesses a method 'getOpticalInsets()' dynamically
+Note: android.support.v7.widget.ViewUtils accesses a method 'makeOptionalFitsSystemWindows()' dynamically
+Note: com.basgeekball.screenshotsnanny.activityassistant.ActivityHelper accesses a method 'currentActivityThread()' dynamically
+Note: com.basgeekball.screenshotsnanny.activityassistant.ActivityHelper accesses a declared field 'mActivities' dynamically
+      Maybe this is program field 'android.support.v7.widget.ActivityChooserModel { java.util.List mActivities; }'
+Note: com.basgeekball.screenshotsnanny.activityassistant.ActivityHelper accesses a declared field 'paused' dynamically
+Note: com.basgeekball.screenshotsnanny.activityassistant.ActivityHelper accesses a declared field 'stopped' dynamically
+Note: com.basgeekball.screenshotsnanny.activityassistant.ActivityHelper accesses a declared field 'activity' dynamically
+      Maybe this is program field 'android.support.v7.widget.ActivityChooserModel$HistoricalRecord { android.content.ComponentName activity; }'
+Note: com.google.android.gms.common.internal.DowngradeableSafeParcel accesses a field 'NULL' dynamically
+      Maybe this is program field 'com.google.android.gms.common.internal.safeparcel.SafeParcelable { java.lang.String NULL; }'
+      Maybe this is program field 'com.google.gson.stream.JsonToken { com.google.gson.stream.JsonToken NULL; }'
+      Maybe this is program field 'org.bouncycastle.asn1.BERTags { int NULL; }'
+      Maybe this is program field 'org.bouncycastle.crypto.tls.CompressionMethod { short NULL; }'
+      Maybe this is program field 'org.bouncycastle.crypto.tls.DigestAlgorithm { int NULL; }'
+      Maybe this is program field 'org.bouncycastle.crypto.tls.EncryptionAlgorithm { int NULL; }'
+      Maybe this is program field 'org.bouncycastle.crypto.tls.KeyExchangeAlgorithm { int NULL; }'
+      Maybe this is program field 'org.bouncycastle.jcajce.provider.keystore.bc.BcKeyStoreSpi { int NULL; }'
+      Maybe this is program field 'org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi { int NULL; }'
+      Maybe this is program field 'org.junit.runner.manipulation.Sorter { org.junit.runner.manipulation.Sorter NULL; }'
+Note: com.google.android.gms.measurement.internal.zzab accesses a declared method 'initialize(android.content.Context)' dynamically
+      Maybe this is program method 'com.google.android.gms.maps.MapsInitializer { int initialize(android.content.Context); }'
+Note: com.google.gson.internal.UnsafeAllocator accesses a declared field 'theUnsafe' dynamically
+Note: com.google.gson.internal.UnsafeAllocator accesses a method 'allocateInstance(java.lang.Class)' dynamically
+Note: com.squareup.okhttp.internal.Platform accesses a method 'tagSocket(java.net.Socket)' dynamically
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$IcsTrafficStatsCompatImpl { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$TrafficStatsCompatImpl { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompatIcs { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform$Android { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform$Android { void tagSocket(java.net.Socket); }'
+Note: com.squareup.okhttp.internal.Platform accesses a method 'untagSocket(java.net.Socket)' dynamically
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$IcsTrafficStatsCompatImpl { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$TrafficStatsCompatImpl { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompatIcs { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform$Android { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform$Android { void untagSocket(java.net.Socket); }'
+Note: com.squareup.okhttp.internal.Platform accesses a method 'get(javax.net.ssl.SSLSocket)' dynamically
+Note: com.squareup.okhttp.internal.Platform accesses a method 'remove(javax.net.ssl.SSLSocket)' dynamically
+Note: com.squareup.okhttp.internal.tls.AndroidTrustRootIndex accesses a declared method 'findTrustAnchorByIssuerAndSignature(java.security.cert.X509Certificate)' dynamically
+Note: junit.runner.BaseTestRunner accesses a method 'suite()' dynamically
+Note: okhttp3.internal.Platform accesses a method 'tagSocket(java.net.Socket)' dynamically
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$IcsTrafficStatsCompatImpl { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$TrafficStatsCompatImpl { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompatIcs { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform$Android { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform$Android { void tagSocket(java.net.Socket); }'
+Note: okhttp3.internal.Platform accesses a method 'untagSocket(java.net.Socket)' dynamically
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$IcsTrafficStatsCompatImpl { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$TrafficStatsCompatImpl { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompatIcs { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform$Android { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform$Android { void untagSocket(java.net.Socket); }'
+Note: okhttp3.internal.Platform accesses a method 'get(javax.net.ssl.SSLSocket)' dynamically
+Note: okhttp3.internal.Platform accesses a method 'remove(javax.net.ssl.SSLSocket)' dynamically
+Note: org.bouncycastle.jcajce.provider.symmetric.AES$AlgParamsGCM accesses a declared method 'getTLen()' dynamically
+Note: org.bouncycastle.jcajce.provider.symmetric.AES$AlgParamsGCM accesses a declared method 'getIV()' dynamically
+      Maybe this is program method 'org.bouncycastle.asn1.cryptopro.GOST28147Parameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.misc.CAST5CBCParameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.misc.IDEACBCPar { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.pkcs.PKCS12PBEParams { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.pkcs.RC2CBCParameter { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.crypto.params.KDFFeedbackParameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.crypto.params.KDFParameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.crypto.params.ParametersWithIV { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.jcajce.spec.GOST28147ParameterSpec { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.pqc.jcajce.provider.util.AsymmetricBlockCipher { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.pqc.jcajce.provider.util.AsymmetricHybridCipher { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.pqc.jcajce.provider.util.CipherSpiExt { byte[] getIV(); }'
+Note: org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher accesses a declared method 'getTLen()' dynamically
+Note: org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher accesses a declared method 'getIV()' dynamically
+      Maybe this is program method 'org.bouncycastle.asn1.cryptopro.GOST28147Parameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.misc.CAST5CBCParameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.misc.IDEACBCPar { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.pkcs.PKCS12PBEParams { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.pkcs.RC2CBCParameter { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.crypto.params.KDFFeedbackParameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.crypto.params.KDFParameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.crypto.params.ParametersWithIV { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.jcajce.spec.GOST28147ParameterSpec { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.pqc.jcajce.provider.util.AsymmetricBlockCipher { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.pqc.jcajce.provider.util.AsymmetricHybridCipher { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.pqc.jcajce.provider.util.CipherSpiExt { byte[] getIV(); }'
+Note: org.junit.internal.builders.SuiteMethodBuilder accesses a method 'suite()' dynamically
+Note: org.junit.internal.runners.SuiteMethod accesses a method 'suite()' dynamically
+Note: retrofit2.Platform$IOS$MainThreadExecutor accesses a declared method 'getMainQueue()' dynamically
+Note: retrofit2.Platform$IOS$MainThreadExecutor accesses a declared method 'addOperation(java.lang.Runnable)' dynamically
+Note: there were 31 classes trying to access annotations using reflection.
+      You should consider keeping the annotation attributes
+      (using '-keepattributes *Annotation*').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#attributes)
+Note: there were 23 classes trying to access generic signatures using reflection.
+      You should consider keeping the signature attributes
+      (using '-keepattributes Signature').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#attributes)
+Note: there were 2 classes trying to access enclosing classes using reflection.
+      You should consider keeping the inner classes attributes
+      (using '-keepattributes InnerClasses').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#attributes)
+Note: there were 27 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 39 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Note: you're ignoring all warnings!
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/demo/build/intermediates/multi-dex/prod/debug/componentClasses.jar]
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/demo/build/intermediates/transforms/jarMerging/prod/debug/jars/1/1f/combined.jar]
+:demo:transformClassesWithDexForProdDebug
+:demo:mergeProdDebugJniLibFolders
+:demo:transformNative_libsWithMergeJniLibsForProdDebug
+:demo:processProdDebugJavaRes UP-TO-DATE
+:demo:transformResourcesWithMergeJavaResForProdDebug
+:demo:validateDebugSigning
+:demo:packageProdDebug
+:demo:zipalignProdDebug
+:demo:assembleProdDebug
+:demo:checkScreenshotsDebugManifest
+:demo:prepareScreenshotsDebugDependencies
+:demo:compileScreenshotsDebugAidl
+:demo:compileScreenshotsDebugRenderscript
+:demo:generateScreenshotsDebugBuildConfig
+:demo:generateScreenshotsDebugAssets UP-TO-DATE
+:demo:mergeScreenshotsDebugAssets
+:demo:generateScreenshotsDebugResValues
+:demo:generateScreenshotsDebugResources
+:demo:mergeScreenshotsDebugResources
+:demo:processScreenshotsDebugManifest
+:demo:processScreenshotsDebugResources
+:demo:generateScreenshotsDebugSources
+:demo:compileScreenshotsDebugJavaWithJavac
+:demo:compileScreenshotsDebugNdk UP-TO-DATE
+:demo:compileScreenshotsDebugSources
+:demo:transformClassesWithJarMergingForScreenshotsDebug
+:demo:collectScreenshotsDebugMultiDexComponents
+:demo:transformClassesWithMultidexlistForScreenshotsDebug
+ProGuard, version 5.2.1
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/demo/build/intermediates/transforms/jarMerging/screenshots/debug/jars/1/1f/combined.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/lib/shrinkedAndroid.jar]
+Note: android.support.design.widget.CoordinatorLayout calls 'Class.getAnnotation'
+Note: com.google.gson.FieldAttributes calls 'Field.getAnnotation'
+Note: com.google.gson.FieldAttributes calls 'Field.getAnnotations'
+Note: com.google.gson.internal.Excluder calls 'Field.getAnnotation'
+Note: com.google.gson.internal.Excluder calls 'Class.getAnnotation'
+Note: com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory calls 'Class.getAnnotation'
+Note: com.google.gson.internal.bind.ReflectiveTypeAdapterFactory calls 'Field.getAnnotation'
+Note: com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter calls 'Field.getAnnotation'
+Note: org.junit.experimental.categories.Categories calls 'Class.getAnnotation'
+Note: org.junit.experimental.theories.ParameterSignature calls 'Method.getParameterAnnotations'
+Note: org.junit.experimental.theories.ParameterSignature calls 'Class.getAnnotations'
+Note: org.junit.experimental.theories.Theories calls 'Field.getAnnotation'
+Note: org.junit.experimental.theories.Theories$TheoryAnchor calls 'Method.getAnnotation'
+Note: org.junit.experimental.theories.internal.AllMembersSupplier calls 'Field.getAnnotation'
+Note: org.junit.internal.MethodSorter calls 'Class.getAnnotation'
+Note: org.junit.internal.builders.AnnotatedBuilder calls 'Class.getAnnotation'
+Note: org.junit.internal.builders.IgnoredBuilder calls 'Class.getAnnotation'
+Note: org.junit.internal.runners.JUnit4ClassRunner calls 'Class.getAnnotations'
+Note: org.junit.internal.runners.JUnit4ClassRunner calls 'Method.getAnnotations'
+Note: org.junit.internal.runners.TestClass calls 'Method.getAnnotation'
+Note: org.junit.internal.runners.TestMethod calls 'Method.getAnnotation'
+Note: org.junit.runner.Description calls 'Class.getAnnotations'
+Note: org.junit.runners.Parameterized$TestClassRunnerForParameters calls 'Field.getAnnotation'
+Note: org.junit.runners.Suite calls 'Class.getAnnotation'
+Note: org.junit.runners.model.FrameworkField calls 'Field.getAnnotations'
+Note: org.junit.runners.model.FrameworkMethod calls 'Method.getAnnotations'
+Note: org.junit.runners.model.FrameworkMethod calls 'Method.getAnnotation'
+Note: org.junit.runners.model.TestClass calls 'Class.getAnnotations'
+Note: retrofit2.MethodHandler calls 'Method.getAnnotations'
+Note: retrofit2.RequestFactoryParser calls 'Method.getAnnotations'
+Note: retrofit2.RequestFactoryParser calls 'Method.getParameterAnnotations'
+Note: android.support.v4.app.NotificationCompatJellybean calls 'Field.getType'
+Note: com.google.android.gms.internal.zzsv calls 'Field.getType'
+Note: com.google.gson.FieldAttributes calls 'Field.getGenericType'
+Note: com.google.gson.FieldAttributes calls 'Field.getType'
+Note: com.google.gson.internal.$Gson$Types calls 'Class.getGenericInterfaces'
+Note: com.google.gson.internal.$Gson$Types calls 'Class.getGenericSuperclass'
+Note: com.google.gson.internal.$Gson$Types calls 'Class.getTypeParameters'
+Note: com.google.gson.internal.Excluder calls 'Field.getType'
+Note: com.google.gson.internal.bind.ReflectiveTypeAdapterFactory calls 'Field.getType'
+Note: com.google.gson.internal.bind.ReflectiveTypeAdapterFactory calls 'Field.getGenericType'
+Note: com.google.gson.internal.bind.ReflectiveTypeAdapterFactory calls 'Class.getGenericSuperclass'
+Note: com.google.gson.reflect.TypeToken calls 'Class.getGenericSuperclass'
+Note: com.google.gson.reflect.TypeToken calls 'Class.getTypeParameters'
+Note: com.google.gson.reflect.TypeToken calls 'Class.getGenericInterfaces'
+Note: org.junit.experimental.theories.internal.AllMembersSupplier calls 'Field.getType'
+Note: org.junit.runners.Parameterized$TestClassRunnerForParameters calls 'Field.getType'
+Note: org.junit.runners.model.FrameworkField calls 'Field.getType'
+Note: org.junit.runners.model.NoGenericTypeParametersValidator calls 'Method.getGenericParameterTypes'
+Note: retrofit2.MethodHandler calls 'Method.getGenericReturnType'
+Note: retrofit2.RequestFactoryParser calls 'Method.getGenericParameterTypes'
+Note: retrofit2.Types calls 'Class.getGenericInterfaces'
+Note: retrofit2.Types calls 'Class.getGenericSuperclass'
+Note: retrofit2.Types calls 'Class.getTypeParameters'
+Note: com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl calls 'Class.getEnclosingClass'
+Note: retrofit2.Types$ParameterizedTypeImpl calls 'Class.getEnclosingClass'
+Note: android.support.v4.app.NotificationCompatJellybean: can't find dynamically referenced class android.app.Notification$Action
+Note: android.support.v4.media.ParceledListSliceAdapterApi21: can't find dynamically referenced class android.content.pm.ParceledListSlice
+Note: android.support.v4.media.ServiceCallbacksAdapterApi21: can't find dynamically referenced class android.service.media.IMediaBrowserServiceCallbacks
+Note: android.support.v4.media.ServiceCallbacksAdapterApi21: can't find dynamically referenced class android.content.pm.ParceledListSlice
+Note: android.support.v4.media.ServiceCallbacksAdapterApi21$Stub: can't find dynamically referenced class android.service.media.IMediaBrowserServiceCallbacks$Stub
+Note: android.support.v4.media.ServiceCallbacksAdapterApi24: can't find dynamically referenced class android.service.media.IMediaBrowserServiceCallbacks
+Note: android.support.v4.media.ServiceCallbacksAdapterApi24: can't find dynamically referenced class android.content.pm.ParceledListSlice
+Note: android.support.v4.text.ICUCompatApi23: can't find dynamically referenced class libcore.icu.ICU
+Note: android.support.v4.text.ICUCompatIcs: can't find dynamically referenced class libcore.icu.ICU
+Note: android.support.v7.widget.DrawableUtils: can't find dynamically referenced class android.graphics.Insets
+Note: com.basgeekball.screenshotsnanny.activityassistant.ActivityHelper: can't find dynamically referenced class android.app.ActivityThread
+Note: com.basgeekball.screenshotsnanny.activityassistant.ActivityHelper: can't find dynamically referenced class android.app.ActivityThread$ActivityClientRecord
+Note: com.google.android.gms.maps.internal.zzad: can't find dynamically referenced class com.google.android.gms.maps.internal.CreatorImpl
+Note: com.google.gson.internal.UnsafeAllocator: can't find dynamically referenced class sun.misc.Unsafe
+Note: com.squareup.okhttp.internal.Platform: can't find dynamically referenced class com.android.org.conscrypt.SSLParametersImpl
+Note: com.squareup.okhttp.internal.Platform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl
+Note: com.squareup.okhttp.internal.Platform: can't find dynamically referenced class android.net.TrafficStats
+Note: com.squareup.okhttp.internal.Platform: can't find dynamically referenced class android.net.Network
+Note: com.squareup.okhttp.internal.Platform: can't find dynamically referenced class sun.security.ssl.SSLContextImpl
+Note: okhttp3.internal.Platform: can't find dynamically referenced class com.android.org.conscrypt.OpenSSLSocketImpl
+Note: okhttp3.internal.Platform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.OpenSSLSocketImpl
+Note: okhttp3.internal.Platform: can't find dynamically referenced class android.net.TrafficStats
+Note: okhttp3.internal.Platform: can't find dynamically referenced class android.net.Network
+Note: retrofit2.Platform: can't find dynamically referenced class android.os.Build
+Note: retrofit2.Platform: can't find dynamically referenced class java.util.Optional
+Note: retrofit2.Platform: can't find dynamically referenced class org.robovm.apple.foundation.NSObject
+Note: retrofit2.Platform$IOS$MainThreadExecutor: can't find dynamically referenced class org.robovm.apple.foundation.NSOperationQueue
+Note: android.support.multidex.MultiDexExtractor accesses a method 'apply()' dynamically
+Note: android.support.v4.app.NotificationCompatJellybean accesses a declared field 'icon' dynamically
+      Maybe this is program field 'android.support.design.R$attr { int icon; }'
+      Maybe this is program field 'android.support.design.R$id { int icon; }'
+      Maybe this is program field 'android.support.v4.app.NotificationCompat$Action { int icon; }'
+      Maybe this is program field 'android.support.v7.appcompat.R$attr { int icon; }'
+      Maybe this is program field 'android.support.v7.appcompat.R$id { int icon; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.R$attr { int icon; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.R$id { int icon; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.demo.R$attr { int icon; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.demo.R$id { int icon; }'
+Note: android.support.v4.app.NotificationCompatJellybean accesses a declared field 'title' dynamically
+      Maybe this is program field 'android.support.design.R$attr { int title; }'
+      Maybe this is program field 'android.support.design.R$id { int title; }'
+      Maybe this is program field 'android.support.v4.app.NotificationCompat$Action { java.lang.CharSequence title; }'
+      Maybe this is program field 'android.support.v7.appcompat.R$attr { int title; }'
+      Maybe this is program field 'android.support.v7.appcompat.R$id { int title; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.R$attr { int title; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.R$id { int title; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.demo.R$attr { int title; }'
+      Maybe this is program field 'com.basgeekball.screenshotsnanny.demo.R$id { int title; }'
+      Maybe this is program field 'org.bouncycastle.asn1.x500.style.RFC4519Style { org.bouncycastle.asn1.ASN1ObjectIdentifier title; }'
+Note: android.support.v4.app.NotificationCompatJellybean accesses a declared field 'actionIntent' dynamically
+      Maybe this is program field 'android.support.v4.app.NotificationCompat$Action { android.app.PendingIntent actionIntent; }'
+Note: android.support.v4.media.ServiceCallbacksAdapterApi21 accesses a method 'asBinder()' dynamically
+      Maybe this is program method 'android.support.v4.app.INotificationSideChannel$Stub { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.app.INotificationSideChannel$Stub$Proxy { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompat$ServiceCallbacks { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompat$ServiceCallbacksApi21 { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompat$ServiceCallbacksCompat { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompatApi21$ServiceCallbacksApi21 { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompatApi21$ServiceCallbacksImplApi21 { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.ServiceBinderAdapterApi21 { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.ServiceBinderAdapterApi23 { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.ServiceBinderAdapterApi24 { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.ServiceCallbacksAdapterApi21 { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.session.IMediaControllerCallback$Stub { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.session.IMediaControllerCallback$Stub$Proxy { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.session.IMediaSession$Stub { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.media.session.IMediaSession$Stub$Proxy { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.os.IResultReceiver$Stub { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'android.support.v4.os.IResultReceiver$Stub$Proxy { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.api.internal.zzo$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.api.internal.zzo$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzp$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzp$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzq$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzr$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzr$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzs$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzt$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.common.internal.zzu$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.dynamic.zzc$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.dynamic.zzc$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.dynamic.zzd$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.dynamic.zzd$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.gcm.zzc$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.iid.zzb$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.iid.zzb$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzas$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzat$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzlx$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzlx$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzly$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzmk$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzmk$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzml$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzpk$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzpk$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.internal.zzg$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.internal.zzg$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.internal.zzh$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.internal.zzh$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.internal.zzi$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.internal.zzj$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.internal.zzj$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.internal.zzf$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.internal.zzg$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.internal.zzh$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.internal.zzh$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.internal.zzi$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.internal.zzi$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.personalized.zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.places.personalized.zza$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.zzc$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.zzc$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.zzd$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.location.zzd$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.ICameraUpdateFactoryDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IGoogleMapDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.ILocationSourceDelegate$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.ILocationSourceDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IMapFragmentDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IMapViewDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IProjectionDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IStreetViewPanoramaDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IStreetViewPanoramaFragmentDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IStreetViewPanoramaViewDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.IUiSettingsDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzaa$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzaa$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzab$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzab$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzb$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzb$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzc$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzd$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzd$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zze$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zze$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzf$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzf$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzg$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzg$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzh$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzh$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzi$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzi$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzj$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzj$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzk$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzl$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzl$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzm$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzm$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzn$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzn$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzo$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzo$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzp$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzp$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzq$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzq$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzr$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzr$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzs$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzs$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzt$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzt$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzu$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzu$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzv$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzv$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzw$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzw$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzx$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzx$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzy$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzy$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzz$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.internal.zzz$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.IPolylineDelegate$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zza$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzb$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzc$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzd$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zze$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzf$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzg$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzh$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzi$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.maps.model.internal.zzi$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.measurement.internal.zzm$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.measurement.internal.zzm$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.playlog.internal.zza$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.signin.internal.zzd$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.signin.internal.zzd$zza$zza { android.os.IBinder asBinder(); }'
+      Maybe this is program method 'com.google.android.gms.signin.internal.zze$zza$zza { android.os.IBinder asBinder(); }'
+Note: android.support.v4.media.ServiceCallbacksAdapterApi21 accesses a method 'onConnectFailed()' dynamically
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompat$ServiceCallbacks { void onConnectFailed(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompat$ServiceCallbacksApi21 { void onConnectFailed(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompat$ServiceCallbacksCompat { void onConnectFailed(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompatApi21$ServiceCallbacksApi21 { void onConnectFailed(); }'
+      Maybe this is program method 'android.support.v4.media.MediaBrowserServiceCompatApi21$ServiceCallbacksImplApi21 { void onConnectFailed(); }'
+      Maybe this is program method 'android.support.v4.media.ServiceCallbacksAdapterApi21 { void onConnectFailed(); }'
+Note: android.support.v4.media.ServiceCallbacksAdapterApi21$Stub accesses a method 'asInterface(android.os.IBinder)' dynamically
+      Maybe this is program method 'android.support.v4.app.INotificationSideChannel$Stub { android.support.v4.app.INotificationSideChannel asInterface(android.os.IBinder); }'
+      Maybe this is program method 'android.support.v4.media.ServiceCallbacksAdapterApi21$Stub { java.lang.Object asInterface(android.os.IBinder); }'
+      Maybe this is program method 'android.support.v4.media.session.IMediaControllerCallback$Stub { android.support.v4.media.session.IMediaControllerCallback asInterface(android.os.IBinder); }'
+      Maybe this is program method 'android.support.v4.media.session.IMediaSession$Stub { android.support.v4.media.session.IMediaSession asInterface(android.os.IBinder); }'
+      Maybe this is program method 'android.support.v4.os.IResultReceiver$Stub { android.support.v4.os.IResultReceiver asInterface(android.os.IBinder); }'
+      Maybe this is program method 'com.google.android.gms.internal.zzpk$zza { com.google.android.gms.internal.zzpk asInterface(android.os.IBinder); }'
+Note: android.support.v4.text.ICUCompatApi23 accesses a method 'addLikelySubtags(java.util.Locale)' dynamically
+      Maybe this is program method 'android.support.v4.text.ICUCompatIcs { java.lang.String addLikelySubtags(java.util.Locale); }'
+Note: android.support.v4.text.ICUCompatIcs accesses a method 'getScript(java.lang.String)' dynamically
+      Maybe this is program method 'android.support.v4.text.ICUCompatIcs { java.lang.String getScript(java.lang.String); }'
+Note: android.support.v4.text.ICUCompatIcs accesses a method 'addLikelySubtags(java.lang.String)' dynamically
+Note: android.support.v7.widget.DrawableUtils accesses a method 'getOpticalInsets()' dynamically
+Note: android.support.v7.widget.ViewUtils accesses a method 'makeOptionalFitsSystemWindows()' dynamically
+Note: com.basgeekball.screenshotsnanny.activityassistant.ActivityHelper accesses a method 'currentActivityThread()' dynamically
+Note: com.basgeekball.screenshotsnanny.activityassistant.ActivityHelper accesses a declared field 'mActivities' dynamically
+      Maybe this is program field 'android.support.v7.widget.ActivityChooserModel { java.util.List mActivities; }'
+Note: com.basgeekball.screenshotsnanny.activityassistant.ActivityHelper accesses a declared field 'paused' dynamically
+Note: com.basgeekball.screenshotsnanny.activityassistant.ActivityHelper accesses a declared field 'stopped' dynamically
+Note: com.basgeekball.screenshotsnanny.activityassistant.ActivityHelper accesses a declared field 'activity' dynamically
+      Maybe this is program field 'android.support.v7.widget.ActivityChooserModel$HistoricalRecord { android.content.ComponentName activity; }'
+Note: com.google.android.gms.common.internal.DowngradeableSafeParcel accesses a field 'NULL' dynamically
+      Maybe this is program field 'com.google.android.gms.common.internal.safeparcel.SafeParcelable { java.lang.String NULL; }'
+      Maybe this is program field 'com.google.gson.stream.JsonToken { com.google.gson.stream.JsonToken NULL; }'
+      Maybe this is program field 'org.bouncycastle.asn1.BERTags { int NULL; }'
+      Maybe this is program field 'org.bouncycastle.crypto.tls.CompressionMethod { short NULL; }'
+      Maybe this is program field 'org.bouncycastle.crypto.tls.DigestAlgorithm { int NULL; }'
+      Maybe this is program field 'org.bouncycastle.crypto.tls.EncryptionAlgorithm { int NULL; }'
+      Maybe this is program field 'org.bouncycastle.crypto.tls.KeyExchangeAlgorithm { int NULL; }'
+      Maybe this is program field 'org.bouncycastle.jcajce.provider.keystore.bc.BcKeyStoreSpi { int NULL; }'
+      Maybe this is program field 'org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi { int NULL; }'
+      Maybe this is program field 'org.junit.runner.manipulation.Sorter { org.junit.runner.manipulation.Sorter NULL; }'
+Note: com.google.android.gms.measurement.internal.zzab accesses a declared method 'initialize(android.content.Context)' dynamically
+      Maybe this is program method 'com.google.android.gms.maps.MapsInitializer { int initialize(android.content.Context); }'
+Note: com.google.gson.internal.UnsafeAllocator accesses a declared field 'theUnsafe' dynamically
+Note: com.google.gson.internal.UnsafeAllocator accesses a method 'allocateInstance(java.lang.Class)' dynamically
+Note: com.squareup.okhttp.internal.Platform accesses a method 'tagSocket(java.net.Socket)' dynamically
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$IcsTrafficStatsCompatImpl { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$TrafficStatsCompatImpl { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompatIcs { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform$Android { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform$Android { void tagSocket(java.net.Socket); }'
+Note: com.squareup.okhttp.internal.Platform accesses a method 'untagSocket(java.net.Socket)' dynamically
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$IcsTrafficStatsCompatImpl { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$TrafficStatsCompatImpl { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompatIcs { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform$Android { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform$Android { void untagSocket(java.net.Socket); }'
+Note: com.squareup.okhttp.internal.Platform accesses a method 'get(javax.net.ssl.SSLSocket)' dynamically
+Note: com.squareup.okhttp.internal.Platform accesses a method 'remove(javax.net.ssl.SSLSocket)' dynamically
+Note: com.squareup.okhttp.internal.tls.AndroidTrustRootIndex accesses a declared method 'findTrustAnchorByIssuerAndSignature(java.security.cert.X509Certificate)' dynamically
+Note: junit.runner.BaseTestRunner accesses a method 'suite()' dynamically
+Note: okhttp3.internal.Platform accesses a method 'tagSocket(java.net.Socket)' dynamically
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$IcsTrafficStatsCompatImpl { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$TrafficStatsCompatImpl { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompatIcs { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform$Android { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform { void tagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform$Android { void tagSocket(java.net.Socket); }'
+Note: okhttp3.internal.Platform accesses a method 'untagSocket(java.net.Socket)' dynamically
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$IcsTrafficStatsCompatImpl { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompat$TrafficStatsCompatImpl { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'android.support.v4.net.TrafficStatsCompatIcs { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'com.squareup.okhttp.internal.Platform$Android { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform { void untagSocket(java.net.Socket); }'
+      Maybe this is program method 'okhttp3.internal.Platform$Android { void untagSocket(java.net.Socket); }'
+Note: okhttp3.internal.Platform accesses a method 'get(javax.net.ssl.SSLSocket)' dynamically
+Note: okhttp3.internal.Platform accesses a method 'remove(javax.net.ssl.SSLSocket)' dynamically
+Note: org.bouncycastle.jcajce.provider.symmetric.AES$AlgParamsGCM accesses a declared method 'getTLen()' dynamically
+Note: org.bouncycastle.jcajce.provider.symmetric.AES$AlgParamsGCM accesses a declared method 'getIV()' dynamically
+      Maybe this is program method 'org.bouncycastle.asn1.cryptopro.GOST28147Parameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.misc.CAST5CBCParameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.misc.IDEACBCPar { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.pkcs.PKCS12PBEParams { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.pkcs.RC2CBCParameter { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.crypto.params.KDFFeedbackParameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.crypto.params.KDFParameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.crypto.params.ParametersWithIV { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.jcajce.spec.GOST28147ParameterSpec { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.pqc.jcajce.provider.util.AsymmetricBlockCipher { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.pqc.jcajce.provider.util.AsymmetricHybridCipher { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.pqc.jcajce.provider.util.CipherSpiExt { byte[] getIV(); }'
+Note: org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher accesses a declared method 'getTLen()' dynamically
+Note: org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher accesses a declared method 'getIV()' dynamically
+      Maybe this is program method 'org.bouncycastle.asn1.cryptopro.GOST28147Parameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.misc.CAST5CBCParameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.misc.IDEACBCPar { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.pkcs.PKCS12PBEParams { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.asn1.pkcs.RC2CBCParameter { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.crypto.params.KDFFeedbackParameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.crypto.params.KDFParameters { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.crypto.params.ParametersWithIV { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.jcajce.spec.GOST28147ParameterSpec { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.pqc.jcajce.provider.util.AsymmetricBlockCipher { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.pqc.jcajce.provider.util.AsymmetricHybridCipher { byte[] getIV(); }'
+      Maybe this is program method 'org.bouncycastle.pqc.jcajce.provider.util.CipherSpiExt { byte[] getIV(); }'
+Note: org.junit.internal.builders.SuiteMethodBuilder accesses a method 'suite()' dynamically
+Note: org.junit.internal.runners.SuiteMethod accesses a method 'suite()' dynamically
+Note: retrofit2.Platform$IOS$MainThreadExecutor accesses a declared method 'getMainQueue()' dynamically
+Note: retrofit2.Platform$IOS$MainThreadExecutor accesses a declared method 'addOperation(java.lang.Runnable)' dynamically
+Note: there were 31 classes trying to access annotations using reflection.
+      You should consider keeping the annotation attributes
+      (using '-keepattributes *Annotation*').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#attributes)
+Note: there were 23 classes trying to access generic signatures using reflection.
+      You should consider keeping the signature attributes
+      (using '-keepattributes Signature').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#attributes)
+Note: there were 2 classes trying to access enclosing classes using reflection.
+      You should consider keeping the inner classes attributes
+      (using '-keepattributes InnerClasses').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#attributes)
+Note: there were 27 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 39 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Note: you're ignoring all warnings!
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/demo/build/intermediates/multi-dex/screenshots/debug/componentClasses.jar]
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/demo/build/intermediates/transforms/jarMerging/screenshots/debug/jars/1/1f/combined.jar]
+:demo:transformClassesWithDexForScreenshotsDebug
+:demo:mergeScreenshotsDebugJniLibFolders
+:demo:transformNative_libsWithMergeJniLibsForScreenshotsDebug
+:demo:processScreenshotsDebugJavaRes UP-TO-DATE
+:demo:transformResourcesWithMergeJavaResForScreenshotsDebug
+:demo:packageScreenshotsDebug
+:demo:zipalignScreenshotsDebug
+:demo:assembleScreenshotsDebug
+:demo:assembleDebug
+:demo:checkProdReleaseManifest
+:demo:prepareProdReleaseDependencies
+:demo:compileProdReleaseAidl
+:demo:compileProdReleaseRenderscript
+:demo:generateProdReleaseBuildConfig
+:demo:generateProdReleaseAssets UP-TO-DATE
+:demo:mergeProdReleaseAssets
+:demo:generateProdReleaseResValues
+:demo:generateProdReleaseResources
+:demo:mergeProdReleaseResources
+:demo:processProdReleaseManifest
+:demo:processProdReleaseResources
+:demo:generateProdReleaseSources
+:demo:compileProdReleaseJavaWithJavac
+:demo:compileProdReleaseNdk UP-TO-DATE
+:demo:compileProdReleaseSources
+:demo:lintVitalProdRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':demo:lintVitalProdRelease'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':demo:lintVitalProdRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:340)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:232)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:418)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:221)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:162)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:229)
+	at com.android.build.gradle.tasks.Lint.this$6$createAndroidProject(Lint.groovy)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:71)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 1 mins 20.419 secs
+
+2019-01-20 18:25:12,832 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983401760-0/src/ScreenshotsNanny-master/demo/build/outputs/apk/demo-screenshots-debug-unaligned.apk

@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.github.vipulasri.timelineview.sample",
+    "label" : "Timeline View",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "3",
+    "platformBuildVersionName" : "{4:1066192077}",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 3536,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.1\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.github.vipulasri.timelineview.sample\" platformBuildVersionCode=\"3\" platformBuildVersionName=\"{4:1066192077}\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f100006\" android:label=\"Timeline View\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f100008\" android:label=\"Timeline View\" android:name=\"com.github.vipulasri.timelineview.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f100008\" android:name=\"com.github.vipulasri.timelineview.sample.example.ExampleActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3299556,
+  "crc32" : 451585663,
+  "sha256" : "480a3055e30fae6a4c1b51b543b64af81cfaefec68271d2cbe7ccdbd4b927aad",
+  "buildTime" : 1547907911000
+}

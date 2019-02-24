@@ -1,0 +1,14 @@
+2019-01-19 21:40:35,061 INFO  DownloadService - Downloading "https://github.com/SimonMarquis/Android-PreferencesManager/archive/master.zip", attempt 3
+2019-01-19 21:41:35,624 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-19 21:41:36,757 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-19 21:41:36,757 INFO  DownloadService - Downloading "https://github.com/SimonMarquis/Android-PreferencesManager/archive/master.zip", attempt 3
+2019-01-19 21:42:38,172 DEBUG FullProcessService - Repository https://github.com/SimonMarquis/Android-PreferencesManager available: true
+2019-01-19 21:42:38,172 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-19 21:42:38,172 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/SimonMarquis/Android-PreferencesManager, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547908835053-0/src]
+2019-01-19 21:42:47,084 INFO  SysUtils - 
+2019-01-19 21:42:47,099 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547908835053-0/src/.git": true
+2019-01-19 21:42:47,110 INFO  FullProcessService - Size of directory with sources: 68 MB
+2019-01-19 21:42:47,110 ERROR FullProcessService - Source directory should be less than 50 MB
+2019-01-19 21:42:47,110 ERROR FullProcessService - Project will not be processed
+2019-01-19 21:42:47,110 ERROR FullProcessService - Project build has not produced APK file
+2019-01-19 21:42:47,117 ERROR FullProcessService - Could not find generated or existed APK file

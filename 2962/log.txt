@@ -1,0 +1,221 @@
+2019-01-19 18:47:18,367 INFO  DownloadService - Downloading "https://github.com/lingochamp/QiniuImageLoader/archive/master.zip", attempt 3
+2019-01-19 18:47:20,859 INFO  DownloadService - Downloaded https://github.com/lingochamp/QiniuImageLoader/archive/master.zip, attempt 3
+2019-01-19 18:47:20,859 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/master.zip": 493 KB
+2019-01-19 18:47:20,859 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 18:47:20,864 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/master.zip: true
+2019-01-19 18:47:20,865 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src'.
+2019-01-19 18:47:20,887 INFO  FullProcessService - Size of directory with sources: 549 KB
+2019-01-19 18:47:20,887 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src]
+2019-01-19 18:47:20,910 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/.git/
+
+2019-01-19 18:47:20,913 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/gradlew
+2019-01-19 18:47:20,916 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/utils-picasso/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/build.gradle
+2019-01-19 18:47:20,919 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/utils-picasso/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/gradle/mvn-local.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/gradle/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/gradle/mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/settings.gradle
+2019-01-19 18:47:20,920 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 18:47:20,920 INFO  ProjectFixService - Fixing project...
+2019-01-19 18:47:20,933 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/demo/local.properties
+2019-01-19 18:47:20,934 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/demo/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-19 18:47:20,934 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/library/local.properties
+2019-01-19 18:47:20,935 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/library/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-19 18:47:20,935 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/utils-picasso/local.properties
+2019-01-19 18:47:20,936 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/utils-picasso/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-19 18:47:20,936 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/local.properties
+2019-01-19 18:47:20,936 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-19 18:47:20,937 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-19 18:47:20,937 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-19 18:47:20,937 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 18:47:20,938 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 18:47:20,938 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 18:47:30,028 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-19 18:47:30,028 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 18:47:30,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 18:48:00,969 INFO  SysUtils - Configuration on demand is an incubating feature.
+:demo:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:utils-picasso:preBuild UP-TO-DATE
+:utils-picasso:preDebugBuild UP-TO-DATE
+:utils-picasso:checkDebugManifest
+:utils-picasso:processDebugManifest
+:demo:preDebugBuild
+:library:compileDebugAidl
+:utils-picasso:compileDebugAidl
+:demo:compileDebugAidl
+:library:packageDebugRenderscript NO-SOURCE
+:utils-picasso:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:prepareLintJar
+:demo:mainApkListPersistenceDebug
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:utils-picasso:compileDebugRenderscript
+:utils-picasso:generateDebugResValues
+:utils-picasso:generateDebugResources
+:utils-picasso:packageDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:library:platformAttrExtractor
+:utils-picasso:platformAttrExtractor
+:library:generateDebugBuildConfig
+:library:prepareLintJar
+:library:javaPreCompileDebug
+:library:processDebugJavaRes NO-SOURCE
+:utils-picasso:generateDebugBuildConfig
+:utils-picasso:prepareLintJar
+:utils-picasso:processDebugJavaRes NO-SOURCE
+:demo:compileDebugNdk NO-SOURCE
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:packageDebugAssets
+:utils-picasso:mergeDebugShaders
+:utils-picasso:compileDebugShaders
+:utils-picasso:generateDebugAssets
+:utils-picasso:packageDebugAssets
+:demo:mergeDebugAssets
+:demo:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:utils-picasso:compileDebugNdk NO-SOURCE
+:utils-picasso:mergeDebugJniLibFolders
+:utils-picasso:transformNativeLibsWithMergeJniLibsForDebug
+:utils-picasso:transformNativeLibsWithStripDebugSymbolForDebug
+:utils-picasso:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:processDebugJavaRes NO-SOURCE
+:demo:validateSigningDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:processReleaseManifest
+:utils-picasso:preReleaseBuild UP-TO-DATE
+:utils-picasso:checkReleaseManifest
+:utils-picasso:processReleaseManifest
+:demo:preReleaseBuild
+:library:compileReleaseAidl
+:utils-picasso:compileReleaseAidl
+:demo:compileReleaseAidl
+:library:packageReleaseRenderscript NO-SOURCE
+:utils-picasso:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:mainApkListPersistenceRelease
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:utils-picasso:compileReleaseRenderscript
+:utils-picasso:generateReleaseResValues
+:utils-picasso:generateReleaseResources
+:utils-picasso:packageReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:library:generateReleaseBuildConfig
+:library:javaPreCompileRelease
+:library:processReleaseJavaRes NO-SOURCE
+:utils-picasso:generateReleaseBuildConfig
+:utils-picasso:processReleaseJavaRes NO-SOURCE
+:demo:compileReleaseNdk NO-SOURCE
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:utils-picasso:mergeReleaseShaders
+:utils-picasso:compileReleaseShaders
+:utils-picasso:generateReleaseAssets
+:utils-picasso:packageReleaseAssets
+:demo:mergeReleaseAssets
+:demo:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:utils-picasso:compileReleaseNdk NO-SOURCE
+:utils-picasso:mergeReleaseJniLibFolders
+:utils-picasso:transformNativeLibsWithMergeJniLibsForRelease
+:utils-picasso:transformNativeLibsWithStripDebugSymbolForRelease
+:utils-picasso:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:processReleaseJavaRes NO-SOURCE
+:library:generateDebugRFile
+:library:generateDebugSources
+:library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/library/src/main/java/com/liulishuo/qiniuimageloader/QiniuImageLoader.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:utils-picasso:javaPreCompileDebug
+:library:generateReleaseRFile
+:library:generateReleaseSources
+:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/library/src/main/java/com/liulishuo/qiniuimageloader/QiniuImageLoader.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:utils-picasso:javaPreCompileRelease
+:utils-picasso:generateDebugRFile
+:demo:processDebugResources
+:demo:generateDebugSources
+:utils-picasso:generateDebugSources
+:utils-picasso:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/utils-picasso/src/main/java/com/liulishuo/qiniuimageloader/utils/PicassoQiniuImageLoader.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:utils-picasso:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavac
+:demo:compileDebugSources
+:demo:transformClassesWithDexBuilderForDebug
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:packageDebug
+:demo:assembleDebug
+:utils-picasso:generateReleaseRFile
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:utils-picasso:generateReleaseSources
+:utils-picasso:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/utils-picasso/src/main/java/com/liulishuo/qiniuimageloader/utils/PicassoQiniuImageLoader.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:utils-picasso:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavac
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+:demo:transformClassesWithDexBuilderForRelease
+:demo:transformDexArchiveWithExternalLibsDexMergerForRelease
+:demo:transformDexArchiveWithDexMergerForRelease
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL in 30s
+129 actionable tasks: 129 executed
+
+2019-01-19 18:48:01,046 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898438359-0/src/QiniuImageLoader-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

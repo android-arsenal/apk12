@@ -1,0 +1,431 @@
+2019-01-19 18:42:01,882 INFO  DownloadService - Downloading "https://github.com/hpfs0/DragScaleCircleView/archive/master.zip", attempt 3
+2019-01-19 18:42:03,590 INFO  DownloadService - Downloaded https://github.com/hpfs0/DragScaleCircleView/archive/master.zip, attempt 3
+2019-01-19 18:42:03,591 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/master.zip": 1 MB
+2019-01-19 18:42:03,591 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 18:42:03,591 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/master.zip: true
+2019-01-19 18:42:03,591 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src'.
+2019-01-19 18:42:03,625 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-19 18:42:03,625 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src]
+2019-01-19 18:42:03,644 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/.git/
+
+2019-01-19 18:42:03,648 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/gradlew
+2019-01-19 18:42:03,653 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleviewExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/build.gradle
+2019-01-19 18:42:03,657 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleviewExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/settings.gradle
+2019-01-19 18:42:03,657 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 18:42:03,657 INFO  ProjectFixService - Fixing project...
+2019-01-19 18:42:03,666 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/local.properties
+2019-01-19 18:42:03,667 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-19 18:42:03,667 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleviewExample/local.properties
+2019-01-19 18:42:03,667 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleviewExample/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-19 18:42:03,668 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/local.properties
+2019-01-19 18:42:03,668 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-01-19 18:42:03,668 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-01-19 18:42:03,669 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-19 18:42:03,670 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 18:42:03,670 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 18:42:03,670 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 18:42:13,606 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-19 18:42:13,607 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-19 18:42:13,607 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-19 18:42:13,607 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-19 18:42:24,380 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-19 18:42:24,380 INFO  SysUtils - Configuration on demand is an incubating feature.
+:dragscalecircleview:compileLint
+:dragscalecircleview:copyDebugLint UP-TO-DATE
+:dragscalecircleview:preBuild UP-TO-DATE
+:dragscalecircleview:preDebugBuild UP-TO-DATE
+:dragscalecircleview:checkDebugManifest
+:dragscalecircleview:preDebugAndroidTestBuild UP-TO-DATE
+:dragscalecircleview:preDebugUnitTestBuild UP-TO-DATE
+:dragscalecircleview:preReleaseBuild UP-TO-DATE
+:dragscalecircleview:preReleaseUnitTestBuild UP-TO-DATE
+:dragscalecircleview:prepareComAndroidSupportAppcompatV72310Library
+:dragscalecircleview:prepareComAndroidSupportSupportV42310Library
+:dragscalecircleview:prepareDebugDependencies
+:dragscalecircleview:compileDebugAidl
+:dragscalecircleview:compileDebugRenderscript
+:dragscalecircleview:generateDebugBuildConfig
+:dragscalecircleview:generateDebugAssets UP-TO-DATE
+:dragscalecircleview:mergeDebugAssets
+:dragscalecircleview:generateDebugResValues
+:dragscalecircleview:generateDebugResources
+:dragscalecircleview:mergeDebugResources
+:dragscalecircleview:processDebugManifest
+:dragscalecircleview:processDebugResources
+:dragscalecircleview:generateDebugSources
+:dragscalecircleview:processDebugJavaRes UP-TO-DATE
+:dragscalecircleview:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:dragscalecircleview:extractDebugAnnotations
+:dragscalecircleview:mergeDebugProguardFiles
+:dragscalecircleview:packageDebugJar
+:dragscalecircleview:compileDebugNdk UP-TO-DATE
+:dragscalecircleview:packageDebugJniLibs UP-TO-DATE
+:dragscalecircleview:packageDebugLocalJar UP-TO-DATE
+:dragscalecircleview:packageDebugRenderscript UP-TO-DATE
+:dragscalecircleview:packageDebugResources
+:dragscalecircleview:bundleDebug
+:dragscalecircleview:compileDebugSources
+:dragscalecircleview:assembleDebug
+:dragscalecircleview:copyReleaseLint UP-TO-DATE
+:dragscalecircleview:checkReleaseManifest
+:dragscalecircleview:prepareReleaseDependencies
+:dragscalecircleview:compileReleaseAidl
+:dragscalecircleview:compileReleaseRenderscript
+:dragscalecircleview:generateReleaseBuildConfig
+:dragscalecircleview:generateReleaseAssets UP-TO-DATE
+:dragscalecircleview:mergeReleaseAssets
+:dragscalecircleview:generateReleaseResValues
+:dragscalecircleview:generateReleaseResources
+:dragscalecircleview:mergeReleaseResources
+:dragscalecircleview:processReleaseManifest
+:dragscalecircleview:processReleaseResources
+:dragscalecircleview:generateReleaseSources
+:dragscalecircleview:processReleaseJavaRes UP-TO-DATE
+:dragscalecircleview:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:dragscalecircleview:extractReleaseAnnotations
+:dragscalecircleview:mergeReleaseProguardFiles
+:dragscalecircleview:packageReleaseJar
+:dragscalecircleview:compileReleaseNdk UP-TO-DATE
+:dragscalecircleview:packageReleaseJniLibs UP-TO-DATE
+:dragscalecircleview:packageReleaseLocalJar UP-TO-DATE
+:dragscalecircleview:packageReleaseRenderscript UP-TO-DATE
+:dragscalecircleview:packageReleaseResources
+:dragscalecircleview:bundleRelease
+:dragscalecircleview:compileReleaseSources
+:dragscalecircleview:assembleRelease
+:dragscalecircleview:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/util/PaintUtil.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/util/PaintUtil.java:21: error: cannot find symbol
+import com.rori.zenvo.dragscalecircleview.R;
+                                         ^
+  symbol:   class R
+  location: package com.rori.zenvo.dragscalecircleview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:29: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:30: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/util/PaintUtil.java:58: error: cannot find symbol
+    public static Paint newHandlerPaint(@NonNull Resources resources){
+                                         ^
+  symbol:   class NonNull
+  location: class PaintUtil
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:94: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class DragScaleCircleView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:350: error: cannot find symbol
+    protected void init(@NonNull Context context, @Nullable AttributeSet attrs) {
+                         ^
+  symbol:   class NonNull
+  location: class DragScaleCircleView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:350: error: cannot find symbol
+    protected void init(@NonNull Context context, @Nullable AttributeSet attrs) {
+                                                   ^
+  symbol:   class Nullable
+  location: class DragScaleCircleView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:457: error: cannot find symbol
+    private void drawHandles(@NonNull Canvas canvas) {
+                              ^
+  symbol:   class NonNull
+  location: class DragScaleCircleView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:469: error: cannot find symbol
+    private void drawCircleBorder(@NonNull Canvas canvas) {
+                                   ^
+  symbol:   class NonNull
+  location: class DragScaleCircleView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:478: error: cannot find symbol
+    private void drawDarkenSurroundingArea(@NonNull Canvas canvas) {
+                                            ^
+  symbol:   class NonNull
+  location: class DragScaleCircleView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:490: error: cannot find symbol
+    private void drawGuideLine(@NonNull Canvas canvas) {
+                                ^
+  symbol:   class NonNull
+  location: class DragScaleCircleView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:564: error: cannot find symbol
+    private void initCircleCropWindow(@NonNull RectF bitmapRect) {
+                                       ^
+  symbol:   class NonNull
+  location: class DragScaleCircleView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:170: warning: no description for @param
+     * @param hasGuideLine
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:188: warning: no description for @param
+     * @param guideLineSize
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:197: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:206: warning: no description for @param
+     * @param guideLineColor
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:224: warning: no description for @param
+     * @param borderSize
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:242: warning: no description for @param
+     * @param borderColor
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:350: warning: no @param for context
+    protected void init(@NonNull Context context, @Nullable AttributeSet attrs) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/dragscalecircleview/DragScaleCircleView.java:350: warning: no @param for attrs
+    protected void init(@NonNull Context context, @Nullable AttributeSet attrs) {
+                   ^
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class Nullable not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/util/PaintUtil.java:32: warning: no @param for size
+    public static Paint newBoarderPaint(float size, int color){
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/util/PaintUtil.java:32: warning: no @param for color
+    public static Paint newBoarderPaint(float size, int color){
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/util/PaintUtil.java:32: warning: no @return
+    public static Paint newBoarderPaint(float size, int color){
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/util/PaintUtil.java:46: warning: no @return
+    public static Paint newSurroundingAreaOverlayPaint() {
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/util/PaintUtil.java:58: warning: no @param for resources
+    public static Paint newHandlerPaint(@NonNull Resources resources){
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/util/PaintUtil.java:58: warning: no @return
+    public static Paint newHandlerPaint(@NonNull Resources resources){
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/util/PaintUtil.java:70: warning: no @param for size
+    public static Paint newGuideLinePaint(float size, int color){
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/util/PaintUtil.java:70: warning: no @param for color
+    public static Paint newGuideLinePaint(float size, int color){
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleview/src/main/java/com/rori/zenvo/util/PaintUtil.java:70: warning: no @return
+    public static Paint newGuideLinePaint(float size, int color){
+                        ^
+javadoc: warning - Class NonNull not found.
+
+33 warnings
+:dragscalecircleview:javadocJar
+:dragscalecircleview:sourcesJar
+:dragscalecircleview:assemble
+:dragscalecircleview:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':dragscalecircleview:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':dragscalecircleview:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:310)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:90)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:27)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:40)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:169)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:339)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:231)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:417)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:221)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:162)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:236)
+	at com.android.build.gradle.tasks.Lint.this$5$createAndroidProject(Lint.groovy)
+	at com.android.build.gradle.tasks.Lint$this$5$createAndroidProject$3.callCurrent(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:78)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:226)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:219)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:208)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:589)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:572)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 49 more
+
+
+BUILD FAILED
+
+Total time: 10.266 secs
+
+2019-01-19 18:42:24,428 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 18:42:24,429 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleviewExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 18:42:30,091 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-19 18:42:30,091 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 18:42:30,091 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleviewExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 18:42:48,195 INFO  SysUtils - Configuration on demand is an incubating feature.
+:dragscalecircleview:compileLint
+:dragscalecircleview:copyReleaseLint UP-TO-DATE
+:dragscalecircleview:preBuild UP-TO-DATE
+:dragscalecircleview:preReleaseBuild UP-TO-DATE
+:dragscalecircleview:checkReleaseManifest
+:dragscalecircleview:preDebugAndroidTestBuild UP-TO-DATE
+:dragscalecircleview:preDebugBuild UP-TO-DATE
+:dragscalecircleview:preDebugUnitTestBuild UP-TO-DATE
+:dragscalecircleview:preReleaseUnitTestBuild UP-TO-DATE
+:dragscalecircleview:prepareComAndroidSupportAppcompatV72310Library UP-TO-DATE
+:dragscalecircleview:prepareComAndroidSupportSupportV42310Library UP-TO-DATE
+:dragscalecircleview:prepareReleaseDependencies
+:dragscalecircleview:compileReleaseAidl UP-TO-DATE
+:dragscalecircleview:compileReleaseRenderscript UP-TO-DATE
+:dragscalecircleview:generateReleaseBuildConfig UP-TO-DATE
+:dragscalecircleview:generateReleaseAssets UP-TO-DATE
+:dragscalecircleview:mergeReleaseAssets UP-TO-DATE
+:dragscalecircleview:generateReleaseResValues UP-TO-DATE
+:dragscalecircleview:generateReleaseResources UP-TO-DATE
+:dragscalecircleview:mergeReleaseResources UP-TO-DATE
+:dragscalecircleview:processReleaseManifest UP-TO-DATE
+:dragscalecircleview:processReleaseResources UP-TO-DATE
+:dragscalecircleview:generateReleaseSources UP-TO-DATE
+:dragscalecircleview:processReleaseJavaRes UP-TO-DATE
+:dragscalecircleview:compileReleaseJavaWithJavac UP-TO-DATE
+:dragscalecircleview:extractReleaseAnnotations UP-TO-DATE
+:dragscalecircleview:mergeReleaseProguardFiles UP-TO-DATE
+:dragscalecircleview:packageReleaseJar UP-TO-DATE
+:dragscalecircleview:compileReleaseNdk UP-TO-DATE
+:dragscalecircleview:packageReleaseJniLibs UP-TO-DATE
+:dragscalecircleview:packageReleaseLocalJar UP-TO-DATE
+:dragscalecircleview:packageReleaseRenderscript UP-TO-DATE
+:dragscalecircleview:packageReleaseResources UP-TO-DATE
+:dragscalecircleview:bundleRelease UP-TO-DATE
+:dragscalecircleviewExample:preBuild UP-TO-DATE
+:dragscalecircleviewExample:preDebugBuild UP-TO-DATE
+:dragscalecircleviewExample:checkDebugManifest
+:dragscalecircleviewExample:preReleaseBuild UP-TO-DATE
+:dragscalecircleviewExample:prepareComAndroidSupportAppcompatV72310Library
+:dragscalecircleviewExample:prepareComAndroidSupportSupportV42310Library
+:dragscalecircleviewExample:prepareComRoriZenvoDragscalecircleviewDragscalecircleview101Library
+:dragscalecircleviewExample:prepareOrgAdwLibraryDiscreteSeekbar101Library
+:dragscalecircleviewExample:prepareDebugDependencies
+:dragscalecircleviewExample:compileDebugAidl
+:dragscalecircleviewExample:compileDebugRenderscript
+:dragscalecircleviewExample:generateDebugBuildConfig
+:dragscalecircleviewExample:generateDebugAssets UP-TO-DATE
+:dragscalecircleviewExample:mergeDebugAssets
+:dragscalecircleviewExample:generateDebugResValues
+:dragscalecircleviewExample:generateDebugResources
+:dragscalecircleviewExample:mergeDebugResources
+:dragscalecircleviewExample:processDebugManifest
+:dragscalecircleviewExample:processDebugResources
+:dragscalecircleviewExample:generateDebugSources
+:dragscalecircleviewExample:processDebugJavaRes UP-TO-DATE
+:dragscalecircleviewExample:compileDebugJavaWithJavac
+:dragscalecircleviewExample:compileDebugNdk UP-TO-DATE
+:dragscalecircleviewExample:compileDebugSources
+:dragscalecircleviewExample:preDexDebug
+:dragscalecircleviewExample:dexDebug
+:dragscalecircleviewExample:validateDebugSigning
+:dragscalecircleviewExample:packageDebug
+:dragscalecircleviewExample:zipalignDebug
+:dragscalecircleviewExample:assembleDebug
+:dragscalecircleviewExample:checkReleaseManifest
+:dragscalecircleviewExample:prepareReleaseDependencies
+:dragscalecircleviewExample:compileReleaseAidl
+:dragscalecircleviewExample:compileReleaseRenderscript
+:dragscalecircleviewExample:generateReleaseBuildConfig
+:dragscalecircleviewExample:generateReleaseAssets UP-TO-DATE
+:dragscalecircleviewExample:mergeReleaseAssets
+:dragscalecircleviewExample:generateReleaseResValues
+:dragscalecircleviewExample:generateReleaseResources
+:dragscalecircleviewExample:mergeReleaseResources
+:dragscalecircleviewExample:processReleaseManifest
+:dragscalecircleviewExample:processReleaseResources
+:dragscalecircleviewExample:generateReleaseSources
+:dragscalecircleviewExample:processReleaseJavaRes UP-TO-DATE
+:dragscalecircleviewExample:compileReleaseJavaWithJavac
+:dragscalecircleviewExample:compileReleaseNdk UP-TO-DATE
+:dragscalecircleviewExample:compileReleaseSources
+:dragscalecircleviewExample:preDexRelease
+:dragscalecircleviewExample:dexRelease
+:dragscalecircleviewExample:packageRelease
+:dragscalecircleviewExample:assembleRelease
+:dragscalecircleviewExample:assemble
+:dragscalecircleviewExample:build
+
+BUILD SUCCESSFUL
+
+Total time: 17.598 secs
+
+2019-01-19 18:42:48,296 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547898121879-0/src/DragScaleCircleView-master/dragscalecircleviewExample/build/outputs/apk/dragscalecircleviewExample-debug-unaligned.apk

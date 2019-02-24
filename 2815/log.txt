@@ -1,0 +1,321 @@
+2019-01-20 18:33:20,411 INFO  DownloadService - Downloading "https://github.com/getlantern/firetweet/archive/master.zip", attempt 3
+2019-01-20 18:33:34,324 INFO  DownloadService - Downloaded https://github.com/getlantern/firetweet/archive/master.zip, attempt 3
+2019-01-20 18:33:34,325 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/master.zip": 29 MB
+2019-01-20 18:33:34,325 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-20 18:33:34,332 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/master.zip: true
+2019-01-20 18:33:34,332 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src'.
+2019-01-20 18:33:35,454 INFO  FullProcessService - Size of directory with sources: 39 MB
+2019-01-20 18:33:35,454 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src]
+2019-01-20 18:33:35,472 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/.git/
+
+2019-01-20 18:33:35,525 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/gradlew
+2019-01-20 18:33:35,581 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.jsonserializer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.nyan/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.querybuilder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.twitter4j.streaming/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.twitter4j/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.extension.push.xiaomi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.extension.streaming/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.extension.twitlonger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.library.extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.wear/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/build.gradle
+2019-01-20 18:33:35,631 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.querybuilder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.nyan/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.extension.streaming/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.library.extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.extension.push.xiaomi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.jsonserializer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.wear/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/global.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.twitter4j/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.twitter4j.streaming/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.extension.twitlonger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/signing.gradle
+2019-01-20 18:33:35,632 INFO  ProjectBuildService - Remote scripts: none
+2019-01-20 18:33:35,632 INFO  ProjectFixService - Fixing project...
+2019-01-20 18:33:35,737 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.common/local.properties
+2019-01-20 18:33:35,739 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.common/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-20 18:33:35,740 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.jsonserializer/local.properties
+2019-01-20 18:33:35,741 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.jsonserializer/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-20 18:33:35,742 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.nyan/local.properties
+2019-01-20 18:33:35,744 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.nyan/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-20 18:33:35,744 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.querybuilder/local.properties
+2019-01-20 18:33:35,747 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.querybuilder/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-20 18:33:35,748 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.twitter4j.streaming/local.properties
+2019-01-20 18:33:35,750 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.twitter4j.streaming/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-20 18:33:35,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.twitter4j/local.properties
+2019-01-20 18:33:35,753 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.twitter4j/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-20 18:33:35,754 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.extension.push.xiaomi/local.properties
+2019-01-20 18:33:35,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.extension.push.xiaomi/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-20 18:33:35,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.extension.streaming/local.properties
+2019-01-20 18:33:35,758 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.extension.streaming/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-20 18:33:35,759 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.extension.twitlonger/local.properties
+2019-01-20 18:33:35,761 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.extension.twitlonger/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-20 18:33:35,762 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.library.extension/local.properties
+2019-01-20 18:33:35,765 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.library.extension/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-20 18:33:35,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.wear/local.properties
+2019-01-20 18:33:35,767 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.wear/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=20,targetSdkVersion=22]
+2019-01-20 18:33:35,768 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet/local.properties
+2019-01-20 18:33:35,771 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=23]
+2019-01-20 18:33:35,771 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/local.properties
+2019-01-20 18:33:35,772 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-01-20 18:33:35,772 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-01-20 18:33:35,774 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-20 18:33:35,774 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 18:33:35,774 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 18:33:35,775 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 18:35:57,774 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-20 18:35:57,774 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-20 18:35:57,775 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-20 18:35:57,775 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/firetweet.component.common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-20 18:36:11,601 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-20 18:36:11,601 INFO  SysUtils - Configuration on demand is an incubating feature.
+:firetweet.component.common:preBuild UP-TO-DATE
+:firetweet.component.common:preDebugBuild UP-TO-DATE
+:firetweet.component.common:compileDebugNdk UP-TO-DATE
+:firetweet.component.common:compileLint
+:firetweet.component.common:copyDebugLint UP-TO-DATE
+:firetweet.component.common:checkDebugManifest
+:firetweet.component.common:preDebugAndroidTestBuild UP-TO-DATE
+:firetweet.component.common:preDebugUnitTestBuild UP-TO-DATE
+:firetweet.component.common:preReleaseBuild UP-TO-DATE
+:firetweet.component.common:preReleaseUnitTestBuild UP-TO-DATE
+:firetweet.component.jsonserializer:preBuild UP-TO-DATE
+:firetweet.component.jsonserializer:preReleaseBuild UP-TO-DATE
+:firetweet.component.jsonserializer:compileReleaseNdk UP-TO-DATE
+:firetweet.component.jsonserializer:compileLint
+:firetweet.component.jsonserializer:copyReleaseLint UP-TO-DATE
+:firetweet.component.jsonserializer:mergeReleaseProguardFiles
+:firetweet.component.jsonserializer:packageReleaseRenderscript UP-TO-DATE
+:firetweet.component.jsonserializer:checkReleaseManifest
+:firetweet.component.jsonserializer:prepareReleaseDependencies
+:firetweet.component.jsonserializer:compileReleaseRenderscript
+:firetweet.component.jsonserializer:generateReleaseResValues
+:firetweet.component.jsonserializer:generateReleaseResources
+:firetweet.component.jsonserializer:packageReleaseResources
+:firetweet.component.jsonserializer:compileReleaseAidl
+:firetweet.component.jsonserializer:generateReleaseBuildConfig
+:firetweet.component.jsonserializer:generateReleaseAssets UP-TO-DATE
+:firetweet.component.jsonserializer:mergeReleaseAssets
+:firetweet.component.jsonserializer:processReleaseManifest
+:firetweet.component.jsonserializer:processReleaseResources
+:firetweet.component.jsonserializer:generateReleaseSources
+:firetweet.component.jsonserializer:compileReleaseJavaWithJavac
+:firetweet.component.jsonserializer:processReleaseJavaRes UP-TO-DATE
+:firetweet.component.jsonserializer:transformResourcesWithMergeJavaResForRelease
+:firetweet.component.jsonserializer:transformClassesAndResourcesWithSyncLibJarsForRelease
+:firetweet.component.jsonserializer:mergeReleaseJniLibFolders
+:firetweet.component.jsonserializer:transformNative_libsWithMergeJniLibsForRelease
+:firetweet.component.jsonserializer:transformNative_libsWithSyncJniLibsForRelease
+:firetweet.component.jsonserializer:bundleRelease
+:firetweet.component.querybuilder:preBuild UP-TO-DATE
+:firetweet.component.querybuilder:preReleaseBuild UP-TO-DATE
+:firetweet.component.querybuilder:compileReleaseNdk UP-TO-DATE
+:firetweet.component.querybuilder:compileLint
+:firetweet.component.querybuilder:copyReleaseLint UP-TO-DATE
+:firetweet.component.querybuilder:mergeReleaseProguardFiles
+:firetweet.component.querybuilder:packageReleaseRenderscript UP-TO-DATE
+:firetweet.component.querybuilder:checkReleaseManifest
+:firetweet.component.querybuilder:prepareReleaseDependencies
+:firetweet.component.querybuilder:compileReleaseRenderscript
+:firetweet.component.querybuilder:generateReleaseResValues
+:firetweet.component.querybuilder:generateReleaseResources
+:firetweet.component.querybuilder:packageReleaseResources
+:firetweet.component.querybuilder:compileReleaseAidl
+:firetweet.component.querybuilder:generateReleaseBuildConfig
+:firetweet.component.querybuilder:generateReleaseAssets UP-TO-DATE
+:firetweet.component.querybuilder:mergeReleaseAssets
+:firetweet.component.querybuilder:processReleaseManifest
+:firetweet.component.querybuilder:processReleaseResources
+:firetweet.component.querybuilder:generateReleaseSources
+:firetweet.component.querybuilder:compileReleaseJavaWithJavac
+:firetweet.component.querybuilder:processReleaseJavaRes UP-TO-DATE
+:firetweet.component.querybuilder:transformResourcesWithMergeJavaResForRelease
+:firetweet.component.querybuilder:transformClassesAndResourcesWithSyncLibJarsForRelease
+:firetweet.component.querybuilder:mergeReleaseJniLibFolders
+:firetweet.component.querybuilder:transformNative_libsWithMergeJniLibsForRelease
+:firetweet.component.querybuilder:transformNative_libsWithSyncJniLibsForRelease
+:firetweet.component.querybuilder:bundleRelease
+:firetweet.component.twitter4j:preBuild UP-TO-DATE
+:firetweet.component.twitter4j:preReleaseBuild UP-TO-DATE
+:firetweet.component.twitter4j:compileReleaseNdk UP-TO-DATE
+:firetweet.component.twitter4j:compileLint
+:firetweet.component.twitter4j:copyReleaseLint UP-TO-DATE
+:firetweet.component.twitter4j:mergeReleaseProguardFiles
+:firetweet.component.twitter4j:packageReleaseRenderscript UP-TO-DATE
+:firetweet.component.twitter4j:checkReleaseManifest
+:firetweet.component.twitter4j:prepareReleaseDependencies
+:firetweet.component.twitter4j:compileReleaseRenderscript
+:firetweet.component.twitter4j:generateReleaseResValues
+:firetweet.component.twitter4j:generateReleaseResources
+:firetweet.component.twitter4j:packageReleaseResources
+:firetweet.component.twitter4j:compileReleaseAidl
+:firetweet.component.twitter4j:generateReleaseBuildConfig
+:firetweet.component.twitter4j:generateReleaseAssets UP-TO-DATE
+:firetweet.component.twitter4j:mergeReleaseAssets
+:firetweet.component.twitter4j:processReleaseManifest
+:firetweet.component.twitter4j:processReleaseResources
+:firetweet.component.twitter4j:generateReleaseSources
+:firetweet.component.twitter4j:compileReleaseJavaWithJavac
+:firetweet.component.twitter4j:processReleaseJavaRes UP-TO-DATE
+:firetweet.component.twitter4j:transformResourcesWithMergeJavaResForRelease
+:firetweet.component.twitter4j:transformClassesAndResourcesWithSyncLibJarsForRelease
+:firetweet.component.twitter4j:mergeReleaseJniLibFolders
+:firetweet.component.twitter4j:transformNative_libsWithMergeJniLibsForRelease
+:firetweet.component.twitter4j:transformNative_libsWithSyncJniLibsForRelease
+:firetweet.component.twitter4j:bundleRelease
+:firetweet.component.common:prepareFiretweetMasterFiretweetComponentJsonserializerUnspecifiedLibrary
+:firetweet.component.common:prepareFiretweetMasterFiretweetComponentQuerybuilderUnspecifiedLibrary
+:firetweet.component.common:prepareFiretweetMasterFiretweetComponentTwitter4jUnspecifiedLibrary
+:firetweet.component.common:prepareDebugDependencies
+:firetweet.component.common:compileDebugAidl
+:firetweet.component.common:compileDebugRenderscript
+:firetweet.component.common:generateDebugBuildConfig
+:firetweet.component.common:generateDebugAssets UP-TO-DATE
+:firetweet.component.common:mergeDebugAssets
+:firetweet.component.common:generateDebugResValues
+:firetweet.component.common:generateDebugResources
+:firetweet.component.common:mergeDebugResources
+:firetweet.component.common:processDebugManifest
+:firetweet.component.common:processDebugResources
+:firetweet.component.common:generateDebugSources
+:firetweet.component.common:compileDebugJavaWithJavac
+:firetweet.component.common:extractDebugAnnotations
+:firetweet.component.common:mergeDebugProguardFiles
+:firetweet.component.common:packageDebugRenderscript UP-TO-DATE
+:firetweet.component.common:packageDebugResources
+:firetweet.component.common:processDebugJavaRes UP-TO-DATE
+:firetweet.component.common:transformResourcesWithMergeJavaResForDebug
+:firetweet.component.common:transformClassesAndResourcesWithSyncLibJarsForDebug
+:firetweet.component.common:mergeDebugJniLibFolders
+:firetweet.component.common:transformNative_libsWithMergeJniLibsForDebug
+:firetweet.component.common:transformNative_libsWithSyncJniLibsForDebug
+:firetweet.component.common:bundleDebug
+:firetweet.component.common:compileDebugSources
+:firetweet.component.common:assembleDebug
+:firetweet.component.common:compileReleaseNdk UP-TO-DATE
+:firetweet.component.common:copyReleaseLint UP-TO-DATE
+:firetweet.component.common:checkReleaseManifest
+:firetweet.component.common:prepareReleaseDependencies
+:firetweet.component.common:compileReleaseAidl
+:firetweet.component.common:compileReleaseRenderscript
+:firetweet.component.common:generateReleaseBuildConfig
+:firetweet.component.common:generateReleaseAssets UP-TO-DATE
+:firetweet.component.common:mergeReleaseAssets
+:firetweet.component.common:generateReleaseResValues
+:firetweet.component.common:generateReleaseResources
+:firetweet.component.common:mergeReleaseResources
+:firetweet.component.common:processReleaseManifest
+:firetweet.component.common:processReleaseResources
+:firetweet.component.common:generateReleaseSources
+:firetweet.component.common:compileReleaseJavaWithJavac
+:firetweet.component.common:extractReleaseAnnotations
+:firetweet.component.common:mergeReleaseProguardFiles
+:firetweet.component.common:packageReleaseRenderscript UP-TO-DATE
+:firetweet.component.common:packageReleaseResources
+:firetweet.component.common:processReleaseJavaRes UP-TO-DATE
+:firetweet.component.common:transformResourcesWithMergeJavaResForRelease
+:firetweet.component.common:transformClassesAndResourcesWithSyncLibJarsForRelease
+:firetweet.component.common:mergeReleaseJniLibFolders
+:firetweet.component.common:transformNative_libsWithMergeJniLibsForRelease
+:firetweet.component.common:transformNative_libsWithSyncJniLibsForRelease
+:firetweet.component.common:bundleRelease
+:firetweet.component.common:compileReleaseSources
+:firetweet.component.common:assembleRelease
+:firetweet.component.common:assemble
+:firetweet.component.common:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':firetweet.component.common:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':firetweet.component.common:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:310)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:90)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:27)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:40)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:169)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:340)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:232)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:418)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:221)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:162)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:229)
+	at com.android.build.gradle.tasks.Lint.this$6$createAndroidProject(Lint.groovy)
+	at com.android.build.gradle.tasks.Lint$this$6$createAndroidProject$2.callCurrent(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:71)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:226)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:219)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:208)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:589)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:572)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 49 more
+
+
+BUILD FAILED
+
+Total time: 13.301 secs
+
+2019-01-20 18:36:11,694 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984000408-0/src/firetweet-master/bin/firetweet-manoto.apk

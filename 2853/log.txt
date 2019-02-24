@@ -1,0 +1,135 @@
+2019-01-19 23:16:12,503 INFO  DownloadService - Downloading "https://github.com/javiersantos/Moticons/archive/master.zip", attempt 3
+2019-01-19 23:16:15,208 INFO  DownloadService - Downloaded https://github.com/javiersantos/Moticons/archive/master.zip, attempt 3
+2019-01-19 23:16:15,209 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/master.zip": 1 MB
+2019-01-19 23:16:15,209 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 23:16:15,209 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/master.zip: true
+2019-01-19 23:16:15,209 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src'.
+2019-01-19 23:16:15,250 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-19 23:16:15,250 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src]
+2019-01-19 23:16:15,280 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/.git/
+
+2019-01-19 23:16:15,285 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/gradlew
+2019-01-19 23:16:15,290 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/build.gradle
+2019-01-19 23:16:15,294 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/settings.gradle
+2019-01-19 23:16:15,294 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 23:16:15,294 INFO  ProjectFixService - Fixing project...
+2019-01-19 23:16:15,305 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/local.properties
+2019-01-19 23:16:15,305 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2019-01-19 23:16:15,306 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/local.properties
+2019-01-19 23:16:15,306 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-01-19 23:16:15,307 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-01-19 23:16:15,307 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2019-01-19 23:16:15,308 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 23:16:15,308 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 23:16:15,308 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 23:17:09,493 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-19 23:17:09,493 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 23:17:09,493 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 23:18:16,268 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72221Library
+:app:prepareComAndroidSupportCardviewV72221Library
+:app:prepareComAndroidSupportDesign2221Library
+:app:prepareComAndroidSupportMediarouterV72220Library
+:app:prepareComAndroidSupportRecyclerviewV72221Library
+:app:prepareComAndroidSupportSupportV42221Library
+:app:prepareComGithubPaolorotoloAppintro310Library
+:app:prepareComGoogleAndroidGmsPlayServices780Library
+:app:prepareComGoogleAndroidGmsPlayServicesAds780Library
+:app:prepareComGoogleAndroidGmsPlayServicesAnalytics780Library
+:app:prepareComGoogleAndroidGmsPlayServicesAppindexing780Library
+:app:prepareComGoogleAndroidGmsPlayServicesAppinvite780Library
+:app:prepareComGoogleAndroidGmsPlayServicesAppstate780Library
+:app:prepareComGoogleAndroidGmsPlayServicesBase780Library
+:app:prepareComGoogleAndroidGmsPlayServicesCast780Library
+:app:prepareComGoogleAndroidGmsPlayServicesDrive780Library
+:app:prepareComGoogleAndroidGmsPlayServicesFitness780Library
+:app:prepareComGoogleAndroidGmsPlayServicesGames780Library
+:app:prepareComGoogleAndroidGmsPlayServicesGcm780Library
+:app:prepareComGoogleAndroidGmsPlayServicesIdentity780Library
+:app:prepareComGoogleAndroidGmsPlayServicesLocation780Library
+:app:prepareComGoogleAndroidGmsPlayServicesMaps780Library
+:app:prepareComGoogleAndroidGmsPlayServicesNearby780Library
+:app:prepareComGoogleAndroidGmsPlayServicesPanorama780Library
+:app:prepareComGoogleAndroidGmsPlayServicesPlus780Library
+:app:prepareComGoogleAndroidGmsPlayServicesSafetynet780Library
+:app:prepareComGoogleAndroidGmsPlayServicesVision780Library
+:app:prepareComGoogleAndroidGmsPlayServicesWallet780Library
+:app:prepareComGoogleAndroidGmsPlayServicesWearable780Library
+:app:prepareComMikepenzIconics120Library
+:app:prepareComMikepenzMaterialdrawer312Library
+:app:prepareComPkmmteViewCircularimageview11Library
+:app:prepareComPnikosisMaterialishProgress17Library
+:app:prepareComScottyabAesCrypto002Library
+:app:prepareComScottyabSecurePreferencesLib011Library
+:app:prepareXyzDanozRecyclerviewfastscroller013Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/src/main/res/drawable/javier_santos.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/src/main/res/drawable/header.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/src/main/res/drawable/osama_asif.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/src/main/res/drawable/googleplus.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/src/main/java/com/javiersantos/moticons/activities/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/src/main/java/com/javiersantos/moticons/adapters/MoticonAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:preDexDebug
+:app:dexDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/src/main/res/drawable/javier_santos.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/src/main/res/drawable/header.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/src/main/res/drawable/osama_asif.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/src/main/res/drawable/googleplus.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/src/main/java/com/javiersantos/moticons/activities/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/src/main/java/com/javiersantos/moticons/adapters/MoticonAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:preDexRelease
+:app:dexRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 6.21 secs
+
+2019-01-19 23:18:16,376 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547914572495-0/src/Moticons-master/app/build/outputs/apk/app-debug.apk

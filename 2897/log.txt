@@ -1,0 +1,112 @@
+2019-01-19 22:35:36,100 INFO  DownloadService - Downloading "https://github.com/lopspower/CircularFillableLoaders/archive/master.zip", attempt 3
+2019-01-19 22:35:56,370 INFO  DownloadService - Downloaded https://github.com/lopspower/CircularFillableLoaders/archive/master.zip, attempt 3
+2019-01-19 22:35:56,371 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/master.zip": 41 MB
+2019-01-19 22:35:56,371 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 22:35:56,378 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/master.zip: true
+2019-01-19 22:35:56,379 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src'.
+2019-01-19 22:35:56,544 INFO  FullProcessService - Size of directory with sources: 41 MB
+2019-01-19 22:35:56,544 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src]
+2019-01-19 22:35:56,564 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/.git/
+
+2019-01-19 22:35:56,567 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/gradlew
+2019-01-19 22:35:56,571 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/circularfillableloaders-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/circularfillableloaders/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/build.gradle
+2019-01-19 22:35:56,574 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/circularfillableloaders-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/circularfillableloaders/build.gradle
+2019-01-19 22:35:56,574 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 22:35:56,575 INFO  ProjectFixService - Fixing project...
+2019-01-19 22:35:56,582 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/circularfillableloaders-example/local.properties
+2019-01-19 22:35:56,584 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/circularfillableloaders-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 22:35:56,585 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/circularfillableloaders-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 22:35:56,586 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/circularfillableloaders/local.properties
+2019-01-19 22:35:56,588 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/circularfillableloaders/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 22:35:56,588 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/circularfillableloaders/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 22:35:56,589 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/local.properties
+2019-01-19 22:35:56,589 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-19 22:35:56,590 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-19 22:35:56,592 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-19 22:35:56,592 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-19 22:35:56,592 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 22:35:56,592 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 22:35:56,592 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/circularfillableloaders-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 22:36:06,321 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-01-19 22:36:06,321 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 22:36:06,322 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/circularfillableloaders-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 22:36:36,743 INFO  SysUtils - Configuration on demand is an incubating feature.
+:circularfillableloaders-example:preBuild UP-TO-DATE
+:circularfillableloaders-example:preDebugBuild
+Download https://jcenter.bintray.com/com/larswerkman/lobsterpicker/1.0.1/lobsterpicker-1.0.1.pom
+Download https://jcenter.bintray.com/com/mikhaellopez/circularfillableloaders/1.3.2/circularfillableloaders-1.3.2.pom
+Download https://jcenter.bintray.com/com/mikhaellopez/circularfillableloaders/1.3.2/circularfillableloaders-1.3.2.aar
+Download https://jcenter.bintray.com/com/larswerkman/lobsterpicker/1.0.1/lobsterpicker-1.0.1.aar
+:circularfillableloaders-example:compileDebugAidl
+:circularfillableloaders-example:compileDebugRenderscript
+:circularfillableloaders-example:checkDebugManifest
+:circularfillableloaders-example:generateDebugBuildConfig
+:circularfillableloaders-example:prepareLintJar
+:circularfillableloaders-example:mainApkListPersistenceDebug
+:circularfillableloaders-example:generateDebugResValues
+:circularfillableloaders-example:generateDebugResources
+:circularfillableloaders-example:mergeDebugResources
+:circularfillableloaders-example:createDebugCompatibleScreenManifests
+:circularfillableloaders-example:processDebugManifest
+:circularfillableloaders-example:splitsDiscoveryTaskDebug
+:circularfillableloaders-example:processDebugResources
+:circularfillableloaders-example:generateDebugSources
+:circularfillableloaders-example:javaPreCompileDebug
+:circularfillableloaders-example:compileDebugJavaWithJavac
+:circularfillableloaders-example:compileDebugNdk NO-SOURCE
+:circularfillableloaders-example:compileDebugSources
+:circularfillableloaders-example:mergeDebugShaders
+:circularfillableloaders-example:compileDebugShaders
+:circularfillableloaders-example:generateDebugAssets
+:circularfillableloaders-example:mergeDebugAssets
+:circularfillableloaders-example:transformClassesWithDexBuilderForDebug
+:circularfillableloaders-example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:circularfillableloaders-example:transformDexArchiveWithDexMergerForDebug
+:circularfillableloaders-example:mergeDebugJniLibFolders
+:circularfillableloaders-example:transformNativeLibsWithMergeJniLibsForDebug
+:circularfillableloaders-example:transformNativeLibsWithStripDebugSymbolForDebug
+:circularfillableloaders-example:processDebugJavaRes NO-SOURCE
+:circularfillableloaders-example:transformResourcesWithMergeJavaResForDebug
+:circularfillableloaders-example:validateSigningDebug
+:circularfillableloaders-example:packageDebug
+:circularfillableloaders-example:assembleDebug
+:circularfillableloaders-example:preReleaseBuild
+:circularfillableloaders-example:compileReleaseAidl
+:circularfillableloaders-example:compileReleaseRenderscript
+:circularfillableloaders-example:checkReleaseManifest
+:circularfillableloaders-example:generateReleaseBuildConfig
+:circularfillableloaders-example:mainApkListPersistenceRelease
+:circularfillableloaders-example:generateReleaseResValues
+:circularfillableloaders-example:generateReleaseResources
+:circularfillableloaders-example:mergeReleaseResources
+:circularfillableloaders-example:createReleaseCompatibleScreenManifests
+:circularfillableloaders-example:processReleaseManifest
+:circularfillableloaders-example:splitsDiscoveryTaskRelease
+:circularfillableloaders-example:processReleaseResources
+:circularfillableloaders-example:generateReleaseSources
+:circularfillableloaders-example:javaPreCompileRelease
+:circularfillableloaders-example:compileReleaseJavaWithJavac
+:circularfillableloaders-example:compileReleaseNdk NO-SOURCE
+:circularfillableloaders-example:compileReleaseSources
+:circularfillableloaders-example:lintVitalRelease
+:circularfillableloaders-example:mergeReleaseShaders
+:circularfillableloaders-example:compileReleaseShaders
+:circularfillableloaders-example:generateReleaseAssets
+:circularfillableloaders-example:mergeReleaseAssets
+:circularfillableloaders-example:transformClassesWithDexBuilderForRelease
+:circularfillableloaders-example:transformDexArchiveWithExternalLibsDexMergerForRelease
+:circularfillableloaders-example:transformDexArchiveWithDexMergerForRelease
+:circularfillableloaders-example:mergeReleaseJniLibFolders
+:circularfillableloaders-example:transformNativeLibsWithMergeJniLibsForRelease
+:circularfillableloaders-example:transformNativeLibsWithStripDebugSymbolForRelease
+:circularfillableloaders-example:processReleaseJavaRes NO-SOURCE
+:circularfillableloaders-example:transformResourcesWithMergeJavaResForRelease
+:circularfillableloaders-example:packageRelease
+:circularfillableloaders-example:assembleRelease
+:circularfillableloaders-example:assemble
+:circularfillableloaders-example:build
+
+BUILD SUCCESSFUL in 29s
+53 actionable tasks: 53 executed
+
+2019-01-19 22:36:36,818 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912136091-0/src/CircularFillableLoaders-master/circularfillableloaders-example/build/outputs/apk/release/circularfillableloaders-example-release-unsigned.apk

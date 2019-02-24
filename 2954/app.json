@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.crazyhitty.chdev.ks.rssmanagerlib.demo",
+    "label" : "RssManager Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "17",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 4316,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.crazyhitty.chdev.ks.rssmanagerlib.demo\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0900a8\" android:label=\"RssManager Demo\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f090040\" android:label=\"RssManager Demo\" android:name=\"com.crazyhitty.chdev.ks.rssmanagerlib.MainActivity\" android:windowSoftInputMode=\"0x2\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f090040\" android:label=\"Details\" android:name=\"com.crazyhitty.chdev.ks.rssmanagerlib.DetailActivity\" android:parentActivityName=\"com.crazyhitty.chdev.ks.rssmanagerlib.MainActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2804591,
+  "crc32" : 3209578517,
+  "sha256" : "f0a421f875d128ce018ec2b7197928ebf93342600d2f516e2cbd598e68969e14",
+  "buildTime" : 1496784512000
+}

@@ -1,0 +1,56 @@
+2019-01-26 21:18:31,441 INFO  DownloadService - Downloading "https://github.com/vanniktech/gradle-android-javadoc-plugin/archive/master.zip", attempt 3
+2019-01-26 21:18:31,972 INFO  DownloadService - Downloaded https://github.com/vanniktech/gradle-android-javadoc-plugin/archive/master.zip, attempt 3
+2019-01-26 21:18:31,972 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/master.zip": 69 KB
+2019-01-26 21:18:31,972 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-26 21:18:31,978 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/master.zip: true
+2019-01-26 21:18:31,978 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/src'.
+2019-01-26 21:18:31,986 INFO  FullProcessService - Size of directory with sources: 98 KB
+2019-01-26 21:18:31,986 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/src]
+2019-01-26 21:18:32,008 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/src/.git/
+
+2019-01-26 21:18:32,011 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/src/gradle-android-javadoc-plugin-master/gradlew
+2019-01-26 21:18:32,012 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/src/gradle-android-javadoc-plugin-master/build.gradle
+2019-01-26 21:18:32,014 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/src/gradle-android-javadoc-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/src/gradle-android-javadoc-plugin-master/settings.gradle
+2019-01-26 21:18:32,014 INFO  ProjectBuildService - Remote scripts: none
+2019-01-26 21:18:32,014 INFO  ProjectFixService - Fixing project...
+2019-01-26 21:18:32,020 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/src/gradle-android-javadoc-plugin-master/local.properties
+2019-01-26 21:18:32,020 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-01-26 21:18:32,020 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-01-26 21:18:32,021 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/src/gradle-android-javadoc-plugin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-26 21:18:32,021 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/src/gradle-android-javadoc-plugin-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-26 21:18:32,022 INFO  ProjectFixService - Project was maybe fixed
+2019-01-26 21:18:32,022 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-26 21:18:32,022 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/src/gradle-android-javadoc-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/src/gradle-android-javadoc-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-26 21:18:39,895 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-01-26 21:18:39,895 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-26 21:18:39,895 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/src/gradle-android-javadoc-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512311437-0/src/gradle-android-javadoc-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-26 21:18:55,896 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :pluginDescriptors
+> Task :processResources
+> Task :classes
+
+> Task :groovydoc
+Trying to override old definition of task fileScanner
+
+> Task :groovydocJar
+> Task :jar
+> Task :javadocsJar
+> Task :publishPluginGroovyDocsJar
+> Task :publishPluginJar
+> Task :publishPluginJavaDocsJar
+> Task :sourcesJar
+> Task :signArchives SKIPPED
+> Task :assemble
+> Task :build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 15s
+11 actionable tasks: 11 executed
+
+2019-01-26 21:18:55,902 ERROR FullProcessService - Project build has not produced APK file
+2019-01-26 21:18:55,907 ERROR FullProcessService - Could not find generated or existed APK file

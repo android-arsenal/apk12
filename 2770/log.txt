@@ -1,0 +1,120 @@
+2019-01-20 20:11:16,313 INFO  DownloadService - Downloading "https://github.com/jasonross/Nuwa/archive/master.zip", attempt 3
+2019-01-20 20:11:16,783 INFO  DownloadService - Downloaded https://github.com/jasonross/Nuwa/archive/master.zip, attempt 3
+2019-01-20 20:11:16,783 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/master.zip": 99 KB
+2019-01-20 20:11:16,783 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-20 20:11:16,789 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/master.zip: true
+2019-01-20 20:11:16,789 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src'.
+2019-01-20 20:11:16,807 INFO  FullProcessService - Size of directory with sources: 109 KB
+2019-01-20 20:11:16,807 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src]
+2019-01-20 20:11:16,826 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/.git/
+
+2019-01-20 20:11:16,828 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/gradlew
+2019-01-20 20:11:16,831 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/nuwa/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/build.gradle
+2019-01-20 20:11:16,834 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/nuwa/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/settings.gradle
+2019-01-20 20:11:16,835 INFO  ProjectBuildService - Remote scripts: none
+2019-01-20 20:11:16,835 INFO  ProjectFixService - Fixing project...
+2019-01-20 20:11:16,841 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/nuwa/local.properties
+2019-01-20 20:11:16,841 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/nuwa/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=9,targetSdkVersion=22]
+2019-01-20 20:11:16,842 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/sample/local.properties
+2019-01-20 20:11:16,842 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/sample/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=9,targetSdkVersion=22]
+2019-01-20 20:11:16,842 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/local.properties
+2019-01-20 20:11:16,843 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-01-20 20:11:16,843 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-01-20 20:11:16,843 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=9,targetSdkVersion=22]
+2019-01-20 20:11:16,844 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 20:11:16,844 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 20:11:16,844 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/nuwa/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 20:11:27,004 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-20 20:11:27,004 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-20 20:11:27,004 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-20 20:11:27,004 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/nuwa/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-20 20:11:41,446 INFO  SysUtils - Configuration on demand is an incubating feature.
+:nuwa:compileLint
+:nuwa:copyDebugLint UP-TO-DATE
+:nuwa:mergeDebugProguardFiles
+:nuwa:preBuild UP-TO-DATE
+:nuwa:preDebugBuild UP-TO-DATE
+:nuwa:checkDebugManifest
+:nuwa:prepareDebugDependencies
+:nuwa:compileDebugAidl
+:nuwa:compileDebugRenderscript
+:nuwa:generateDebugBuildConfig
+:nuwa:generateDebugAssets UP-TO-DATE
+:nuwa:mergeDebugAssets
+:nuwa:generateDebugResValues
+:nuwa:generateDebugResources
+:nuwa:packageDebugResources
+:nuwa:processDebugManifest
+:nuwa:processDebugResources
+:nuwa:generateDebugSources
+:nuwa:processDebugJavaRes UP-TO-DATE
+:nuwa:compileDebugJava
+:nuwa:packageDebugJar
+:nuwa:compileDebugNdk UP-TO-DATE
+:nuwa:packageDebugJniLibs UP-TO-DATE
+:nuwa:packageDebugLocalJar UP-TO-DATE
+:nuwa:packageDebugRenderscript UP-TO-DATE
+:nuwa:bundleDebug
+:nuwa:compileDebugSources
+:nuwa:assembleDebug
+:nuwa:copyReleaseLint UP-TO-DATE
+:nuwa:mergeReleaseProguardFiles
+:nuwa:preReleaseBuild UP-TO-DATE
+:nuwa:checkReleaseManifest
+:nuwa:prepareReleaseDependencies
+:nuwa:compileReleaseAidl
+:nuwa:compileReleaseRenderscript
+:nuwa:generateReleaseBuildConfig
+:nuwa:generateReleaseAssets UP-TO-DATE
+:nuwa:mergeReleaseAssets
+:nuwa:generateReleaseResValues
+:nuwa:generateReleaseResources
+:nuwa:packageReleaseResources
+:nuwa:processReleaseManifest
+:nuwa:processReleaseResources
+:nuwa:generateReleaseSources
+:nuwa:processReleaseJavaRes UP-TO-DATE
+:nuwa:compileReleaseJava
+:nuwa:packageReleaseJar
+:nuwa:compileReleaseNdk UP-TO-DATE
+:nuwa:packageReleaseJniLibs UP-TO-DATE
+:nuwa:packageReleaseLocalJar UP-TO-DATE
+:nuwa:packageReleaseRenderscript UP-TO-DATE
+:nuwa:bundleRelease
+:nuwa:compileReleaseSources
+:nuwa:assembleRelease
+:nuwa:javadoc
+:nuwa:javadocJar
+:nuwa:sourcesJar
+:nuwa:assemble
+:nuwa:lint
+Ran lint on variant release: 3 issues found
+Ran lint on variant debug: 3 issues found
+Wrote HTML report to file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/nuwa/build/outputs/lint-results.html
+Wrote XML report to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/nuwa/build/outputs/lint-results.xml
+:nuwa:preCompileDebugUnitTestJava
+:nuwa:preDebugUnitTestBuild UP-TO-DATE
+:nuwa:prepareDebugUnitTestDependencies
+:nuwa:processDebugUnitTestJavaRes UP-TO-DATE
+:nuwa:compileDebugUnitTestJava UP-TO-DATE
+:nuwa:compileDebugUnitTestSources UP-TO-DATE
+:nuwa:mockableAndroidJar
+:nuwa:assembleDebugUnitTest
+:nuwa:testDebug
+:nuwa:preCompileReleaseUnitTestJava
+:nuwa:preReleaseUnitTestBuild UP-TO-DATE
+:nuwa:prepareReleaseUnitTestDependencies
+:nuwa:processReleaseUnitTestJavaRes UP-TO-DATE
+:nuwa:compileReleaseUnitTestJava UP-TO-DATE
+:nuwa:compileReleaseUnitTestSources UP-TO-DATE
+:nuwa:assembleReleaseUnitTest
+:nuwa:testRelease
+:nuwa:test
+:nuwa:check
+:nuwa:build
+
+BUILD SUCCESSFUL
+
+Total time: 13.923 secs
+
+2019-01-20 20:11:41,455 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989876311-0/src/Nuwa-master/nuwa/build/intermediates/bundles/release/assets/hack.apk

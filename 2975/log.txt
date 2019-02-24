@@ -1,0 +1,169 @@
+2019-01-18 15:13:21,360 INFO  DownloadService - Downloading "https://github.com/Kaopiz/KProgressHUD/archive/master.zip", attempt 3
+2019-01-18 15:14:22,042 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-18 15:14:23,139 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-18 15:14:23,139 INFO  DownloadService - Downloading "https://github.com/Kaopiz/KProgressHUD/archive/master.zip", attempt 3
+2019-01-18 15:15:24,404 DEBUG FullProcessService - Repository https://github.com/Kaopiz/KProgressHUD available: true
+2019-01-18 15:15:24,404 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-18 15:15:24,404 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Kaopiz/KProgressHUD, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src]
+2019-01-18 15:15:37,422 INFO  SysUtils - 
+2019-01-18 15:15:37,431 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/.git": true
+2019-01-18 15:15:37,436 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-01-18 15:15:37,436 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src]
+2019-01-18 15:15:37,453 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/.git/
+
+2019-01-18 15:15:37,457 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/gradlew
+2019-01-18 15:15:37,461 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/kprogresshud/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/build.gradle
+2019-01-18 15:15:37,465 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/kprogresshud/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/settings.gradle
+2019-01-18 15:15:37,465 INFO  ProjectBuildService - Remote scripts: none
+2019-01-18 15:15:37,465 INFO  ProjectFixService - Fixing project...
+2019-01-18 15:15:37,474 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/demo/local.properties
+2019-01-18 15:15:37,474 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/demo/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-18 15:15:37,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/kprogresshud/local.properties
+2019-01-18 15:15:37,475 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/kprogresshud/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-18 15:15:37,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/local.properties
+2019-01-18 15:15:37,476 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-18 15:15:37,476 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-18 15:15:37,477 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-18 15:15:37,477 INFO  ProjectFixService - Project was maybe fixed
+2019-01-18 15:15:37,477 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-18 15:15:37,477 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-18 15:15:44,785 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-18 15:15:44,785 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-18 15:15:44,785 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-18 15:16:07,318 INFO  SysUtils - Configuration on demand is an incubating feature.
+:demo:preBuild UP-TO-DATE
+:kprogresshud:preBuild UP-TO-DATE
+:kprogresshud:preDebugBuild UP-TO-DATE
+:kprogresshud:checkDebugManifest
+:kprogresshud:processDebugManifest
+:demo:preDebugBuild
+:kprogresshud:compileDebugAidl
+:demo:compileDebugAidl
+:kprogresshud:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:prepareLintJar
+:demo:mainApkListPersistenceDebug
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:kprogresshud:compileDebugRenderscript
+:kprogresshud:generateDebugResValues
+:kprogresshud:generateDebugResources
+:kprogresshud:packageDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:kprogresshud:platformAttrExtractor
+:kprogresshud:generateDebugBuildConfig
+:kprogresshud:prepareLintJar
+:kprogresshud:javaPreCompileDebug
+:kprogresshud:processDebugJavaRes NO-SOURCE
+:demo:compileDebugNdk NO-SOURCE
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:kprogresshud:mergeDebugShaders
+:kprogresshud:compileDebugShaders
+:kprogresshud:generateDebugAssets
+:kprogresshud:packageDebugAssets
+:demo:mergeDebugAssets
+:demo:mergeDebugJniLibFolders
+:kprogresshud:compileDebugNdk NO-SOURCE
+:kprogresshud:mergeDebugJniLibFolders
+:kprogresshud:transformNativeLibsWithMergeJniLibsForDebug
+:kprogresshud:transformNativeLibsWithStripDebugSymbolForDebug
+:kprogresshud:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:processDebugJavaRes NO-SOURCE
+:demo:validateSigningDebug
+:kprogresshud:preReleaseBuild UP-TO-DATE
+:kprogresshud:checkReleaseManifest
+:kprogresshud:processReleaseManifest
+:demo:preReleaseBuild
+:kprogresshud:compileReleaseAidl
+:demo:compileReleaseAidl
+:kprogresshud:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:mainApkListPersistenceRelease
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:kprogresshud:compileReleaseRenderscript
+:kprogresshud:generateReleaseResValues
+:kprogresshud:generateReleaseResources
+:kprogresshud:packageReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:kprogresshud:generateReleaseBuildConfig
+:kprogresshud:javaPreCompileRelease
+:kprogresshud:processReleaseJavaRes NO-SOURCE
+:demo:compileReleaseNdk NO-SOURCE
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:kprogresshud:mergeReleaseShaders
+:kprogresshud:compileReleaseShaders
+:kprogresshud:generateReleaseAssets
+:kprogresshud:packageReleaseAssets
+:demo:mergeReleaseAssets
+:demo:mergeReleaseJniLibFolders
+:kprogresshud:compileReleaseNdk NO-SOURCE
+:kprogresshud:mergeReleaseJniLibFolders
+:kprogresshud:transformNativeLibsWithMergeJniLibsForRelease
+:kprogresshud:transformNativeLibsWithStripDebugSymbolForRelease
+:kprogresshud:generateDebugRFile
+:demo:processDebugResources
+:demo:generateDebugSources
+:kprogresshud:generateDebugSources
+:kprogresshud:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:kprogresshud:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/demo/src/main/java/com/kaopiz/progresshud/demo/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:demo:compileDebugSources
+:demo:transformClassesWithDexBuilderForDebug
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:packageDebug
+:demo:assembleDebug
+:kprogresshud:generateReleaseRFile
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:kprogresshud:generateReleaseSources
+:kprogresshud:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:kprogresshud:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/demo/src/main/java/com/kaopiz/progresshud/demo/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+:demo:transformClassesWithDexBuilderForRelease
+:demo:transformDexArchiveWithExternalLibsDexMergerForRelease
+:demo:transformDexArchiveWithDexMergerForRelease
+:kprogresshud:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:processReleaseJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL in 22s
+91 actionable tasks: 91 executed
+
+2019-01-18 15:16:07,392 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799201358-0/src/demo/build/outputs/apk/release/demo-release-unsigned.apk

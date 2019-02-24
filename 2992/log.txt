@@ -1,0 +1,785 @@
+2019-01-26 21:17:54,366 INFO  DownloadService - Downloading "https://github.com/whilu/AndroidTagView/archive/master.zip", attempt 3
+2019-01-26 21:17:56,915 INFO  DownloadService - Downloaded https://github.com/whilu/AndroidTagView/archive/master.zip, attempt 3
+2019-01-26 21:17:56,916 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/master.zip": 2 MB
+2019-01-26 21:17:56,916 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-26 21:17:56,917 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/master.zip: true
+2019-01-26 21:17:56,917 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src'.
+2019-01-26 21:17:56,964 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-01-26 21:17:56,964 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src]
+2019-01-26 21:17:56,986 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/.git/
+
+2019-01-26 21:17:56,990 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/gradlew
+2019-01-26 21:17:56,994 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/build.gradle
+2019-01-26 21:17:56,998 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/settings.gradle
+2019-01-26 21:17:56,999 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/whilu/AndroidPublishLibrary/master/project/library/bintray_publish.gradle", attempt 3
+2019-01-26 21:17:57,238 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/whilu/AndroidPublishLibrary/master/project/library/bintray_publish.gradle, attempt 3
+2019-01-26 21:17:57,238 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/whilu/AndroidPublishLibrary/master/project/library/bintray_publish.gradle
+2019-01-26 21:17:57,238 INFO  ProjectFixService - Fixing project...
+2019-01-26 21:17:57,250 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/local.properties
+2019-01-26 21:17:57,252 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 21:17:57,252 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 21:17:57,253 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/sample/local.properties
+2019-01-26 21:17:57,256 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 21:17:57,256 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 21:17:57,257 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/local.properties
+2019-01-26 21:17:57,258 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
+2019-01-26 21:17:57,258 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
+2019-01-26 21:17:57,260 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 21:17:57,260 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-26 21:17:57,261 INFO  ProjectFixService - Project was maybe fixed
+2019-01-26 21:17:57,261 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-26 21:17:57,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-26 21:18:06,857 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-01-26 21:18:06,857 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-26 21:18:06,857 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-26 21:18:24,296 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform e2e13b9e2a00ad066d42708e67d85948 with AarTransform
+> Transform 8a97aa0616af7f698e092543ed5cec97 with AarTransform
+> Transform d5dbb200686e72359aa92674be20e651 with AarTransform
+> Transform 99460c4bb334ae3cfd773ebffb230b22 with AarTransform
+> Transform 757b9cbca9de28b9bf3463db493b8733 with AarTransform
+> Transform 4e8b2d0afa186f2504a287010b4847f3 with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform 2312b4714b6c767acd4a372577200ec8 with AarTransform
+> Transform 9b2bf182dd5ad457a0b52a79be03356f with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform 02a959478e09d7de5ce34a538a979cc0 with AarTransform
+> Transform 53b3ccffe60384747e664ad4083a602a with AarTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform 4f795b6e86251be8508ab03b703de952 with AarTransform
+> Transform e6a9f34fe79618ab6e0aa38d64dc3d40 with AarTransform
+> Transform 6a62fbe92e61349296c08ff44ff6e4c8 with AarTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform 374252de0fdb6e04e4d97666bc28987c with AarTransform
+> Transform 16251e037633d32aa88af68ddcddb5ce with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform 6f20dc6d5b79e3c03de953909000ccb3 with AarTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform 5ed1e914bb2e841d6a7f2ac687d6d268 with AarTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform 8c1e51869819d81bc2666bd17ed3da04 with AarTransform
+> Transform 3963ce43fc65de54424c505c95d74d16 with AarTransform
+> Transform 0cec4be2e283c363f3dfefab51393e8d with AarTransform
+> Transform 6da2fc77266b0cfa63129050f630aa00 with AarTransform
+> Transform 9a0d5626bb46b15cab74689269126eca with AarTransform
+> Transform 6850e8861f770e3c7aeba3c188070d7c with AarTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.1) with JetifyTransform
+> Transform core-1.0.0.aar with ExtractAarTransform
+> Task :androidtagview:preBuild UP-TO-DATE
+> Task :androidtagview:preDebugBuild UP-TO-DATE
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 757b9cbca9de28b9bf3463db493b8733 with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform e2e13b9e2a00ad066d42708e67d85948 with AarTransform
+> Transform 9b2bf182dd5ad457a0b52a79be03356f with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with JetifyTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-common-2.0.0.jar with IdentityTransform
+> Transform 8a97aa0616af7f698e092543ed5cec97 with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform annotation-1.0.0.jar with IdentityTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform core-common-2.0.0.jar with IdentityTransform
+> Transform 4e8b2d0afa186f2504a287010b4847f3 with AarTransform
+> Transform ea929a6a961942381f1a973d43657cbd with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 99460c4bb334ae3cfd773ebffb230b22 with AarTransform
+> Transform 2312b4714b6c767acd4a372577200ec8 with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.0.0) with JetifyTransform
+> Transform d5dbb200686e72359aa92674be20e651 with AarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 4f795b6e86251be8508ab03b703de952 with AarTransform
+> Transform core-1.0.0.aar with ExtractAarTransform
+> Transform 374252de0fdb6e04e4d97666bc28987c with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 02a959478e09d7de5ce34a538a979cc0 with AarTransform
+> Transform 53b3ccffe60384747e664ad4083a602a with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform e6a9f34fe79618ab6e0aa38d64dc3d40 with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform 16251e037633d32aa88af68ddcddb5ce with AarTransform
+> Transform 6f20dc6d5b79e3c03de953909000ccb3 with AarTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with JetifyTransform
+> Transform 5ed1e914bb2e841d6a7f2ac687d6d268 with AarTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform collection-1.0.0.jar with IdentityTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 8c1e51869819d81bc2666bd17ed3da04 with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform 6da2fc77266b0cfa63129050f630aa00 with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 3963ce43fc65de54424c505c95d74d16 with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform 6850e8861f770e3c7aeba3c188070d7c with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.1) with JetifyTransform
+> Transform 9a0d5626bb46b15cab74689269126eca with AarTransform
+> Transform ea929a6a961942381f1a973d43657cbd with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 757b9cbca9de28b9bf3463db493b8733 with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform e2e13b9e2a00ad066d42708e67d85948 with AarTransform
+> Transform 9b2bf182dd5ad457a0b52a79be03356f with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform 8a97aa0616af7f698e092543ed5cec97 with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform 4e8b2d0afa186f2504a287010b4847f3 with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform 2312b4714b6c767acd4a372577200ec8 with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform d5dbb200686e72359aa92674be20e651 with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 99460c4bb334ae3cfd773ebffb230b22 with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 4f795b6e86251be8508ab03b703de952 with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform 02a959478e09d7de5ce34a538a979cc0 with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with JetifyTransform
+> Transform core-1.0.0.aar with ExtractAarTransform
+> Transform 374252de0fdb6e04e4d97666bc28987c with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 53b3ccffe60384747e664ad4083a602a with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform e6a9f34fe79618ab6e0aa38d64dc3d40 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 335d6a5c67ce80162e612880814ea8c1 with AarTransform
+> Transform 335d6a5c67ce80162e612880814ea8c1 with AarTransform
+> Transform 6a62fbe92e61349296c08ff44ff6e4c8 with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform 0cec4be2e283c363f3dfefab51393e8d with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform 335d6a5c67ce80162e612880814ea8c1 with AarTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform 6a62fbe92e61349296c08ff44ff6e4c8 with AarTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 6f20dc6d5b79e3c03de953909000ccb3 with AarTransform
+> Transform 16251e037633d32aa88af68ddcddb5ce with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform 0cec4be2e283c363f3dfefab51393e8d with AarTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform 5ed1e914bb2e841d6a7f2ac687d6d268 with AarTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 8c1e51869819d81bc2666bd17ed3da04 with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.1) with JetifyTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform 6da2fc77266b0cfa63129050f630aa00 with AarTransform
+> Transform 6850e8861f770e3c7aeba3c188070d7c with AarTransform
+> Transform 3963ce43fc65de54424c505c95d74d16 with AarTransform
+> Transform 9a0d5626bb46b15cab74689269126eca with AarTransform
+> Transform ea929a6a961942381f1a973d43657cbd with AarTransform
+> Task :androidtagview:checkDebugManifest
+> Task :androidtagview:generateDebugBuildConfig
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform appcompat-1.0.1.aar with ExtractAarTransform
+> Transform appcompat-1.0.1.aar with ExtractAarTransform
+> Transform appcompat-1.0.1.aar with ExtractAarTransform
+> Transform e2e13b9e2a00ad066d42708e67d85948 with LibrarySymbolTableTransform
+> Transform 757b9cbca9de28b9bf3463db493b8733 with LibrarySymbolTableTransform
+> Transform 8a97aa0616af7f698e092543ed5cec97 with LibrarySymbolTableTransform
+> Transform 9b2bf182dd5ad457a0b52a79be03356f with LibrarySymbolTableTransform
+> Transform 4e8b2d0afa186f2504a287010b4847f3 with LibrarySymbolTableTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform d5dbb200686e72359aa92674be20e651 with LibrarySymbolTableTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform 2312b4714b6c767acd4a372577200ec8 with LibrarySymbolTableTransform
+> Transform 4f795b6e86251be8508ab03b703de952 with LibrarySymbolTableTransform
+> Transform core.aar (androidx.core:core:1.0.0) with JetifyTransform
+> Transform core-1.0.0.aar with ExtractAarTransform
+> Transform 02a959478e09d7de5ce34a538a979cc0 with LibrarySymbolTableTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform 99460c4bb334ae3cfd773ebffb230b22 with LibrarySymbolTableTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 374252de0fdb6e04e4d97666bc28987c with LibrarySymbolTableTransform
+> Transform 335d6a5c67ce80162e612880814ea8c1 with LibrarySymbolTableTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform 6a62fbe92e61349296c08ff44ff6e4c8 with LibrarySymbolTableTransform
+> Transform 53b3ccffe60384747e664ad4083a602a with LibrarySymbolTableTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform e6a9f34fe79618ab6e0aa38d64dc3d40 with LibrarySymbolTableTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform 16251e037633d32aa88af68ddcddb5ce with LibrarySymbolTableTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform 6f20dc6d5b79e3c03de953909000ccb3 with LibrarySymbolTableTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 0cec4be2e283c363f3dfefab51393e8d with LibrarySymbolTableTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform 8c1e51869819d81bc2666bd17ed3da04 with LibrarySymbolTableTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform 6da2fc77266b0cfa63129050f630aa00 with LibrarySymbolTableTransform
+> Transform 3963ce43fc65de54424c505c95d74d16 with LibrarySymbolTableTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.1) with JetifyTransform
+> Transform appcompat-1.0.1.aar with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform 6850e8861f770e3c7aeba3c188070d7c with LibrarySymbolTableTransform
+> Transform 9a0d5626bb46b15cab74689269126eca with LibrarySymbolTableTransform
+> Task :androidtagview:generateDebugResValues
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.2.1-4818971) with Aapt2Extractor
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform dc8b148027dede5c599090154a38bb37 with AarTransform
+> Transform dc8b148027dede5c599090154a38bb37 with AarTransform
+> Transform dc8b148027dede5c599090154a38bb37 with AarTransform
+> Transform ea929a6a961942381f1a973d43657cbd with LibrarySymbolTableTransform
+> Transform dc8b148027dede5c599090154a38bb37 with LibrarySymbolTableTransform
+> Task :androidtagview:processDebugManifest
+> Task :androidtagview:compileDebugAidl NO-SOURCE
+> Task :androidtagview:compileDebugRenderscript
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Task :androidtagview:generateDebugResources
+> Transform 5ed1e914bb2e841d6a7f2ac687d6d268 with LibrarySymbolTableTransform
+> Task :androidtagview:packageDebugResources
+> Task :androidtagview:generateDebugRFile
+> Task :androidtagview:prepareLintJar
+> Task :androidtagview:generateDebugSources
+> Task :androidtagview:javaPreCompileDebug
+
+> Task :androidtagview:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :androidtagview:extractDebugAnnotations
+> Task :androidtagview:mergeDebugConsumerProguardFiles
+> Task :androidtagview:mergeDebugShaders
+> Task :androidtagview:compileDebugShaders
+> Task :androidtagview:generateDebugAssets
+> Task :androidtagview:packageDebugAssets
+> Task :androidtagview:packageDebugRenderscript NO-SOURCE
+> Task :androidtagview:processDebugJavaRes NO-SOURCE
+> Task :androidtagview:transformResourcesWithMergeJavaResForDebug
+> Task :androidtagview:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :androidtagview:compileDebugNdk NO-SOURCE
+> Task :androidtagview:mergeDebugJniLibFolders
+> Task :androidtagview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :androidtagview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :androidtagview:transformNativeLibsWithSyncJniLibsForDebug
+> Task :androidtagview:bundleDebugAar
+> Task :androidtagview:compileDebugSources
+> Task :androidtagview:assembleDebug
+> Task :androidtagview:preReleaseBuild UP-TO-DATE
+> Task :androidtagview:compileReleaseAidl NO-SOURCE
+> Task :androidtagview:compileReleaseRenderscript
+> Task :androidtagview:checkReleaseManifest
+> Task :androidtagview:generateReleaseBuildConfig
+> Task :androidtagview:generateReleaseResValues
+> Task :androidtagview:generateReleaseResources
+> Task :androidtagview:packageReleaseResources
+> Task :androidtagview:processReleaseManifest
+> Task :androidtagview:generateReleaseRFile
+> Task :androidtagview:generateReleaseSources
+> Task :androidtagview:javaPreCompileRelease
+
+> Task :androidtagview:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagView.java uses or overrides a deprecated API.
+
+> Task :androidtagview:extractReleaseAnnotations
+> Task :androidtagview:mergeReleaseConsumerProguardFiles
+> Task :androidtagview:mergeReleaseShaders
+> Task :androidtagview:compileReleaseShaders
+> Task :androidtagview:generateReleaseAssets
+> Task :androidtagview:packageReleaseAssets
+> Task :androidtagview:packageReleaseRenderscript NO-SOURCE
+> Task :androidtagview:processReleaseJavaRes NO-SOURCE
+Note: Recompile with -Xlint:deprecation for details.
+> Task :androidtagview:transformResourcesWithMergeJavaResForRelease
+> Task :androidtagview:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :androidtagview:compileReleaseNdk NO-SOURCE
+> Task :androidtagview:mergeReleaseJniLibFolders
+> Task :androidtagview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :androidtagview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :androidtagview:transformNativeLibsWithSyncJniLibsForRelease
+> Task :androidtagview:bundleReleaseAar
+> Task :androidtagview:compileReleaseSources
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform 9b2bf182dd5ad457a0b52a79be03356f with AarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform 8a97aa0616af7f698e092543ed5cec97 with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform d5dbb200686e72359aa92674be20e651 with AarTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform 99460c4bb334ae3cfd773ebffb230b22 with AarTransform
+> Transform versionedparcelable-1.0.0.aar with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with JetifyTransform
+> Transform core-1.0.0.aar with ExtractAarTransform
+> Transform e2e13b9e2a00ad066d42708e67d85948 with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 02a959478e09d7de5ce34a538a979cc0 with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 4f795b6e86251be8508ab03b703de952 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 2312b4714b6c767acd4a372577200ec8 with AarTransform
+> Transform 757b9cbca9de28b9bf3463db493b8733 with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform 4e8b2d0afa186f2504a287010b4847f3 with AarTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform 374252de0fdb6e04e4d97666bc28987c with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 335d6a5c67ce80162e612880814ea8c1 with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform 53b3ccffe60384747e664ad4083a602a with AarTransform
+> Transform e6a9f34fe79618ab6e0aa38d64dc3d40 with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform 6a62fbe92e61349296c08ff44ff6e4c8 with AarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform 16251e037633d32aa88af68ddcddb5ce with AarTransform
+> Transform 6f20dc6d5b79e3c03de953909000ccb3 with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform 5ed1e914bb2e841d6a7f2ac687d6d268 with AarTransform
+> Transform fragment-1.0.0.aar with ExtractAarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.1) with JetifyTransform
+> Transform appcompat-1.0.1.aar with ExtractAarTransform
+> Transform 0cec4be2e283c363f3dfefab51393e8d with AarTransform
+> Transform 8c1e51869819d81bc2666bd17ed3da04 with AarTransform
+> Transform 6da2fc77266b0cfa63129050f630aa00 with AarTransform
+> Transform 3963ce43fc65de54424c505c95d74d16 with AarTransform
+> Transform 6850e8861f770e3c7aeba3c188070d7c with AarTransform
+> Transform 9a0d5626bb46b15cab74689269126eca with AarTransform
+> Transform ea929a6a961942381f1a973d43657cbd with AarTransform
+> Transform dc8b148027dede5c599090154a38bb37 with AarTransform
+
+> Task :androidtagview:generateReleaseJavadoc
+javadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:748: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:757: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:766: warning: no description for @param
+     * @param tagBdDistance
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:775: warning: no description for @param
+     * @param tags
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:785: warning: no description for @param
+     * @param tags
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:786: warning: no description for @param
+     * @param colorArrayList
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:797: warning: no description for @param
+     * @param tags
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:807: warning: no description for @param
+     * @param text
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:817: warning: no description for @param
+     * @param text
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:818: warning: no description for @param
+     * @param position
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:828: warning: no description for @param
+     * @param position
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:840: warning: no @param for positions
+    public void removeConsecutiveTags(List<Integer> positions) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:857: warning: no description for @param
+     * @param listener
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:867: warning: no description for @param
+     * @param position
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:883: warning: no description for @param
+     * @param position
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:893: warning: no description for @param
+     * @param position
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:943: warning: no description for @param
+     * @param position
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:944: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:953: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:968: warning: no description for @param
+     * @param enable
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:977: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:986: warning: no description for @param
+     * @param interval
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:996: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1005: warning: no description for @param
+     * @param interval
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1015: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1024: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1033: warning: no description for @param
+     * @param width
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1042: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1051: warning: no description for @param
+     * @param radius
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1060: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1069: warning: no description for @param
+     * @param color
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1078: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1087: warning: no description for @param
+     * @param color
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1096: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1105: warning: no description for @param
+     * @param gravity
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1114: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1123: warning: no description for @param
+     * @param sensitivity
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1132: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1141: warning: no description for @param
+     * @param imageID
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1169: warning: no description for @param
+     * @param maxLength
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1178: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1187: warning: no description for @param
+     * @param theme
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1196: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1205: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1214: warning: no description for @param
+     * @param clickable
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1223: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1232: warning: no description for @param
+     * @param selectable
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1241: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1250: warning: no description for @param
+     * @param width
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1259: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1268: warning: no description for @param
+     * @param radius
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1277: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1286: warning: no description for @param
+     * @param size
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1295: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1304: warning: no description for @param
+     * @param padding
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1314: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1323: warning: no description for @param
+     * @param padding
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1333: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1342: warning: no description for @param
+     * @param color
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1351: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1360: warning: no description for @param
+     * @param color
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1369: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1379: warning: no description for @param
+     * @param textDirection
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1388: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1397: warning: no description for @param
+     * @param typeface
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1406: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1415: warning: no description for @param
+     * @param color
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1424: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1433: warning: no description for @param
+     * @param mRippleAlpha
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1442: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1451: warning: no description for @param
+     * @param mRippleColor
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1460: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1469: warning: no description for @param
+     * @param mRippleDuration
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1478: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1487: warning: no description for @param
+     * @param mCrossColor
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1496: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1505: warning: no description for @param
+     * @param mCrossAreaPadding
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1514: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1523: warning: no description for @param
+     * @param mEnableCross
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1532: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1541: warning: no description for @param
+     * @param mCrossAreaWidth
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1550: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1559: warning: no description for @param
+     * @param mCrossLineWidth
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1568: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1577: warning: no description for @param
+     * @param mTagSupportLettersRTL
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1587: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1598: warning: no description for @return
+     * @return
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/androidtagview/src/main/java/co/lujun/androidtagview/TagContainerLayout.java:1606: warning: no description for @param
+     * @param tagBackgroundResource
+       ^
+89 warnings
+
+> Task :androidtagview:mergeReleaseResources
+> Task :androidtagview:verifyReleaseResources
+> Task :androidtagview:assembleRelease
+> Task :androidtagview:javadocReleaseJar
+> Task :androidtagview:assemble
+> Task :androidtagview:build
+
+BUILD SUCCESSFUL in 17s
+47 actionable tasks: 47 executed
+
+2019-01-26 21:18:24,354 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548512274363-0/src/AndroidTagView-master/sample/sample-release.apk

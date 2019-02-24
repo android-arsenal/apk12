@@ -1,0 +1,99 @@
+2019-01-20 19:06:48,368 INFO  DownloadService - Downloading "https://github.com/mulab/rx-realm/archive/master.zip", attempt 3
+2019-01-20 19:06:49,985 INFO  DownloadService - Downloaded https://github.com/mulab/rx-realm/archive/master.zip, attempt 3
+2019-01-20 19:06:49,985 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986008365-0/master.zip": 69 KB
+2019-01-20 19:06:49,985 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-20 19:06:49,990 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986008365-0/master.zip: true
+2019-01-20 19:06:49,991 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986008365-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986008365-0/src'.
+2019-01-20 19:06:50,006 INFO  FullProcessService - Size of directory with sources: 81 KB
+2019-01-20 19:06:50,006 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986008365-0/src]
+2019-01-20 19:06:50,031 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986008365-0/src/.git/
+
+2019-01-20 19:06:50,034 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986008365-0/src/rx-realm-master/gradlew
+2019-01-20 19:06:50,036 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986008365-0/src/rx-realm-master/build.gradle
+2019-01-20 19:06:50,039 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986008365-0/src/rx-realm-master/build.gradle
+2019-01-20 19:06:50,040 INFO  ProjectBuildService - Remote scripts: none
+2019-01-20 19:06:50,040 INFO  ProjectFixService - Fixing project...
+2019-01-20 19:06:50,047 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986008365-0/src/rx-realm-master/local.properties
+2019-01-20 19:06:50,047 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-bin.zip
+2019-01-20 19:06:50,048 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986008365-0/src/rx-realm-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-01-20 19:06:50,048 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 19:06:50,048 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 19:06:50,048 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986008365-0/src/rx-realm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986008365-0/src/rx-realm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 19:07:04,357 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-01-20 19:07:04,357 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-20 19:07:04,357 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986008365-0/src/rx-realm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547986008365-0/src/rx-realm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-20 19:07:12,133 INFO  SysUtils - Configuration on demand is an incubating feature.
+:preBuild UP-TO-DATE
+:preDebugBuild UP-TO-DATE
+:compileDebugNdk UP-TO-DATE
+:compileLint
+:copyDebugLint UP-TO-DATE
+:mergeDebugProguardFiles
+:packageDebugRenderscript UP-TO-DATE
+:checkDebugManifest
+:preDebugAndroidTestBuild UP-TO-DATE
+:preDebugUnitTestBuild UP-TO-DATE
+:preReleaseBuild UP-TO-DATE
+:preReleaseUnitTestBuild UP-TO-DATE
+:prepareComGithubMulabAndroidLog101Library
+:prepareIoReactivexRxandroid101Library
+:prepareDebugDependencies
+:compileDebugRenderscript
+:generateDebugResValues
+:generateDebugResources
+:packageDebugResources
+:compileDebugAidl
+:generateDebugBuildConfig
+:generateDebugAssets UP-TO-DATE
+:mergeDebugAssets
+:mergeDebugResources
+:processDebugManifest
+:processDebugResources
+:generateDebugSources
+:compileDebugJavaWithJavac
+:processDebugJavaRes UP-TO-DATE
+:transformResourcesWithMergeJavaResForDebug
+:transformClassesAndResourcesWithSyncLibJarsForDebug
+:mergeDebugJniLibFolders
+:transformNative_libsWithMergeJniLibsForDebug
+:transformNative_libsWithSyncJniLibsForDebug
+:bundleDebug
+:compileDebugSources
+:assembleDebug
+:compileReleaseNdk UP-TO-DATE
+:copyReleaseLint UP-TO-DATE
+:mergeReleaseProguardFiles
+:packageReleaseRenderscript UP-TO-DATE
+:checkReleaseManifest
+:prepareReleaseDependencies
+:compileReleaseRenderscript
+:generateReleaseResValues
+:generateReleaseResources
+:packageReleaseResources
+:compileReleaseAidl
+:generateReleaseBuildConfig
+:generateReleaseAssets UP-TO-DATE
+:mergeReleaseAssets
+:mergeReleaseResources
+:processReleaseManifest
+:processReleaseResources
+:generateReleaseSources
+:compileReleaseJavaWithJavac
+:processReleaseJavaRes UP-TO-DATE
+:transformResourcesWithMergeJavaResForRelease
+:transformClassesAndResourcesWithSyncLibJarsForRelease
+:mergeReleaseJniLibFolders
+:transformNative_libsWithMergeJniLibsForRelease
+:transformNative_libsWithSyncJniLibsForRelease
+:bundleRelease
+:compileReleaseSources
+:assembleRelease
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.274 secs
+
+2019-01-20 19:07:12,145 ERROR FullProcessService - Project build has not produced APK file
+2019-01-20 19:07:12,155 ERROR FullProcessService - Could not find generated or existed APK file

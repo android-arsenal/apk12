@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.mikhaellopez.circularfillableloaderssample",
+    "label" : "CircularFillableLoaders",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1307,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.mikhaellopez.circularfillableloaderssample\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0c003c\" android:label=\"CircularFillableLoaders\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"false\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.mikhaellopez.circularfillableloaderssample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1400582,
+  "crc32" : 1285719184,
+  "sha256" : "cc6e3fdd1302f7d99b82814099aa3310a628b08f34c5bd459d0401578c5107dc",
+  "buildTime" : 1547912196000
+}

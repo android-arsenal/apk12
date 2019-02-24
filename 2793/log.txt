@@ -1,0 +1,189 @@
+2019-01-20 19:25:13,891 INFO  DownloadService - Downloading "https://github.com/jraska/Falcon/archive/master.zip", attempt 3
+2019-01-20 19:26:14,433 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-20 19:26:15,346 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-20 19:26:15,346 INFO  DownloadService - Downloading "https://github.com/jraska/Falcon/archive/master.zip", attempt 3
+2019-01-20 19:27:16,785 DEBUG FullProcessService - Repository https://github.com/jraska/Falcon available: true
+2019-01-20 19:27:16,785 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-20 19:27:16,785 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jraska/Falcon, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src]
+2019-01-20 19:27:18,775 INFO  SysUtils - 
+2019-01-20 19:27:18,813 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/.git": true
+2019-01-20 19:27:18,816 INFO  FullProcessService - Size of directory with sources: 170 KB
+2019-01-20 19:27:18,816 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src]
+2019-01-20 19:27:18,834 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/.git/
+
+2019-01-20 19:27:18,837 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/gradlew
+2019-01-20 19:27:18,841 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon-spoon-compat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/build.gradle
+2019-01-20 19:27:18,844 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/gradle/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/gradle/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon-spoon-compat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon/build.gradle
+2019-01-20 19:27:18,845 INFO  ProjectBuildService - Remote scripts: none
+2019-01-20 19:27:18,845 INFO  ProjectFixService - Fixing project...
+2019-01-20 19:27:18,854 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon-sample/local.properties
+2019-01-20 19:27:18,856 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon-sample/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-20 19:27:18,856 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon-sample/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-20 19:27:18,857 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon-spoon-compat/local.properties
+2019-01-20 19:27:18,859 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon-spoon-compat/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-20 19:27:18,859 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon-spoon-compat/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-20 19:27:18,860 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon/local.properties
+2019-01-20 19:27:18,863 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-20 19:27:18,863 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-20 19:27:18,864 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/local.properties
+2019-01-20 19:27:18,864 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
+2019-01-20 19:27:18,864 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
+2019-01-20 19:27:18,865 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-20 19:27:18,865 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-20 19:27:18,866 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 19:27:18,866 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 19:27:18,866 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 19:27:27,263 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-01-20 19:27:27,263 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-20 19:27:27,263 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-20 19:28:14,193 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :falcon-sample
+WARNING: The specified Android SDK Build Tools version (28.0.2) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.2.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :falcon
+WARNING: The specified Android SDK Build Tools version (28.0.2) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.2.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Task :falcon:preBuild UP-TO-DATE
+> Task :falcon:preDebugBuild UP-TO-DATE
+> Task :falcon:compileDebugAidl NO-SOURCE
+> Task :falcon:compileDebugRenderscript
+> Task :falcon:checkDebugManifest
+> Task :falcon:generateDebugBuildConfig
+> Task :falcon:generateDebugResValues
+> Task :falcon:generateDebugResources
+> Task :falcon:packageDebugResources
+> Task :falcon:processDebugManifest
+> Task :falcon:generateDebugRFile
+> Task :falcon:prepareLintJar
+> Task :falcon:generateDebugSources
+> Task :falcon:javaPreCompileDebug
+> Task :falcon:compileDebugJavaWithJavac
+> Task :falcon:processDebugJavaRes NO-SOURCE
+> Task :falcon:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :falcon-sample:checkDebugClasspath
+> Task :falcon-sample:preBuild UP-TO-DATE
+> Task :falcon-sample:preDebugBuild
+> Task :falcon-sample:compileDebugAidl NO-SOURCE
+> Task :falcon:packageDebugRenderscript NO-SOURCE
+> Task :falcon-sample:compileDebugRenderscript
+> Task :falcon-sample:checkDebugManifest
+> Task :falcon-sample:generateDebugBuildConfig
+> Task :falcon-sample:prepareLintJar
+> Task :falcon-sample:mainApkListPersistenceDebug
+> Task :falcon-sample:generateDebugResValues
+> Task :falcon-sample:generateDebugResources
+> Task :falcon-sample:mergeDebugResources
+> Task :falcon-sample:createDebugCompatibleScreenManifests
+> Task :falcon-sample:processDebugManifest
+> Task :falcon-sample:splitsDiscoveryTaskDebug
+> Task :falcon-sample:processDebugResources
+> Task :falcon-sample:generateDebugSources
+> Task :falcon-sample:javaPreCompileDebug
+> Task :falcon-sample:compileDebugJavaWithJavac
+> Task :falcon-sample:compileDebugNdk NO-SOURCE
+> Task :falcon-sample:compileDebugSources
+> Task :falcon:mergeDebugShaders
+> Task :falcon:compileDebugShaders
+> Task :falcon:generateDebugAssets
+> Task :falcon:packageDebugAssets
+> Task :falcon-sample:mergeDebugShaders
+> Task :falcon-sample:compileDebugShaders
+> Task :falcon-sample:generateDebugAssets
+> Task :falcon-sample:mergeDebugAssets
+> Task :falcon-sample:transformClassesWithDexBuilderForDebug
+> Task :falcon-sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :falcon-sample:transformDexArchiveWithDexMergerForDebug
+> Task :falcon:compileDebugNdk NO-SOURCE
+> Task :falcon:mergeDebugJniLibFolders
+> Task :falcon:transformNativeLibsWithMergeJniLibsForDebug
+> Task :falcon:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :falcon:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :falcon-sample:mergeDebugJniLibFolders
+> Task :falcon-sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :falcon-sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :falcon-sample:checkDebugLibraries
+> Task :falcon-sample:processDebugJavaRes NO-SOURCE
+> Task :falcon-sample:transformResourcesWithMergeJavaResForDebug
+> Task :falcon-sample:validateSigningDebug
+> Task :falcon-sample:packageDebug
+> Task :falcon-sample:assembleDebug
+> Task :falcon:preReleaseBuild UP-TO-DATE
+> Task :falcon:compileReleaseAidl NO-SOURCE
+> Task :falcon:compileReleaseRenderscript
+> Task :falcon:checkReleaseManifest
+> Task :falcon:generateReleaseBuildConfig
+> Task :falcon:generateReleaseResValues
+> Task :falcon:generateReleaseResources
+> Task :falcon:packageReleaseResources
+> Task :falcon:processReleaseManifest
+> Task :falcon:generateReleaseRFile
+> Task :falcon:generateReleaseSources
+> Task :falcon:javaPreCompileRelease
+> Task :falcon:compileReleaseJavaWithJavac
+> Task :falcon:processReleaseJavaRes NO-SOURCE
+> Task :falcon:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :falcon-sample:checkReleaseClasspath
+> Task :falcon-sample:preReleaseBuild
+> Task :falcon-sample:compileReleaseAidl NO-SOURCE
+> Task :falcon:packageReleaseRenderscript NO-SOURCE
+> Task :falcon-sample:compileReleaseRenderscript
+> Task :falcon-sample:checkReleaseManifest
+> Task :falcon-sample:generateReleaseBuildConfig
+> Task :falcon-sample:mainApkListPersistenceRelease
+> Task :falcon-sample:generateReleaseResValues
+> Task :falcon-sample:generateReleaseResources
+> Task :falcon-sample:mergeReleaseResources
+> Task :falcon-sample:createReleaseCompatibleScreenManifests
+> Task :falcon-sample:processReleaseManifest
+> Task :falcon-sample:splitsDiscoveryTaskRelease
+> Task :falcon-sample:processReleaseResources
+> Task :falcon-sample:generateReleaseSources
+> Task :falcon-sample:javaPreCompileRelease
+> Task :falcon-sample:compileReleaseJavaWithJavac
+> Task :falcon-sample:compileReleaseNdk NO-SOURCE
+> Task :falcon-sample:compileReleaseSources
+
+> Configure project :falcon-spoon-compat
+WARNING: The specified Android SDK Build Tools version (28.0.2) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.2.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Task :falcon-sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/51187277d5ebac8cbe57e4b540a1e0fc/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :falcon:mergeReleaseShaders
+> Task :falcon:compileReleaseShaders
+> Task :falcon:generateReleaseAssets
+> Task :falcon:packageReleaseAssets
+> Task :falcon-sample:mergeReleaseShaders
+> Task :falcon-sample:compileReleaseShaders
+> Task :falcon-sample:generateReleaseAssets
+> Task :falcon-sample:mergeReleaseAssets
+> Task :falcon-sample:transformClassesWithDexBuilderForRelease
+> Task :falcon-sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :falcon-sample:transformDexArchiveWithDexMergerForRelease
+> Task :falcon:compileReleaseNdk NO-SOURCE
+> Task :falcon:mergeReleaseJniLibFolders
+> Task :falcon:transformNativeLibsWithMergeJniLibsForRelease
+> Task :falcon:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :falcon:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :falcon-sample:mergeReleaseJniLibFolders
+> Task :falcon-sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :falcon-sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :falcon-sample:checkReleaseLibraries
+> Task :falcon-sample:processReleaseJavaRes NO-SOURCE
+> Task :falcon-sample:transformResourcesWithMergeJavaResForRelease
+> Task :falcon-sample:packageRelease
+> Task :falcon-sample:assembleRelease
+> Task :falcon-sample:assemble
+> Task :falcon-sample:build
+
+BUILD SUCCESSFUL in 46s
+90 actionable tasks: 90 executed
+
+2019-01-20 19:28:14,278 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547987113888-0/src/falcon-sample/build/outputs/apk/release/falcon-sample-release-unsigned.apk

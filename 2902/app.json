@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.pddstudio.earthviewdemo.simple",
+    "label" : "EarthViewDemo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "17",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2387,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.pddstudio.earthviewdemo.simple\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f090083\" android:label=\"EarthViewDemo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f090030\" android:label=\"EarthViewDemo\" android:name=\"com.pddstudio.earthviewdemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1805586,
+  "crc32" : 3635318914,
+  "sha256" : "4ec6e64bac46a7e3fc43f6a4925b7a73a7168f0f37d30d3ee1e6d03537c3863b",
+  "buildTime" : 1547910696000
+}

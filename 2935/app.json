@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "by.anatoldeveloper.hallscheme.example",
+    "label" : "HallScheme",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1.0",
+    "versionCode" : 2,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1675,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.1.0\" package=\"by.anatoldeveloper.hallscheme.example\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f08009c\" android:label=\"HallScheme\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"by.anatoldeveloper.hallscheme.example.MainActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1482722,
+  "crc32" : 3250442150,
+  "sha256" : "3fac4693b5dcd51da5f5628805e370ab4309b92f74da1e5176d1652602088a19",
+  "buildTime" : 1522353976000
+}

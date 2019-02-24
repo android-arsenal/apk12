@@ -1,0 +1,935 @@
+2019-01-20 18:31:53,322 INFO  DownloadService - Downloading "https://github.com/lyft/scissors/archive/master.zip", attempt 3
+2019-01-20 18:31:56,801 INFO  DownloadService - Downloaded https://github.com/lyft/scissors/archive/master.zip, attempt 3
+2019-01-20 18:31:56,802 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/master.zip": 4 MB
+2019-01-20 18:31:56,802 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-20 18:31:56,803 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/master.zip: true
+2019-01-20 18:31:56,804 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src'.
+2019-01-20 18:31:56,874 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-01-20 18:31:56,874 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src]
+2019-01-20 18:31:56,894 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/.git/
+
+2019-01-20 18:31:56,899 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/gradlew
+2019-01-20 18:31:56,904 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/build.gradle
+2019-01-20 18:31:56,908 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/settings.gradle
+2019-01-20 18:31:56,909 INFO  ProjectBuildService - Remote scripts: none
+2019-01-20 18:31:56,909 INFO  ProjectFixService - Fixing project...
+2019-01-20 18:31:56,921 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors-sample/local.properties
+2019-01-20 18:31:56,924 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors-sample/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-20 18:31:56,924 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors-sample/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=28]
+2019-01-20 18:31:56,925 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/local.properties
+2019-01-20 18:31:56,927 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-20 18:31:56,928 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=28]
+2019-01-20 18:31:56,928 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/local.properties
+2019-01-20 18:31:56,929 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.1-all.zip
+2019-01-20 18:31:56,929 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.1-bin.zip)
+2019-01-20 18:31:56,930 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-20 18:31:56,931 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=28]
+2019-01-20 18:31:56,931 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 18:31:56,931 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 18:31:56,932 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 18:32:26,754 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-20 18:32:26,754 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-20 18:32:26,754 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-20 18:32:26,754 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-20 18:32:34,809 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-20 18:32:34,809 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':scissors-sample'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':scissors-sample'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:573)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:125)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:42)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:175)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:172)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:112)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:92)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:66)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:79)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:51)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:300)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:333)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:87)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1342)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantData(ApplicationTaskManager.java:289)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:485)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy12.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 55 more
+
+
+BUILD FAILED
+
+Total time: 7.773 secs
+
+2019-01-20 18:32:34,815 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 18:32:34,816 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 18:32:42,099 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-20 18:32:42,099 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-20 18:32:42,099 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-20 18:32:42,099 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-20 18:32:54,644 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-20 18:32:54,644 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+:scissors2:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:32: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:33: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:34: error: package android.support.annotation does not exist
+import android.support.annotation.IntDef;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:35: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:36: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/TouchManager.java:26: error: package android.support.annotation does not exist
+import android.support.annotation.IntDef;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/BitmapLoader.java:18: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/BitmapLoader.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/LoadRequest.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropRequest.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:62: error: cannot find symbol
+    @IntDef({ Shape.RECTANGLE, Shape.OVAL })
+     ^
+  symbol:   class IntDef
+  location: class CropView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/PicassoFillViewportTransformation.java:20: error: package com.squareup.picasso does not exist
+import com.squareup.picasso.Transformation;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/PicassoFillViewportTransformation.java:22: error: cannot find symbol
+class PicassoFillViewportTransformation implements Transformation {
+                                                   ^
+  symbol: class Transformation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/PicassoFillViewportTransformation.java:56: error: cannot find symbol
+    public static Transformation createUsing(int viewportWidth, int viewportHeight) {
+                  ^
+  symbol:   class Transformation
+  location: class PicassoFillViewportTransformation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:18: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:22: error: package com.bumptech.glide does not exist
+import com.bumptech.glide.Glide;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:23: error: package com.bumptech.glide does not exist
+import com.bumptech.glide.RequestManager;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:24: error: package com.bumptech.glide.load.engine does not exist
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:25: error: package com.bumptech.glide.load.resource.bitmap does not exist
+import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
+                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:26: error: package com.bumptech.glide.request does not exist
+import com.bumptech.glide.request.RequestOptions;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:36: error: cannot find symbol
+    private final RequestManager requestManager;
+                  ^
+  symbol:   class RequestManager
+  location: class GlideBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:37: error: cannot find symbol
+    private final BitmapTransformation transformation;
+                  ^
+  symbol:   class BitmapTransformation
+  location: class GlideBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:39: error: cannot find symbol
+    public GlideBitmapLoader(@NonNull RequestManager requestManager, @NonNull BitmapTransformation transformation) {
+                                      ^
+  symbol:   class RequestManager
+  location: class GlideBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:39: error: cannot find symbol
+    public GlideBitmapLoader(@NonNull RequestManager requestManager, @NonNull BitmapTransformation transformation) {
+                                                                              ^
+  symbol:   class BitmapTransformation
+  location: class GlideBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:60: error: cannot find symbol
+    public static BitmapLoader createUsing(@NonNull CropView cropView, @NonNull RequestManager requestManager) {
+                                                                                ^
+  symbol:   class RequestManager
+  location: class GlideBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILBitmapLoader.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILBitmapLoader.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILBitmapLoader.java:7: error: package com.nostra13.universalimageloader.core does not exist
+import com.nostra13.universalimageloader.core.DisplayImageOptions;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILBitmapLoader.java:8: error: package com.nostra13.universalimageloader.core does not exist
+import com.nostra13.universalimageloader.core.ImageLoader;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILBitmapLoader.java:9: error: package com.nostra13.universalimageloader.core.display does not exist
+import com.nostra13.universalimageloader.core.display.BitmapDisplayer;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILBitmapLoader.java:19: error: cannot find symbol
+    private final ImageLoader imageLoader;
+                  ^
+  symbol:   class ImageLoader
+  location: class UILBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILBitmapLoader.java:20: error: cannot find symbol
+    private final BitmapDisplayer bitmapDisplayer;
+                  ^
+  symbol:   class BitmapDisplayer
+  location: class UILBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILBitmapLoader.java:22: error: cannot find symbol
+    public UILBitmapLoader(ImageLoader imageLoader, BitmapDisplayer bitmapDisplayer) {
+                           ^
+  symbol:   class ImageLoader
+  location: class UILBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILBitmapLoader.java:22: error: cannot find symbol
+    public UILBitmapLoader(ImageLoader imageLoader, BitmapDisplayer bitmapDisplayer) {
+                                                    ^
+  symbol:   class BitmapDisplayer
+  location: class UILBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILBitmapLoader.java:31: error: cannot find symbol
+    public static BitmapLoader createUsing(CropView cropView, ImageLoader imageLoader) {
+                                                              ^
+  symbol:   class ImageLoader
+  location: class UILBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/Utils.java:22: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/PicassoBitmapLoader.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/PicassoBitmapLoader.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/PicassoBitmapLoader.java:22: error: package com.squareup.picasso does not exist
+import com.squareup.picasso.Picasso;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/PicassoBitmapLoader.java:23: error: package com.squareup.picasso does not exist
+import com.squareup.picasso.RequestCreator;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/PicassoBitmapLoader.java:24: error: package com.squareup.picasso does not exist
+import com.squareup.picasso.Transformation;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/PicassoBitmapLoader.java:35: error: cannot find symbol
+    private final Picasso picasso;
+                  ^
+  symbol:   class Picasso
+  location: class PicassoBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/PicassoBitmapLoader.java:36: error: cannot find symbol
+    private final Transformation transformation;
+                  ^
+  symbol:   class Transformation
+  location: class PicassoBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/PicassoBitmapLoader.java:38: error: cannot find symbol
+    public PicassoBitmapLoader(Picasso picasso, Transformation transformation) {
+                               ^
+  symbol:   class Picasso
+  location: class PicassoBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/PicassoBitmapLoader.java:38: error: cannot find symbol
+    public PicassoBitmapLoader(Picasso picasso, Transformation transformation) {
+                                                ^
+  symbol:   class Transformation
+  location: class PicassoBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/PicassoBitmapLoader.java:69: error: cannot find symbol
+    public static BitmapLoader createUsing(CropView cropView, Picasso picasso) {
+                                                              ^
+  symbol:   class Picasso
+  location: class PicassoBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/TouchManager.java:345: error: cannot find symbol
+        @IntDef({ANIMATION_X, ANIMATION_Y, ANIMATION_SCALE})
+         ^
+  symbol:   class IntDef
+  location: class GestureAnimator
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILFillViewportDisplayer.java:6: error: package com.nostra13.universalimageloader.core.assist does not exist
+import com.nostra13.universalimageloader.core.assist.LoadedFrom;
+                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILFillViewportDisplayer.java:7: error: package com.nostra13.universalimageloader.core.display does not exist
+import com.nostra13.universalimageloader.core.display.BitmapDisplayer;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILFillViewportDisplayer.java:8: error: package com.nostra13.universalimageloader.core.imageaware does not exist
+import com.nostra13.universalimageloader.core.imageaware.ImageAware;
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILFillViewportDisplayer.java:10: error: cannot find symbol
+class UILFillViewportDisplayer implements BitmapDisplayer {
+                                          ^
+  symbol: class BitmapDisplayer
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILFillViewportDisplayer.java:19: error: cannot find symbol
+    public static BitmapDisplayer createUsing(int viewportWidth, int viewportHeight) {
+                  ^
+  symbol:   class BitmapDisplayer
+  location: class UILFillViewportDisplayer
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILFillViewportDisplayer.java:24: error: cannot find symbol
+    public void display(Bitmap source, ImageAware imageAware, LoadedFrom loadedFrom) {
+                                       ^
+  symbol:   class ImageAware
+  location: class UILFillViewportDisplayer
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILFillViewportDisplayer.java:24: error: cannot find symbol
+    public void display(Bitmap source, ImageAware imageAware, LoadedFrom loadedFrom) {
+                                                              ^
+  symbol:   class LoadedFrom
+  location: class UILFillViewportDisplayer
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideFillViewportTransformation.java:21: error: package com.bumptech.glide.load.engine.bitmap_recycle does not exist
+import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
+                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideFillViewportTransformation.java:22: error: package com.bumptech.glide.load.resource.bitmap does not exist
+import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
+                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideFillViewportTransformation.java:27: error: cannot find symbol
+class GlideFillViewportTransformation extends BitmapTransformation {
+                                              ^
+  symbol: class BitmapTransformation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideFillViewportTransformation.java:41: error: cannot find symbol
+    protected Bitmap transform(BitmapPool bitmapPool, Bitmap source, int outWidth, int outHeight) {
+                               ^
+  symbol:   class BitmapPool
+  location: class GlideFillViewportTransformation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideFillViewportTransformation.java:77: error: cannot find symbol
+    public static BitmapTransformation createUsing(int viewportWidth, int viewportHeight) {
+                  ^
+  symbol:   class BitmapTransformation
+  location: class GlideFillViewportTransformation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:203: error: cannot find symbol
+    public void setViewportOverlayColor(@ColorInt int viewportOverlayColor) {
+                                         ^
+  symbol:   class ColorInt
+  location: class CropView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:254: error: cannot find symbol
+    public void setImageResource(@DrawableRes int resId) {
+                                  ^
+  symbol:   class DrawableRes
+  location: class CropView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:262: error: cannot find symbol
+    public void setImageDrawable(@Nullable Drawable drawable) {
+                                  ^
+  symbol:   class Nullable
+  location: class CropView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:277: error: cannot find symbol
+    public void setImageURI(@Nullable Uri uri) {
+                             ^
+  symbol:   class Nullable
+  location: class CropView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:282: error: cannot find symbol
+    public void setImageBitmap(@Nullable Bitmap bitmap) {
+                                ^
+  symbol:   class Nullable
+  location: class CropView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:291: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class CropView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:322: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class CropView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:403: error: cannot find symbol
+        public void load(@Nullable Object model) {
+                          ^
+  symbol:   class Nullable
+  location: class Extensions
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:415: error: cannot find symbol
+        public LoadRequest using(@Nullable BitmapLoader bitmapLoader) {
+                                  ^
+  symbol:   class Nullable
+  location: class Extensions
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:435: error: cannot find symbol
+        public LoadRequest using(@NonNull LoaderType loaderType) {
+                                  ^
+  symbol:   class NonNull
+  location: class Extensions
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:455: error: cannot find symbol
+        public void pickUsing(@NonNull Activity activity, int requestCode) {
+                               ^
+  symbol:   class NonNull
+  location: class Extensions
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropView.java:462: error: cannot find symbol
+        public void pickUsing(@NonNull Fragment fragment, int requestCode) {
+                               ^
+  symbol:   class NonNull
+  location: class Extensions
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/BitmapLoader.java:30: error: cannot find symbol
+    void load(@Nullable Object model, @NonNull ImageView view);
+               ^
+  symbol:   class Nullable
+  location: interface BitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/BitmapLoader.java:30: error: cannot find symbol
+    void load(@Nullable Object model, @NonNull ImageView view);
+                                       ^
+  symbol:   class NonNull
+  location: interface BitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/LoadRequest.java:27: error: cannot find symbol
+    public LoadRequest using(@Nullable BitmapLoader bitmapLoader) {
+                              ^
+  symbol:   class Nullable
+  location: class LoadRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/LoadRequest.java:49: error: cannot find symbol
+    public void load(@Nullable Object model) {
+                      ^
+  symbol:   class Nullable
+  location: class LoadRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropRequest.java:16: error: cannot find symbol
+  CropRequest(@NonNull CropView cropView) {
+               ^
+  symbol:   class NonNull
+  location: class CropRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropRequest.java:26: error: cannot find symbol
+  public CropRequest format(@NonNull Bitmap.CompressFormat format) {
+                             ^
+  symbol:   class NonNull
+  location: class CropRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropRequest.java:50: error: cannot find symbol
+  public Future<Void> into(@NonNull File file) {
+                            ^
+  symbol:   class NonNull
+  location: class CropRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropRequest.java:62: error: cannot find symbol
+  public Future<Void> into(@NonNull OutputStream outputStream, boolean closeWhenDone) {
+                            ^
+  symbol:   class NonNull
+  location: class CropRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:39: error: cannot find symbol
+    public GlideBitmapLoader(@NonNull RequestManager requestManager, @NonNull BitmapTransformation transformation) {
+                              ^
+  symbol:   class NonNull
+  location: class GlideBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:39: error: cannot find symbol
+    public GlideBitmapLoader(@NonNull RequestManager requestManager, @NonNull BitmapTransformation transformation) {
+                                                                      ^
+  symbol:   class NonNull
+  location: class GlideBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:45: error: cannot find symbol
+    public void load(@Nullable Object model, @NonNull ImageView imageView) {
+                      ^
+  symbol:   class Nullable
+  location: class GlideBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:45: error: cannot find symbol
+    public void load(@Nullable Object model, @NonNull ImageView imageView) {
+                                              ^
+  symbol:   class NonNull
+  location: class GlideBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:56: error: cannot find symbol
+    public static BitmapLoader createUsing(@NonNull CropView cropView) {
+                                            ^
+  symbol:   class NonNull
+  location: class GlideBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:60: error: cannot find symbol
+    public static BitmapLoader createUsing(@NonNull CropView cropView, @NonNull RequestManager requestManager) {
+                                            ^
+  symbol:   class NonNull
+  location: class GlideBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/GlideBitmapLoader.java:60: error: cannot find symbol
+    public static BitmapLoader createUsing(@NonNull CropView cropView, @NonNull RequestManager requestManager) {
+                                                                        ^
+  symbol:   class NonNull
+  location: class GlideBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILBitmapLoader.java:36: error: cannot find symbol
+    public void load(@Nullable Object model, @NonNull ImageView view) {
+                      ^
+  symbol:   class Nullable
+  location: class UILBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/UILBitmapLoader.java:36: error: cannot find symbol
+    public void load(@Nullable Object model, @NonNull ImageView view) {
+                                              ^
+  symbol:   class NonNull
+  location: class UILBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/Utils.java:112: error: cannot find symbol
+    private static void closeQuietly(@Nullable OutputStream outputStream) {
+                                      ^
+  symbol:   class Nullable
+  location: class Utils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/PicassoBitmapLoader.java:44: error: cannot find symbol
+    public void load(@Nullable Object model, @NonNull ImageView imageView) {
+                      ^
+  symbol:   class Nullable
+  location: class PicassoBitmapLoader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/PicassoBitmapLoader.java:44: error: cannot find symbol
+    public void load(@Nullable Object model, @NonNull ImageView imageView) {
+                                              ^
+  symbol:   class NonNull
+  location: class PicassoBitmapLoader
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class NonNull not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropRequest.java:26: warning - Tag @link: reference not found: Bitmap.CompressFormat#JPEG
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropRequest.java:37: warning - CropViewConfig#DEFAULT_IMAGE_QUALITY (referenced by @value tag) is an unknown reference.
+javadoc: warning - Class NonNull not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropRequest.java:26: warning - Tag @link: reference not found: Bitmap.CompressFormat#JPEG
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/scissors2/src/main/java/com/lyft/android/scissors2/CropRequest.java:37: warning - CropViewConfig#DEFAULT_IMAGE_QUALITY (referenced by @value tag) is an unknown reference.
+javadoc: warning - Class NonNull not found.
+
+100 warnings
+:scissors2:androidJavadocsJar
+:scissors2:androidSourcesJar
+:scissors2:preBuild UP-TO-DATE
+:scissors2:preDebugBuild UP-TO-DATE
+:scissors2:checkDebugManifest
+:scissors2:preDebugAndroidTestBuild UP-TO-DATE
+:scissors2:preDebugUnitTestBuild UP-TO-DATE
+:scissors2:preReleaseBuild UP-TO-DATE
+:scissors2:preReleaseUnitTestBuild UP-TO-DATE
+:scissors2:prepareComAndroidSupportSupportCompat2421Library
+:scissors2:prepareComAndroidSupportSupportCoreUi2421Library
+:scissors2:prepareComAndroidSupportSupportCoreUtils2421Library
+:scissors2:prepareComAndroidSupportSupportFragment2421Library
+:scissors2:prepareComAndroidSupportSupportMediaCompat2421Library
+:scissors2:prepareComAndroidSupportSupportV42421Library
+:scissors2:prepareDebugDependencies
+:scissors2:compileDebugAidl
+:scissors2:compileDebugNdk UP-TO-DATE
+:scissors2:compileLint
+:scissors2:copyDebugLint UP-TO-DATE
+:scissors2:compileDebugRenderscript
+:scissors2:generateDebugBuildConfig
+:scissors2:generateDebugResValues
+:scissors2:generateDebugResources
+:scissors2:packageDebugResources
+:scissors2:processDebugManifest
+:scissors2:processDebugResources
+:scissors2:generateDebugSources
+:scissors2:incrementalDebugJavaCompilationSafeguard
+:scissors2:compileDebugJavaWithJavac
+:scissors2:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:scissors2:extractDebugAnnotations
+:scissors2:mergeDebugShaders
+:scissors2:compileDebugShaders
+:scissors2:generateDebugAssets
+:scissors2:mergeDebugAssets
+:scissors2:mergeDebugProguardFiles
+:scissors2:packageDebugRenderscript UP-TO-DATE
+:scissors2:processDebugJavaRes UP-TO-DATE
+:scissors2:transformResourcesWithMergeJavaResForDebug
+:scissors2:transformClassesAndResourcesWithSyncLibJarsForDebug
+:scissors2:mergeDebugJniLibFolders
+:scissors2:transformNative_libsWithMergeJniLibsForDebug
+:scissors2:transformNative_libsWithSyncJniLibsForDebug
+:scissors2:bundleDebug
+:scissors2:compileDebugSources
+:scissors2:assembleDebug
+:scissors2:checkReleaseManifest
+:scissors2:prepareReleaseDependencies
+:scissors2:compileReleaseAidl
+:scissors2:compileReleaseNdk UP-TO-DATE
+:scissors2:copyReleaseLint UP-TO-DATE
+:scissors2:compileReleaseRenderscript
+:scissors2:generateReleaseBuildConfig
+:scissors2:generateReleaseResValues
+:scissors2:generateReleaseResources
+:scissors2:packageReleaseResources
+:scissors2:processReleaseManifest
+:scissors2:processReleaseResources
+:scissors2:generateReleaseSources
+:scissors2:incrementalReleaseJavaCompilationSafeguard
+:scissors2:compileReleaseJavaWithJavac
+:scissors2:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:scissors2:extractReleaseAnnotations
+:scissors2:mergeReleaseShaders
+:scissors2:compileReleaseShaders
+:scissors2:generateReleaseAssets
+:scissors2:mergeReleaseAssets
+:scissors2:mergeReleaseProguardFiles
+:scissors2:packageReleaseRenderscript UP-TO-DATE
+:scissors2:processReleaseJavaRes UP-TO-DATE
+:scissors2:transformResourcesWithMergeJavaResForRelease
+:scissors2:transformClassesAndResourcesWithSyncLibJarsForRelease
+:scissors2:mergeReleaseJniLibFolders
+:scissors2:transformNative_libsWithMergeJniLibsForRelease
+:scissors2:transformNative_libsWithSyncJniLibsForRelease
+:scissors2:bundleRelease
+:scissors2:compileReleaseSources
+:scissors2:assembleRelease
+:scissors2:signArchives SKIPPED
+:scissors2:assemble
+:scissors2:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':scissors2:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':scissors2:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:233)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:215)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:74)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:55)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:113)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:186)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:183)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:112)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:92)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:66)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:79)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:51)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getCCompiler(DefaultNdkInfo.java:263)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getCCompiler(NdkHandler.java:306)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:240)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:175)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.java:288)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.java:105)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:136)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:129)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:118)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:623)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:606)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 58 more
+
+
+BUILD FAILED
+
+Total time: 12.288 secs
+
+2019-01-20 18:32:54,685 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 18:32:54,685 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 18:33:02,203 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-20 18:33:02,203 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-20 18:33:02,204 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-20 18:33:02,204 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547983913319-0/src/scissors-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-20 18:33:10,167 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-20 18:33:10,167 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':scissors-sample'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':scissors-sample'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:573)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:125)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:47)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:175)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:172)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:112)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:92)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:66)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:79)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:51)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:300)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:333)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:87)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1342)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantData(ApplicationTaskManager.java:289)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:485)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy12.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 55 more
+
+
+BUILD FAILED
+
+Total time: 7.663 secs
+
+2019-01-20 18:33:10,202 ERROR FullProcessService - Project build has not produced APK file
+2019-01-20 18:33:10,233 ERROR FullProcessService - Could not find generated or existed APK file

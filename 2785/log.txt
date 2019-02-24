@@ -1,0 +1,467 @@
+2019-01-20 20:02:18,390 INFO  DownloadService - Downloading "https://github.com/sangcomz/FishBun/archive/master.zip", attempt 3
+2019-01-20 20:02:30,027 INFO  DownloadService - Downloaded https://github.com/sangcomz/FishBun/archive/master.zip, attempt 3
+2019-01-20 20:02:30,027 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/master.zip": 17 MB
+2019-01-20 20:02:30,027 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-20 20:02:30,028 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/master.zip: true
+2019-01-20 20:02:30,028 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src'.
+2019-01-20 20:02:30,152 INFO  FullProcessService - Size of directory with sources: 18 MB
+2019-01-20 20:02:30,152 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src]
+2019-01-20 20:02:30,169 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/.git/
+
+2019-01-20 20:02:30,174 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/gradlew
+2019-01-20 20:02:30,179 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBunDemo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/build.gradle
+2019-01-20 20:02:30,184 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/gradle/release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBunDemo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/build.gradle
+2019-01-20 20:02:30,184 INFO  ProjectBuildService - Remote scripts: none
+2019-01-20 20:02:30,184 INFO  ProjectFixService - Fixing project...
+2019-01-20 20:02:30,195 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/local.properties
+2019-01-20 20:02:30,198 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-20 20:02:30,198 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-20 20:02:30,199 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBunDemo/local.properties
+2019-01-20 20:02:30,202 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBunDemo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-20 20:02:30,202 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBunDemo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-20 20:02:30,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/local.properties
+2019-01-20 20:02:30,204 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-20 20:02:30,204 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-20 20:02:30,207 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-20 20:02:30,207 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-20 20:02:30,207 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 20:02:30,207 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 20:02:30,207 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 20:02:39,766 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-01-20 20:02:39,767 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-20 20:02:39,767 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-20 20:03:00,187 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:FishBun:preBuild UP-TO-DATE
+:FishBun:preDebugBuild UP-TO-DATE
+:FishBun:compileDebugAidl NO-SOURCE
+:FishBun:compileDebugRenderscript
+:FishBun:checkDebugManifest
+:FishBun:generateDebugBuildConfig
+:FishBun:generateDebugResValues
+:FishBun:generateDebugResources
+:FishBun:packageDebugResources
+:FishBun:processDebugManifest
+:FishBun:generateDebugRFile
+:FishBun:prepareLintJar
+:FishBun:generateDebugSources
+:FishBun:javaPreCompileDebug
+:FishBun:compileDebugJavaWithJavac
+:FishBun:extractDebugAnnotations
+:FishBun:mergeDebugConsumerProguardFiles
+:FishBun:mergeDebugShaders
+:FishBun:compileDebugShaders
+:FishBun:generateDebugAssets
+:FishBun:packageDebugAssets
+:FishBun:packageDebugRenderscript NO-SOURCE
+:FishBun:processDebugJavaRes NO-SOURCE
+:FishBun:transformResourcesWithMergeJavaResForDebug
+:FishBun:transformClassesAndResourcesWithSyncLibJarsForDebug
+:FishBun:compileDebugNdk NO-SOURCE
+:FishBun:mergeDebugJniLibFolders
+:FishBun:transformNativeLibsWithMergeJniLibsForDebug
+:FishBun:transformNativeLibsWithStripDebugSymbolForDebug
+:FishBun:transformNativeLibsWithSyncJniLibsForDebug
+:FishBun:bundleDebugAar
+:FishBun:compileDebugSources
+:FishBun:assembleDebug
+:FishBun:preReleaseBuild UP-TO-DATE
+:FishBun:compileReleaseAidl NO-SOURCE
+:FishBun:compileReleaseRenderscript
+:FishBun:checkReleaseManifest
+:FishBun:generateReleaseBuildConfig
+:FishBun:generateReleaseResValues
+:FishBun:generateReleaseResources
+:FishBun:packageReleaseResources
+:FishBun:processReleaseManifest
+:FishBun:generateReleaseRFile
+:FishBun:generateReleaseSources
+:FishBun:javaPreCompileRelease
+:FishBun:compileReleaseJavaWithJavac
+:FishBun:extractReleaseAnnotations
+:FishBun:mergeReleaseConsumerProguardFiles
+:FishBun:mergeReleaseShaders
+:FishBun:compileReleaseShaders
+:FishBun:generateReleaseAssets
+:FishBun:packageReleaseAssets
+:FishBun:packageReleaseRenderscript NO-SOURCE
+:FishBun:processReleaseJavaRes NO-SOURCE
+:FishBun:transformResourcesWithMergeJavaResForRelease
+:FishBun:transformClassesAndResourcesWithSyncLibJarsForRelease
+:FishBun:compileReleaseNdk NO-SOURCE
+:FishBun:mergeReleaseJniLibFolders
+:FishBun:transformNativeLibsWithMergeJniLibsForRelease
+:FishBun:transformNativeLibsWithStripDebugSymbolForRelease
+:FishBun:transformNativeLibsWithSyncJniLibsForRelease
+:FishBun:bundleReleaseAar
+:FishBun:compileReleaseSources
+:FishBun:mergeReleaseResources
+:FishBun:verifyReleaseResources
+:FishBun:assembleRelease
+:FishBun:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/ui/picker/PickerActivity.java:20: error: cannot find symbol
+import com.sangcomz.fishbun.R;
+                           ^
+  symbol:   class R
+  location: package com.sangcomz.fishbun
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/adapter/view/PickerGridAdapter.java:18: error: cannot find symbol
+import com.sangcomz.fishbun.R;
+                           ^
+  symbol:   class R
+  location: package com.sangcomz.fishbun
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/util/RadioWithTextButton.java:15: error: cannot find symbol
+import com.sangcomz.fishbun.R;
+                           ^
+  symbol:   class R
+  location: package com.sangcomz.fishbun
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/ui/detail/DetailActivity.java:15: error: cannot find symbol
+import com.sangcomz.fishbun.R;
+                           ^
+  symbol:   class R
+  location: package com.sangcomz.fishbun
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/ui/album/AlbumActivity.java:22: error: cannot find symbol
+import com.sangcomz.fishbun.R;
+                           ^
+  symbol:   class R
+  location: package com.sangcomz.fishbun
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/adapter/view/AlbumListAdapter.java:16: error: cannot find symbol
+import com.sangcomz.fishbun.R;
+                           ^
+  symbol:   class R
+  location: package com.sangcomz.fishbun
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/adapter/view/DetailViewPagerAdapter.java:12: error: cannot find symbol
+import com.sangcomz.fishbun.R;
+                           ^
+  symbol:   class R
+  location: package com.sangcomz.fishbun
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/util/TouchImageView.java:358: warning: no description for @param
+     * @param scale
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/util/TouchImageView.java:370: warning: no description for @param
+     * @param scale
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/util/TouchImageView.java:371: warning: no description for @param
+     * @param focusX
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/util/TouchImageView.java:372: warning: no description for @param
+     * @param focusY
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/util/TouchImageView.java:384: warning: no description for @param
+     * @param scale
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/util/TouchImageView.java:385: warning: no description for @param
+     * @param focusX
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/util/TouchImageView.java:386: warning: no description for @param
+     * @param focusY
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/util/TouchImageView.java:387: warning: no description for @param
+     * @param scaleType
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/util/TouchImageView.java:417: warning: no description for @param
+     * @param touchImageView
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/util/TouchImageView.java:450: warning: no description for @param
+     * @param focusX
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/src/main/java/com/sangcomz/fishbun/util/TouchImageView.java:451: warning: no description for @param
+     * @param focusY
+       ^
+
+18 warnings
+:FishBun:javadocJar
+:FishBun:sourcesJar
+:FishBun:assemble
+:FishBun:build
+
+BUILD SUCCESSFUL in 19s
+48 actionable tasks: 48 executed
+
+2019-01-20 20:03:00,258 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 20:03:00,259 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBunDemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 20:03:08,798 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-01-20 20:03:08,798 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-20 20:03:08,799 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBunDemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-20 20:03:51,127 INFO  SysUtils - Configuration on demand is an incubating feature.
+Signing not ready. Did you specify a signingConfig for the variation Release?
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:FishBun:preBuild UP-TO-DATE
+:FishBun:preDebugBuild UP-TO-DATE
+:FishBun:compileDebugAidl NO-SOURCE
+:FishBun:compileDebugRenderscript UP-TO-DATE
+:FishBun:checkDebugManifest UP-TO-DATE
+:FishBun:generateDebugBuildConfig UP-TO-DATE
+:FishBun:generateDebugResValues UP-TO-DATE
+:FishBun:generateDebugResources UP-TO-DATE
+:FishBun:packageDebugResources UP-TO-DATE
+:FishBun:processDebugManifest UP-TO-DATE
+:FishBun:generateDebugRFile UP-TO-DATE
+:FishBun:prepareLintJar UP-TO-DATE
+:FishBun:generateDebugSources UP-TO-DATE
+:FishBun:javaPreCompileDebug UP-TO-DATE
+:FishBun:compileDebugJavaWithJavac UP-TO-DATE
+:FishBun:processDebugJavaRes NO-SOURCE
+:FishBun:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:FishBunDemo:checkDebugClasspath
+:FishBunDemo:preBuild UP-TO-DATE
+:FishBunDemo:preDebugBuild
+:FishBunDemo:compileDebugAidl NO-SOURCE
+:FishBun:packageDebugRenderscript NO-SOURCE
+:FishBunDemo:compileDebugRenderscript
+:FishBunDemo:checkDebugManifest
+:FishBunDemo:generateDebugBuildConfig
+:FishBunDemo:prepareLintJar
+:FishBunDemo:mainApkListPersistenceDebug
+:FishBunDemo:generateDebugResValues
+:FishBunDemo:generateDebugResources
+:FishBunDemo:mergeDebugResources
+:FishBunDemo:createDebugCompatibleScreenManifests
+:FishBunDemo:processDebugManifest
+:FishBunDemo:splitsDiscoveryTaskDebug
+:FishBunDemo:processDebugResources
+:FishBunDemo:generateDebugSources
+:FishBunDemo:javaPreCompileDebug
+:FishBunDemo:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:FishBunDemo:compileDebugNdk NO-SOURCE
+:FishBunDemo:compileDebugSources
+:FishBun:mergeDebugShaders UP-TO-DATE
+:FishBun:compileDebugShaders UP-TO-DATE
+:FishBun:generateDebugAssets UP-TO-DATE
+:FishBun:packageDebugAssets UP-TO-DATE
+:FishBunDemo:mergeDebugShaders
+:FishBunDemo:compileDebugShaders
+:FishBunDemo:generateDebugAssets
+:FishBunDemo:mergeDebugAssets
+:FishBunDemo:transformClassesWithDexBuilderForDebug
+:FishBunDemo:transformClassesWithMultidexlistForDebug
+:FishBunDemo:transformDexArchiveWithDexMergerForDebug
+:FishBun:compileDebugNdk NO-SOURCE
+:FishBun:mergeDebugJniLibFolders UP-TO-DATE
+:FishBun:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:FishBun:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:FishBun:transformNativeLibsWithIntermediateJniLibsForDebug
+:FishBunDemo:mergeDebugJniLibFolders
+:FishBunDemo:transformNativeLibsWithMergeJniLibsForDebug
+:FishBunDemo:transformNativeLibsWithStripDebugSymbolForDebug
+:FishBunDemo:checkDebugLibraries
+:FishBunDemo:processDebugJavaRes NO-SOURCE
+:FishBunDemo:transformResourcesWithMergeJavaResForDebug
+:FishBunDemo:validateSigningDebug
+:FishBunDemo:packageDebug
+:FishBunDemo:assembleDebug
+:FishBun:preReleaseBuild UP-TO-DATE
+:FishBun:compileReleaseAidl NO-SOURCE
+:FishBun:compileReleaseRenderscript UP-TO-DATE
+:FishBun:checkReleaseManifest UP-TO-DATE
+:FishBun:generateReleaseBuildConfig UP-TO-DATE
+:FishBun:generateReleaseResValues UP-TO-DATE
+:FishBun:generateReleaseResources UP-TO-DATE
+:FishBun:packageReleaseResources UP-TO-DATE
+:FishBun:processReleaseManifest UP-TO-DATE
+:FishBun:generateReleaseRFile UP-TO-DATE
+:FishBun:generateReleaseSources UP-TO-DATE
+:FishBun:javaPreCompileRelease UP-TO-DATE
+:FishBun:compileReleaseJavaWithJavac UP-TO-DATE
+:FishBun:processReleaseJavaRes NO-SOURCE
+:FishBun:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:FishBunDemo:checkReleaseClasspath
+:FishBunDemo:extractProguardFiles
+:FishBunDemo:preReleaseBuild
+:FishBunDemo:compileReleaseAidl NO-SOURCE
+:FishBun:packageReleaseRenderscript NO-SOURCE
+:FishBunDemo:compileReleaseRenderscript
+:FishBunDemo:checkReleaseManifest
+:FishBunDemo:generateReleaseBuildConfig
+:FishBunDemo:mainApkListPersistenceRelease
+:FishBunDemo:generateReleaseResValues
+:FishBunDemo:generateReleaseResources
+:FishBunDemo:mergeReleaseResources
+:FishBunDemo:createReleaseCompatibleScreenManifests
+:FishBunDemo:processReleaseManifest
+:FishBunDemo:splitsDiscoveryTaskRelease
+:FishBunDemo:processReleaseResources
+:FishBunDemo:generateReleaseSources
+:FishBunDemo:javaPreCompileRelease
+:FishBunDemo:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:FishBunDemo:compileReleaseNdk NO-SOURCE
+:FishBunDemo:compileReleaseSources
+:FishBunDemo:lintVitalRelease
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.8.9/mockito-core-2.8.9.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.6.14/byte-buddy-agent-1.6.14.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.6.14/byte-buddy-agent-1.6.14.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.8.9/mockito-core-2.8.9.jar
+:FishBun:mergeReleaseShaders UP-TO-DATE
+:FishBun:compileReleaseShaders UP-TO-DATE
+:FishBun:generateReleaseAssets UP-TO-DATE
+:FishBun:packageReleaseAssets UP-TO-DATE
+:FishBunDemo:mergeReleaseShaders
+:FishBunDemo:compileReleaseShaders
+:FishBunDemo:generateReleaseAssets
+:FishBunDemo:mergeReleaseAssets
+:FishBun:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:FishBunDemo:checkReleaseLibraries
+:FishBunDemo:processReleaseJavaRes NO-SOURCE
+:FishBunDemo:transformResourcesWithMergeJavaResForRelease
+:FishBunDemo:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/4bab5ae491a000256ca763e801bb5dba/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/edda314c4a10848021ee3d21ac9f47d3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2e19c743a41b4739b249f831079b2f0a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/92b138fd9d32a5dbc2015d7854c68945/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/6a37294616ddab3a03bf689adb9e723c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/leakcanary-android-no-op-1.6.2.aar/f323f625d307818e362fa05dadb28939/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/7af36861bc6110a5337c3930b1afd8bd/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4aeb3259e65fd1c3807e087665db273d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/211d37d1d48d06d3002f53b1e6e764da/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/abc412fabbf2bdc688fcf20d969e6965/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/31686c566e1dfb328560b63ff4620a59/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/4447518def58e2aaef2179496caa4a73/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a00c6ed288a73fd2b24a40aa5b828cd6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/92213a506b9c661b4a8fc07ae583488f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/938b98606de3cdf67587e32ed93c9eb0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9a91eb3646bba9940f7356c82ae1ba09/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/25f898500e0c23c4297ec75c7896942f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/6becda1cd83d1579f1a8c0896d2af1a7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ba2572589e988a8eaf0eef701bf817b4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/8b2341e19b191e38b0f2ef9d74e2701f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/fb0fbc600396e6ba242745d2e3ed2b9c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/339340466c105e55e74f118ad7532a68/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ea5e16fbf7b32db5d99d592b1a3ecd12/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e757b2626c814f8934ac39bb95dae0f5/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/c881162ee30d14413a951fd2d1c03276/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/05a46a7675e2edbea811dd4f0a701ee4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/5250d09cb0c238a1df1a61c62ade53bf/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/b4fca1f9dd57106139913cbeab79d48e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/595b2ed9fcf2f231271810a031a48e61/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/ace6832958acdb24a730a1d8b4ff85f2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ea52ed03482e6a3168a3d9cf161ed662/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/56aee104513f744f57097e5f6a67311f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/f00265599482eb31dd9564c84e93d115/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/01bc42882e8c335dcae2ff853058b056/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3f023224005374d9cb189c9c79613708/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/855c480412e0be69f7225e222e15485b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/24e3a0acd379b59af1c8a5fb194ffec3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.8.0/a7448551cb3edd61bcf3d1b1136b670e630441cf/disklrucache-4.8.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.8.0/c4c9e79eb2bfeb9059fce55020c6b237402285f6/annotations-4.8.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBunDemo/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBunDemo/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
+Initializing...
+Note: the configuration refers to the unknown class 'com.sangcomz.fishbundemo.ActivityWithBaseActivity'
+Note: com.bumptech.glide.Glide: can't find dynamically referenced class com.bumptech.glide.GeneratedAppGlideModuleImpl
+Note: com.squareup.picasso.Utils: can't find dynamically referenced class com.squareup.okhttp.OkHttpClient
+Note: the configuration keeps the entry point 'com.sangcomz.fishbun.util.TouchImageView { void setOnTouchImageViewListener(com.sangcomz.fishbun.util.TouchImageView$OnTouchImageViewListener); }', but not the descriptor class 'com.sangcomz.fishbun.util.TouchImageView$OnTouchImageViewListener'
+Note: the configuration keeps the entry point 'com.sangcomz.fishbun.util.TouchImageView { void setState(com.sangcomz.fishbun.util.TouchImageView$State); }', but not the descriptor class 'com.sangcomz.fishbun.util.TouchImageView$State'
+Note: there were 1 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 2 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 2 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4803
+  Final number of library classes:    1365
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBunDemo/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 3057
+  Final number of program classes:    1770
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBunDemo/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBunDemo/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/4bab5ae491a000256ca763e801bb5dba/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/edda314c4a10848021ee3d21ac9f47d3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2e19c743a41b4739b249f831079b2f0a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/92b138fd9d32a5dbc2015d7854c68945/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/6a37294616ddab3a03bf689adb9e723c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/leakcanary-android-no-op-1.6.2.aar/f323f625d307818e362fa05dadb28939/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/7af36861bc6110a5337c3930b1afd8bd/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4aeb3259e65fd1c3807e087665db273d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/211d37d1d48d06d3002f53b1e6e764da/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/abc412fabbf2bdc688fcf20d969e6965/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/31686c566e1dfb328560b63ff4620a59/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/4447518def58e2aaef2179496caa4a73/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a00c6ed288a73fd2b24a40aa5b828cd6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/92213a506b9c661b4a8fc07ae583488f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/938b98606de3cdf67587e32ed93c9eb0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9a91eb3646bba9940f7356c82ae1ba09/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/25f898500e0c23c4297ec75c7896942f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/6becda1cd83d1579f1a8c0896d2af1a7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ba2572589e988a8eaf0eef701bf817b4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/8b2341e19b191e38b0f2ef9d74e2701f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/fb0fbc600396e6ba242745d2e3ed2b9c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/339340466c105e55e74f118ad7532a68/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ea5e16fbf7b32db5d99d592b1a3ecd12/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e757b2626c814f8934ac39bb95dae0f5/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/c881162ee30d14413a951fd2d1c03276/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/05a46a7675e2edbea811dd4f0a701ee4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/5250d09cb0c238a1df1a61c62ade53bf/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/b4fca1f9dd57106139913cbeab79d48e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/595b2ed9fcf2f231271810a031a48e61/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/ace6832958acdb24a730a1d8b4ff85f2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ea52ed03482e6a3168a3d9cf161ed662/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/56aee104513f744f57097e5f6a67311f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/f00265599482eb31dd9564c84e93d115/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/01bc42882e8c335dcae2ff853058b056/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3f023224005374d9cb189c9c79613708/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/855c480412e0be69f7225e222e15485b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/24e3a0acd379b59af1c8a5fb194ffec3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.8.0/a7448551cb3edd61bcf3d1b1136b670e630441cf/disklrucache-4.8.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.8.0/c4c9e79eb2bfeb9059fce55020c6b237402285f6/annotations-4.8.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBun/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBunDemo/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBunDemo/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+:FishBunDemo:transformClassesWithDexBuilderForRelease
+:FishBunDemo:transformClassesWithMultidexlistForRelease
+:FishBunDemo:transformDexArchiveWithDexMergerForRelease
+:FishBun:compileReleaseNdk NO-SOURCE
+:FishBun:mergeReleaseJniLibFolders UP-TO-DATE
+:FishBun:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:FishBun:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:FishBun:transformNativeLibsWithIntermediateJniLibsForRelease
+:FishBunDemo:mergeReleaseJniLibFolders
+:FishBunDemo:transformNativeLibsWithMergeJniLibsForRelease
+:FishBunDemo:transformNativeLibsWithStripDebugSymbolForRelease
+:FishBunDemo:packageRelease
+:FishBunDemo:assembleRelease
+:FishBunDemo:assemble
+:FishBunDemo:build
+
+BUILD SUCCESSFUL in 41s
+93 actionable tasks: 61 executed, 32 up-to-date
+
+2019-01-20 20:03:51,284 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547989338387-0/src/FishBun-master/FishBunDemo/build/outputs/apk/release/FishBunDemo-release-unsigned.apk

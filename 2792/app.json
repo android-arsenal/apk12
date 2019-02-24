@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "me.henrytao.recyclerpageradapter",
+    "label" : "RecyclerPagerAdapter",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.1.0",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "com.android.vending.BILLING" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAC6FBMVEUAAABJ2/8sxdsoydspx9oryNwpx9sryt8A//8Av78At88Au9QAvNQAu9QAu9MAu9QAu9QAu9MAu9MAvNYAvM8AvNcAvdQAvdUAvNQAvNQAvNQAvNQAvNUAvdYAws4AutUAvdQAvNQAvNQAu9QAvNMAudEAvNQAvNQAvNMAu9MAvtMA//8AAP8At9cAvNQAvNQAzMwAvNMAvdMAvdQAu9MAttsAAAAAvNQAvNQAv9UAv9cAvdUAu9QAn78AvNQAvdIAvNQFvdUVwdcWwdgGvtUAvNQvyNzO8vfV9PjT8/c+wdMAvNQAvdUAvNU4y973/f7////9/v9KuccAqsAAu9MAvNQA//8AvNIEvdUCvdVKucgBn7MGq8EAuNGX4+7z/P7u+vw6vM04yNswr8Dm9ffz+/2t5esBt84Au9MAqv+e5e/5/f08tcQ4tsb3/P0ysMHy+vu14+kBorcAt84AvNQAs9AGu9U4s8MBn7IAorYAvNQAuNQXwNcAnrIAvdUAt8/b//8FvdUEudCK4ukVwNdU0+Aau9BHzuEbqLtJzeAbprlm1uYcprmq6vQBu9QQorf///8NvtVKvs0ysMACnbEUwNb9//9Kz+Eyu80AnrIAnLMCvNZKz+AyyNzy+/0AnrIAn7AAvNQAvdUyydzy/P0AnrIApbSe5e624+kAn7MAu9UPu9AYqbwYprkGoLT9/v5KwdAFutEXsMQSpLcAn7IAqr8Ats4AvNUAts4AobYAprsAudEAq8EAobYAvdYAts0xsMHX8PPe8vXc8vVAtsUAprwAuNAAqb4AnrIAnLQAxdwHoLQeqbsfqrsJobUApbsAoLQAu9MAqb8AnrIAoqIAvNMAn7EAoLQAqL0An7IAvNUApboAsscAttsAutIAvdQAn7MAtc8AvNMAvdUAn7IAnrIAorkAt88Au9MAnrIAn7QAvNQAo7gAudEAtcoCuNEIvNQQt80SpbkSpLcOorUGn7QAnbEAn7PS1RjJAAAA+HRSTlMAByM5REEyGAIEIEeKy/X//um1bzUTNqrf+v/y0oMVMKX963EXC4jo/NNLAQEgsv4KLtP6og4B4ZkMINOaCPhg7v////++///////3Sf3/////////wwOr//////9I/////////////6wD/////////////9obi/////M2y//+YAf1kSO3Os1E2ELXMsgY/q0C6f//grX////9UG/////sLTXy///OEf//jYT////////////2JBXr//////+WcP///////////+osFv//////jkv/zQv75jPwWpnwVgdg7swwvvbpjgtKw/aVqyQ3YZC2zdjXyK2CUDqDwZgAAAJ5SURBVEjHY2CgBmBkYmZhZWPnIEYtJxc3Dy8fPwgICAoJi4gSUC8mLiEphQSkZWTlcKvmkFdQlMIASsoqONSrqqlLYQMamlraWJTr6OrpS+EAfMoGmBoMjaRwA2MTUzTlZobmUviAvoUlqgYrayn8QN/GFsW/elKEgJ09cniq6RPUIOUgj9AgjxSejk7OSMDJBSHjivCGApJBbu4eSMDTCyHj7QNPD75IGvz8A5BAYFBwCFwqlBOiPiwczI1wAYFINA1R0TEgYUeQCt9YiAYuCbCGuHggSEhMQtOQnJIKFE9LBynJyARr4IakzyyQguyc3DxUDfkFILqwqBiopKQUrKFMCllDOXYNFZVAHVXVYA01RGmoBeqoqwepb2gkTgNIRxNIQ3MIkRqAOlpAGlqJ1lBb2QbS0E68htoOkIZOEjR0gTR0k6ChB6Sht494Df0gDRMm4tMwaTKyhingiJuKR8O06TOQNMycBdYwG5+GOXPnITTMXwDWsHARPg2LlyA0LF0G1iAqA9awHJ+GFWANK6El4CqwhtVr1gLBOlQN6zds3AQS3gxSv2UrNItu2w7WsWMnSBQ9WHft3lMLBXvhhcA+DbCO/SAdBw4eQgKHj9QePXYcov7ESbiGU9ByFaTj9JmzSODMudra81A7LnAiCqaLfAgdmODo7ktA8vIVpKJPW/kqPh0gf1y7jlIYG5jo47fjxk208t70FlTHDqw6bt/BqIQsb9nhtuPaTSyV1t1793HZ8eA69lrx4aPH2Ox48vQZrnrX8vkLX3QdL1+d5MTXEIh9XVJVB9Mxc/7SlW8ItR0yS9++e//h46fPX75++75gmTYD3QEAi1YYIQXgbicAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 1990,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "zh", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"2.1.0\" package=\"me.henrytao.recyclerpageradapter\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"com.android.vending.BILLING\" />\n\t<application android:theme=\"resourceId:0x7f09008d\" android:label=\"RecyclerPagerAdapter\" android:icon=\"res/mipmap-xxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"RecyclerPagerAdapter\" android:name=\"me.henrytao.recyclerpageradapterdemo.activity.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"About this app\" android:name=\"me.henrytao.recyclerpageradapterdemo.activity.InfoActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1615039,
+  "crc32" : 211292079,
+  "sha256" : "66ca7850b04c92a82f211baebec5f49022f6b870bfe498a3e2360ae2e75c61c6",
+  "buildTime" : 1547987476000
+}

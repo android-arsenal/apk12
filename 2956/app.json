@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "xyz.hanks.smallbang",
+    "label" : "SmallBang",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEN0lEQVRo3u2ZXWgcVRTHf2d2NxuzIU1389WthUWhDUFFXxTUIvgQK1rUCqEPwRfrRpGgYl79wgcJ+IEQSkUEH9RiQrVBsBAQBVNUgvZBhdIklW43W+NmY7PZ7WY/Zo4PM9HNZrNabDMJ7B8uDHPvZc7/3P855965UIe7kFqdqur5tzGbABUR8+pmqBqqamwVL9eyx1ttsIhYAPF4PGQYRkBV1RV5iIhlWVkRSVXaVlVCqwMSiUSTiLypqoeqkdxklFT1MxEZCofDVypJVDXOsqy3DcMYcMnx1fBMNpv1AgOVHUZ5wIqIFY/HQ8AhVUVVC4AFmC41S1ULIgLw6Pj4eIeIWE5yWUtgVU6zs7NBVfU5GvQ4YzwuNcOxARHxpVKpUKX010V2Op0G2DLaKUehUGBDCV1NfdhKMNjmqBOoE6gT2Ob4//uc3CwsfgkrMRAfBG6FtoPgabb7i5chebwiSXugIQwt94Bvp4sE5kYg/g5oxXZ97l3o/hCausFchNjwBuvfCJFXoeOwCwSWf4KLb9lFe8e9EDoI5hLMvQeF32Hmebjt1No5O3vBvwesHPz5FRTn4beX7Pn+GzebwPe28UYj7PsADL/93tcJM8/BlbOQOw9SVtQ7D0Pr/fZz9lf4+SHQIiz/6AIBT6uz985D+vQ/hgUPwB2TDpkOKMQ3mN9cZkWzCxIKPWzHQCEBZ5+Elruh7REIPbixN5e+s4PaykFyzH7XtA9a9rtAwNsCPcdhdgiWp+xVSJ+GC6/D7mchHF2fpS+9XxHEN0DkZTAarh2B9vZ2urq6MIz/UiK6IPItLE3C/EeQ/BzMNGSGIZuDm4chl4agEwfhpyHQA2rB5W9g4ST8cQTCX0Pz7bXOxmQyGYLB4DUsZIVLkL8IpUU7i+w9Bnedg7bH7P7EUSgurJ0T7IVdT0F4AHo+djLSik1+0yvxL4/DD3vh3GDZeu6AXUecM2oJVi7U/iVl+OxHM+NCDAQPQOYMpL6AxDEIPmAHZ+KoY58PGiNQSpUd96Zs+WgJFk/ZaRZqyuf6EdjzIiw5+p95oUr/EPhCawnE3lg/ruVO6HrCBQKegF1p5z+BhROQm7EV2dQNnf12SgUwAvbqVMrH1wat90FHH0iDCwQAxGt7r5YH/bvhlpP17XSdQJ1AnUCdwPYioNuWgMfjMdiiP3cNw5BaBBQgFotlVdUUEVTVxP0LDlNEME3TnJ6ezgGMjY1VV4hzE9g4PT39aaFQUFVVy7LULax+O5/P69TU1AmgsfK2stpeqNjf3//ayMiIPxKJ7Pd6vR5VVRHZVFmtftPx/OTg4OArQLHKqWL9KoiIH+js7e29KRwOB0qlklXWf12JiMjf8vB6vUYikchOTEycB+ZVNV95zbqhlKLRqA8IAC0ut0A0GvVtdNFd05ujo6Oe9vZ2VzNSMpnUvr4+kzq2KP4CmhdfQMxYdDsAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 3694,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"xyz.hanks.smallbang\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"SmallBang\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"xyz.hanks.smallbang.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"xyz.hanks.smallbang.ListActivity\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent\" android:name=\"com.google.android.gms.ads.AdActivity\" android:exported=\"false\" android:configChanges=\"0xfb0\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"11717000\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2338415,
+  "crc32" : 552365540,
+  "sha256" : "99bd694483ebf1dd906d55b01949fad35f1352acd8ba6d4b541ae9422ae7c0cb",
+  "buildTime" : 1547898786000
+}

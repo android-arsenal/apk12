@@ -1,0 +1,126 @@
+2019-01-22 19:46:06,286 INFO  DownloadService - Downloading "https://github.com/tfKamran/tf-tabs-android/archive/master.zip", attempt 3
+2019-01-22 19:46:07,906 INFO  DownloadService - Downloaded https://github.com/tfKamran/tf-tabs-android/archive/master.zip, attempt 3
+2019-01-22 19:46:07,906 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/master.zip": 905 KB
+2019-01-22 19:46:07,906 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-22 19:46:07,908 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/master.zip: true
+2019-01-22 19:46:07,909 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src'.
+2019-01-22 19:46:07,936 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-22 19:46:07,936 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src]
+2019-01-22 19:46:07,956 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/.git/
+
+2019-01-22 19:46:07,959 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/gradle/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/gradlew
+2019-01-22 19:46:07,962 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/tftabs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/build.gradle
+2019-01-22 19:46:07,965 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/tftabs/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/tftabs/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/tftabs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/settings.gradle
+2019-01-22 19:46:07,965 INFO  ProjectBuildService - Remote scripts: none
+2019-01-22 19:46:07,965 INFO  ProjectFixService - Fixing project...
+2019-01-22 19:46:07,974 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/example/local.properties
+2019-01-22 19:46:07,974 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/example/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2019-01-22 19:46:07,974 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/tftabs/local.properties
+2019-01-22 19:46:07,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/tftabs/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2019-01-22 19:46:07,975 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/local.properties
+2019-01-22 19:46:07,976 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-01-22 19:46:07,976 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-01-22 19:46:07,977 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2019-01-22 19:46:07,977 INFO  ProjectFixService - Project was maybe fixed
+2019-01-22 19:46:07,977 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 19:46:07,977 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 19:46:19,663 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-22 19:46:19,664 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-22 19:46:19,664 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-22 19:46:43,526 INFO  SysUtils - Configuration on demand is an incubating feature.
+:example:preBuild UP-TO-DATE
+:example:preDebugBuild UP-TO-DATE
+:example:checkDebugManifest
+:example:preReleaseBuild UP-TO-DATE
+:tftabs:compileLint
+:tftabs:copyReleaseLint UP-TO-DATE
+:tftabs:preBuild UP-TO-DATE
+:tftabs:preReleaseBuild UP-TO-DATE
+:tftabs:checkReleaseManifest
+:tftabs:preDebugAndroidTestBuild UP-TO-DATE
+:tftabs:preDebugBuild UP-TO-DATE
+:tftabs:preDebugUnitTestBuild UP-TO-DATE
+:tftabs:preReleaseUnitTestBuild UP-TO-DATE
+:tftabs:prepareComAndroidSupportAppcompatV72310Library
+:tftabs:prepareComAndroidSupportSupportV42310Library
+:tftabs:prepareReleaseDependencies
+:tftabs:compileReleaseAidl
+:tftabs:compileReleaseRenderscript
+:tftabs:generateReleaseBuildConfig
+:tftabs:generateReleaseAssets UP-TO-DATE
+:tftabs:mergeReleaseAssets
+:tftabs:generateReleaseResValues
+:tftabs:generateReleaseResources
+:tftabs:mergeReleaseResources
+:tftabs:processReleaseManifest
+:tftabs:processReleaseResources
+:tftabs:generateReleaseSources
+:tftabs:processReleaseJavaRes UP-TO-DATE
+:tftabs:compileReleaseJavaWithJavac
+:tftabs:extractReleaseAnnotations
+:tftabs:mergeReleaseProguardFiles
+:tftabs:packageReleaseJar
+:tftabs:compileReleaseNdk UP-TO-DATE
+:tftabs:packageReleaseJniLibs UP-TO-DATE
+:tftabs:packageReleaseLocalJar UP-TO-DATE
+:tftabs:packageReleaseRenderscript UP-TO-DATE
+:tftabs:packageReleaseResources
+:tftabs:bundleRelease
+:example:prepareComAndroidSupportAppcompatV72310Library
+:example:prepareComAndroidSupportSupportV42310Library
+:example:prepareComTfLibraryTabsTftabs220Library
+:example:prepareDebugDependencies
+:example:compileDebugAidl
+:example:compileDebugRenderscript
+:example:generateDebugBuildConfig
+:example:generateDebugAssets UP-TO-DATE
+:example:mergeDebugAssets
+:example:generateDebugResValues
+:example:generateDebugResources
+:example:mergeDebugResources
+:example:processDebugManifest
+:example:processDebugResources
+:example:generateDebugSources
+:example:processDebugJavaRes UP-TO-DATE
+:example:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/example/src/main/java/com/tf/library/tabs/example/ExampleActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:example:compileDebugNdk UP-TO-DATE
+:example:compileDebugSources
+:example:preDexDebug
+:example:dexDebug
+:example:validateDebugSigning
+:example:packageDebug
+:example:zipalignDebug
+:example:assembleDebug
+:example:checkReleaseManifest
+:example:prepareReleaseDependencies
+:example:compileReleaseAidl
+:example:compileReleaseRenderscript
+:example:generateReleaseBuildConfig
+:example:generateReleaseAssets UP-TO-DATE
+:example:mergeReleaseAssets
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:example:mergeReleaseResources
+:example:processReleaseManifest
+:example:processReleaseResources
+:example:generateReleaseSources
+:example:processReleaseJavaRes UP-TO-DATE
+:example:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/example/src/main/java/com/tf/library/tabs/example/ExampleActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:example:compileReleaseNdk UP-TO-DATE
+:example:compileReleaseSources
+:example:preDexRelease
+:example:dexRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL
+
+Total time: 23.324 secs
+
+2019-01-22 19:46:43,606 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548161166283-0/src/tf-tabs-android-master/example/build/outputs/apk/example-debug-unaligned.apk

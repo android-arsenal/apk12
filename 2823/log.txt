@@ -1,0 +1,7 @@
+2016-07-19 00:05:00,878 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/syncthing/syncthing/archive/master.zip", attempt 3
+2016-07-19 00:05:03,613 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/syncthing/syncthing/archive/master.zip, attempt 3
+2016-07-19 00:05:07,136 INFO  c.g.v.a.s.FullProcessService - Archive with sources does not contain any build script
+2016-07-19 00:05:07,136 ERROR c.g.v.a.s.FullProcessService - Could not find directory with sources
+2016-07-19 00:05:07,137 ERROR c.g.v.a.s.FullProcessService - Project will not be processed
+2016-07-19 00:05:07,137 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-07-19 00:05:07,185 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

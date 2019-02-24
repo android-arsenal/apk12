@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.touchboarder.demo.weekdaysbuttonsbar",
+    "label" : "Material Weekdays Buttons Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.2",
+    "versionCode" : 5,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2028,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"5\" android:versionName=\"1.0.2\" package=\"com.touchboarder.demo.weekdaysbuttonsbar\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f090091\" android:label=\"Material Weekdays Buttons Demo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.touchboarder.weekdaysdemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1759537,
+  "crc32" : 4294923093,
+  "sha256" : "6587ccdb2aed0ece40ad606d273f742d152ec18b9936696953617e792526ca0c",
+  "buildTime" : 1547983684000
+}

@@ -1,0 +1,92 @@
+2019-01-18 15:16:13,713 INFO  DownloadService - Downloading "https://github.com/jpotts18/android-mvp/archive/master.zip", attempt 3
+2019-01-18 15:17:14,797 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-18 15:17:15,639 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-18 15:17:15,639 INFO  DownloadService - Downloading "https://github.com/jpotts18/android-mvp/archive/master.zip", attempt 3
+2019-01-18 15:18:17,522 DEBUG FullProcessService - Repository https://github.com/jpotts18/android-mvp available: true
+2019-01-18 15:18:17,523 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-18 15:18:17,523 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jpotts18/android-mvp, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src]
+2019-01-18 15:18:22,630 INFO  SysUtils - 
+2019-01-18 15:18:22,638 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/.git": true
+2019-01-18 15:18:22,641 INFO  FullProcessService - Size of directory with sources: 770 KB
+2019-01-18 15:18:22,641 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src]
+2019-01-18 15:18:22,658 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/.git/
+
+2019-01-18 15:18:22,661 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/gradlew
+2019-01-18 15:18:22,664 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/build.gradle
+2019-01-18 15:18:22,667 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/settings.gradle
+2019-01-18 15:18:22,667 INFO  ProjectBuildService - Remote scripts: none
+2019-01-18 15:18:22,667 INFO  ProjectFixService - Fixing project...
+2019-01-18 15:18:22,673 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/app/local.properties
+2019-01-18 15:18:22,674 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/app/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=22,minSdkVersion=16,targetSdkVersion=22]
+2019-01-18 15:18:22,674 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/local.properties
+2019-01-18 15:18:22,674 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-01-18 15:18:22,675 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-01-18 15:18:22,675 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=22,minSdkVersion=16,targetSdkVersion=22]
+2019-01-18 15:18:22,675 INFO  ProjectFixService - Project was maybe fixed
+2019-01-18 15:18:22,676 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-18 15:18:22,676 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-18 15:18:30,859 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-18 15:18:30,859 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-18 15:18:30,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-18 15:18:50,419 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72200Library
+:app:prepareComAndroidSupportSupportV42200Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResourcesUnknown source file : /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:preDexDebug
+:app:dexDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResourcesUnknown source file : /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:preDexRelease
+:app:dexRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 19.03 secs
+
+2019-01-18 15:18:50,467 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547799373710-0/src/app/build/outputs/apk/app-debug.apk

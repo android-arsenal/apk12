@@ -1,0 +1,10 @@
+2019-01-16 13:43:55,332 INFO  DownloadService - Downloading "https://github.com/macroday/AppCrashTracker/archive/master.zip", attempt 3
+2019-01-16 13:44:00,057 INFO  DownloadService - Downloaded https://github.com/macroday/AppCrashTracker/archive/master.zip, attempt 3
+2019-01-16 13:44:00,058 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547621035327-0/master.zip": 2 MB
+2019-01-16 13:44:00,058 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-16 13:44:00,059 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547621035327-0/master.zip: false
+2019-01-16 13:44:00,059 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-01-16 13:44:00,059 ERROR FullProcessService - Could not find directory with sources
+2019-01-16 13:44:00,059 ERROR FullProcessService - Project will not be processed
+2019-01-16 13:44:00,059 ERROR FullProcessService - Project build has not produced APK file
+2019-01-16 13:44:00,060 ERROR FullProcessService - Could not find generated or existed APK file

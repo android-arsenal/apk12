@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.github.ajalt.reprint",
+    "label" : "Reprint",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "3.3.1",
+    "versionCode" : 29,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "29",
+    "platformBuildVersionName" : "3.3.1",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.USE_FINGERPRINT", "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 4823,
+  "locales" : [ "", "kk_KZ", "as", "bg", "mr", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "lv", "tl", "pt", "gl", "gu_IN", "sk", "kn_IN", "ml", "et", "cs", "sv", "pa", "el", "hu", "af", "in", "km", "pt_BR", "ml_IN", "be", "es", "is_IS", "hy_AM", "tr", "ne_NP", "hr", "ms_MY", "lt", "ta_IN", "sq", "fr", "ja", "or", "is", "si", "de", "es_US", "ca", "te", "sl", "mr_IN", "zh_HK", "mn", "fi", "mk", "uz", "eu", "et_EE", "bs", "sw", "pt_PT", "th", "sq_AL", "uz_UZ", "bn", "ar", "ru", "eu_ES", "kn", "az", "bn_BD", "fa", "ms", "gu", "kk", "hi", "km_KH", "lo", "nl", "pa_IN", "hy", "en_AU", "vi", "fr_CA", "ky", "sr", "da", "si_LK", "gl_ES", "ne", "ro", "en_CA", "am", "ka_GE", "pl", "zh_CN", "my", "ka", "ur", "lo_LA", "ky_KG", "en_XC", "iw", "en_IN", "mk_MK", "nb", "te_IN", "ta", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"29\" android:versionName=\"3.3.1\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.github.ajalt.reprint\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"3.3.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.USE_FINGERPRINT\" />\n\t<uses-permission android:name=\"com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"Reprint\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.github.ajalt.reprint.App\" android:allowBackup=\"false\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f0e0008\" android:label=\"Reprint\" android:name=\"com.github.ajalt.reprint.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2733945,
+  "crc32" : 1306209805,
+  "sha256" : "61c3bf453fa9264fe258f14a3a645ecb647b8ec680373a8e2ad9a84cc42f49ec",
+  "buildTime" : 1547913159000
+}

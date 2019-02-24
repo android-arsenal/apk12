@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.aspsine.swipetoloadlayout",
+    "label" : "SwipeToLoadLayout Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.4",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "10",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "25",
+    "platformBuildVersionName" : "7.1.1",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2609,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"1.0.4\" package=\"com.aspsine.swipetoloadlayout\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"10\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0900a6\" android:label=\"SwipeToLoadLayout Demo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.aspsine.swipetoloadlayout.demo.App\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:label=\"SwipeToLoadLayout Demo\" android:name=\"com.aspsine.swipetoloadlayout.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.aspsine.swipetoloadlayout.demo.AboutActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2518580,
+  "crc32" : 989206044,
+  "sha256" : "01f131cc6412fe6d5dc74c1df04e9e691f5051a1cad7f370ac1e53e80090a6e6",
+  "buildTime" : 1547985407000
+}

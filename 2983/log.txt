@@ -1,0 +1,56 @@
+2019-01-15 13:06:57,876 INFO  DownloadService - Downloading "https://github.com/vanniktech/gradle-android-apk-size-plugin/archive/master.zip", attempt 3
+2019-01-15 13:07:58,482 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-15 13:07:59,429 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-15 13:07:59,434 INFO  DownloadService - Downloading "https://github.com/vanniktech/gradle-android-apk-size-plugin/archive/master.zip", attempt 3
+2019-01-15 13:09:00,987 DEBUG FullProcessService - Repository https://github.com/vanniktech/gradle-android-apk-size-plugin available: true
+2019-01-15 13:09:00,987 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-15 13:09:00,987 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/vanniktech/gradle-android-apk-size-plugin, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src]
+2019-01-15 13:09:08,562 INFO  SysUtils - 
+2019-01-15 13:09:08,582 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src/.git": true
+2019-01-15 13:09:08,584 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-15 13:09:08,584 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src]
+2019-01-15 13:09:08,600 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src/.git/
+
+2019-01-15 13:09:08,602 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src/gradlew
+2019-01-15 13:09:08,604 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src/build.gradle
+2019-01-15 13:09:08,606 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src/settings.gradle
+2019-01-15 13:09:08,606 INFO  ProjectBuildService - Remote scripts: none
+2019-01-15 13:09:08,606 INFO  ProjectFixService - Fixing project...
+2019-01-15 13:09:08,610 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src/local.properties
+2019-01-15 13:09:08,610 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8-all.zip
+2019-01-15 13:09:08,611 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.8-bin.zip)
+2019-01-15 13:09:08,611 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-15 13:09:08,612 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-15 13:09:08,612 INFO  ProjectFixService - Project was maybe fixed
+2019-01-15 13:09:08,612 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-15 13:09:08,612 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-15 13:09:20,171 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-01-15 13:09:20,171 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-15 13:09:20,171 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-15 13:09:37,319 INFO  SysUtils - Configuration on demand is an incubating feature.
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.0/ec8b969e26fbcf2265a4d1a1539c4d1d4c5af380/kotlin-stdlib-jre7-1.2.0.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.0/505f55b9619bbc5f5e26c77427dd24a6a441eef1/kotlin-stdlib-jre8-1.2.0.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :compileKotlin
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy NO-SOURCE
+> Task :pluginDescriptors
+> Task :processResources
+> Task :classes
+> Task :jar
+> Task :javadocsJar
+> Task :groovydoc NO-SOURCE
+> Task :publishPluginGroovyDocsJar
+> Task :publishPluginJar
+> Task :publishPluginJavaDocsJar
+> Task :sourcesJar
+> Task :signArchives SKIPPED
+> Task :assemble
+> Task :build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.8/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 16s
+9 actionable tasks: 9 executed
+
+2019-01-15 13:09:37,325 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547532417868-0/src/src/test/resources/tiles.apk

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.kobakei.ratethisapp.sample",
+    "label" : "RTASample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1707,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "eu", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "az", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "gr", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "zh", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0.0\" package=\"com.kobakei.ratethisapp.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"RTASample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"false\">\n\t\t<activity android:label=\"RTASample\" android:name=\"com.kobakei.ratethisapp.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1377036,
+  "crc32" : 3892916001,
+  "sha256" : "f0aaef9c89546ff36685f6540722cb608a24451ba2ddf7758cc7c06f87171cd7",
+  "buildTime" : 1522546915000
+}

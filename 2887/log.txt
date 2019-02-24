@@ -1,0 +1,131 @@
+2019-01-19 22:43:53,797 INFO  DownloadService - Downloading "https://github.com/Janseon/CardMenuView/archive/master.zip", attempt 3
+2019-01-19 22:43:54,829 INFO  DownloadService - Downloaded https://github.com/Janseon/CardMenuView/archive/master.zip, attempt 3
+2019-01-19 22:43:54,830 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/master.zip": 685 KB
+2019-01-19 22:43:54,830 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 22:43:54,835 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/master.zip: true
+2019-01-19 22:43:54,835 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src'.
+2019-01-19 22:43:54,867 INFO  FullProcessService - Size of directory with sources: 742 KB
+2019-01-19 22:43:54,867 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src]
+2019-01-19 22:43:54,886 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/.git/
+
+2019-01-19 22:43:54,890 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/gradlew
+2019-01-19 22:43:54,895 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/libary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/build.gradle
+2019-01-19 22:43:54,899 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/libary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/settings.gradle
+2019-01-19 22:43:54,899 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 22:43:54,899 INFO  ProjectFixService - Fixing project...
+2019-01-19 22:43:54,908 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/app/local.properties
+2019-01-19 22:43:54,909 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2019-01-19 22:43:54,909 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/libary/local.properties
+2019-01-19 22:43:54,910 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/libary/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2019-01-19 22:43:54,911 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/local.properties
+2019-01-19 22:43:54,911 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-01-19 22:43:54,912 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-01-19 22:43:54,912 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=22,minSdkVersion=15,targetSdkVersion=22]
+2019-01-19 22:43:54,912 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 22:43:54,912 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 22:43:54,913 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 22:44:04,193 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-01-19 22:44:04,193 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 22:44:04,193 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 22:44:22,466 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:libary:compileLint
+:libary:copyReleaseLint UP-TO-DATE
+:libary:preBuild UP-TO-DATE
+:libary:preReleaseBuild UP-TO-DATE
+:libary:checkReleaseManifest
+:libary:preDebugAndroidTestBuild UP-TO-DATE
+:libary:preDebugBuild UP-TO-DATE
+:libary:preDebugUnitTestBuild UP-TO-DATE
+:libary:preReleaseUnitTestBuild UP-TO-DATE
+:libary:prepareComAndroidSupportAppcompatV72221Library
+:libary:prepareComAndroidSupportSupportV42221Library
+:libary:prepareReleaseDependencies
+:libary:compileReleaseAidl
+:libary:compileReleaseRenderscript
+:libary:generateReleaseBuildConfig
+:libary:generateReleaseAssets UP-TO-DATE
+:libary:mergeReleaseAssets
+:libary:generateReleaseResValues
+:libary:generateReleaseResources
+:libary:mergeReleaseResources
+:libary:processReleaseManifest
+:libary:processReleaseResources
+:libary:generateReleaseSources
+:libary:processReleaseJavaRes UP-TO-DATE
+:libary:compileReleaseJavaWithJavac
+:libary:extractReleaseAnnotations
+:libary:mergeReleaseProguardFiles
+:libary:packageReleaseJar
+:libary:compileReleaseNdk UP-TO-DATE
+:libary:packageReleaseJniLibs UP-TO-DATE
+:libary:packageReleaseLocalJar UP-TO-DATE
+:libary:packageReleaseRenderscript UP-TO-DATE
+:libary:packageReleaseResources
+:libary:bundleRelease
+:app:prepareCardMenuViewMasterLibaryUnspecifiedLibrary
+:app:prepareComAndroidSupportAppcompatV72221Library
+:app:prepareComAndroidSupportSupportV42221Library
+:app:prepareComMakeramenRoundedimageview211Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/app/src/main/res/drawable-xhdpi/icon_arrow_right_press.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/app/src/main/res/drawable-xhdpi/icon_arrow_right_normal.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/app/src/main/java/com/janseon/cardmenuview/utils/DrawableUtil.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:preDexDebug
+:app:dexDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResourcesAAPT err(1337356240) : No Delegate set : lost message:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/app/src/main/res/drawable-xhdpi/icon_arrow_right_press.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/app/src/main/res/drawable-xhdpi/icon_arrow_right_normal.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/app/src/main/java/com/janseon/cardmenuview/utils/DrawableUtil.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:preDexRelease
+:app:dexRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 17.753 secs
+
+2019-01-19 22:44:22,533 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547912633794-0/src/CardMenuView-master/app/build/outputs/apk/app-debug.apk

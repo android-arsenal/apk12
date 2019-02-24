@@ -1,0 +1,609 @@
+2019-01-19 22:32:36,848 INFO  DownloadService - Downloading "https://github.com/mightyfrog/centering-recycler-view/archive/master.zip", attempt 3
+2019-01-19 22:32:40,164 INFO  DownloadService - Downloaded https://github.com/mightyfrog/centering-recycler-view/archive/master.zip, attempt 3
+2019-01-19 22:32:40,164 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/master.zip": 4 MB
+2019-01-19 22:32:40,164 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 22:32:40,170 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/master.zip: true
+2019-01-19 22:32:40,171 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src'.
+2019-01-19 22:32:40,204 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-01-19 22:32:40,204 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src]
+2019-01-19 22:32:40,222 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/.git/
+
+2019-01-19 22:32:40,225 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/gradlew
+2019-01-19 22:32:40,228 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/centeringrecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/build.gradle
+2019-01-19 22:32:40,231 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/centeringrecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/settings.gradle
+2019-01-19 22:32:40,231 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 22:32:40,231 INFO  ProjectFixService - Fixing project...
+2019-01-19 22:32:40,237 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/centeringrecyclerview/local.properties
+2019-01-19 22:32:40,238 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/centeringrecyclerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 22:32:40,238 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/centeringrecyclerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 22:32:40,239 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/local.properties
+2019-01-19 22:32:40,240 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 22:32:40,240 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 22:32:40,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/local.properties
+2019-01-19 22:32:40,242 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
+2019-01-19 22:32:40,243 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
+2019-01-19 22:32:40,244 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 22:32:40,244 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 22:32:40,244 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 22:32:40,244 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 22:32:40,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/centeringrecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 22:32:49,495 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-19 22:32:49,496 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-19 22:32:49,496 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/centeringrecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-19 22:33:06,408 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :centeringrecyclerview:preBuild UP-TO-DATE
+> Task :centeringrecyclerview:preDebugBuild UP-TO-DATE
+> Task :centeringrecyclerview:compileDebugAidl NO-SOURCE
+> Task :centeringrecyclerview:compileDebugRenderscript
+> Task :centeringrecyclerview:checkDebugManifest
+> Task :centeringrecyclerview:generateDebugBuildConfig
+> Task :centeringrecyclerview:generateDebugResValues
+> Task :centeringrecyclerview:generateDebugResources
+> Task :centeringrecyclerview:packageDebugResources
+> Task :centeringrecyclerview:processDebugManifest
+> Task :centeringrecyclerview:generateDebugRFile
+> Task :centeringrecyclerview:prepareLintJar
+> Task :centeringrecyclerview:generateDebugSources
+> Task :centeringrecyclerview:javaPreCompileDebug
+> Task :centeringrecyclerview:compileDebugJavaWithJavac
+> Task :centeringrecyclerview:extractDebugAnnotations
+> Task :centeringrecyclerview:mergeDebugConsumerProguardFiles
+> Task :centeringrecyclerview:mergeDebugShaders
+> Task :centeringrecyclerview:compileDebugShaders
+> Task :centeringrecyclerview:generateDebugAssets
+> Task :centeringrecyclerview:packageDebugAssets
+> Task :centeringrecyclerview:packageDebugRenderscript NO-SOURCE
+> Task :centeringrecyclerview:processDebugJavaRes NO-SOURCE
+> Task :centeringrecyclerview:transformResourcesWithMergeJavaResForDebug
+> Task :centeringrecyclerview:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :centeringrecyclerview:compileDebugNdk NO-SOURCE
+> Task :centeringrecyclerview:mergeDebugJniLibFolders
+> Task :centeringrecyclerview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :centeringrecyclerview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :centeringrecyclerview:transformNativeLibsWithSyncJniLibsForDebug
+> Task :centeringrecyclerview:bundleDebugAar
+> Task :centeringrecyclerview:compileDebugSources
+> Task :centeringrecyclerview:assembleDebug
+> Task :centeringrecyclerview:preReleaseBuild UP-TO-DATE
+> Task :centeringrecyclerview:compileReleaseAidl NO-SOURCE
+> Task :centeringrecyclerview:compileReleaseRenderscript
+> Task :centeringrecyclerview:checkReleaseManifest
+> Task :centeringrecyclerview:generateReleaseBuildConfig
+> Task :centeringrecyclerview:generateReleaseResValues
+> Task :centeringrecyclerview:generateReleaseResources
+> Task :centeringrecyclerview:packageReleaseResources
+> Task :centeringrecyclerview:processReleaseManifest
+> Task :centeringrecyclerview:generateReleaseRFile
+> Task :centeringrecyclerview:generateReleaseSources
+> Task :centeringrecyclerview:javaPreCompileRelease
+> Task :centeringrecyclerview:compileReleaseJavaWithJavac
+> Task :centeringrecyclerview:extractReleaseAnnotations
+> Task :centeringrecyclerview:mergeReleaseConsumerProguardFiles
+> Task :centeringrecyclerview:mergeReleaseShaders
+> Task :centeringrecyclerview:compileReleaseShaders
+> Task :centeringrecyclerview:generateReleaseAssets
+> Task :centeringrecyclerview:packageReleaseAssets
+> Task :centeringrecyclerview:packageReleaseRenderscript NO-SOURCE
+> Task :centeringrecyclerview:processReleaseJavaRes NO-SOURCE
+> Task :centeringrecyclerview:transformResourcesWithMergeJavaResForRelease
+> Task :centeringrecyclerview:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :centeringrecyclerview:compileReleaseNdk NO-SOURCE
+> Task :centeringrecyclerview:mergeReleaseJniLibFolders
+> Task :centeringrecyclerview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :centeringrecyclerview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :centeringrecyclerview:transformNativeLibsWithSyncJniLibsForRelease
+> Task :centeringrecyclerview:bundleReleaseAar
+> Task :centeringrecyclerview:compileReleaseSources
+> Task :centeringrecyclerview:mergeReleaseResources
+> Task :centeringrecyclerview:verifyReleaseResources
+> Task :centeringrecyclerview:assembleRelease
+> Task :centeringrecyclerview:assemble
+> Task :centeringrecyclerview:build
+
+BUILD SUCCESSFUL in 16s
+45 actionable tasks: 45 executed
+
+2019-01-19 22:33:06,468 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 22:33:06,468 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 22:33:14,256 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-19 22:33:14,256 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 22:33:14,256 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 22:33:28,770 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-19 22:33:28,771 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :demo:preBuild UP-TO-DATE
+> Task :demo:preDebugBuild
+> Task :demo:compileDebugAidl NO-SOURCE
+> Task :demo:compileDebugRenderscript
+> Task :demo:checkDebugManifest
+> Task :demo:generateDebugBuildConfig
+> Task :demo:prepareLintJar
+> Task :demo:mainApkListPersistenceDebug
+> Task :demo:generateDebugResValues
+> Task :demo:generateDebugResources
+> Task :demo:mergeDebugResources
+> Task :demo:createDebugCompatibleScreenManifests
+> Task :demo:processDebugManifest
+> Task :demo:processDebugResources
+> Task :demo:generateDebugSources
+> Task :demo:javaPreCompileDebug
+
+> Task :demo:compileDebugJavaWithJavac FAILED
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:60: error: cannot access RecyclerView
+        mRecyclerView = findViewById(R.id.recycler_view);
+                        ^
+  class file for android.support.v7.widget.RecyclerView not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:61: error: cannot find symbol
+        mRecyclerView.setAdapter(new DemoAdapter(R.layout.linear_vertical));
+                     ^
+  symbol:   method setAdapter(MainActivity.DemoAdapter)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:62: error: cannot find symbol
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+                     ^
+  symbol:   method setLayoutManager(LinearLayoutManager)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:89: error: cannot find symbol
+                mRecyclerView.setAdapter(new DemoAdapter(R.layout.linear_vertical));
+                             ^
+  symbol:   method setAdapter(MainActivity.DemoAdapter)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:90: error: cannot find symbol
+                mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+                             ^
+  symbol:   method setLayoutManager(LinearLayoutManager)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:93: error: cannot find symbol
+                mRecyclerView.setAdapter(new DemoAdapter(R.layout.linear_horizontal));
+                             ^
+  symbol:   method setAdapter(MainActivity.DemoAdapter)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:94: error: cannot find symbol
+                mRecyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+                             ^
+  symbol:   method setLayoutManager(LinearLayoutManager)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:97: error: cannot find symbol
+                mRecyclerView.setAdapter(new GridDemoAdapter(R.layout.grid_vertical));
+                             ^
+  symbol:   method setAdapter(MainActivity.GridDemoAdapter)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:98: error: cannot find symbol
+                mRecyclerView.setLayoutManager(new GridLayoutManager(this, 3));
+                             ^
+  symbol:   method setLayoutManager(GridLayoutManager)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:101: error: cannot find symbol
+                mRecyclerView.setAdapter(new GridDemoAdapter(R.layout.grid_horizontal));
+                             ^
+  symbol:   method setAdapter(MainActivity.GridDemoAdapter)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:102: error: cannot find symbol
+                mRecyclerView.setLayoutManager(new GridLayoutManager(this, 3, GridLayoutManager.HORIZONTAL, false));
+                             ^
+  symbol:   method setLayoutManager(GridLayoutManager)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:105: error: cannot find symbol
+                mRecyclerView.setAdapter(new StaggeredDemoAdapter(R.layout.staggered_vertical));
+                             ^
+  symbol:   method setAdapter(MainActivity.StaggeredDemoAdapter)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:106: error: cannot find symbol
+                mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL));
+                             ^
+  symbol:   method setLayoutManager(StaggeredGridLayoutManager)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:109: error: cannot find symbol
+                mRecyclerView.setAdapter(new StaggeredDemoAdapter(R.layout.staggered_horizontal));
+                             ^
+  symbol:   method setAdapter(MainActivity.StaggeredDemoAdapter)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:110: error: cannot find symbol
+                mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.HORIZONTAL));
+                             ^
+  symbol:   method setLayoutManager(StaggeredGridLayoutManager)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:198: error: cannot find symbol
+            if (mRecyclerView.getLayoutManager() != null) {
+                             ^
+  symbol:   method getLayoutManager()
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:200: error: cannot find symbol
+                if (mRecyclerView.getLayoutManager().canScrollVertically()) {
+                                 ^
+  symbol:   method getLayoutManager()
+  location: variable mRecyclerView of type CenteringRecyclerView
+17 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':demo:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':demo:compileDebugJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
+	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:36)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:100)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:38)
+	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:49)
+	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:35)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:39)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory$2.execute(IncrementalCompilerFactory.java:110)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory$2.execute(IncrementalCompilerFactory.java:106)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:59)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:43)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:153)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:121)
+	at com.android.build.gradle.tasks.AndroidJavaCompile.compile(AndroidJavaCompile.kt:233)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:131)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:120)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:99)
+	... 31 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 14s
+13 actionable tasks: 13 executed
+
+2019-01-19 22:33:28,863 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 22:33:28,863 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 22:33:37,263 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-01-19 22:33:37,263 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 22:33:37,264 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 22:33:47,347 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-19 22:33:47,347 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :centeringrecyclerview:preBuild UP-TO-DATE
+> Task :centeringrecyclerview:preDebugBuild UP-TO-DATE
+> Task :centeringrecyclerview:compileDebugAidl NO-SOURCE
+> Task :centeringrecyclerview:compileDebugRenderscript UP-TO-DATE
+> Task :centeringrecyclerview:checkDebugManifest UP-TO-DATE
+> Task :centeringrecyclerview:generateDebugBuildConfig UP-TO-DATE
+> Task :centeringrecyclerview:generateDebugResValues UP-TO-DATE
+> Task :centeringrecyclerview:generateDebugResources UP-TO-DATE
+> Task :centeringrecyclerview:packageDebugResources UP-TO-DATE
+> Task :centeringrecyclerview:processDebugManifest UP-TO-DATE
+> Task :centeringrecyclerview:generateDebugRFile UP-TO-DATE
+> Task :centeringrecyclerview:prepareLintJar UP-TO-DATE
+> Task :centeringrecyclerview:generateDebugSources UP-TO-DATE
+> Task :centeringrecyclerview:javaPreCompileDebug UP-TO-DATE
+> Task :centeringrecyclerview:compileDebugJavaWithJavac UP-TO-DATE
+> Task :centeringrecyclerview:extractDebugAnnotations
+> Task :centeringrecyclerview:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :centeringrecyclerview:mergeDebugShaders UP-TO-DATE
+> Task :centeringrecyclerview:compileDebugShaders UP-TO-DATE
+> Task :centeringrecyclerview:generateDebugAssets UP-TO-DATE
+> Task :centeringrecyclerview:packageDebugAssets UP-TO-DATE
+> Task :centeringrecyclerview:packageDebugRenderscript NO-SOURCE
+> Task :centeringrecyclerview:processDebugJavaRes NO-SOURCE
+> Task :centeringrecyclerview:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :centeringrecyclerview:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :centeringrecyclerview:compileDebugNdk NO-SOURCE
+> Task :centeringrecyclerview:mergeDebugJniLibFolders UP-TO-DATE
+> Task :centeringrecyclerview:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :centeringrecyclerview:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :centeringrecyclerview:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :centeringrecyclerview:bundleDebugAar UP-TO-DATE
+> Task :centeringrecyclerview:compileDebugSources UP-TO-DATE
+> Task :centeringrecyclerview:assembleDebug UP-TO-DATE
+> Task :centeringrecyclerview:preReleaseBuild UP-TO-DATE
+> Task :centeringrecyclerview:compileReleaseAidl NO-SOURCE
+> Task :centeringrecyclerview:compileReleaseRenderscript UP-TO-DATE
+> Task :centeringrecyclerview:checkReleaseManifest UP-TO-DATE
+> Task :centeringrecyclerview:generateReleaseBuildConfig UP-TO-DATE
+> Task :centeringrecyclerview:generateReleaseResValues UP-TO-DATE
+> Task :centeringrecyclerview:generateReleaseResources UP-TO-DATE
+> Task :centeringrecyclerview:packageReleaseResources UP-TO-DATE
+> Task :centeringrecyclerview:processReleaseManifest UP-TO-DATE
+> Task :centeringrecyclerview:generateReleaseRFile UP-TO-DATE
+> Task :centeringrecyclerview:generateReleaseSources UP-TO-DATE
+> Task :centeringrecyclerview:javaPreCompileRelease UP-TO-DATE
+> Task :centeringrecyclerview:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :centeringrecyclerview:extractReleaseAnnotations
+> Task :centeringrecyclerview:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :centeringrecyclerview:mergeReleaseShaders UP-TO-DATE
+> Task :centeringrecyclerview:compileReleaseShaders UP-TO-DATE
+> Task :centeringrecyclerview:generateReleaseAssets UP-TO-DATE
+> Task :centeringrecyclerview:packageReleaseAssets UP-TO-DATE
+> Task :centeringrecyclerview:packageReleaseRenderscript NO-SOURCE
+> Task :centeringrecyclerview:processReleaseJavaRes NO-SOURCE
+> Task :centeringrecyclerview:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :centeringrecyclerview:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :centeringrecyclerview:compileReleaseNdk NO-SOURCE
+> Task :centeringrecyclerview:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :centeringrecyclerview:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :centeringrecyclerview:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :centeringrecyclerview:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :centeringrecyclerview:bundleReleaseAar UP-TO-DATE
+> Task :centeringrecyclerview:compileReleaseSources UP-TO-DATE
+> Task :centeringrecyclerview:mergeReleaseResources UP-TO-DATE
+> Task :centeringrecyclerview:verifyReleaseResources UP-TO-DATE
+> Task :centeringrecyclerview:assembleRelease UP-TO-DATE
+> Task :centeringrecyclerview:assemble UP-TO-DATE
+> Task :centeringrecyclerview:build
+> Task :demo:preBuild UP-TO-DATE
+> Task :demo:preDebugBuild UP-TO-DATE
+> Task :demo:compileDebugAidl NO-SOURCE
+> Task :demo:compileDebugRenderscript UP-TO-DATE
+> Task :demo:checkDebugManifest UP-TO-DATE
+> Task :demo:generateDebugBuildConfig UP-TO-DATE
+> Task :demo:prepareLintJar UP-TO-DATE
+> Task :demo:mainApkListPersistenceDebug UP-TO-DATE
+> Task :demo:generateDebugResValues UP-TO-DATE
+> Task :demo:generateDebugResources UP-TO-DATE
+> Task :demo:mergeDebugResources UP-TO-DATE
+> Task :demo:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :demo:processDebugManifest UP-TO-DATE
+> Task :demo:processDebugResources UP-TO-DATE
+> Task :demo:generateDebugSources UP-TO-DATE
+> Task :demo:javaPreCompileDebug UP-TO-DATE
+
+> Task :demo:compileDebugJavaWithJavac FAILED
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:60: error: cannot access RecyclerView
+        mRecyclerView = findViewById(R.id.recycler_view);
+                        ^
+  class file for android.support.v7.widget.RecyclerView not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:61: error: cannot find symbol
+        mRecyclerView.setAdapter(new DemoAdapter(R.layout.linear_vertical));
+                     ^
+  symbol:   method setAdapter(MainActivity.DemoAdapter)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:62: error: cannot find symbol
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+                     ^
+  symbol:   method setLayoutManager(LinearLayoutManager)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:89: error: cannot find symbol
+                mRecyclerView.setAdapter(new DemoAdapter(R.layout.linear_vertical));
+                             ^
+  symbol:   method setAdapter(MainActivity.DemoAdapter)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:90: error: cannot find symbol
+                mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+                             ^
+  symbol:   method setLayoutManager(LinearLayoutManager)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:93: error: cannot find symbol
+                mRecyclerView.setAdapter(new DemoAdapter(R.layout.linear_horizontal));
+                             ^
+  symbol:   method setAdapter(MainActivity.DemoAdapter)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:94: error: cannot find symbol
+                mRecyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+                             ^
+  symbol:   method setLayoutManager(LinearLayoutManager)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:97: error: cannot find symbol
+                mRecyclerView.setAdapter(new GridDemoAdapter(R.layout.grid_vertical));
+                             ^
+  symbol:   method setAdapter(MainActivity.GridDemoAdapter)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:98: error: cannot find symbol
+                mRecyclerView.setLayoutManager(new GridLayoutManager(this, 3));
+                             ^
+  symbol:   method setLayoutManager(GridLayoutManager)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:101: error: cannot find symbol
+                mRecyclerView.setAdapter(new GridDemoAdapter(R.layout.grid_horizontal));
+                             ^
+  symbol:   method setAdapter(MainActivity.GridDemoAdapter)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:102: error: cannot find symbol
+                mRecyclerView.setLayoutManager(new GridLayoutManager(this, 3, GridLayoutManager.HORIZONTAL, false));
+                             ^
+  symbol:   method setLayoutManager(GridLayoutManager)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:105: error: cannot find symbol
+                mRecyclerView.setAdapter(new StaggeredDemoAdapter(R.layout.staggered_vertical));
+                             ^
+  symbol:   method setAdapter(MainActivity.StaggeredDemoAdapter)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:106: error: cannot find symbol
+                mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL));
+                             ^
+  symbol:   method setLayoutManager(StaggeredGridLayoutManager)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:109: error: cannot find symbol
+                mRecyclerView.setAdapter(new StaggeredDemoAdapter(R.layout.staggered_horizontal));
+                             ^
+  symbol:   method setAdapter(MainActivity.StaggeredDemoAdapter)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:110: error: cannot find symbol
+                mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.HORIZONTAL));
+                             ^
+  symbol:   method setLayoutManager(StaggeredGridLayoutManager)
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:198: error: cannot find symbol
+            if (mRecyclerView.getLayoutManager() != null) {
+                             ^
+  symbol:   method getLayoutManager()
+  location: variable mRecyclerView of type CenteringRecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547911956843-0/src/centering-recycler-view-master/demo/src/main/java/org/mightyfrog/centeringrecyclerviewdemo/MainActivity.java:200: error: cannot find symbol
+                if (mRecyclerView.getLayoutManager().canScrollVertically()) {
+                                 ^
+  symbol:   method getLayoutManager()
+  location: variable mRecyclerView of type CenteringRecyclerView
+17 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':demo:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':demo:compileDebugJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
+	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:36)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:100)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:38)
+	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:49)
+	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:35)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:39)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory$2.execute(IncrementalCompilerFactory.java:110)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory$2.execute(IncrementalCompilerFactory.java:106)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:59)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:43)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:153)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:121)
+	at com.android.build.gradle.tasks.AndroidJavaCompile.compile(AndroidJavaCompile.kt:233)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:131)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:120)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:99)
+	... 31 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s
+58 actionable tasks: 3 executed, 55 up-to-date
+
+2019-01-19 22:33:47,434 ERROR FullProcessService - Project build has not produced APK file
+2019-01-19 22:33:47,517 ERROR FullProcessService - Could not find generated or existed APK file

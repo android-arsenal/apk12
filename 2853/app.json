@@ -1,0 +1,42 @@
+{
+  "meta" : {
+    "packageName" : "com.javiersantos.moticons",
+    "label" : "Moticons",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1.2",
+    "versionCode" : 10,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "22",
+    "platformBuildVersionName" : "5.1.1-1819727",
+    "glEsVersion" : {
+      "major" : 2,
+      "minor" : 0,
+      "required" : true
+    },
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.VIBRATE", "android.permission.READ_PHONE_STATE", "com.android.vending.BILLING", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE", "com.google.android.c2dm.permission.RECEIVE", "android.permission.GET_ACCOUNTS", "android.permission.USE_CREDENTIALS" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 8095,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"10\" android:versionName=\"1.1.2\" package=\"com.javiersantos.moticons\" platformBuildVersionCode=\"22\" platformBuildVersionName=\"5.1.1-1819727\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"22\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.VIBRATE\" />\n\t<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />\n\t<uses-permission android:name=\"com.android.vending.BILLING\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-feature android:glEsVersion=\"0x20000\" android:required=\"true\" />\n\t<android:uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"com.google.android.c2dm.permission.RECEIVE\" />\n\t<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />\n\t<uses-permission android:name=\"android.permission.USE_CREDENTIALS\" />\n\t<application android:theme=\"resourceId:0x7f0a0083\" android:label=\"Moticons\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.javiersantos.moticons.MoticonsApplication\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"7895000\" />\n\t\t<activity android:label=\"Moticons\" android:name=\"com.javiersantos.moticons.activities.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.SEARCH\" />\n\t\t\t</intent-filter>\n\t\t\t<meta-data android:name=\"android.app.searchable\" android:resource=\"res/xml/searchable.xml\" />\n\t\t</activity>\n\t\t<activity android:label=\"Moticoins\" android:name=\"com.javiersantos.moticons.activities.MoticoinsActivity\" />\n\t\t<activity android:label=\"About\" android:name=\"com.javiersantos.moticons.activities.AboutActivity\" />\n\t\t<activity android:label=\"Moticons\" android:name=\"com.javiersantos.moticons.activities.IntroActivity\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent\" android:name=\"com.google.android.gms.ads.AdActivity\" android:configChanges=\"0xfb0\" />\n\t\t<activity android:name=\"com.heyzap.sdk.ads.HeyzapInterstitialActivity\" android:configChanges=\"0xca0\" />\n\t\t<activity android:name=\"com.heyzap.sdk.ads.HeyzapVideoActivity\" android:configChanges=\"0xca0\" />\n\t\t<activity android:name=\"com.heyzap.sdk.ads.HeyzapProxyActivity\" />\n\t\t<receiver android:name=\"com.heyzap.sdk.ads.PackageAddedReceiver\">\n\t\t\t<intent-filter>\n\t\t\t\t<data android:scheme=\"package\" />\n\t\t\t\t<action android:name=\"android.intent.action.PACKAGE_ADDED\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<activity android:theme=\"resourceId:0x7f0a0105\" android:name=\"com.google.android.gms.ads.purchase.InAppPurchaseActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 4667151,
+  "crc32" : 2106291491,
+  "sha256" : "6000fc817a80c7d48049ec78c698aa68e648b7382e6c1a381c85dba79d201cca",
+  "buildTime" : 1547914686000
+}

@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.sw926.imagefileselector.example",
+    "label" : "ImageFileSelector",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.7",
+    "versionCode" : 10,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "10",
+    "platformBuildVersionName" : "1.0.7",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.CAMERA", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADLklEQVR42u2ZP2gaURzHU0+bpoEuKkRoKy20VmMjZJGQIUMrgUDBRTJlSXByFFcdRNxDCIUuQYJDQ4p1yZAhIWIy6CZkyCJOSjVqAwH///r7HZ5crFFJ7rwL3IMv77i799738+49fe/3pqaUJOMEAAxKLbGYhxhXkWTUkeP74b+I11rUW9QbiURtawd5G2oe85eo3U6nU2i329dSquthlzyNhOAetlqt71gQsKBsVK1Wf6C1Z/cCcJPl5uZGhwB/qBDmdczbmEuibtt16kz0VTw7OzPwvfYDqCm/vLz80Gw2K12A9rBeKRQK4PF4YHFxEaxWqyBaWFgAp9MJyWQSOA9dgGosFrPwvQ4ESCQSHxGgPAoAKwSLxQJUVAxNT0+zEHyAaDQ6Py7AyC+wt7cnmnlO9CX4AJFIxCoYQCAQEB2AhpNoAH6/X3QAmhMKwPb2NmuWlMlknh6AyWTqVXhwcKAAKAAKgAKgAEgPoFarYWVl5ekChMNhuL29BbvdLk8AvV4P2BhoNJr/nq2vr1O9bB25XA7m5ubkBaBSqSAej7PvhEKhO89sNhu7j+CvqU5PT9m1v2wAfD5f7x2sB1ZXV9n7Wq0Wrq6uBi4Md3Z25AGwvLwMtVrtjrl8Pg9GoxGOjo7u3ZrSkNrc3JQWQKfTQTabHWiwWCyOjDoMmtQTA2AYpjfuHyOa1AaDYTIAwWCwd5/GN/26CCHaRnL1UrRDNIDj42PR/4kpZCMaAE08t9stmnkK2VDcSTQADoK+BA0nbtv5WFG0g0I23P+FqACTkAJgNpt7AF6vl4UQWvxoh+AAa2trov/a0NgXGqAX3D05ORm4qpQCYKzg7vn5+af+yBxB0Jeg4URzQmhR8GwcgP39/c/DANhDg8PDw9eNRqNEheRywIHeoFwuX+NG6D15xA5VDztieoHL3p8IQeWAQKRKXNv1eh3S6fQv9DYzzhkZg8vi+VQq9RtXkeVKpfIX6auUT1Jcm6VSqXxxcRFfWlqi4cOMe1I5g3rncDi+bG1tfdvY2JBE1PZXTORlZO/3Q7hcrud4OYt6JbFmycuDDt5psuDY00ipeyeskmSS/gGA/P48euVYxAAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 2008,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"10\" android:versionName=\"1.0.7\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.sw926.imagefileselector.example\" platformBuildVersionCode=\"10\" platformBuildVersionName=\"1.0.7\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"ImageFileSelector\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"false\">\n\t\t<activity android:label=\"From Activity\" android:name=\"com.sw926.imagefileselector.example.ExampleActivity\" android:configChanges=\"0x20\" android:windowSoftInputMode=\"0x2\" />\n\t\t<activity android:name=\"com.sw926.imagefileselector.example.LaunchActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"From Fragment\" android:name=\"com.sw926.imagefileselector.example.ExampleFragmentActivity\" />\n\t\t<provider android:name=\"com.sw926.imagefileselector.GenericFileProvider\" android:exported=\"false\" android:authorities=\"com.sw926.imagefileselector.example.com.sw926.imagefileselector.provider\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/files.xml\" />\n\t\t</provider>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1916710,
+  "crc32" : 635643134,
+  "sha256" : "acec05c650095d9a023a63b313f295c444b07cd2bd05ee9d9548220c046d633d",
+  "buildTime" : 1548160516000
+}

@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.crazyhitty.chdev.ks.munch",
+    "label" : "Munch",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.44",
+    "versionCode" : 14,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.READ_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAB71BMVEUAAAD/Var/QID/gID/Q4b/RIj/RoT/TYD/RoX+RYT+RYT9RIP8RYP+RYT9RYPwQXwAAAD8RYP8RYL9RYP9RYPyQn7ILGTWPm77RILyQn6wK1vIN2f7RYOqK1XaP3ScNVncQXbaTYycXJ12MUkkJCRIKjTZPnPYTo0md7sheb2dV5XuQXxMKzbbP3QpdrzvQX1NKzfeP3beTIoqd7ueV5bwQX1PKzhMbbHxQn7xQn2fWJbzQn7yQn3pP3lAKjE9crXyQn7qP3mkK0+5OmZaLj1XbK24UIz0Qn/CO2njQHhWLTtTba/kRH/DTYnzQn7tQXzhP3dSLDlPbrDhRX/zQn/qQHrDO2rgRICgWJf1Q3/0Q36kK1XETYr0Q3/rQHrEO2r2Q4DYPnO6OWW8Oma9OmfnQHnoRIC+UIy+UI2/UY7hR4P1Q4DsQHvsQHv3Q4D2Q4D2Q3/4Q4H3Q4HtQXzLO2n5RIGmKlmtLlv6RIL3Q4D3RID6RYLpQXqHHkSqAFUAAADbO3H6RIL/RoX1Q4D2RID3RIH4RIH5RIL0Q37KN2kAAAA3DBjLN2jrQXrvQnzuQX3nP3foQHjpQHjqQHnqQXvrQXrmP3nENGU0DBcAAAAAAABGDyNgGjJcGDBbFy9bFyxdGjJmMzMAAAAAAAC/AECg9iULAAAApXRSTlMAAwQCEx4dCpbo7JaY//+aAer5/fzqFyXv7yol7ir////////////////////////////////////8///87////+8q///////////////8////////7//////8Kv//7/////////////////z/7//8///87yf/Kxzs/fn/7CIDCKn//////////60DKrDt8O/w8PDw7/DtsSwJIEJNS0xMTQULDgRsx4N1AAACOElEQVRIx+XW63fLYADH8XTtzJBgK+ZuxCWCuIVWg7jONRkyJIQxtGSarjO30bHeGKat6zbFxh/qSdK0qZMnj73ZG79X7en3k9Oc9vQphs3UfA2I+epyvx99SWcDHgYaZ3muMWBmdt80u3kOYs1zm6rCj83DCfTmL6gAHxZYSLS0Bj3X2oIvWoxZd96ALWkjgqjrB/Gly0BqgeUr/gmsrIG2/xisWm1tjdW0r7XWDgXrSGvrNxjPNm6irG2mUYDcshVcfxtlA4ZBAXL7jp277J7azTAsCpB79lIOwLIsCpCUA4A+FJ4G2Af6UDgyHRAKhbjIfjg4YIGDNgA9z0UOHYaCI0cNcOx4DfA81+EBTpw8RVKnz5ytAp7nBU8gdp47f4GuAtBLQkcXHFwUxc5LNGODy6CXBNkT0DTNOIAkSYrcdQUOzJ65agPQq4p8DQ6umz3rAKqqdLuAGzfBenpu3TZ79k40Go3FYnfvgV7V3ADR2yuK1vs3vm/G52Xcr9HLWvd9F0BAe1mLuwIC1ss6BBCQPgEFhHuf0PtggHDtE8k6UP9j7NbHk339NfDgrx8ylz6eHOh/WAE+7NFjvP5ACXMcJwiCoiiapum6nkw+eTr47DmWqhxZQy9eDuPDzqlqOp3OZDLZbDaXy+Xz+YHBV6+HqmfcyJu370bfjzpXKBSKxWKpVPpg7uOnz1++jtSO0bHxiW/lcvm7Yz/A7MfgpZ8T42POg3py6hdiU5P1h3/qN2KpGfsX8wer8EtvpzVnhQAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 3253,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"14\" android:versionName=\"0.44\" package=\"com.crazyhitty.chdev.ks.munch\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0b0092\" android:label=\"Munch\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0b003b\" android:label=\"Munch\" android:name=\"com.crazyhitty.chdev.ks.munch.ui.activities.SplashActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0b003b\" android:label=\"Munch\" android:name=\"com.crazyhitty.chdev.ks.munch.ui.activities.HomeActivity\" android:configChanges=\"0x480\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0098\" android:label=\"ArticleActivity\" android:name=\"com.crazyhitty.chdev.ks.munch.ui.activities.ArticleActivity\" android:parentActivityName=\"com.crazyhitty.chdev.ks.munch.ui.activities.HomeActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"com.crazyhitty.chdev.ks.munch.ui.activities.HomeActivity\" />\n\t\t</activity>\n\t\t<activity android:label=\"Settings\" android:name=\"com.crazyhitty.chdev.ks.munch.ui.activities.SettingsActivity\" android:parentActivityName=\"com.crazyhitty.chdev.ks.munch.ui.activities.HomeActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"com.crazyhitty.chdev.ks.munch.ui.activities.HomeActivity\" />\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0b0092\" android:label=\"About\" android:name=\"com.crazyhitty.chdev.ks.munch.ui.activities.AboutActivity\" android:parentActivityName=\"com.crazyhitty.chdev.ks.munch.ui.activities.HomeActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"com.crazyhitty.chdev.ks.munch.ui.activities.HomeActivity\" />\n\t\t</activity>\n\t\t<service android:name=\"com.crazyhitty.chdev.ks.munch.services.SyncArticlesIntentService\" android:exported=\"false\" />\n\t\t<receiver android:name=\"com.crazyhitty.chdev.ks.munch.receivers.SyncArticlesReceiver\" android:enabled=\"true\" android:exported=\"true\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2942579,
+  "crc32" : 737569040,
+  "sha256" : "a7947f3e63c65dd8f0ffd5c53950cd52ec7008168a6a3b5449e0bd0798d16e30",
+  "buildTime" : 1547899841000
+}

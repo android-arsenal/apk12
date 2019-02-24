@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.androidfung.geoip",
+    "label" : "GeoIP",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1.0.181115",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "17",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "4",
+    "platformBuildVersionName" : "1.1.0.181115",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2721,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"1.1.0.181115\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.androidfung.geoip\" platformBuildVersionCode=\"4\" platformBuildVersionName=\"1.1.0.181115\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"GeoIP\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"res/xml/backup_descriptor.xml\" android:usesCleartextTraffic=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f0f0008\" android:label=\"GeoIP\" android:name=\"com.androidfung.geoip.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2385120,
+  "crc32" : 1329445684,
+  "sha256" : "19e17316e16cbe2bc35b0038385d9f23301b839b7dc01b41d74d51e13cc4d3a4",
+  "buildTime" : 1547983831000
+}

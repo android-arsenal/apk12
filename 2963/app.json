@@ -1,0 +1,47 @@
+{
+  "meta" : {
+    "packageName" : "com.hitherejoe.vineyard",
+    "label" : "Vineyard",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.2 Debug",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "21",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.RECEIVE_BOOT_COMPLETED", "android.permission.RECORD_AUDIO" ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.microphone",
+      "required" : false
+    }, {
+      "name" : "android.hardware.touchscreen",
+      "required" : false
+    }, {
+      "name" : "android.software.leanback",
+      "required" : true
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 4580,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.2 Debug\" package=\"com.hitherejoe.vineyard\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />\n\t<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />\n\t<uses-feature android:name=\"android.hardware.microphone\" android:required=\"false\" />\n\t<uses-feature android:name=\"android.hardware.touchscreen\" android:required=\"false\" />\n\t<uses-feature android:name=\"android.software.leanback\" android:required=\"true\" />\n\t<application android:theme=\"resourceId:0x7f0d0087\" android:label=\"Vineyard\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.hitherejoe.vineyard.VineyardApplication\" android:debuggable=\"true\" android:screenOrientation=\"landscape\" android:allowBackup=\"true\" android:banner=\"res/drawable-xhdpi-v4/banner.png\">\n\t\t<activity android:theme=\"resourceId:0x7f0d0089\" android:label=\"Vineyard\" android:name=\"com.hitherejoe.vineyard.ui.activity.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LEANBACK_LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0d0089\" android:label=\"Vineyard\" android:name=\"com.hitherejoe.vineyard.ui.activity.ConnectActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0d0089\" android:label=\"Vineyard\" android:name=\"com.hitherejoe.vineyard.ui.activity.LauncherActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0d0089\" android:label=\"Vineyard\" android:name=\"com.hitherejoe.vineyard.ui.activity.PlaybackActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0d0089\" android:label=\"Vineyard\" android:name=\"com.hitherejoe.vineyard.ui.activity.PostGridActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0d0089\" android:label=\"Vineyard\" android:name=\"com.hitherejoe.vineyard.ui.activity.SearchActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0d0113\" android:name=\"com.hitherejoe.vineyard.ui.activity.GuidedStepActivity\" />\n\t\t<receiver android:name=\"com.hitherejoe.vineyard.data.recommendations.RecommendationReceiver\" android:enabled=\"true\" android:exported=\"false\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.BOOT_COMPLETED\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<service android:name=\"com.hitherejoe.vineyard.data.recommendations.UpdateRecommendationsService\" android:enabled=\"true\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 5547285,
+  "crc32" : 1681055029,
+  "sha256" : "4f84d3443c121e577a2886abdc139b64148652d015cc31300856604d2f9965c5",
+  "buildTime" : 1547898393000
+}

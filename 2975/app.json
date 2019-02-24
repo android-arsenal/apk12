@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.kaopiz.progresshud",
+    "label" : "KProgressHUD",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1600,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.kaopiz.progresshud\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"26\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"KProgressHUD\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.kaopiz.progresshud.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1310573,
+  "crc32" : 1084591247,
+  "sha256" : "111e393057aeff04f453b7bc949a75e2d3e75d1327c0852936dd586321d95313",
+  "buildTime" : 1547799366000
+}

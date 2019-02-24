@@ -1,0 +1,181 @@
+2019-01-19 21:57:29,698 INFO  DownloadService - Downloading "https://github.com/lfkdsk/JustWeEngine/archive/master.zip", attempt 3
+2019-01-19 21:58:30,408 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-19 21:58:31,321 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-19 21:58:31,321 INFO  DownloadService - Downloading "https://github.com/lfkdsk/JustWeEngine/archive/master.zip", attempt 3
+2019-01-19 21:59:32,584 DEBUG FullProcessService - Repository https://github.com/lfkdsk/JustWeEngine available: true
+2019-01-19 21:59:32,584 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-19 21:59:32,584 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/lfkdsk/JustWeEngine, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src]
+2019-01-19 21:59:35,240 INFO  SysUtils - 
+2019-01-19 21:59:35,249 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/.git": true
+2019-01-19 21:59:35,254 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-19 21:59:35,254 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src]
+2019-01-19 21:59:35,272 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/.git/
+
+2019-01-19 21:59:35,276 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/gradlew
+2019-01-19 21:59:35,280 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/engine/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/build.gradle
+2019-01-19 21:59:35,285 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/engine/build.gradle
+2019-01-19 21:59:35,285 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 21:59:35,285 INFO  ProjectFixService - Fixing project...
+2019-01-19 21:59:35,294 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/engine/local.properties
+2019-01-19 21:59:35,295 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/engine/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=24]
+2019-01-19 21:59:35,295 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/local.properties
+2019-01-19 21:59:35,295 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-01-19 21:59:35,296 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-01-19 21:59:35,297 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=24]
+2019-01-19 21:59:35,297 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 21:59:35,297 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 21:59:35,297 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/engine/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 21:59:40,191 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-01-19 21:59:40,191 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-19 21:59:40,191 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/engine/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-19 21:59:47,006 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING [Project: :engine] To shrink resources you must also enable ProGuard
+WARNING [Project: :engine] To shrink resources you must also enable ProGuard
+:engine:preBuild UP-TO-DATE
+:engine:preDebugBuild UP-TO-DATE
+:engine:compileDebugNdk UP-TO-DATE
+:engine:compileLint
+:engine:copyDebugLint UP-TO-DATE
+:engine:mergeDebugProguardFiles
+:engine:packageDebugRenderscript UP-TO-DATE
+:engine:checkDebugManifest
+:engine:prepareDebugDependencies
+:engine:compileDebugRenderscript
+:engine:generateDebugResValues
+:engine:generateDebugResources
+:engine:packageDebugResources
+:engine:compileDebugAidl
+:engine:generateDebugBuildConfig
+:engine:generateDebugAssets UP-TO-DATE
+:engine:mergeDebugAssets
+:engine:processDebugManifest
+:engine:processDebugResources
+:engine:generateDebugSources
+:engine:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/engine/src/main/java/com/lfk/justweengine/utils/tools/SpUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:engine:processDebugJavaRes UP-TO-DATE
+:engine:transformResourcesWithMergeJavaResForDebug
+:engine:transformClassesAndResourcesWithSyncLibJarsForDebug
+:engine:mergeDebugJniLibFolders
+:engine:transformNative_libsWithMergeJniLibsForDebug
+:engine:transformNative_libsWithSyncJniLibsForDebug
+:engine:bundleDebug
+:engine:compileDebugSources
+:engine:assembleDebug
+:engine:preReleaseBuild UP-TO-DATE
+:engine:compileReleaseNdk UP-TO-DATE
+:engine:copyReleaseLint UP-TO-DATE
+:engine:mergeReleaseProguardFiles
+:engine:packageReleaseRenderscript UP-TO-DATE
+:engine:checkReleaseManifest
+:engine:prepareReleaseDependencies
+:engine:compileReleaseRenderscript
+:engine:generateReleaseResValues
+:engine:generateReleaseResources
+:engine:packageReleaseResources
+:engine:compileReleaseAidl
+:engine:generateReleaseBuildConfig
+:engine:generateReleaseAssets UP-TO-DATE
+:engine:mergeReleaseAssets
+:engine:processReleaseManifest
+:engine:processReleaseResources
+:engine:generateReleaseSources
+:engine:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/engine/src/main/java/com/lfk/justweengine/utils/tools/SpUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:engine:processReleaseJavaRes UP-TO-DATE
+:engine:transformResourcesWithMergeJavaResForRelease
+:engine:transformClassesAndResourcesWithSyncLibJarsForRelease
+:engine:mergeReleaseJniLibFolders
+:engine:transformNative_libsWithMergeJniLibsForRelease
+:engine:transformNative_libsWithSyncJniLibsForRelease
+:engine:bundleRelease
+:engine:compileReleaseSources
+:engine:assembleRelease
+:engine:assemble
+:engine:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.247 secs
+
+2019-01-19 21:59:47,025 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 21:59:47,025 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 21:59:51,303 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-19 21:59:51,303 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-19 21:59:51,303 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547909849696-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-19 21:59:55,858 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING [Project: :engine] To shrink resources you must also enable ProGuard
+WARNING [Project: :engine] To shrink resources you must also enable ProGuard
+:engine:preBuild UP-TO-DATE
+:engine:preDebugBuild UP-TO-DATE
+:engine:compileDebugNdk UP-TO-DATE
+:engine:compileLint
+:engine:copyDebugLint UP-TO-DATE
+:engine:mergeDebugProguardFiles UP-TO-DATE
+:engine:packageDebugRenderscript UP-TO-DATE
+:engine:checkDebugManifest
+:engine:prepareDebugDependencies
+:engine:compileDebugRenderscript UP-TO-DATE
+:engine:generateDebugResValues UP-TO-DATE
+:engine:generateDebugResources UP-TO-DATE
+:engine:packageDebugResources UP-TO-DATE
+:engine:compileDebugAidl UP-TO-DATE
+:engine:generateDebugBuildConfig UP-TO-DATE
+:engine:generateDebugAssets UP-TO-DATE
+:engine:mergeDebugAssets UP-TO-DATE
+:engine:processDebugManifest UP-TO-DATE
+:engine:processDebugResources UP-TO-DATE
+:engine:generateDebugSources UP-TO-DATE
+:engine:compileDebugJavaWithJavac UP-TO-DATE
+:engine:processDebugJavaRes UP-TO-DATE
+:engine:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:engine:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:engine:mergeDebugJniLibFolders UP-TO-DATE
+:engine:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:engine:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:engine:bundleDebug UP-TO-DATE
+:engine:compileDebugSources UP-TO-DATE
+:engine:assembleDebug UP-TO-DATE
+:engine:preReleaseBuild UP-TO-DATE
+:engine:compileReleaseNdk UP-TO-DATE
+:engine:copyReleaseLint UP-TO-DATE
+:engine:mergeReleaseProguardFiles UP-TO-DATE
+:engine:packageReleaseRenderscript UP-TO-DATE
+:engine:checkReleaseManifest
+:engine:prepareReleaseDependencies
+:engine:compileReleaseRenderscript UP-TO-DATE
+:engine:generateReleaseResValues UP-TO-DATE
+:engine:generateReleaseResources UP-TO-DATE
+:engine:packageReleaseResources UP-TO-DATE
+:engine:compileReleaseAidl UP-TO-DATE
+:engine:generateReleaseBuildConfig UP-TO-DATE
+:engine:generateReleaseAssets UP-TO-DATE
+:engine:mergeReleaseAssets UP-TO-DATE
+:engine:processReleaseManifest UP-TO-DATE
+:engine:processReleaseResources UP-TO-DATE
+:engine:generateReleaseSources UP-TO-DATE
+:engine:compileReleaseJavaWithJavac UP-TO-DATE
+:engine:processReleaseJavaRes UP-TO-DATE
+:engine:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:engine:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:engine:mergeReleaseJniLibFolders UP-TO-DATE
+:engine:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:engine:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:engine:bundleRelease UP-TO-DATE
+:engine:compileReleaseSources UP-TO-DATE
+:engine:assembleRelease UP-TO-DATE
+:engine:assemble UP-TO-DATE
+:engine:build
+
+BUILD SUCCESSFUL
+
+Total time: 4.016 secs
+
+2019-01-19 21:59:55,877 ERROR FullProcessService - Project build has not produced APK file
+2019-01-19 21:59:55,892 ERROR FullProcessService - Could not find generated or existed APK file
